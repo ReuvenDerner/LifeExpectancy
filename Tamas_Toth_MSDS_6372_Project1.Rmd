@@ -190,9 +190,10 @@ plot_correlate(LifeExp)
 ```
 
 ### Observations
-* Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variable is redundant.
-* GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variable is redundant.
+* Under five death and infant death are perfectly correlated. They are describing the same thing. One of the variables is redundant.
+* GDP and percentage expenditure are perfectly correlated. They are describing the same thing. One of the variables is redundant.
 * Schooling and Income Composition of Resources have a strong positive correlation
+* Thinness 1 - 19 years and thinness 1 - 5 years are nearly perfectly correlated. They are describing the same thing and one is redundant.
 * Life Expectancy and Adult Mortality are highly negatively correlated
 * Life Expectancy and HIV.AIDS are moderately correlated
 * Life Expectancy and BMI are moderately correlated
@@ -593,4 +594,68 @@ plot(residuals, main = "Residuals plot")
 abline(h=0, col="blue")
 plot(fit, which = 2)
 plot(fit, which = 4)
+```
+```{r}
+#####################################################################################
+#                                    Reuven's  Manual MLR                                   #
+#####################################################################################
+# 5-fold cross validation
+cv <- trainControl(
+  method = "cv", 
+  number = 5,
+  savePredictions = TRUE
+)
+MLRT = train(
+  Life.expectancy ~ Income.composition.of.resources+ Status*Continent +  Schooling*log.percentage.expenditure log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
+  data = train,
+  method = "lm",
+  trControl = cv)
+
+### Visualize VIF
+MLR_VIF = vif(MLRT$finalModel)
+barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
+abline(v=10, col="red")
+
+### Hypothesis testing
+summary(MLRT$finalModel)
+# Predicting
+train_pred = predict(MLRT, train)
+test_pred = predict(MLRT, test)
+
+# Scoring the final model on Training and Validation set
+summary(MLRT$finalModel)
+residuals = resid(MLRT$finalModel)
+postResample(pred = train_pred, obs = train$Life.expectancy)
+postResample(pred = test_pred, obs = test$Life.expectancy)
+
+### Checking Multiple Liner Regression model assumptions
+fit = lm(Life.expectancy ~ Income.composition.of.resources + Status*Continent +  Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, train)
+confint(fit)
+hist(residuals, main = "Histogram of Residuals")
+plot(residuals, main = "Residuals plot") 
+abline(h=0, col="blue")
+plot(fit, which = 2)
+plot(fit, which = 4)
+
+anova(fit)
+
+x_TMLR = 1:dim(xtest)[1]
+plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
+     main = "Life Expectancy prediction (Manual MLR)", ylab="Life expectancy")
+lines(x_fwd, test_pred, col = "blue", lwd=2)
+legend("topright",  legend = c("original observation", "predicted life expectancy"), 
+       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
+grid()
+
+```
+
+## Observations
+* The interaction of Schooling:log.percentage.expenditure is not statistically significant (p-value=0.48) at the .05 alpha level, this indicates that the effect of schooling does not depend on the linear log of percentage expenditure as it relates to Life expectancy holding all other variables constant
+
+* The interaction of Status:Continent is statistically significant (p-value < 0.0001) at the .05 alpha level, this indicates that the effect of whether a continent is developed or not does directly correspond to a higher Life expectancy holding all other variables constant.
+
+* All other variables are statistically signficant for the model with an R-Squared on our prediction set of 0.8566.
+
+```{r}
+
 ```
