@@ -124,214 +124,78 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Lesotho
+Mauritius
 </td>
 <td style="text-align:right;">
-2008
+2015
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-47.8
+74.6
 </td>
 <td style="text-align:right;">
-592
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-2.75
-</td>
-<td style="text-align:right;">
-91.854
-</td>
-<td style="text-align:right;">
-88
+146
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-28.8
+NA
 </td>
 <td style="text-align:right;">
-6
+0.00
 </td>
 <td style="text-align:right;">
-86
+97
 </td>
 <td style="text-align:right;">
-8.85
+0
 </td>
 <td style="text-align:right;">
-88
+33.3
 </td>
 <td style="text-align:right;">
-27.3
+0
 </td>
 <td style="text-align:right;">
-934.43
+98
 </td>
 <td style="text-align:right;">
-199993
+NA
 </td>
 <td style="text-align:right;">
-8.0
-</td>
-<td style="text-align:right;">
-7.8
-</td>
-<td style="text-align:right;">
-0.447
-</td>
-<td style="text-align:right;">
-10.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Italy
-</td>
-<td style="text-align:right;">
-2011
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.0
-</td>
-<td style="text-align:right;">
-6
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-6.98
-</td>
-<td style="text-align:right;">
-5439.692
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-5189
-</td>
-<td style="text-align:right;">
-61.5
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-9.27
-</td>
-<td style="text-align:right;">
-96
+97
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-38334.68
+9252.1
 </td>
 <td style="text-align:right;">
-59379449
+126265
 </td>
 <td style="text-align:right;">
-0.5
+6.9
 </td>
 <td style="text-align:right;">
-0.5
+6.8
 </td>
 <td style="text-align:right;">
-0.872
+0.779
 </td>
 <td style="text-align:right;">
-16.4
+15.2
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Nigeria
+Saint Vincent and the Grenadines
 </td>
 <td style="text-align:right;">
-2007
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-55.0
-</td>
-<td style="text-align:right;">
-388
-</td>
-<td style="text-align:right;">
-542
-</td>
-<td style="text-align:right;">
-9.55
-</td>
-<td style="text-align:right;">
-104.475
-</td>
-<td style="text-align:right;">
-42
-</td>
-<td style="text-align:right;">
-2613
-</td>
-<td style="text-align:right;">
-2.4
-</td>
-<td style="text-align:right;">
-863
-</td>
-<td style="text-align:right;">
-54
-</td>
-<td style="text-align:right;">
-4.47
-</td>
-<td style="text-align:right;">
-42
-</td>
-<td style="text-align:right;">
-5.2
-</td>
-<td style="text-align:right;">
-1136.83
-</td>
-<td style="text-align:right;">
-14641724
-</td>
-<td style="text-align:right;">
-12.3
-</td>
-<td style="text-align:right;">
-12.3
-</td>
-<td style="text-align:right;">
-0.477
-</td>
-<td style="text-align:right;">
-9.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Estonia
-</td>
-<td style="text-align:right;">
-2002
+2004
 </td>
 <td style="text-align:left;">
 Developing
@@ -340,126 +204,262 @@ Developing
 71.2
 </td>
 <td style="text-align:right;">
-211
+181
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-11.48
+5.42
 </td>
 <td style="text-align:right;">
-7.806
+0.00
 </td>
 <td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-54.6
+99
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-94
+43.8
 </td>
 <td style="text-align:right;">
-4.84
+0
 </td>
 <td style="text-align:right;">
-94
+99
 </td>
 <td style="text-align:right;">
-0.1
+3.72
 </td>
 <td style="text-align:right;">
-538.35
-</td>
-<td style="text-align:right;">
-137935
-</td>
-<td style="text-align:right;">
-2.3
-</td>
-<td style="text-align:right;">
-2.4
-</td>
-<td style="text-align:right;">
-0.791
-</td>
-<td style="text-align:right;">
-15.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Senegal
-</td>
-<td style="text-align:right;">
-2010
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-64.3
-</td>
-<td style="text-align:right;">
-212
-</td>
-<td style="text-align:right;">
-21
-</td>
-<td style="text-align:right;">
-0.28
-</td>
-<td style="text-align:right;">
-1.020
-</td>
-<td style="text-align:right;">
-89
-</td>
-<td style="text-align:right;">
-428
-</td>
-<td style="text-align:right;">
-21.7
-</td>
-<td style="text-align:right;">
-32
-</td>
-<td style="text-align:right;">
-76
-</td>
-<td style="text-align:right;">
-4.62
-</td>
-<td style="text-align:right;">
-89
+99
 </td>
 <td style="text-align:right;">
 0.4
 </td>
 <td style="text-align:right;">
-11.63
+NA
 </td>
 <td style="text-align:right;">
-12916229
+NA
 </td>
 <td style="text-align:right;">
-1.4
+3.8
 </td>
 <td style="text-align:right;">
-1.3
+3.7
 </td>
 <td style="text-align:right;">
-0.449
+0.689
 </td>
 <td style="text-align:right;">
-7.7
+13.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Belgium
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+89.0
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+12.60
+</td>
+<td style="text-align:right;">
+7163.35
+</td>
+<td style="text-align:right;">
+98
+</td>
+<td style="text-align:right;">
+70
+</td>
+<td style="text-align:right;">
+63.4
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+1.59
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+47439.4
+</td>
+<td style="text-align:right;">
+112957
+</td>
+<td style="text-align:right;">
+1.0
+</td>
+<td style="text-align:right;">
+1.0
+</td>
+<td style="text-align:right;">
+0.890
+</td>
+<td style="text-align:right;">
+16.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Greece
+</td>
+<td style="text-align:right;">
+2007
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+79.4
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+9.67
+</td>
+<td style="text-align:right;">
+3632.24
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+61.8
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+9.41
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+28827.3
+</td>
+<td style="text-align:right;">
+1148473
+</td>
+<td style="text-align:right;">
+0.8
+</td>
+<td style="text-align:right;">
+0.7
+</td>
+<td style="text-align:right;">
+0.855
+</td>
+<td style="text-align:right;">
+16.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Botswana
+</td>
+<td style="text-align:right;">
+2012
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+63.4
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+<td style="text-align:right;">
+12.83
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:right;">
+36.2
+</td>
+<td style="text-align:right;">
+3
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+6.27
+</td>
+<td style="text-align:right;">
+95
+</td>
+<td style="text-align:right;">
+4.4
+</td>
+<td style="text-align:right;">
+729.2
+</td>
+<td style="text-align:right;">
+289315
+</td>
+<td style="text-align:right;">
+7.3
+</td>
+<td style="text-align:right;">
+7.0
+</td>
+<td style="text-align:right;">
+0.687
+</td>
+<td style="text-align:right;">
+12.5
 </td>
 </tr>
 </tbody>
@@ -3560,6 +3560,7 @@ confint(fit_interaction)
     ## StatusDeveloping:Schooling                        0.5362892390305
 
 ``` r
+residuals = resid(fit_interaction)
 hist(residuals, main = "Histogram of Residuals (Interaction)")
 ```
 

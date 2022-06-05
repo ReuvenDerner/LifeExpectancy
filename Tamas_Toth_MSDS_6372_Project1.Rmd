@@ -1147,6 +1147,7 @@ test_score = postResample(pred = interact_pred, obs = test$Life.expectancy)
 
 summary(fit_interaction)
 confint(fit_interaction)
+residuals = resid(fit_interaction)
 hist(residuals, main = "Histogram of Residuals (Interaction)")
 plot(residuals, main = "Residuals plot (Interaction)") 
 abline(h=0, col="blue")
