@@ -21,7 +21,7 @@ output:
   keep_html: TRUE
 always_allow_html: true
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -64,7 +64,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Life_Expectancy_Data.csv', header = TRUE, sep = ",", encoding = "UTF-8")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -125,7 +125,7 @@ summary(LifeExp)
 
 
 ### Scatterplots
-```{r Linear regression}
+```{r Linear regression, eval=FALSE, include=FALSE}
 #####################################################################################
 #                        Scatter plots for checking linearity                       #
 #####################################################################################
@@ -248,7 +248,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE, encoding = "UTF-8")
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -260,7 +260,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE, encoding = "UTF-8")
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -275,7 +275,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE, encoding = "UTF-8")
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -290,7 +290,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv', encoding = "UTF-8")
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -307,7 +307,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Adult_mort.csv',header = TRUE, encoding = "UTF-8")
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -1200,7 +1200,7 @@ cv <- trainControl(
   savePredictions = TRUE
 )
 MLRT = train(
-  Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
+  Life.expectancy ~ Income.composition.of.resources + Schooling:log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality,
   data = rtrain,
   method = "lm",
   trControl = cv)
@@ -1305,6 +1305,15 @@ test_score = caret::postResample(pred = test_custom_pred,obs = test_custom$Life.
 train_score = caret::postResample(pred = train_custom_pred,obs = train_custom$Life.expectancy)
 forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
 
+##fits
+residuals = resid(fit.custom)
+summary(fit.custom)
+hist(residuals, main ="Histogram of Residuals")
+plot(residuals, main="Residuals Plot")
+abline(h=0, col="blue")
+plot(fit.custom,which=2)
+plot(fit.custom, which =4)
+
 
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Miguel)", xlab = 'Original observations', ylab='Predicted values')
@@ -1332,7 +1341,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
 ```
 
 
-```{r Objective 2 KNN}
+```{r Objective 2 KNN, eval=FALSE, include=FALSE}
 #####################################################################################
 #                                      Objective 2                                  #
 #                                     KNN - regression                              #
@@ -1403,7 +1412,7 @@ eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4
 ```
 
 ### Visualize 'k' and the most important features
-```{r, fig.align='center',out.extra='angle=90'}
+```{r eval=FALSE, fig.align='center', 'angle=90', include=FALSE, out.extra='angle=90'}
 # Visualize 'k' and the most important features
 ggplot(KNNRegressor) + ggtitle("Optimal k value for the lowest RMSE") +
   theme(plot.title = element_text(hjust = 0.5))
@@ -1412,7 +1421,7 @@ plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
 ## KNN without cross validation
-```{r KNN without cross validation}
+```{r KNN without cross validation, eval=FALSE, include=FALSE}
 #####################################################################################
 #                              KNN without cross validation                         #
 #####################################################################################
