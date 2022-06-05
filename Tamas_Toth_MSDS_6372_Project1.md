@@ -9,17 +9,7 @@ Miguel Bonilla, Reuven Derner, Milan Patel, Tamas Toth
 # Load the necessary libraries
 library(knitr)
 library(rmarkdown)
-```
-
-    ## Warning: package 'rmarkdown' was built under R version 4.1.3
-
-``` r
 library(ggpubr)
-```
-
-    ## Warning: package 'ggpubr' was built under R version 4.1.3
-
-``` r
 library(dplyr)
 library(tidyr)
 library(plyr)
@@ -29,71 +19,20 @@ library(ggthemes)
 library(e1071)
 library(class)
 library(caret)
-```
-
-    ## Warning: package 'caret' was built under R version 4.1.3
-
-``` r
 library(stringr)
 library(sjPlot)
-```
-
-    ## Warning: package 'sjPlot' was built under R version 4.1.3
-
-``` r
 library(data.table)
 library(reshape2)
 library(corrplot)
-```
-
-    ## Warning: package 'corrplot' was built under R version 4.1.3
-
-``` r
 library(naivebayes)
-```
-
-    ## Warning: package 'naivebayes' was built under R version 4.1.3
-
-``` r
 library(car)
 library(egg)
-```
-
-    ## Warning: package 'egg' was built under R version 4.1.3
-
-``` r
 library(rworldmap)
-```
-
-    ## Warning: package 'rworldmap' was built under R version 4.1.3
-
-``` r
 library(Hmisc)
-```
-
-    ## Warning: package 'Hmisc' was built under R version 4.1.3
-
-``` r
 library(DataExplorer)
-```
-
-    ## Warning: package 'DataExplorer' was built under R version 4.1.3
-
-``` r
 library(selectiveInference)
-```
-
-    ## Warning: package 'selectiveInference' was built under R version 4.1.3
-
-    ## Warning: package 'glmnet' was built under R version 4.1.3
-
-    ## Warning: package 'adaptMCMC' was built under R version 4.1.3
-
-``` r
 library(dlookr)
 ```
-
-    ## Warning: package 'dlookr' was built under R version 4.1.3
 
 ``` r
 # Turn off scientific notation
@@ -105,11 +44,7 @@ options(scipen = 100, digits = 4)
 ``` r
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-<<<<<<< HEAD
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
-=======
-LifeExp = read.csv(file = 'https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Life_Expectancy_Data.csv',header = TRUE, sep = ",", encoding = "UTF-8")
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -189,286 +124,83 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-<<<<<<< HEAD
-Mauritius
-=======
-Tonga
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+Sao Tome and Principe
 </td>
 <td style="text-align:right;">
-2002
+2011
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-74.6
+66.6
 </td>
 <td style="text-align:right;">
-146
-=======
-71.9
-</td>
-<td style="text-align:right;">
-155
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+198
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-1.51
+5.69
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-0.00
+7.495
 </td>
 <td style="text-align:right;">
-97
-=======
-310.8203
-</td>
-<td style="text-align:right;">
-88
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+96
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-33.3
-=======
-67.0
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+27.7
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-98
-=======
-85
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+96
 </td>
 <td style="text-align:right;">
-5.30
+5.44
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-97
-=======
-84
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+96
 </td>
 <td style="text-align:right;">
-0.1
+0.5
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-9252.1
+134.33
 </td>
 <td style="text-align:right;">
-126265
+1788
 </td>
 <td style="text-align:right;">
-6.9
+6.0
 </td>
 <td style="text-align:right;">
-6.8
+5.9
 </td>
 <td style="text-align:right;">
-0.779
+0.546
 </td>
 <td style="text-align:right;">
-15.2
-=======
-1842.44
-</td>
-<td style="text-align:right;">
-99184
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-0.679
-</td>
-<td style="text-align:right;">
-13.5
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+10.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<<<<<<< HEAD
-Saint Vincent and the Grenadines
-</td>
-<td style="text-align:right;">
-2004
-=======
-Venezuela (Bolivarian Republic of)
-</td>
-<td style="text-align:right;">
-2014
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-<<<<<<< HEAD
-71.2
-</td>
-<td style="text-align:right;">
-181
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-5.42
-</td>
-<td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-99
-=======
-73.9
-</td>
-<td style="text-align:right;">
-158
-</td>
-<td style="text-align:right;">
-9
-</td>
-<td style="text-align:right;">
-6.47
-</td>
-<td style="text-align:right;">
-0.0000
-</td>
-<td style="text-align:right;">
-78
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-<<<<<<< HEAD
-43.8
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-3.72
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-0.4
-=======
-61.5
-</td>
-<td style="text-align:right;">
-10
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-5.26
-</td>
-<td style="text-align:right;">
-78
-</td>
-<td style="text-align:right;">
-0.1
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-<<<<<<< HEAD
-3.8
-</td>
-<td style="text-align:right;">
-3.7
-</td>
-<td style="text-align:right;">
-0.689
-</td>
-<td style="text-align:right;">
-13.2
-=======
-1.6
-</td>
-<td style="text-align:right;">
-1.5
-</td>
-<td style="text-align:right;">
-0.771
-</td>
-<td style="text-align:right;">
-14.2
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<<<<<<< HEAD
-Belgium
-=======
 Serbia
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 <td style="text-align:right;">
 2014
 </td>
 <td style="text-align:left;">
-Developed
+Developing
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-89.0
-</td>
-<td style="text-align:right;">
-76
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-12.60
-</td>
-<td style="text-align:right;">
-7163.35
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-70
-</td>
-<td style="text-align:right;">
-63.4
-=======
 75.4
 </td>
 <td style="text-align:right;">
@@ -481,7 +213,7 @@ Developed
 9.09
 </td>
 <td style="text-align:right;">
-8.6172
+8.617
 </td>
 <td style="text-align:right;">
 92
@@ -491,21 +223,11 @@ Developed
 </td>
 <td style="text-align:right;">
 59.4
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-99
-</td>
-<td style="text-align:right;">
-1.59
-</td>
-<td style="text-align:right;">
-99
-=======
 93
 </td>
 <td style="text-align:right;">
@@ -513,30 +235,11 @@ Developed
 </td>
 <td style="text-align:right;">
 93
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-47439.4
-</td>
-<td style="text-align:right;">
-112957
-</td>
-<td style="text-align:right;">
-1.0
-</td>
-<td style="text-align:right;">
-1.0
-</td>
-<td style="text-align:right;">
-0.890
-</td>
-<td style="text-align:right;">
-16.3
-=======
 62.17
 </td>
 <td style="text-align:right;">
@@ -553,256 +256,210 @@ Developed
 </td>
 <td style="text-align:right;">
 14.3
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<<<<<<< HEAD
-Greece
-=======
-India
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+Ethiopia
 </td>
 <td style="text-align:right;">
-2007
+2008
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-79.4
+59.8
 </td>
 <td style="text-align:right;">
-8
-=======
-66.0
+289
 </td>
 <td style="text-align:right;">
-2
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+177
 </td>
 <td style="text-align:right;">
-1300
+1.13
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-9.67
+38.558
 </td>
 <td style="text-align:right;">
-3632.24
+52
 </td>
 <td style="text-align:right;">
-95
+3511
 </td>
 <td style="text-align:right;">
-2
+14.9
 </td>
 <td style="text-align:right;">
-61.8
-=======
-2.50
+270
 </td>
 <td style="text-align:right;">
-0.8442
+63
 </td>
 <td style="text-align:right;">
-37
+4.28
 </td>
 <td style="text-align:right;">
-56188
+54
 </td>
 <td style="text-align:right;">
-15.4
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+2.4
 </td>
 <td style="text-align:right;">
-1700
+325.38
 </td>
 <td style="text-align:right;">
-99
+83184892
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-9.41
+11.2
 </td>
 <td style="text-align:right;">
-99
-=======
-4.38
+1.9
 </td>
 <td style="text-align:right;">
-74
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+0.378
 </td>
 <td style="text-align:right;">
-0.2
-</td>
-<td style="text-align:right;">
-<<<<<<< HEAD
-28827.3
-</td>
-<td style="text-align:right;">
-1148473
-=======
-19.32
-</td>
-<td style="text-align:right;">
-121427132
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
-</td>
-<td style="text-align:right;">
-27.0
-</td>
-<td style="text-align:right;">
-27.8
-</td>
-<td style="text-align:right;">
-<<<<<<< HEAD
-0.855
-</td>
-<td style="text-align:right;">
-16.4
-=======
-0.563
-</td>
-<td style="text-align:right;">
-10.5
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+7.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-<<<<<<< HEAD
-Botswana
+Colombia
 </td>
 <td style="text-align:right;">
-2012
-=======
-Comoros
-</td>
-<td style="text-align:right;">
-2015
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+2000
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-<<<<<<< HEAD
-63.4
+71.4
 </td>
 <td style="text-align:right;">
-3
+167
 </td>
 <td style="text-align:right;">
-2
+18
 </td>
 <td style="text-align:right;">
-0.01
+4.66
 </td>
 <td style="text-align:right;">
-12.83
+477.134
 </td>
 <td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-36.2
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-6.27
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-4.4
-</td>
-<td style="text-align:right;">
-729.2
-</td>
-<td style="text-align:right;">
-289315
-</td>
-<td style="text-align:right;">
-7.3
-</td>
-<td style="text-align:right;">
-7.0
-</td>
-<td style="text-align:right;">
-0.687
-</td>
-<td style="text-align:right;">
-12.5
-=======
-63.5
-</td>
-<td style="text-align:right;">
-227
+78
 </td>
 <td style="text-align:right;">
 1
 </td>
 <td style="text-align:right;">
-NA
+46.7
 </td>
 <td style="text-align:right;">
-0.0000
+21
 </td>
 <td style="text-align:right;">
-91
+82
+</td>
+<td style="text-align:right;">
+5.91
+</td>
+<td style="text-align:right;">
+79
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+2472.20
+</td>
+<td style="text-align:right;">
+443958
+</td>
+<td style="text-align:right;">
+2.6
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+0.650
+</td>
+<td style="text-align:right;">
+11.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Maldives
+</td>
+<td style="text-align:right;">
+2014
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+78.2
+</td>
+<td style="text-align:right;">
+62
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-24.2
+0.01
 </td>
 <td style="text-align:right;">
-2
+2051.749
 </td>
 <td style="text-align:right;">
-92
+99
 </td>
 <td style="text-align:right;">
-NA
+0
 </td>
 <td style="text-align:right;">
-91
+26.2
 </td>
 <td style="text-align:right;">
-0.8
+0
 </td>
 <td style="text-align:right;">
-727.65
+99
 </td>
 <td style="text-align:right;">
-777424
+13.73
 </td>
 <td style="text-align:right;">
-6.7
+99
 </td>
 <td style="text-align:right;">
-6.5
+0.1
 </td>
 <td style="text-align:right;">
-0.498
+7716.24
 </td>
 <td style="text-align:right;">
-11.1
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+41
+</td>
+<td style="text-align:right;">
+13.6
+</td>
+<td style="text-align:right;">
+13.7
+</td>
+<td style="text-align:right;">
+0.693
+</td>
+<td style="text-align:right;">
+12.7
 </td>
 </tr>
 </tbody>
@@ -1406,7 +1063,7 @@ following variables
 -   Year
 -   Adult.Mortality
 
-#adding region column to do regional imputation
+\#adding region column to do regional imputation
 
 ``` r
 ###rename ivory coast and remove parenthesis from country names
@@ -1481,11 +1138,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-<<<<<<< HEAD
-US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
-=======
-US_GDP <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE,encoding = "UTF-8")
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -1497,11 +1150,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-<<<<<<< HEAD
-US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
-=======
-US_Scho <- read.csv("https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -1516,11 +1165,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-<<<<<<< HEAD
-US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
-=======
-US_Inc <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Income%20index.csv',skip = 5, header = FALSE)
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -1535,11 +1180,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-<<<<<<< HEAD
-pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
-=======
-pop_all <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/WPP2019_TotalPopulationBySex.csv',encoding = "UTF-8")
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/WPP2019_TotalPopulationBySex.csv')
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -1556,11 +1197,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-<<<<<<< HEAD
-adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
-=======
-adlt_mort <- read.csv('https://raw.githubusercontent.com/boneeyah/LifeExpectancy/main/Data%20Files/Adult_mort.csv',header = TRUE,encoding = "UTF-8")
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/Adult_mort.csv',header = TRUE)
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -1578,11 +1215,6 @@ LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 
 ### Transform countries to continents
 library(countrycode)
-```
-
-    ## Warning: package 'countrycode' was built under R version 4.1.3
-
-``` r
 LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
 LifeExp$Continent = as.factor(LifeExp$Continent)
 
@@ -1733,7 +1365,7 @@ egg::ggarrange(multibox, ncol=2)
 ```
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-19.png" angle=90 style="display: block; margin: auto;" />
-## Overall life expectancy over time
+\## Overall life expectancy over time
 
 ``` r
 #####################################################################################
@@ -1825,7 +1457,6 @@ ktest = test[,!colnames(train) %in% drop_for_knn]
 #                             EDA on Train sets                                    #
 #####################################################################################
 
-<<<<<<< HEAD
 describe(rtrain)
 ```
 
@@ -1856,28 +1487,6 @@ describe(rtrain)
     ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
     ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
     ## #   p99 <dbl>, p100 <dbl>
-=======
-describe(train)
-```
-
-    ## # A tibble: 23 x 26
-    ##    described_variabl~     n    na   mean     sd se_mean    IQR skewness kurtosis
-    ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
-    ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
-    ##  2 Life.expectancy     2489     0 6.91e1 9.61e0 1.93e-1  12.7  -0.629     -0.253
-    ##  3 Adult.Mortality     2489     0 1.96e2 1.16e2 2.33e+0 146.    1.33       1.85 
-    ##  4 infant.deaths       2489     0 3.18e1 1.22e2 2.44e+0  23     9.33     105.   
-    ##  5 Alcohol             2489     0 4.56e0 4.04e0 8.09e-2   6.71  0.621     -0.748
-    ##  6 percentage.expend~  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
-    ##  7 Hepatitis.B         2489     0 8.02e1 2.45e1 4.91e-1  21    -1.82       2.44 
-    ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
-    ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
-    ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
-    ## # ... with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>,
-    ## #   p05 <dbl>, p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>,
-    ## #   p50 <dbl>, p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>,
-    ## #   p95 <dbl>, p99 <dbl>, p100 <dbl>
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 
 ## Observations
 
@@ -1887,7 +1496,6 @@ of skewness can be identified in under.five.deaths \*\* A High degree of
 skewness can be identified in Population
 
 ``` r
-<<<<<<< HEAD
 normality(rtrain) 
 ```
 
@@ -1914,25 +1522,6 @@ normality(rtrain)
     ## 18 log.HIV.AIDS                        0.712 3.11e-54   2489
     ## 19 log.GDP                             0.992 1.21e-10   2489
     ## 20 log.percentage.expenditure          0.940 1.09e-30   2489
-=======
-normality(train) 
-```
-
-    ## # A tibble: 23 x 4
-    ##    vars                   statistic  p_value sample
-    ##    <chr>                      <dbl>    <dbl>  <dbl>
-    ##  1 Year                       0.948 7.20e-29   2489
-    ##  2 Life.expectancy            0.956 9.84e-27   2489
-    ##  3 Adult.Mortality            0.890 7.28e-39   2489
-    ##  4 infant.deaths              0.239 2.12e-72   2489
-    ##  5 Alcohol                    0.908 2.33e-36   2489
-    ##  6 percentage.expenditure     0.399 9.65e-68   2489
-    ##  7 Hepatitis.B                0.723 1.44e-53   2489
-    ##  8 Measles                    0.212 4.17e-73   2489
-    ##  9 BMI                        0.926 2.73e-33   2489
-    ## 10 under.five.deaths          0.247 3.40e-72   2489
-    ## # ... with 13 more rows
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
@@ -1945,7 +1534,7 @@ train %>%
   arrange(abs(p_value))
 ```
 
-    ## # A tibble: 23 x 4
+    ## # A tibble: 23 × 4
     ##    vars                   statistic  p_value sample
     ##    <chr>                      <dbl>    <dbl>  <dbl>
     ##  1 Measles                    0.212 4.17e-73   2489
@@ -1958,7 +1547,7 @@ train %>%
     ##  8 Diphtheria                 0.690 1.58e-55   2489
     ##  9 Polio                      0.692 2.12e-55   2489
     ## 10 log.HIV.AIDS               0.712 3.11e-54   2489
-    ## # ... with 13 more rows
+    ## # … with 13 more rows
 
 ``` r
 # Verify non normality and transformation options of the variability 
@@ -2194,7 +1783,7 @@ summary(fit.lasso.lm3)
     ## 
     ## Coefficients:
     ##                                        Estimate      Std. Error t value
-    ## (Intercept)                     26.701702526521 24.042250034403    1.11
+    ## (Intercept)                     26.701702526520 24.042250034403    1.11
     ## StatusDeveloping                -0.731227025190  0.207556926596   -3.52
     ## ContinentAmericas                2.737744817628  0.207040167773   13.22
     ## ContinentAsia                    1.148916818553  0.178604538637    6.43
@@ -2281,7 +1870,7 @@ confint(fit.lasso.lm3)
 ```
 
     ##                                            2.5 %          97.5 %
-    ## (Intercept)                     -20.443371869108 73.846776922150
+    ## (Intercept)                     -20.443371869109 73.846776922150
     ## StatusDeveloping                 -1.138230809433 -0.324223240947
     ## ContinentAmericas                 2.331754359223  3.143735276032
     ## ContinentAsia                     0.798686526073  1.499147111033
@@ -3442,8 +3031,6 @@ eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall
 library(glmnetUtils)
 ```
 
-    ## Warning: package 'glmnetUtils' was built under R version 4.1.3
-
     ## 
     ## Attaching package: 'glmnetUtils'
 
@@ -3775,7 +3362,7 @@ summary(fit_interaction)
     ## 
     ## Coefficients:
     ##                                                          Estimate
-    ## (Intercept)                                      10.7033082346211
+    ## (Intercept)                                      10.7033082346203
     ## ContinentAmericas                                 3.2826482894549
     ## ContinentAsia                                     1.3433954944256
     ## ContinentEurope                                   2.8742205130719
@@ -3834,7 +3421,7 @@ confint(fit_interaction)
 ```
 
     ##                                                              2.5 %
-    ## (Intercept)                                      -36.9781240637946
+    ## (Intercept)                                      -36.9781240637955
     ## ContinentAmericas                                  2.9028073443004
     ## ContinentAsia                                      0.9905763662064
     ## ContinentEurope                                    2.4110745275578
@@ -3846,16 +3433,16 @@ confint(fit_interaction)
     ## Adult.Mortality                                   -0.0571762059736
     ## infant.deaths                                     -0.0036876761227
     ## I(GDP^2)                                          -0.0000000001805
-    ## StatusDeveloped:Income.composition.of.resources   11.2612386491376
+    ## StatusDeveloped:Income.composition.of.resources   11.2612386491377
     ## StatusDeveloping:Income.composition.of.resources   1.8554589107285
     ## StatusDeveloping:Schooling                         0.1191578722481
     ##                                                            97.5 %
-    ## (Intercept)                                      58.3847405330369
+    ## (Intercept)                                      58.3847405330361
     ## ContinentAmericas                                 3.6624892346094
     ## ContinentAsia                                     1.6962146226448
     ## ContinentEurope                                   3.3373664985860
     ## ContinentOceania                                  1.7423346187564
-    ## StatusDeveloping                                 11.4743140944656
+    ## StatusDeveloping                                 11.4743140944657
     ## Schooling                                         0.3672990563856
     ## log.percentage.expenditure                        0.1425826531826
     ## Year                                              0.0500263799741
@@ -4231,31 +3818,6 @@ residuals = resid(fit.custom)
 summary(fit.custom)
 ```
 
-<<<<<<< HEAD
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-1.png)<!-- -->
-
-``` r
-#### Model test scores
-rmse = test_score[1]
-rsqd = test_score[2]
-mse = rmse^2
-n=dim(xtest)[1]
-p = length(fit.custom$coefficients)-1
-adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-
-## Train scores
-sm=summary(fit.custom)
-rmse_trn = train_score[1]
-rsqd_trn = train_score[2]
-mse_trn = rmse_trn^2
-mse_trndf = mse_trn
-adjrsqd_trn = sm$adj.r.squared
-
-eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-
-eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
-```
-=======
     ## 
     ## Call:
     ## lm(formula = Life.expectancy ~ log.Adult.Mortality + infant.deaths + 
@@ -4275,7 +3837,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.GDP                                                                                           0.00053354
     ## Measles                                                                                          -0.00000492
     ## HIV_cat                                                                                          -0.46587226
-    ## CountryAlbania                                                                                 -521.44196764
+    ## CountryAlbania                                                                                 -521.44196763
     ## CountryAlgeria                                                                                 -498.20801497
     ## CountryAngola                                                                                  -286.43132858
     ## CountryAntigua and Barbuda                                                                     -501.43802090
@@ -4286,7 +3848,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryAzerbaijan                                                                              -550.94622673
     ## CountryBahamas                                                                                 -507.50608451
     ## CountryBahrain                                                                                 -538.98660256
-    ## CountryBangladesh                                                                              -720.86450289
+    ## CountryBangladesh                                                                              -720.86450288
     ## CountryBarbados                                                                                -526.95404472
     ## CountryBelarus                                                                                 -552.08434686
     ## CountryBelgium                                                                                 -407.62406097
@@ -4297,7 +3859,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryBosnia and Herzegovina                                                                  -513.12381551
     ## CountryBotswana                                                                                -429.69049504
     ## CountryBrazil                                                                                  -276.96947773
-    ## CountryBrunei Darussalam                                                                       -495.00074768
+    ## CountryBrunei Darussalam                                                                       -495.00074767
     ## CountryBulgaria                                                                                -471.14665494
     ## CountryBurkina Faso                                                                           -1431.73834543
     ## CountryBurundi                                                                                  479.49312878
@@ -4306,21 +3868,21 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryCameroon                                                                                -424.53308604
     ## CountryCanada                                                                                  -452.83731961
     ## CountryCentral African Republic                                                                 -77.79191146
-    ## CountryChad                                                                                   -1361.70760852
+    ## CountryChad                                                                                   -1361.70760828
     ## CountryChile                                                                                   -387.58269018
     ## CountryChina                                                                                   -575.42845877
     ## CountryColombia                                                                                -466.25544007
     ## CountryComoros                                                                                 -421.70045617
-    ## CountryCongo                                                                                   -359.88682255
+    ## CountryCongo                                                                                   -359.88682254
     ## CountryCosta Rica                                                                              -473.19250825
     ## CountryCroatia                                                                                 -508.20384356
-    ## CountryCuba                                                                                    -511.47008726
-    ## CountryCyprus                                                                                  -494.05213736
-    ## CountryCzechia                                                                                 -508.59616797
+    ## CountryCuba                                                                                    -511.47008725
+    ## CountryCyprus                                                                                  -494.05213735
+    ## CountryCzechia                                                                                 -508.59616796
     ## CountryDemocratic People's Republic of Korea                                                   -422.28774970
     ## CountryDemocratic Republic of the Congo                                                         319.75988347
-    ## CountryDenmark                                                                                 -472.93145036
-    ## CountryDjibouti                                                                               -1220.92750924
+    ## CountryDenmark                                                                                 -472.93145035
+    ## CountryDjibouti                                                                               -1220.92750923
     ## CountryDominican Republic                                                                     -1629.00632165
     ## CountryEcuador                                                                                 -578.84763092
     ## CountryEgypt                                                                                   1671.23615169
@@ -4330,43 +3892,43 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryEstonia                                                                                 -533.74815847
     ## CountryEthiopia                                                                                -523.88772101
     ## CountryFiji                                                                                    -498.24491146
-    ## CountryFinland                                                                                 -450.08853381
+    ## CountryFinland                                                                                 -450.08853380
     ## CountryFrance                                                                                  -493.17163233
     ## CountryGabon                                                                                   -466.66579237
     ## CountryGambia                                                                                  -173.01890835
-    ## CountryGeorgia                                                                                 -629.92724447
-    ## CountryGermany                                                                                  -12.38579990
+    ## CountryGeorgia                                                                                 -629.92724446
+    ## CountryGermany                                                                                  -12.38579989
     ## CountryGhana                                                                                  -2856.08752486
     ## CountryGreece                                                                                  -379.45241795
     ## CountryGrenada                                                                                 -587.21493280
     ## CountryGuatemala                                                                              -1364.97988460
     ## CountryGuinea                                                                                  -596.34477128
-    ## CountryGuinea-Bissau                                                                           1491.69690686
+    ## CountryGuinea-Bissau                                                                           1491.69690687
     ## CountryGuyana                                                                                  -552.33934117
     ## CountryHaiti                                                                                   -844.76066545
     ## CountryHonduras                                                                                -465.01372147
     ## CountryHungary                                                                                 -514.77837533
     ## CountryIceland                                                                                 -539.56560224
     ## CountryIndia                                                                                   -454.68751821
-    ## CountryIndonesia                                                                               -769.69442368
+    ## CountryIndonesia                                                                               -769.69442367
     ## CountryIran                                                                                    -448.78258380
     ## CountryIraq                                                                                   -2381.08824896
-    ## CountryIreland                                                                                 -467.20953645
+    ## CountryIreland                                                                                 -467.20953644
     ## CountryIsrael                                                                                  -515.16131102
     ## CountryItaly                                                                                   -534.62326626
     ## CountryIvory Coast                                                                              639.92150105
-    ## CountryJamaica                                                                                 -497.14010113
+    ## CountryJamaica                                                                                 -497.14010112
     ## CountryJapan                                                                                   -547.14113973
-    ## CountryJordan                                                                                  -472.69606064
+    ## CountryJordan                                                                                  -472.69606063
     ## CountryKazakhstan                                                                              -524.21536262
-    ## CountryKenya                                                                                   -603.47220306
-    ## CountryKiribati                                                                                -460.26423509
-    ## CountryKuwait                                                                                  -510.66829599
+    ## CountryKenya                                                                                   -603.47220305
+    ## CountryKiribati                                                                                -460.26423508
+    ## CountryKuwait                                                                                  -510.66829598
     ## CountryKyrgyzstan                                                                              -939.27994638
     ## CountryLao People's Democratic Republic                                                        -536.70798715
     ## CountryLatvia                                                                                  -538.05162275
     ## CountryLebanon                                                                                 -505.92823198
-    ## CountryLesotho                                                                                 -219.97947881
+    ## CountryLesotho                                                                                 -219.97947880
     ## CountryLiberia                                                                                 -467.54467799
     ## CountryLibya                                                                                   1083.68168977
     ## CountryLithuania                                                                               -570.49374027
@@ -4376,85 +3938,85 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryMalaysia                                                                                -497.11541116
     ## CountryMaldives                                                                                -533.43600573
     ## CountryMali                                                                                     889.58841088
-    ## CountryMalta                                                                                   -470.40697177
-    ## CountryMauritania                                                                             10928.43698108
+    ## CountryMalta                                                                                   -470.40697176
+    ## CountryMauritania                                                                             10928.43698111
     ## CountryMauritius                                                                               -460.89735909
     ## CountryMexico                                                                                  -391.85288666
     ## CountryMicronesia (Federated States of)                                                        -467.27816596
     ## CountryMongolia                                                                                -580.41485197
     ## CountryMontenegro                                                                              -509.69997477
-    ## CountryMorocco                                                                                 -543.00619317
+    ## CountryMorocco                                                                                 -543.00619316
     ## CountryMozambique                                                                               508.66450482
     ## CountryMyanmar                                                                                 -584.17362179
-    ## CountryNamibia                                                                                 -733.45402514
-    ## CountryNepal                                                                                   -542.38187882
+    ## CountryNamibia                                                                                 -733.45402513
+    ## CountryNepal                                                                                   -542.38187881
     ## CountryNetherlands                                                                             -481.20903174
-    ## CountryNew Zealand                                                                             -458.86459577
+    ## CountryNew Zealand                                                                             -458.86459576
     ## CountryNicaragua                                                                               -322.49134270
     ## CountryNiger                                                                                   6900.37058488
-    ## CountryNigeria                                                                                -2382.51591206
+    ## CountryNigeria                                                                                -2382.51591205
     ## CountryNorway                                                                                  -503.12230267
-    ## CountryOman                                                                                    -496.71171391
-    ## CountryPakistan                                                                               -1172.65834311
+    ## CountryOman                                                                                    -496.71171390
+    ## CountryPakistan                                                                               -1172.65834310
     ## CountryPanama                                                                                 -1163.64664519
     ## CountryPapua New Guinea                                                                        -805.50468083
     ## CountryParaguay                                                                                -202.20526049
     ## CountryPeru                                                                                    -579.11453950
     ## CountryPhilippines                                                                             -596.16536632
     ## CountryPoland                                                                                  -517.77253205
-    ## CountryPortugal                                                                                -423.64895613
+    ## CountryPortugal                                                                                -423.64895612
     ## CountryQatar                                                                                   -506.96912838
     ## CountryRepublic of Korea                                                                       -491.47751579
     ## CountryRepublic of Moldova                                                                     -413.23502339
-    ## CountryRomania                                                                                 -149.91189448
-    ## CountryRussian Federation                                                                      -220.33559049
-    ## CountryRwanda                                                                                  -515.17309017
+    ## CountryRomania                                                                                 -149.91189447
+    ## CountryRussian Federation                                                                      -220.33559048
+    ## CountryRwanda                                                                                  -515.17309016
     ## CountrySaint Lucia                                                                             -491.77249645
     ## CountrySaint Vincent and the Grenadines                                                        -702.81146488
-    ## CountrySamoa                                                                                   -575.81903190
-    ## CountrySao Tome and Principe                                                                   -433.66640474
+    ## CountrySamoa                                                                                   -575.81903189
+    ## CountrySao Tome and Principe                                                                   -433.66640473
     ## CountrySaudi Arabia                                                                            -471.21759733
     ## CountrySenegal                                                                                 -571.20075307
     ## CountrySerbia                                                                                  -494.71168302
     ## CountrySeychelles                                                                              -507.56998252
     ## CountrySierra Leone                                                                             496.67821711
-    ## CountrySingapore                                                                               -504.70330469
+    ## CountrySingapore                                                                               -504.70330468
     ## CountrySlovakia                                                                                -508.99282084
     ## CountrySlovenia                                                                                -467.19432979
     ## CountrySolomon Islands                                                                         -526.29426312
-    ## CountrySomalia                                                                                -4007.22133074
+    ## CountrySomalia                                                                                -4007.22133073
     ## CountrySouth Africa                                                                             -86.94189187
-    ## CountrySouth Sudan                                                                             1164.76822203
+    ## CountrySouth Sudan                                                                             1164.76822204
     ## CountrySpain                                                                                   -566.33386476
     ## CountrySri Lanka                                                                               -571.92339531
     ## CountrySudan                                                                                  -1214.39190326
     ## CountrySuriname                                                                                -427.17375310
-    ## CountrySwaziland                                                                               -541.15418280
+    ## CountrySwaziland                                                                               -541.15418279
     ## CountrySweden                                                                                  -533.13433809
-    ## CountrySwitzerland                                                                             -535.67896941
+    ## CountrySwitzerland                                                                             -535.67896940
     ## CountrySyrian Arab Republic                                                                    -515.36919548
     ## CountryTajikistan                                                                              -176.77108216
     ## CountryThailand                                                                                -523.39282753
     ## CountryThe former Yugoslav republic of Macedonia                                               -512.48796015
     ## CountryTimor-Leste                                                                             -474.53607049
     ## CountryTogo                                                                                    -245.72888372
-    ## CountryTonga                                                                                   -502.98137123
+    ## CountryTonga                                                                                   -502.98137122
     ## CountryTrinidad and Tobago                                                                     -400.61948127
     ## CountryTunisia                                                                                 -692.06046855
-    ## CountryTurkey                                                                                  -269.09157179
+    ## CountryTurkey                                                                                  -269.09157178
     ## CountryTurkmenistan                                                                            -561.88222021
-    ## CountryUganda                                                                                  -357.41545527
+    ## CountryUganda                                                                                  -357.41545526
     ## CountryUkraine                                                                                 -848.82732701
     ## CountryUnited Arab Emirates                                                                    -515.91847959
-    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                    -663.41108985
-    ## CountryUnited Republic of Tanzania                                                             1070.88128091
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                    -663.41108984
+    ## CountryUnited Republic of Tanzania                                                             1070.88128092
     ## CountryUnited States of America                                                               -1150.15825812
     ## CountryUruguay                                                                                 -505.81589374
     ## CountryUzbekistan                                                                              -552.95608989
     ## CountryVanuatu                                                                                 -500.49033548
-    ## CountryVenezuela                                                                               -736.40956739
-    ## CountryViet Nam                                                                                -644.81261311
-    ## CountryYemen                                                                                   1222.59035220
+    ## CountryVenezuela                                                                               -736.40956738
+    ## CountryViet Nam                                                                                -644.81261312
+    ## CountryYemen                                                                                   1222.59035221
     ## CountryZambia                                                                                  -650.92008927
     ## CountryZimbabwe                                                                                -216.66859144
     ## infant.deaths:CountryAlbania                                                                     68.36848789
@@ -4559,7 +4121,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## infant.deaths:CountryMaldives                                                                             NA
     ## infant.deaths:CountryMali                                                                       -17.45373455
     ## infant.deaths:CountryMalta                                                                                NA
-    ## infant.deaths:CountryMauritania                                                               -1447.05838507
+    ## infant.deaths:CountryMauritania                                                               -1447.05838508
     ## infant.deaths:CountryMauritius                                                                            NA
     ## infant.deaths:CountryMexico                                                                       2.26979452
     ## infant.deaths:CountryMicronesia (Federated States of)                                                     NA
@@ -4647,7 +4209,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryArmenia                                                               92.63845052
     ## log.Adult.Mortality:CountryAustralia                                                             96.36147414
     ## log.Adult.Mortality:CountryAustria                                                               83.89463246
-    ## log.Adult.Mortality:CountryAzerbaijan                                                           102.37598421
+    ## log.Adult.Mortality:CountryAzerbaijan                                                           102.37598420
     ## log.Adult.Mortality:CountryBahamas                                                               93.96925237
     ## log.Adult.Mortality:CountryBahrain                                                               99.69413231
     ## log.Adult.Mortality:CountryBangladesh                                                           138.60990609
@@ -4670,7 +4232,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryCameroon                                                              79.88661976
     ## log.Adult.Mortality:CountryCanada                                                                83.50600588
     ## log.Adult.Mortality:CountryCentral African Republic                                              27.00214465
-    ## log.Adult.Mortality:CountryChad                                                                 229.79604175
+    ## log.Adult.Mortality:CountryChad                                                                 229.79604171
     ## log.Adult.Mortality:CountryChile                                                                 69.73221235
     ## log.Adult.Mortality:CountryChina                                                                108.50877198
     ## log.Adult.Mortality:CountryColombia                                                              85.70588775
@@ -4696,9 +4258,9 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryFiji                                                                  91.44451908
     ## log.Adult.Mortality:CountryFinland                                                               81.15636665
     ## log.Adult.Mortality:CountryFrance                                                                89.17151160
-    ## log.Adult.Mortality:CountryGabon                                                                 87.43244390
+    ## log.Adult.Mortality:CountryGabon                                                                 87.43244389
     ## log.Adult.Mortality:CountryGambia                                                                35.84276491
-    ## log.Adult.Mortality:CountryGeorgia                                                              118.39568924
+    ## log.Adult.Mortality:CountryGeorgia                                                              118.39568923
     ## log.Adult.Mortality:CountryGermany                                                              -19.32134424
     ## log.Adult.Mortality:CountryGhana                                                                506.10951542
     ## log.Adult.Mortality:CountryGreece                                                                64.01189858
@@ -4708,7 +4270,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryGuinea-Bissau                                                       -256.67035120
     ## log.Adult.Mortality:CountryGuyana                                                               101.27390253
     ## log.Adult.Mortality:CountryHaiti                                                                154.53401578
-    ## log.Adult.Mortality:CountryHonduras                                                              85.17059382
+    ## log.Adult.Mortality:CountryHonduras                                                              85.17059381
     ## log.Adult.Mortality:CountryHungary                                                               95.15993829
     ## log.Adult.Mortality:CountryIceland                                                              101.25026186
     ## log.Adult.Mortality:CountryIndia                                                                 82.36802584
@@ -4719,7 +4281,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryIsrael                                                                95.20132148
     ## log.Adult.Mortality:CountryItaly                                                                101.29856909
     ## log.Adult.Mortality:CountryIvory Coast                                                          -93.35923993
-    ## log.Adult.Mortality:CountryJamaica                                                               92.75002286
+    ## log.Adult.Mortality:CountryJamaica                                                               92.75002285
     ## log.Adult.Mortality:CountryJapan                                                                103.10846919
     ## log.Adult.Mortality:CountryJordan                                                                90.12161936
     ## log.Adult.Mortality:CountryKazakhstan                                                            96.80067579
@@ -4729,7 +4291,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryKyrgyzstan                                                           177.90891653
     ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      97.32595970
     ## log.Adult.Mortality:CountryLatvia                                                                99.72112446
-    ## log.Adult.Mortality:CountryLebanon                                                               93.62146352
+    ## log.Adult.Mortality:CountryLebanon                                                               93.62146351
     ## log.Adult.Mortality:CountryLesotho                                                               46.47648151
     ## log.Adult.Mortality:CountryLiberia                                                               86.41105762
     ## log.Adult.Mortality:CountryLibya                                                               -226.21190029
@@ -4759,7 +4321,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryNigeria                                                              402.87964314
     ## log.Adult.Mortality:CountryNorway                                                                92.58091768
     ## log.Adult.Mortality:CountryOman                                                                  92.02631589
-    ## log.Adult.Mortality:CountryPakistan                                                             223.03795588
+    ## log.Adult.Mortality:CountryPakistan                                                             223.03795587
     ## log.Adult.Mortality:CountryPanama                                                               230.76495211
     ## log.Adult.Mortality:CountryPapua New Guinea                                                     142.61923391
     ## log.Adult.Mortality:CountryParaguay                                                              33.18107376
@@ -4792,7 +4354,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountrySpain                                                                106.71587268
     ## log.Adult.Mortality:CountrySri Lanka                                                            106.44438273
     ## log.Adult.Mortality:CountrySudan                                                                223.42719363
-    ## log.Adult.Mortality:CountrySuriname                                                              78.36063478
+    ## log.Adult.Mortality:CountrySuriname                                                              78.36063477
     ## log.Adult.Mortality:CountrySwaziland                                                             97.67714021
     ## log.Adult.Mortality:CountrySweden                                                                99.63268489
     ## log.Adult.Mortality:CountrySwitzerland                                                          100.24789509
@@ -4816,7 +4378,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryUruguay                                                               93.26414866
     ## log.Adult.Mortality:CountryUzbekistan                                                           101.97586789
     ## log.Adult.Mortality:CountryVanuatu                                                               91.74941717
-    ## log.Adult.Mortality:CountryVenezuela                                                            138.88198029
+    ## log.Adult.Mortality:CountryVenezuela                                                            138.88198028
     ## log.Adult.Mortality:CountryViet Nam                                                             123.20840526
     ## log.Adult.Mortality:CountryYemen                                                               -222.13112882
     ## log.Adult.Mortality:CountryZambia                                                               118.66196602
@@ -5042,7 +4604,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryCameroon                                                                                1247.42919413
     ## CountryCanada                                                                                   483.03307268
     ## CountryCentral African Republic                                                                 871.55188496
-    ## CountryChad                                                                                   25127.67253127
+    ## CountryChad                                                                                   25127.67253133
     ## CountryChile                                                                                    482.61165461
     ## CountryChina                                                                                    513.83082956
     ## CountryColombia                                                                                 597.37061361
@@ -5113,7 +4675,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryMaldives                                                                                 491.35584975
     ## CountryMali                                                                                    1886.46226432
     ## CountryMalta                                                                                    491.73786177
-    ## CountryMauritania                                                                             10618.45687302
+    ## CountryMauritania                                                                             10618.45687303
     ## CountryMauritius                                                                                492.68015809
     ## CountryMexico                                                                                   627.66567527
     ## CountryMicronesia (Federated States of)                                                         493.04061203
@@ -5132,7 +4694,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryNorway                                                                                   491.53418138
     ## CountryOman                                                                                     486.65636153
     ## CountryPakistan                                                                                2416.58733312
-    ## CountryPanama                                                                                  2329.90824402
+    ## CountryPanama                                                                                  2329.90824401
     ## CountryPapua New Guinea                                                                        2337.75753908
     ## CountryParaguay                                                                                 532.12020263
     ## CountryPeru                                                                                     518.90996434
@@ -5189,7 +4751,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## CountryUzbekistan                                                                               503.44017176
     ## CountryVanuatu                                                                                  491.64788830
     ## CountryVenezuela                                                                               5991.21251871
-    ## CountryViet Nam                                                                                2425.98621881
+    ## CountryViet Nam                                                                                2425.98621882
     ## CountryYemen                                                                                   1432.61131517
     ## CountryZambia                                                                                   582.58607833
     ## CountryZimbabwe                                                                                 505.20332498
@@ -5314,7 +4876,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## infant.deaths:CountryNorway                                                                               NA
     ## infant.deaths:CountryOman                                                                                 NA
     ## infant.deaths:CountryPakistan                                                                     8.19497052
-    ## infant.deaths:CountryPanama                                                                    2273.45777991
+    ## infant.deaths:CountryPanama                                                                    2273.45777990
     ## infant.deaths:CountryPapua New Guinea                                                           208.99856049
     ## infant.deaths:CountryParaguay                                                                    62.82780750
     ## infant.deaths:CountryPeru                                                                        17.62993749
@@ -5406,7 +4968,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## log.Adult.Mortality:CountryCameroon                                                             215.90034170
     ## log.Adult.Mortality:CountryCanada                                                                91.43782621
     ## log.Adult.Mortality:CountryCentral African Republic                                             148.62498373
-    ## log.Adult.Mortality:CountryChad                                                                4173.25934504
+    ## log.Adult.Mortality:CountryChad                                                                4173.25934505
     ## log.Adult.Mortality:CountryChile                                                                 91.28362528
     ## log.Adult.Mortality:CountryChina                                                                 97.45642426
     ## log.Adult.Mortality:CountryColombia                                                             114.16454157
@@ -7954,7 +7516,6 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
     ## Residual standard error: 1.39 on 1890 degrees of freedom
     ## Multiple R-squared:  0.984,  Adjusted R-squared:  0.979 
     ## F-statistic:  192 on 598 and 1890 DF,  p-value: <0.0000000000000002
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 
 ``` r
 hist(residuals, main ="Histogram of Residuals")
@@ -8006,25 +7567,7 @@ rmse_trn = train_score[1]
 rsqd_trn = train_score[2]
 mse_trn = rmse_trn^2
 mse_trndf = mse_trn
-<<<<<<< HEAD
-n=dim(ktrain)[1]
-p = length(KNNRegressor$coefnames)
-adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
-
-eval_test_df = rbind(eval_test_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
-```
-
-### Visualize ‘k’ and the most important features
-
-``` r
-# Visualize 'k' and the most important features
-ggplot(KNNRegressor) + ggtitle("Optimal k value for the lowest RMSE") +
-  theme(plot.title = element_text(hjust = 0.5))
-```
-=======
 adjrsqd_trn = sm$adj.r.squared
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 
 eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
@@ -8035,114 +7578,6 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
 
 ## KNN without cross validation
 
-<<<<<<< HEAD
-``` r
-#####################################################################################
-#                              KNN without cross validation                         #
-#####################################################################################
-
-# Scale the numerical variables as KNN is sensitive to that
-drop_for_knn = c("log.HIV.AIDS", "log.GDP", "log.percentage.expenditure", "Region" ,"Continent")
-KNN_scale = LifeExp[,!colnames(LifeExp) %in% drop_for_knn] %>% mutate_if(is.numeric, scale)
-index<-sample(1:dim(KNN_scale)[1],round(dim(KNN_scale)[1]*0.85),replace=F)
-trainKNN = KNN_scale[index,]
-testKNN = KNN_scale[-index,]
-
-x_knn=model.matrix(Life.expectancy~.,trainKNN)[,-4]
-y_knn=trainKNN$Life.expectancy
-xtest_knn = model.matrix(Life.expectancy~.,testKNN)[,-4]
-ytest_knn = testKNN$Life.expectancy
-
-knn_eval = data.frame(RMSE = numeric(30), k = numeric(30))
-
-for(i in 1:30)
-{
-  regressions = knnmodel = knnreg(x_knn, y_knn, ytest_knn, k=i)
-  pred_xy = predict(regressions, data.frame(x_knn))
-  train_score = postResample(pred = pred_xy, obs = y_knn)
-  rmse = train_score[1]
-  knn_eval$RMSE[i] = rmse
-  knn_eval$k[i] = i
-}
-
-plot(knn_eval$k,knn_eval$RMSE, type = "l", xlab = "k", main = "Optimal k value for the lowest RMSE" )
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-1.png)<!-- -->
-
-``` r
-index = min(knn_eval[2:30,]$RMSE)
-k = knn_eval[index==knn_eval$RMSE,]$k
-
-knnmodel = knnreg(x_knn, y_knn, ytest_knn, k=k)
-
-pred_xy = predict(knnmodel, data.frame(x_knn))
-train_score = postResample(pred = pred_xy, obs = y_knn)
-pred_y = predict(knnmodel, data.frame(xtest_knn))
-test_score = postResample(pred = pred_y, obs = ytest_knn)
-
-print(paste("Training score: ", train_score))
-```
-
-    ## [1] "Training score:  0.131413831767923"  "Training score:  0.982959804439541" 
-    ## [3] "Training score:  0.0726769381461389"
-
-``` r
-print(paste("Test score: ", test_score))
-```
-
-    ## [1] "Test score:  0.233137358400609" "Test score:  0.941347902140814"
-    ## [3] "Test score:  0.134047589623642"
-
-``` r
-plot(pred_y ~ ytest_knn, main = "Original vs Predicted scatter plot (KNN)", xlab = 'Original observations', ylab='Predicted values')
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-2.png)<!-- -->
-
-``` r
-x_knn_plot = 1:length(ktest$Life.expectancy)
-plot(x_knn_plot, ytest_knn, col = "red", type = "l", lwd=2,
-     main = "Life Expectancy prediction")
-lines(x_knn_plot, pred_y, col = "blue", lwd=2)
-legend("topright",  legend = c("original observation", "predicted life expectancy"), 
-       fill = c("red", "blue"), col = 2:3,  adj = c(0, 0.6))
-grid()
-```
-
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-3.png)<!-- -->
-
-``` r
-mse = mean((ytest_knn - pred_y)^2)
-print(paste("Test MSE: ", mse))
-```
-
-    ## [1] "Test MSE:  0.0543530278820138"
-
-``` r
-#### Model test scores
-rmse = test_score[1]
-rsqd = test_score[2]
-mse = rmse^2
-n=dim(xtest_knn)[1]
-p = dim(knnmodel$learn$X)[2]-1
-adjrsqd = 1 - (1 - rsqd) * ((n - 1)/(n-p-1))
-
-## Train scores
-rmse_trn = train_score[1]
-rsqd_trn = train_score[2]
-mse_trn = rmse^2
-mse_trndf = mse_trn
-n=dim(x_knn)[1]
-p = dim(knnmodel$learn$X)[2]-1
-adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
-
-eval_test_df = rbind(eval_test_df, c('KNN w/o CV', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
-```
-
-=======
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 ## KNN regression Observations:
 
 KNN is a non-parametric regression or classification algorithm. In our
@@ -8355,11 +7790,7 @@ MLR Interact - Reuven
 0.9083
 </td>
 <td style="text-align:left;">
-<<<<<<< HEAD
-2.7235
-=======
 2.9052
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 </tr>
 <tr>
@@ -8380,49 +7811,6 @@ MLR Interact - Miguel
 </td>
 <td style="text-align:left;">
 1.2074
-<<<<<<< HEAD
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-10
-</td>
-<td style="text-align:left;">
-KNN
-</td>
-<td style="text-align:left;">
-3.7857
-</td>
-<td style="text-align:left;">
-0.9829
-</td>
-<td style="text-align:left;">
-0.9814
-</td>
-<td style="text-align:left;">
-1.2574
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-11
-</td>
-<td style="text-align:left;">
-KNN w/o CV
-</td>
-<td style="text-align:left;">
-0.0544
-</td>
-<td style="text-align:left;">
-0.9830
-</td>
-<td style="text-align:left;">
-0.9815
-</td>
-<td style="text-align:left;">
-0.1314
-=======
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
 </td>
 </tr>
 </tbody>
@@ -8611,11 +7999,7 @@ MLR Interact - Reuven
 0.8989
 </td>
 <td style="text-align:left;">
-<<<<<<< HEAD
-0.9096
-=======
-0.8968
->>>>>>> 0521a7de70b0eb133ade6de43ecab3ffdde18a9b
+0.8973
 </td>
 <td style="text-align:left;">
 2.8929
