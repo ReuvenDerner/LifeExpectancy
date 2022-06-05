@@ -124,143 +124,143 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Slovenia
+Lesotho
 </td>
 <td style="text-align:right;">
-2013
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-85.0
-</td>
-<td style="text-align:right;">
-78
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-9.53
-</td>
-<td style="text-align:right;">
-259.78
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-58.9
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-9.29
-</td>
-<td style="text-align:right;">
-95
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-2315
-</td>
-<td style="text-align:right;">
-259953
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-0.878
-</td>
-<td style="text-align:right;">
-16.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Lao People’s Democratic Republic
-</td>
-<td style="text-align:right;">
-2014
+2008
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-65.3
+47.8
 </td>
 <td style="text-align:right;">
-199
+592
 </td>
 <td style="text-align:right;">
-8
+5
 </td>
 <td style="text-align:right;">
-0.01
+2.75
 </td>
 <td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-88
-</td>
-<td style="text-align:right;">
-339
-</td>
-<td style="text-align:right;">
-2.9
-</td>
-<td style="text-align:right;">
-11
+91.854
 </td>
 <td style="text-align:right;">
 88
 </td>
 <td style="text-align:right;">
-1.87
+0
+</td>
+<td style="text-align:right;">
+28.8
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+86
+</td>
+<td style="text-align:right;">
+8.85
 </td>
 <td style="text-align:right;">
 88
 </td>
 <td style="text-align:right;">
-0.2
+27.3
 </td>
 <td style="text-align:right;">
-NA
+934.43
 </td>
 <td style="text-align:right;">
-NA
+199993
 </td>
 <td style="text-align:right;">
-8.9
+8.0
 </td>
 <td style="text-align:right;">
-9.0
+7.8
 </td>
 <td style="text-align:right;">
-0.573
+0.447
 </td>
 <td style="text-align:right;">
-10.6
+10.7
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Armenia
+Italy
+</td>
+<td style="text-align:right;">
+2011
+</td>
+<td style="text-align:left;">
+Developed
+</td>
+<td style="text-align:right;">
+82.0
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+6.98
+</td>
+<td style="text-align:right;">
+5439.692
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+5189
+</td>
+<td style="text-align:right;">
+61.5
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+9.27
+</td>
+<td style="text-align:right;">
+96
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+38334.68
+</td>
+<td style="text-align:right;">
+59379449
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+0.872
+</td>
+<td style="text-align:right;">
+16.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Nigeria
 </td>
 <td style="text-align:right;">
 2007
@@ -269,134 +269,66 @@ Armenia
 Developing
 </td>
 <td style="text-align:right;">
-73.5
+55.0
 </td>
 <td style="text-align:right;">
-132
+388
 </td>
 <td style="text-align:right;">
-1
+542
 </td>
 <td style="text-align:right;">
-3.99
+9.55
 </td>
 <td style="text-align:right;">
-44.57
+104.475
 </td>
 <td style="text-align:right;">
-85
+42
 </td>
 <td style="text-align:right;">
-1
+2613
 </td>
 <td style="text-align:right;">
-49.7
+2.4
 </td>
 <td style="text-align:right;">
-1
+863
 </td>
 <td style="text-align:right;">
-9
+54
 </td>
 <td style="text-align:right;">
-4.31
+4.47
 </td>
 <td style="text-align:right;">
-88
+42
 </td>
 <td style="text-align:right;">
-0.1
+5.2
 </td>
 <td style="text-align:right;">
-3139
+1136.83
 </td>
 <td style="text-align:right;">
-293356
+14641724
 </td>
 <td style="text-align:right;">
-2.0
+12.3
 </td>
 <td style="text-align:right;">
-2.1
+12.3
 </td>
 <td style="text-align:right;">
-0.707
+0.477
 </td>
 <td style="text-align:right;">
-11.7
+9.1
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-United Arab Emirates
-</td>
-<td style="text-align:right;">
-2015
-</td>
-<td style="text-align:left;">
-Developing
-</td>
-<td style="text-align:right;">
-77.1
-</td>
-<td style="text-align:right;">
-75
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-0.00
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-347
-</td>
-<td style="text-align:right;">
-64.2
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-3912
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-5.3
-</td>
-<td style="text-align:right;">
-5.1
-</td>
-<td style="text-align:right;">
-0.836
-</td>
-<td style="text-align:right;">
-13.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Canada
+Estonia
 </td>
 <td style="text-align:right;">
 2002
@@ -405,61 +337,129 @@ Canada
 Developing
 </td>
 <td style="text-align:right;">
-79.5
+71.2
 </td>
 <td style="text-align:right;">
-79
+211
 </td>
 <td style="text-align:right;">
-2
+0
 </td>
 <td style="text-align:right;">
-7.70
+11.48
 </td>
 <td style="text-align:right;">
-3895.86
+7.806
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-6
+0
 </td>
 <td style="text-align:right;">
-59.3
+54.6
 </td>
 <td style="text-align:right;">
-2
+0
 </td>
 <td style="text-align:right;">
-88
+94
 </td>
 <td style="text-align:right;">
-9.37
+4.84
 </td>
 <td style="text-align:right;">
-88
+94
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-24168
+538.35
 </td>
 <td style="text-align:right;">
-31362
+137935
 </td>
 <td style="text-align:right;">
-0.5
+2.3
+</td>
+<td style="text-align:right;">
+2.4
+</td>
+<td style="text-align:right;">
+0.791
+</td>
+<td style="text-align:right;">
+15.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Senegal
+</td>
+<td style="text-align:right;">
+2010
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+64.3
+</td>
+<td style="text-align:right;">
+212
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:right;">
+0.28
+</td>
+<td style="text-align:right;">
+1.020
+</td>
+<td style="text-align:right;">
+89
+</td>
+<td style="text-align:right;">
+428
+</td>
+<td style="text-align:right;">
+21.7
+</td>
+<td style="text-align:right;">
+32
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+4.62
+</td>
+<td style="text-align:right;">
+89
 </td>
 <td style="text-align:right;">
 0.4
 </td>
 <td style="text-align:right;">
-0.872
+11.63
 </td>
 <td style="text-align:right;">
-15.8
+12916229
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+0.449
+</td>
+<td style="text-align:right;">
+7.7
 </td>
 </tr>
 </tbody>
@@ -3127,7 +3127,7 @@ p = length(coef(ridge.mod,s=bestlambda))-1
 adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
 
 eval_test_df = rbind(eval_test_df, c('Ridge', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 
 
 #####################################################################################
@@ -3219,7 +3219,7 @@ adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
 
 eval_test_df = rbind(eval_test_df, c('ElasticNet', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-eval_train_df = rbind(eval_train_df, c('ElasticNet', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('ElasticNet', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 
 #####################################################################################
 #                                      Manual MLR - Tamas                           #
@@ -3433,7 +3433,7 @@ adjrsqd_trn = sm$adj.r.squared
 
 eval_test_df = rbind(eval_test_df, c('MLR - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ``` r
@@ -3623,7 +3623,7 @@ adjrsqd_trn = sm$adj.r.squared
 
 eval_test_df = rbind(eval_test_df, c('MLR Interact - Tamas', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Tamas', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ``` r
@@ -3853,7 +3853,7 @@ adjrsqd_trn = sm$adj.r.squared
 
 eval_test_df = rbind(eval_test_df, c('MLR Interact - Reuven', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-eval_train_df = rbind(eval_train_df, c('MLR Interact - Reuven', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Reuven', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ## Observations
@@ -3951,7 +3951,7 @@ adjrsqd_trn = sm$adj.r.squared
 
 eval_test_df = rbind(eval_test_df, c('MLR Interact - Miguel', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
-eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ``` r
@@ -4069,7 +4069,7 @@ p = length(KNNRegressor$coefnames)
 adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
 
 eval_test_df = rbind(eval_test_df, c('KNN', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ### Visualize ‘k’ and the most important features
@@ -4193,7 +4193,7 @@ p = dim(knnmodel$learn$X)[2]-1
 adjrsqd_trn = 1 - (1 - rsqd_trn) * ((n - 1)/(n-p-1))
 
 eval_test_df = rbind(eval_test_df, c('KNN w/o CV', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
-eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse,4),nsmall=4)))
+eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
 ```
 
 ## KNN regression Observations:
@@ -4328,7 +4328,7 @@ Ridge
 0.9265
 </td>
 <td style="text-align:left;">
-2.5115
+2.6081
 </td>
 </tr>
 <tr>
@@ -4348,7 +4348,7 @@ ElasticNet
 0.9325
 </td>
 <td style="text-align:left;">
-2.4717
+2.4844
 </td>
 </tr>
 <tr>
@@ -4368,7 +4368,7 @@ MLR - Tamas
 0.9285
 </td>
 <td style="text-align:left;">
-2.5336
+2.5639
 </td>
 </tr>
 <tr>
@@ -4388,7 +4388,7 @@ MLR Interact - Tamas
 0.9290
 </td>
 <td style="text-align:left;">
-2.5264
+2.5522
 </td>
 </tr>
 <tr>
@@ -4408,7 +4408,7 @@ MLR Interact - Reuven
 0.9193
 </td>
 <td style="text-align:left;">
-2.7013
+2.7235
 </td>
 </tr>
 <tr>
@@ -4428,7 +4428,7 @@ MLR Interact - Miguel
 0.9787
 </td>
 <td style="text-align:left;">
-1.6731
+1.2074
 </td>
 </tr>
 <tr>
@@ -4448,7 +4448,7 @@ KNN
 0.9814
 </td>
 <td style="text-align:left;">
-1.9457
+1.2574
 </td>
 </tr>
 <tr>
@@ -4468,7 +4468,7 @@ KNN w/o CV
 0.9815
 </td>
 <td style="text-align:left;">
-0.2331
+0.1314
 </td>
 </tr>
 </tbody>
