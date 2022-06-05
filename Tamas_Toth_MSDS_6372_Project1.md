@@ -43,7 +43,6 @@ options(scipen = 100, digits = 4)
 
 ``` r
 #Read the data
-#setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
 LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Data%20Files/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
@@ -124,342 +123,342 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Japan
+Lao People’s Democratic Republic
 </td>
 <td style="text-align:right;">
-2003
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-81.9
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-7.83
-</td>
-<td style="text-align:right;">
-578.73
-</td>
-<td style="text-align:right;">
-NA
-</td>
-<td style="text-align:right;">
-8286
-</td>
-<td style="text-align:right;">
-23.4
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-8.00
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-3488.4
-</td>
-<td style="text-align:right;">
-127718
-</td>
-<td style="text-align:right;">
-1.7
-</td>
-<td style="text-align:right;">
-1.4
-</td>
-<td style="text-align:right;">
-0.863
-</td>
-<td style="text-align:right;">
-14.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Azerbaijan
-</td>
-<td style="text-align:right;">
-2007
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-73.0
+65.3
 </td>
 <td style="text-align:right;">
-14
+199
 </td>
 <td style="text-align:right;">
-6
+8
 </td>
 <td style="text-align:right;">
-1.02
+0.01
 </td>
 <td style="text-align:right;">
-176.01
+0.000
 </td>
 <td style="text-align:right;">
-62
+88
 </td>
 <td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-45.9
-</td>
-<td style="text-align:right;">
-7
-</td>
-<td style="text-align:right;">
-81
-</td>
-<td style="text-align:right;">
-5.10
-</td>
-<td style="text-align:right;">
-79
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-3851.4
-</td>
-<td style="text-align:right;">
-85813
-</td>
-<td style="text-align:right;">
-2.8
+339
 </td>
 <td style="text-align:right;">
 2.9
 </td>
 <td style="text-align:right;">
-0.708
+11
 </td>
 <td style="text-align:right;">
-11.6
+88
+</td>
+<td style="text-align:right;">
+1.87
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+0.2
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+8.9
+</td>
+<td style="text-align:right;">
+9.0
+</td>
+<td style="text-align:right;">
+0.573
+</td>
+<td style="text-align:right;">
+10.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Italy
+Finland
 </td>
 <td style="text-align:right;">
-2008
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-81.5
-</td>
-<td style="text-align:right;">
-61
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-7.96
-</td>
-<td style="text-align:right;">
-66.38
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-1617
-</td>
-<td style="text-align:right;">
-59.9
-</td>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-8.89
-</td>
-<td style="text-align:right;">
-96
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-464.2
-</td>
-<td style="text-align:right;">
-58826731
-</td>
-<td style="text-align:right;">
-0.5
-</td>
-<td style="text-align:right;">
-0.5
-</td>
-<td style="text-align:right;">
-0.866
-</td>
-<td style="text-align:right;">
-16.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The former Yugoslav republic of Macedonia
-</td>
-<td style="text-align:right;">
-2012
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-75.1
+89.0
 </td>
 <td style="text-align:right;">
-15
+78
 </td>
 <td style="text-align:right;">
 0
 </td>
 <td style="text-align:right;">
-1.23
+8.80
 </td>
 <td style="text-align:right;">
-0.00
+6164.455
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+61.7
+</td>
+<td style="text-align:right;">
+0
 </td>
 <td style="text-align:right;">
 98
 </td>
 <td style="text-align:right;">
-7
+9.68
 </td>
 <td style="text-align:right;">
-58.5
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-97
-</td>
-<td style="text-align:right;">
-6.76
-</td>
-<td style="text-align:right;">
-95
+98
 </td>
 <td style="text-align:right;">
 0.1
 </td>
 <td style="text-align:right;">
-NA
+49914.6
 </td>
 <td style="text-align:right;">
-NA
+5461512
 </td>
 <td style="text-align:right;">
-2.2
+0.9
 </td>
 <td style="text-align:right;">
-2.2
+0.8
 </td>
 <td style="text-align:right;">
-0.739
+0.890
 </td>
 <td style="text-align:right;">
-12.9
+17.0
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Serbia
+Papua New Guinea
 </td>
 <td style="text-align:right;">
-2011
+2013
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-74.6
+62.4
+</td>
+<td style="text-align:right;">
+281
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+<td style="text-align:right;">
+25.709
+</td>
+<td style="text-align:right;">
+73
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:right;">
+47.2
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+4.78
+</td>
+<td style="text-align:right;">
+79
+</td>
+<td style="text-align:right;">
+0.8
+</td>
+<td style="text-align:right;">
+230.0
+</td>
+<td style="text-align:right;">
+7592865
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+1.3
+</td>
+<td style="text-align:right;">
+0.506
+</td>
+<td style="text-align:right;">
+10.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ukraine
+</td>
+<td style="text-align:right;">
+2013
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+71.0
+</td>
+<td style="text-align:right;">
+198
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:right;">
+8.44
+</td>
+<td style="text-align:right;">
+52.425
+</td>
+<td style="text-align:right;">
+46
+</td>
+<td style="text-align:right;">
+0
+</td>
+<td style="text-align:right;">
+6.1
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:right;">
+72
+</td>
+<td style="text-align:right;">
+7.67
+</td>
+<td style="text-align:right;">
+76
+</td>
+<td style="text-align:right;">
+0.2
+</td>
+<td style="text-align:right;">
+429.7
+</td>
+<td style="text-align:right;">
+454896
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+2.4
+</td>
+<td style="text-align:right;">
+0.744
+</td>
+<td style="text-align:right;">
+15.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Niger
+</td>
+<td style="text-align:right;">
+2001
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+56.0
+</td>
+<td style="text-align:right;">
+283
+</td>
+<td style="text-align:right;">
+57
+</td>
+<td style="text-align:right;">
+0.11
+</td>
+<td style="text-align:right;">
+1.818
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+61208
+</td>
+<td style="text-align:right;">
+13.9
 </td>
 <td style="text-align:right;">
 127
 </td>
 <td style="text-align:right;">
-1
+42
 </td>
 <td style="text-align:right;">
-9.56
+7.10
 </td>
 <td style="text-align:right;">
-915.32
+36
 </td>
 <td style="text-align:right;">
-94
+1.6
 </td>
 <td style="text-align:right;">
-370
+165.3
 </td>
 <td style="text-align:right;">
-57.7
+11771976
 </td>
 <td style="text-align:right;">
-1
+12.7
 </td>
 <td style="text-align:right;">
-94
+12.7
 </td>
 <td style="text-align:right;">
-9.72
+0.255
 </td>
 <td style="text-align:right;">
-94
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-6423.3
-</td>
-<td style="text-align:right;">
-723499
-</td>
-<td style="text-align:right;">
-2.2
-</td>
-<td style="text-align:right;">
-2.2
-</td>
-<td style="text-align:right;">
-0.757
-</td>
-<td style="text-align:right;">
-13.5
+2.9
 </td>
 </tr>
 </tbody>
@@ -1043,11 +1042,106 @@ summary(LifeExp)
 -   No duplicated records
 -   ‘Life.expectancy’ is the dependent variable - There are 10 missing
     observations in the dependent variable
--   We need to predict Salary however there is no salary variable in the
-    dataset but MonthlyIncome variable seems to be sufficient for this
-    purpose.
 
 ### Scatterplots
+
+``` r
+#####################################################################################
+#                        Scatter plots for checking linearity                       #
+#####################################################################################
+LifeExp$Status = as.factor(LifeExp$Status)
+
+################### Linear - Linear ###################
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-1.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-2.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-3.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~HIV.AIDS+GDP+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-4.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Linear Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-5.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+################### Linear - Log transformation ###################
+pairs(Life.expectancy~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-6.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-7.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-8.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-9.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(Life.expectancy~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Linear-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-10.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+################### Log - Log transformation ###################
+pairs(log(Life.expectancy)~Year+Adult.Mortality+infant.deaths+Alcohol, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-11.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(log(Life.expectancy)~log(percentage.expenditure)+Hepatitis.B+Measles+BMI, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-12.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(log(Life.expectancy)~under.five.deaths+Polio+Total.expenditure+Diphtheria, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-13.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(log(Life.expectancy)~log(HIV.AIDS)+log(GDP)+Population+thinness..1.19.years, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-14.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+pairs(log(Life.expectancy)~thinness.5.9.years+Income.composition.of.resources+Schooling, data=LifeExp, col=ifelse(LifeExp$Status=="Developed", "green", "red"), main = "Log-Log Scatter Plot")
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Linear regression scatter plots-15.png" angle=90 style="display: block; margin: auto;" />
 
 ### Observations
 
@@ -1063,7 +1157,7 @@ following variables
 -   Year
 -   Adult.Mortality
 
-\#adding region column to do regional imputation
+### Adding region column to do regional imputation
 
 ``` r
 ###rename ivory coast and remove parenthesis from country names
@@ -1094,12 +1188,13 @@ regions$Country <- replace(regions$Country, regions$Country == "East Timor", "Ti
 regions$Country <- replace(regions$Country, regions$Country == "United Kingdom", "United Kingdom of Great Britain and Northern Ireland")
 regions$Country <- replace(regions$Country, regions$Country == "Vietnam", "Viet Nam")
 
-LifeExp <-  join(LifeExp,regions,by = "Country", type = 'left')
+#LifeExp <-  join(LifeExp, regions, by = "Country", type = 'left')
+LifeExp <-  merge(x=LifeExp, y=regions, by = "Country", all.x=TRUE)
 LifeExp$Country <- replace(LifeExp$Country, LifeExp$Country == "Micronesia", "Micronesia (Federated States of)")
 LifeExp$Region <- as.factor(LifeExp$Region)
 ```
 
-## Fixing the missing values by replacing with median
+### Fixing the missing values by replacing with median
 
 ``` r
 # Drop missing values from the dependent variable
@@ -1160,7 +1255,6 @@ US_Scho$Year <- as.integer(US_Scho$Year)
 US_Scho$Schooling2 <- as.numeric(US_Scho$Schooling2)
 US_Scho$Country <- replace(US_Scho$Country, US_Scho$Country == "United States", "United States of America")
 
-
 LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
@@ -1217,8 +1311,6 @@ LifeExp <- LifeExp[,!colnames(LifeExp) %in% drop]
 library(countrycode)
 LifeExp$Continent = countrycode(sourcevar = LifeExp[, "Country"], origin = "country.name", destination = "continent")
 LifeExp$Continent = as.factor(LifeExp$Continent)
-
-#LifeExpKNN = LifeExp
 ```
 
 ### Full Correlation Matrix for Linear Regression (Life.expectancy)
@@ -1227,18 +1319,8 @@ LifeExp$Continent = as.factor(LifeExp$Continent)
 #####################################################################################
 #      Full Correlation Matrix for Linear Regression (Life.expectancy)              #
 #####################################################################################
-# Filter for data to be included
-#num_cols = LifeExp %>% dplyr::select(where(is.numeric)) %>% colnames()
-#LifeExpcorr = LifeExp[,num_cols]
-#corrplot(cor(LifeExpcorr), method = 'square', order = 'AOE', addCoef.col = 'black', 
-#         cl.pos = 'n', col = COL2('BrBG'))
-
 plot_correlate(LifeExp)
 ```
-
-    ## Warning: 'plot_correlate' is deprecated.
-    ## Use 'plot.correlate' instead.
-    ## See help("Deprecated")
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-9-1.png" angle=90 style="display: block; margin: auto;" />
 
@@ -1319,7 +1401,7 @@ for (c in cat_cols)
 }
 ```
 
-<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" />
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-11-3.png" angle=90 style="display: block; margin: auto;" />
 
 ## Bi-variate analysis with Status variable
 
@@ -1365,13 +1447,13 @@ egg::ggarrange(multibox, ncol=2)
 ```
 
 <img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-1.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-2.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-3.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-4.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-5.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-6.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-7.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-8.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-9.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-10.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-11.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-12.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-13.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-14.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-15.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-16.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-17.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-18.png" angle=90 style="display: block; margin: auto;" /><img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-13-19.png" angle=90 style="display: block; margin: auto;" />
-\## Overall life expectancy over time
+
+## Overall life expectancy over time
 
 ``` r
 #####################################################################################
 #                          Overall life expectancy over time                        #
 #####################################################################################
-
 mean_LifeExp = LifeExp %>% group_by(Year) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
 mean_LifeExp_reg = LifeExp %>% group_by(Year, Region) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
 mean_LifeExp_cont = LifeExp %>% group_by(Year, Continent) %>% summarise_at(vars(Life.expectancy), list(meanle = mean))
@@ -1421,8 +1503,6 @@ LifeExp = mutate(LifeExp, log.HIV.AIDS = ifelse(HIV.AIDS==0, log(HIV.AIDS+1), lo
 LifeExp = mutate(LifeExp, log.GDP = ifelse(GDP==0, log(GDP+1), log(GDP)))
 LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expenditure==0, log(percentage.expenditure+1), log(percentage.expenditure)))
 
-
-
 ### Make country as factor
 LifeExp$Country = as.factor(LifeExp$Country)
 ```
@@ -1437,7 +1517,7 @@ test = LifeExp[-index,]
 
 # Create training and test set for regression models
 # Droping the variables which were log transformed, as well as country and region or countinent
-#drop_for_reg = c(-1, -8, -16, -17, -27)
+
 drop_for_reg = c("Country", "HIV.AIDS", "GDP", "percentage.expenditure", "Region")
 rtrain = train[,!colnames(train) %in% drop_for_reg]
 rtest = test[,!colnames(train) %in% drop_for_reg]
@@ -1456,7 +1536,6 @@ ktest = test[,!colnames(train) %in% drop_for_knn]
 #####################################################################################
 #                             EDA on Train sets                                    #
 #####################################################################################
-
 describe(rtrain)
 ```
 
@@ -1464,25 +1543,25 @@ describe(rtrain)
     ##    described_variables         n    na     mean      sd se_mean     IQR skewness
     ##    <chr>                   <int> <int>    <dbl>   <dbl>   <dbl>   <dbl>    <dbl>
     ##  1 Year                     2489     0  2.01e+3 4.59e+0 9.20e-2 7   e+0 -0.00819
-    ##  2 Life.expectancy          2489     0  6.91e+1 9.61e+0 1.93e-1 1.27e+1 -0.629  
-    ##  3 Adult.Mortality          2489     0  1.96e+2 1.16e+2 2.33e+0 1.46e+2  1.33   
-    ##  4 infant.deaths            2489     0  3.18e+1 1.22e+2 2.44e+0 2.3 e+1  9.33   
-    ##  5 Alcohol                  2489     0  4.56e+0 4.04e+0 8.09e-2 6.71e+0  0.621  
-    ##  6 Hepatitis.B              2489     0  8.02e+1 2.45e+1 4.91e-1 2.1 e+1 -1.82   
-    ##  7 Measles                  2489     0  2.54e+3 1.18e+4 2.37e+2 4.1 e+2  9.27   
-    ##  8 BMI                      2489     0  3.80e+1 2.00e+1 4.01e-1 3.67e+1 -0.227  
-    ##  9 under.five.deaths        2489     0  4.41e+1 1.66e+2 3.33e+0 3   e+1  9.09   
-    ## 10 Polio                    2489     0  8.23e+1 2.35e+1 4.71e-1 2   e+1 -2.06   
-    ## 11 Total.expenditure        2489     0  5.91e+0 2.46e+0 4.93e-2 3.18e+0  0.595  
-    ## 12 Diphtheria               2489     0  8.22e+1 2.36e+1 4.74e-1 1.9 e+1 -2.06   
-    ## 13 Population               2489     0  3.83e+7 1.43e+8 2.87e+6 2.30e+7  7.98   
-    ## 14 thinness..1.19.years     2489     0  4.92e+0 4.45e+0 8.92e-2 5.6 e+0  1.70   
-    ## 15 thinness.5.9.years       2489     0  4.93e+0 4.53e+0 9.08e-2 5.6 e+0  1.78   
-    ## 16 Income.composition.of.…  2489     0  6.28e-1 2.09e-1 4.19e-3 2.88e-1 -1.08   
-    ## 17 Schooling                2489     0  1.20e+1 3.35e+0 6.71e-2 4.3 e+0 -0.570  
-    ## 18 log.HIV.AIDS             2489     0 -1.21e+0 1.62e+0 3.26e-2 2.08e+0  1.27   
-    ## 19 log.GDP                  2489     0  7.47e+0 1.79e+0 3.60e-2 2.29e+0 -0.196  
-    ## 20 log.percentage.expendi…  2489     0  3.92e+0 2.75e+0 5.52e-2 4.59e+0 -0.0746 
+    ##  2 Life.expectancy          2489     0  6.92e+1 9.58e+0 1.92e-1 1.26e+1 -0.619  
+    ##  3 Adult.Mortality          2489     0  1.96e+2 1.16e+2 2.32e+0 1.46e+2  1.31   
+    ##  4 infant.deaths            2489     0  3.08e+1 1.16e+2 2.33e+0 2.2 e+1  9.32   
+    ##  5 Alcohol                  2489     0  4.59e+0 4.05e+0 8.11e-2 6.76e+0  0.601  
+    ##  6 Hepatitis.B              2489     0  8.02e+1 2.46e+1 4.92e-1 2.1 e+1 -1.82   
+    ##  7 Measles                  2489     0  2.42e+3 1.12e+4 2.25e+2 3.94e+2  9.69   
+    ##  8 BMI                      2489     0  3.82e+1 2.00e+1 4.01e-1 3.67e+1 -0.242  
+    ##  9 under.five.deaths        2489     0  4.28e+1 1.59e+2 3.18e+0 2.9 e+1  9.02   
+    ## 10 Polio                    2489     0  8.23e+1 2.36e+1 4.73e-1 2   e+1 -2.06   
+    ## 11 Total.expenditure        2489     0  5.92e+0 2.46e+0 4.93e-2 3.22e+0  0.593  
+    ## 12 Diphtheria               2489     0  8.23e+1 2.36e+1 4.72e-1 1.9 e+1 -2.06   
+    ## 13 Population               2489     0  3.68e+7 1.37e+8 2.74e+6 2.29e+7  8.29   
+    ## 14 thinness..1.19.years     2489     0  4.89e+0 4.44e+0 8.89e-2 5.6 e+0  1.68   
+    ## 15 thinness.5.9.years       2489     0  4.91e+0 4.52e+0 9.05e-2 5.7 e+0  1.76   
+    ## 16 Income.composition.of.…  2489     0  6.30e-1 2.07e-1 4.15e-3 2.87e-1 -1.08   
+    ## 17 Schooling                2489     0  1.20e+1 3.33e+0 6.67e-2 4.3 e+0 -0.577  
+    ## 18 log.HIV.AIDS             2489     0 -1.21e+0 1.62e+0 3.26e-2 2.08e+0  1.28   
+    ## 19 log.GDP                  2489     0  7.48e+0 1.80e+0 3.62e-2 2.30e+0 -0.196  
+    ## 20 log.percentage.expendi…  2489     0  3.94e+0 2.76e+0 5.53e-2 4.56e+0 -0.0774 
     ## # … with 18 more variables: kurtosis <dbl>, p00 <dbl>, p01 <dbl>, p05 <dbl>,
     ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
     ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
@@ -1503,51 +1582,60 @@ normality(rtrain)
     ##    vars                            statistic  p_value sample
     ##    <chr>                               <dbl>    <dbl>  <dbl>
     ##  1 Year                                0.948 7.20e-29   2489
-    ##  2 Life.expectancy                     0.956 9.84e-27   2489
-    ##  3 Adult.Mortality                     0.890 7.28e-39   2489
-    ##  4 infant.deaths                       0.239 2.12e-72   2489
-    ##  5 Alcohol                             0.908 2.33e-36   2489
-    ##  6 Hepatitis.B                         0.723 1.44e-53   2489
-    ##  7 Measles                             0.212 4.17e-73   2489
-    ##  8 BMI                                 0.926 2.73e-33   2489
-    ##  9 under.five.deaths                   0.247 3.40e-72   2489
-    ## 10 Polio                               0.692 2.12e-55   2489
-    ## 11 Total.expenditure                   0.978 3.71e-19   2489
-    ## 12 Diphtheria                          0.690 1.58e-55   2489
-    ## 13 Population                          0.226 9.42e-73   2489
-    ## 14 thinness..1.19.years                0.841 1.64e-44   2489
-    ## 15 thinness.5.9.years                  0.836 5.27e-45   2489
-    ## 16 Income.composition.of.resources     0.916 4.14e-35   2489
-    ## 17 Schooling                           0.980 5.30e-18   2489
-    ## 18 log.HIV.AIDS                        0.712 3.11e-54   2489
-    ## 19 log.GDP                             0.992 1.21e-10   2489
-    ## 20 log.percentage.expenditure          0.940 1.09e-30   2489
+    ##  2 Life.expectancy                     0.957 1.81e-26   2489
+    ##  3 Adult.Mortality                     0.892 1.07e-38   2489
+    ##  4 infant.deaths                       0.243 2.76e-72   2489
+    ##  5 Alcohol                             0.909 2.86e-36   2489
+    ##  6 Hepatitis.B                         0.723 1.45e-53   2489
+    ##  7 Measles                             0.211 4.03e-73   2489
+    ##  8 BMI                                 0.925 1.75e-33   2489
+    ##  9 under.five.deaths                   0.252 4.68e-72   2489
+    ## 10 Polio                               0.692 1.89e-55   2489
+    ## 11 Total.expenditure                   0.978 4.87e-19   2489
+    ## 12 Diphtheria                          0.691 1.66e-55   2489
+    ## 13 Population                          0.225 9.25e-73   2489
+    ## 14 thinness..1.19.years                0.842 2.11e-44   2489
+    ## 15 thinness.5.9.years                  0.837 7.89e-45   2489
+    ## 16 Income.composition.of.resources     0.917 6.49e-35   2489
+    ## 17 Schooling                           0.980 3.39e-18   2489
+    ## 18 log.HIV.AIDS                        0.711 2.55e-54   2489
+    ## 19 log.GDP                             0.992 8.05e-11   2489
+    ## 20 log.percentage.expenditure          0.940 1.59e-30   2489
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
 
 #Find Features that are not normally distributed 
 
-train %>%
+rtrain %>%
   normality() %>%
   filter(p_value < 0.05) %>%
   arrange(abs(p_value))
 ```
 
-    ## # A tibble: 23 × 4
-    ##    vars                   statistic  p_value sample
-    ##    <chr>                      <dbl>    <dbl>  <dbl>
-    ##  1 Measles                    0.212 4.17e-73   2489
-    ##  2 Population                 0.226 9.42e-73   2489
-    ##  3 infant.deaths              0.239 2.12e-72   2489
-    ##  4 under.five.deaths          0.247 3.40e-72   2489
-    ##  5 HIV.AIDS                   0.359 5.46e-69   2489
-    ##  6 percentage.expenditure     0.399 9.65e-68   2489
-    ##  7 GDP                        0.543 1.47e-62   2489
-    ##  8 Diphtheria                 0.690 1.58e-55   2489
-    ##  9 Polio                      0.692 2.12e-55   2489
-    ## 10 log.HIV.AIDS               0.712 3.11e-54   2489
-    ## # … with 13 more rows
+    ## # A tibble: 20 × 4
+    ##    vars                            statistic  p_value sample
+    ##    <chr>                               <dbl>    <dbl>  <dbl>
+    ##  1 Measles                             0.211 4.03e-73   2489
+    ##  2 Population                          0.225 9.25e-73   2489
+    ##  3 infant.deaths                       0.243 2.76e-72   2489
+    ##  4 under.five.deaths                   0.252 4.68e-72   2489
+    ##  5 Diphtheria                          0.691 1.66e-55   2489
+    ##  6 Polio                               0.692 1.89e-55   2489
+    ##  7 log.HIV.AIDS                        0.711 2.55e-54   2489
+    ##  8 Hepatitis.B                         0.723 1.45e-53   2489
+    ##  9 thinness.5.9.years                  0.837 7.89e-45   2489
+    ## 10 thinness..1.19.years                0.842 2.11e-44   2489
+    ## 11 Adult.Mortality                     0.892 1.07e-38   2489
+    ## 12 Alcohol                             0.909 2.86e-36   2489
+    ## 13 Income.composition.of.resources     0.917 6.49e-35   2489
+    ## 14 BMI                                 0.925 1.75e-33   2489
+    ## 15 log.percentage.expenditure          0.940 1.59e-30   2489
+    ## 16 Year                                0.948 7.20e-29   2489
+    ## 17 Life.expectancy                     0.957 1.81e-26   2489
+    ## 18 Total.expenditure                   0.978 4.87e-19   2489
+    ## 19 Schooling                           0.980 3.39e-18   2489
+    ## 20 log.GDP                             0.992 8.05e-11   2489
 
 ``` r
 # Verify non normality and transformation options of the variability 
@@ -1601,11 +1689,7 @@ predict.regsubsets =function (object , newdata ,id ,...){
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
 eval_train_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
-#eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
-
 eval_test_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
-#eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
-
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -1618,7 +1702,7 @@ cv.out=cv.glmnet(x,y,alpha=1)
 plot(cv.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-1.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
@@ -1628,7 +1712,7 @@ testMSE_LASSO<-mean((ytest-lasso.pred)^2)
 testMSE_LASSO
 ```
 
-    ## [1] 6.109
+    ## [1] 6.68
 
 ``` r
 coef(lasso.mod,s=bestlambda)
@@ -1636,45 +1720,45 @@ coef(lasso.mod,s=bestlambda)
 
     ## 25 x 1 sparse Matrix of class "dgCMatrix"
     ##                                              s1
-    ## (Intercept)                     38.913158907625
-    ## Year                             0.015210240258
-    ## StatusDeveloping                -0.682427202646
-    ## Adult.Mortality                 -0.055330690370
+    ## (Intercept)                     37.261062321342
+    ## Year                             0.015949109764
+    ## StatusDeveloping                -0.670397326604
+    ## Adult.Mortality                 -0.054949012355
     ## infant.deaths                    .             
-    ## Alcohol                          0.068195557874
-    ## Hepatitis.B                     -0.004353091479
-    ## Measles                         -0.000015002591
-    ## BMI                              0.009516994883
-    ## under.five.deaths               -0.002159911431
-    ## Polio                            0.012583053007
+    ## Alcohol                          0.073163995686
+    ## Hepatitis.B                     -0.005758902711
+    ## Measles                         -0.000014565707
+    ## BMI                              0.009890125719
+    ## under.five.deaths               -0.002378366715
+    ## Polio                            0.012975090615
     ## Total.expenditure                .             
-    ## Diphtheria                       0.015037712650
-    ## Population                       0.000000001792
-    ## thinness..1.19.years            -0.002961333914
-    ## thinness.5.9.years              -0.012291062869
-    ## Income.composition.of.resources  2.254910145188
-    ## Schooling                        0.405398343412
-    ## ContinentAmericas                2.554524807036
-    ## ContinentAsia                    0.983989599495
-    ## ContinentEurope                  1.868664377329
-    ## ContinentOceania                 0.788391884258
+    ## Diphtheria                       0.014661586860
+    ## Population                       0.000000001933
+    ## thinness..1.19.years            -0.002619521775
+    ## thinness.5.9.years              -0.009559653783
+    ## Income.composition.of.resources  2.127560186511
+    ## Schooling                        0.417976210784
+    ## ContinentAmericas                2.648455619736
+    ## ContinentAsia                    1.006232828999
+    ## ContinentEurope                  1.893928071481
+    ## ContinentOceania                 0.831806308702
     ## log.HIV.AIDS                     .             
-    ## log.GDP                          0.134116940276
-    ## log.percentage.expenditure       0.062280687460
+    ## log.GDP                          0.138476354964
+    ## log.percentage.expenditure       0.063224098671
 
 ``` r
 lasso_residuals = (ytest - lasso.pred)
 hist(lasso_residuals, main = "Histogram of Residuals (LASSO)")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-2.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(lasso_residuals, main = "Residuals plot (LASSO)") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-3.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-3.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -1682,13 +1766,10 @@ postResample(pred = lasso.pred, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##   2.4717   0.9252   1.7455
+    ##   2.5846   0.9212   1.8637
 
 ``` r
 ##### Fit Linear Model based on LASSO regularization without factors to measure VIF####
-#fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + #Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + #log.percentage.expenditure, data = train_lasso)
-
-### Continent included
 fit.lasso.lm = lm(Life.expectancy ~ Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Diphtheria + Population + thinness..1.19.years + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + log.percentage.expenditure, data = rtrain)
 summary(fit.lasso.lm)
 ```
@@ -1703,51 +1784,51 @@ summary(fit.lasso.lm)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.423  -1.592  -0.324   1.313  11.001 
+    ## -13.386  -1.586  -0.324   1.292  10.974 
     ## 
     ## Coefficients:
-    ##                                       Estimate     Std. Error t value
-    ## (Intercept)                     71.72412075037 24.28963230217    2.95
-    ## Year                            -0.00086511486  0.01214067889   -0.07
-    ## Adult.Mortality                 -0.05876804423  0.00064871388  -90.59
-    ## Alcohol                          0.17087342098  0.01699616336   10.05
-    ## Hepatitis.B                     -0.00661790601  0.00265926580   -2.49
-    ## Measles                         -0.00002307951  0.00000536028   -4.31
-    ## BMI                              0.01461271593  0.00337832608    4.33
-    ## under.five.deaths               -0.00214694352  0.00049818829   -4.31
-    ## Polio                            0.01165443879  0.00310372893    3.75
-    ## Diphtheria                       0.01780219327  0.00334287918    5.33
-    ## Population                       0.00000000236  0.00000000054    4.37
-    ## thinness..1.19.years            -0.02328214244  0.03528439109   -0.66
-    ## thinness.5.9.years              -0.02332357531  0.03454830111   -0.68
-    ## Income.composition.of.resources  2.27179031933  0.45032265892    5.04
-    ## Schooling                        0.41926017342  0.03083507702   13.60
-    ## log.GDP                          0.14840654019  0.04267701648    3.48
-    ## log.percentage.expenditure       0.05208147975  0.02320813005    2.24
+    ##                                        Estimate      Std. Error t value
+    ## (Intercept)                     72.131112901399 24.175503365165    2.98
+    ## Year                            -0.001112675322  0.012083783382   -0.09
+    ## Adult.Mortality                 -0.058480129652  0.000650487200  -89.90
+    ## Alcohol                          0.174434833911  0.016868005079   10.34
+    ## Hepatitis.B                     -0.007758950737  0.002650700908   -2.93
+    ## Measles                         -0.000022805970  0.000005606880   -4.07
+    ## BMI                              0.015431317106  0.003374834593    4.57
+    ## under.five.deaths               -0.002425340326  0.000525660184   -4.61
+    ## Polio                            0.011892394521  0.003095207880    3.84
+    ## Diphtheria                       0.017411269053  0.003344499084    5.21
+    ## Population                       0.000000002577  0.000000000565    4.56
+    ## thinness..1.19.years            -0.022306983687  0.035320342714   -0.63
+    ## thinness.5.9.years              -0.021979225967  0.034630391699   -0.63
+    ## Income.composition.of.resources  2.164357278336  0.465229847777    4.65
+    ## Schooling                        0.431267428274  0.031193991953   13.83
+    ## log.GDP                          0.148926266995  0.042438455188    3.51
+    ## log.percentage.expenditure       0.050738866053  0.023141231758    2.19
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.00318 ** 
-    ## Year                                         0.94320    
+    ## (Intercept)                                  0.00288 ** 
+    ## Year                                         0.92664    
     ## Adult.Mortality                 < 0.0000000000000002 ***
     ## Alcohol                         < 0.0000000000000002 ***
-    ## Hepatitis.B                                  0.01289 *  
-    ## Measles                                   0.00001730 ***
-    ## BMI                                       0.00001583 ***
-    ## under.five.deaths                         0.00001700 ***
-    ## Polio                                        0.00018 ***
-    ## Diphtheria                                0.00000011 ***
-    ## Population                                0.00001305 ***
-    ## thinness..1.19.years                         0.50942    
-    ## thinness.5.9.years                           0.49968    
-    ## Income.composition.of.resources           0.00000049 ***
+    ## Hepatitis.B                                  0.00345 ** 
+    ## Measles                                   0.00004901 ***
+    ## BMI                                       0.00000506 ***
+    ## under.five.deaths                         0.00000415 ***
+    ## Polio                                        0.00013 ***
+    ## Diphtheria                                0.00000021 ***
+    ## Population                                0.00000540 ***
+    ## thinness..1.19.years                         0.52773    
+    ## thinness.5.9.years                           0.52570    
+    ## Income.composition.of.resources           0.00000346 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                      0.00051 ***
-    ## log.percentage.expenditure                   0.02491 *  
+    ## log.GDP                                      0.00046 ***
+    ## log.percentage.expenditure                   0.02843 *  
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.58 on 2472 degrees of freedom
-    ## Multiple R-squared:  0.928,  Adjusted R-squared:  0.928 
-    ## F-statistic: 2e+03 on 16 and 2472 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.57 on 2472 degrees of freedom
+    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.928 
+    ## F-statistic: 2.01e+03 on 16 and 2472 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### Visualize VIF
@@ -1756,13 +1837,11 @@ barplot(fit.lasso.lm_VIF, main = 'VIF Values (LASSO)', horiz = TRUE, col="blue",
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-4.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-4.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ### Fit linear model with factors
-#fit.lasso.lm3 = lm(Life.expectancy ~ Status + Region + Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Diphtheria + Population + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + log.percentage.expenditure, data = train_lasso)
-
-### Continent included
+### Categorical variables included
 fit.lasso.lm3 = lm(Life.expectancy ~ Status + Continent + Year + Adult.Mortality + Alcohol + Hepatitis.B + Measles + BMI + under.five.deaths + Polio + Diphtheria + Population + thinness..1.19.years + thinness.5.9.years + Income.composition.of.resources + Schooling + log.GDP + log.percentage.expenditure, data = rtrain)
 
 #### Hypothesis testing ####
@@ -1778,62 +1857,62 @@ summary(fit.lasso.lm3)
     ##     log.GDP + log.percentage.expenditure, data = rtrain)
     ## 
     ## Residuals:
-    ##    Min     1Q Median     3Q    Max 
-    ## -12.41  -1.50  -0.29   1.14  10.15 
+    ##     Min      1Q  Median      3Q     Max 
+    ## -12.381  -1.470  -0.299   1.075  10.200 
     ## 
     ## Coefficients:
-    ##                                        Estimate      Std. Error t value
-    ## (Intercept)                     26.701702526520 24.042250034403    1.11
-    ## StatusDeveloping                -0.731227025190  0.207556926596   -3.52
-    ## ContinentAmericas                2.737744817628  0.207040167773   13.22
-    ## ContinentAsia                    1.148916818553  0.178604538637    6.43
-    ## ContinentEurope                  2.052569171618  0.250700876160    8.19
-    ## ContinentOceania                 0.992539269468  0.276200569704    3.59
-    ## Year                             0.021282736363  0.012014794441    1.77
-    ## Adult.Mortality                 -0.054955070137  0.000729411659  -75.34
-    ## Alcohol                          0.068153244868  0.021010789789    3.24
-    ## Hepatitis.B                     -0.005792826269  0.002583081966   -2.24
-    ## Measles                         -0.000016148459  0.000005208101   -3.10
-    ## BMI                              0.009385770611  0.003377710366    2.78
-    ## under.five.deaths               -0.002447758320  0.000485215599   -5.04
-    ## Polio                            0.013026077820  0.003006133091    4.33
-    ## Diphtheria                       0.015639225010  0.003245372742    4.82
-    ## Population                       0.000000002110  0.000000000528    4.00
-    ## thinness..1.19.years             0.001066950114  0.034242755071    0.03
-    ## thinness.5.9.years              -0.013689549029  0.033842314209   -0.40
-    ## Income.composition.of.resources  2.214555341527  0.443608409009    4.99
-    ## Schooling                        0.398911026518  0.030181787447   13.22
-    ## log.GDP                          0.129272221073  0.041668306039    3.10
-    ## log.percentage.expenditure       0.069164565191  0.022583379583    3.06
+    ##                                       Estimate     Std. Error t value
+    ## (Intercept)                     24.64513643938 23.87627158845    1.03
+    ## StatusDeveloping                -0.71861971269  0.20424804366   -3.52
+    ## ContinentAmericas                2.83799966293  0.20595546548   13.78
+    ## ContinentAsia                    1.17678625861  0.17817028514    6.60
+    ## ContinentEurope                  2.08464295732  0.24805058278    8.40
+    ## ContinentOceania                 1.04103816463  0.27368640029    3.80
+    ## Year                             0.02222280845  0.01193169772    1.86
+    ## Adult.Mortality                 -0.05455745538  0.00073165268  -74.57
+    ## Alcohol                          0.07319349325  0.02069621592    3.54
+    ## Hepatitis.B                     -0.00723541133  0.00256772818   -2.82
+    ## Measles                         -0.00001565069  0.00000542905   -2.88
+    ## BMI                              0.00975474075  0.00337196701    2.89
+    ## under.five.deaths               -0.00268596432  0.00050992314   -5.27
+    ## Polio                            0.01342937427  0.00299116288    4.49
+    ## Diphtheria                       0.01526104166  0.00323640211    4.72
+    ## Population                       0.00000000226  0.00000000055    4.12
+    ## thinness..1.19.years             0.00149378683  0.03416731043    0.04
+    ## thinness.5.9.years              -0.01102722130  0.03382356046   -0.33
+    ## Income.composition.of.resources  2.08873362540  0.45654854152    4.58
+    ## Schooling                        0.41121638601  0.03047890833   13.49
+    ## log.GDP                          0.13299142289  0.04132481773    3.22
+    ## log.percentage.expenditure       0.07040458010  0.02246904992    3.13
     ##                                             Pr(>|t|)    
-    ## (Intercept)                                  0.26684    
-    ## StatusDeveloping                             0.00043 ***
+    ## (Intercept)                                  0.30208    
+    ## StatusDeveloping                             0.00044 ***
     ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                    0.00000000015001429 ***
-    ## ContinentEurope                  0.00000000000000042 ***
-    ## ContinentOceania                             0.00033 ***
-    ## Year                                         0.07662 .  
+    ## ContinentAsia                         0.000000000049 ***
+    ## ContinentEurope                 < 0.0000000000000002 ***
+    ## ContinentOceania                             0.00015 ***
+    ## Year                                         0.06265 .  
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                      0.00120 ** 
-    ## Hepatitis.B                                  0.02501 *  
-    ## Measles                                      0.00195 ** 
-    ## BMI                                          0.00550 ** 
-    ## under.five.deaths                0.00000048733102222 ***
-    ## Polio                            0.00001528655356616 ***
-    ## Diphtheria                       0.00000153088929503 ***
-    ## Population                       0.00006576862056827 ***
-    ## thinness..1.19.years                         0.97515    
-    ## thinness.5.9.years                           0.68587    
-    ## Income.composition.of.resources  0.00000063881649327 ***
+    ## Alcohol                                      0.00041 ***
+    ## Hepatitis.B                                  0.00487 ** 
+    ## Measles                                      0.00398 ** 
+    ## BMI                                          0.00385 ** 
+    ## under.five.deaths                     0.000000150344 ***
+    ## Polio                                 0.000007460842 ***
+    ## Diphtheria                            0.000002546332 ***
+    ## Population                            0.000039794451 ***
+    ## thinness..1.19.years                         0.96513    
+    ## thinness.5.9.years                           0.74444    
+    ## Income.composition.of.resources       0.000004996598 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                      0.00194 ** 
-    ## log.percentage.expenditure                   0.00222 ** 
+    ## log.GDP                                      0.00131 ** 
+    ## log.percentage.expenditure                   0.00175 ** 
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.49 on 2467 degrees of freedom
-    ## Multiple R-squared:  0.933,  Adjusted R-squared:  0.933 
-    ## F-statistic: 1.64e+03 on 21 and 2467 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.47 on 2467 degrees of freedom
+    ## Multiple R-squared:  0.934,  Adjusted R-squared:  0.933 
+    ## F-statistic: 1.66e+03 on 21 and 2467 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -1870,53 +1949,59 @@ confint(fit.lasso.lm3)
 ```
 
     ##                                            2.5 %          97.5 %
-    ## (Intercept)                     -20.443371869109 73.846776922150
-    ## StatusDeveloping                 -1.138230809433 -0.324223240947
-    ## ContinentAmericas                 2.331754359223  3.143735276032
-    ## ContinentAsia                     0.798686526073  1.499147111033
-    ## ContinentEurope                   1.560963292771  2.544175050464
-    ## ContinentOceania                  0.450930377281  1.534148161655
-    ## Year                             -0.002277387043  0.044842859769
-    ## Adult.Mortality                  -0.056385392460 -0.053524747814
-    ## Alcohol                           0.026952639838  0.109353849897
-    ## Hepatitis.B                      -0.010858058985 -0.000727593552
-    ## Measles                          -0.000026361159 -0.000005935759
-    ## BMI                               0.002762330365  0.016009210856
-    ## under.five.deaths                -0.003399230229 -0.001496286412
-    ## Polio                             0.007131273131  0.018920882509
-    ## Diphtheria                        0.009275289058  0.022003160962
-    ## Population                        0.000000001075  0.000000003145
-    ## thinness..1.19.years             -0.066080560331  0.068214460560
-    ## thinness.5.9.years               -0.080051824557  0.052672726500
-    ## Income.composition.of.resources   1.344672056255  3.084438626798
-    ## Schooling                         0.339726773274  0.458095279762
-    ## log.GDP                           0.047563754298  0.210980687848
-    ## log.percentage.expenditure        0.024880227867  0.113448902516
+    ## (Intercept)                     -22.174466497830 71.464739376594
+    ## StatusDeveloping                 -1.119135022187 -0.318104403199
+    ## ContinentAmericas                 2.434136225509  3.241863100342
+    ## ContinentAsia                     0.827407505135  1.526165012094
+    ## ContinentEurope                   1.598234107798  2.571051806841
+    ## ContinentOceania                  0.504359372747  1.577716956506
+    ## Year                             -0.001174368427  0.045619985320
+    ## Adult.Mortality                  -0.055992172185 -0.053122738571
+    ## Alcohol                           0.032609744317  0.113777242181
+    ## Hepatitis.B                      -0.012270536407 -0.002200286244
+    ## Measles                          -0.000026296646 -0.000005004732
+    ## BMI                               0.003142562805  0.016366918695
+    ## under.five.deaths                -0.003685885882 -0.001686042760
+    ## Polio                             0.007563925067  0.019294823477
+    ## Diphtheria                        0.008914696458  0.021607386858
+    ## Population                        0.000000001186  0.000000003344
+    ## thinness..1.19.years             -0.065505782243  0.068493355912
+    ## thinness.5.9.years               -0.077352722114  0.055298279521
+    ## Income.composition.of.resources   1.193475697197  2.983991553595
+    ## Schooling                         0.351449500700  0.470983271331
+    ## log.GDP                           0.051956511289  0.214026334497
+    ## log.percentage.expenditure        0.026344434787  0.114464725420
 
 ``` r
 hist(residuals, main = "Histogram of Residuals (Lasso MLR fit)")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-5.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-5.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(residuals, main = "Residuals plot (Lasso MLR fit)") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-6.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-6.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.lasso.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-7.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-7.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.lasso.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-8.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-8.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+plot(fit.lasso.lm3, which = 5)
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-9.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##### Visualize prediction vs actual
@@ -1929,14 +2014,14 @@ legend("topright",  legend = c("Original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-9.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-10.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (LASSO MLR fit)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-10.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-11.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ### Evaluation Data Frame
@@ -1966,7 +2051,7 @@ rss<-summary(mlr.fwd)$rss
 lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")  
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-11.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-12.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 mlr.fwd.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="forward",nvmax=24)
@@ -2182,7 +2267,7 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##    2.476    0.925    1.755
+    ##   2.5910   0.9208   1.8751
 
 ``` r
 ##### Fit Linear Model based on Forward Selection without factors to measure VIF####
@@ -2200,37 +2285,37 @@ summary(fit.fwd.lm)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.763  -1.562  -0.302   1.250  10.321 
+    ## -13.761  -1.545  -0.286   1.233  10.262 
     ## 
     ## Coefficients:
     ##                                  Estimate Std. Error t value
-    ## (Intercept)                     69.544649   0.458119  151.80
-    ## Adult.Mortality                 -0.059220   0.000642  -92.30
-    ## infant.deaths                    0.035306   0.005666    6.23
-    ## Alcohol                          0.203073   0.016361   12.41
-    ## under.five.deaths               -0.028038   0.004177   -6.71
-    ## Polio                            0.010223   0.003091    3.31
-    ## Diphtheria                       0.013694   0.003126    4.38
-    ## Income.composition.of.resources  2.497496   0.447785    5.58
-    ## Schooling                        0.434116   0.030573   14.20
-    ## log.GDP                          0.224843   0.038249    5.88
+    ## (Intercept)                     69.488930   0.456752  152.14
+    ## Adult.Mortality                 -0.059052   0.000642  -92.01
+    ## infant.deaths                    0.034745   0.005592    6.21
+    ## Alcohol                          0.206105   0.016264   12.67
+    ## under.five.deaths               -0.027757   0.004128   -6.72
+    ## Polio                            0.010118   0.003078    3.29
+    ## Diphtheria                       0.012837   0.003134    4.10
+    ## Income.composition.of.resources  2.395097   0.463421    5.17
+    ## Schooling                        0.445759   0.031008   14.38
+    ## log.GDP                          0.226553   0.037984    5.96
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                         0.000000000541 ***
+    ## infant.deaths                         0.000000000605 ***
     ## Alcohol                         < 0.0000000000000002 ***
-    ## under.five.deaths                     0.000000000024 ***
-    ## Polio                                        0.00096 ***
-    ## Diphtheria                            0.000012300054 ***
-    ## Income.composition.of.resources       0.000000027054 ***
+    ## under.five.deaths                     0.000000000022 ***
+    ## Polio                                          0.001 ** 
+    ## Diphtheria                            0.000043379017 ***
+    ## Income.composition.of.resources       0.000000255070 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                               0.000000004701 ***
+    ## log.GDP                               0.000000002805 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.6 on 2479 degrees of freedom
+    ## Residual standard error: 2.59 on 2479 degrees of freedom
     ## Multiple R-squared:  0.927,  Adjusted R-squared:  0.927 
-    ## F-statistic: 3.5e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+    ## F-statistic: 3.51e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### Visualize VIF
@@ -2239,7 +2324,7 @@ barplot(fit.fwd.lm_VIF, main = 'VIF Values (FWD selection)', horiz = TRUE, col="
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-12.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-13.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 # We can see that Forward Selection did not remove infant.deaths or under.five.deaths as those are perfectly correlated. Let's remove the one with the smallest coefficient (infant.deaths).
@@ -2259,35 +2344,35 @@ summary(fit.fwd.lm2)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.976  -1.582  -0.291   1.285  10.411 
+    ## -13.971  -1.571  -0.267   1.241  10.364 
     ## 
     ## Coefficients:
     ##                                  Estimate Std. Error t value
-    ## (Intercept)                     69.412920   0.461109  150.53
-    ## Adult.Mortality                 -0.059888   0.000637  -93.95
-    ## Alcohol                          0.186374   0.016263   11.46
-    ## under.five.deaths               -0.002090   0.000327   -6.39
-    ## Polio                            0.011049   0.003112    3.55
-    ## Diphtheria                       0.015588   0.003135    4.97
-    ## Income.composition.of.resources  2.663278   0.450391    5.91
-    ## Schooling                        0.437343   0.030801   14.20
-    ## log.GDP                          0.218220   0.038525    5.66
+    ## (Intercept)                     69.340444   0.459572  150.88
+    ## Adult.Mortality                 -0.059679   0.000639  -93.46
+    ## Alcohol                          0.189414   0.016162   11.72
+    ## under.five.deaths               -0.002193   0.000342   -6.41
+    ## Polio                            0.010918   0.003099    3.52
+    ## Diphtheria                       0.014713   0.003143    4.68
+    ## Income.composition.of.resources  2.577797   0.465981    5.53
+    ## Schooling                        0.448999   0.031238   14.37
+    ## log.GDP                          0.220018   0.038256    5.75
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
     ## Alcohol                         < 0.0000000000000002 ***
-    ## under.five.deaths                       0.0000000002 ***
-    ## Polio                                        0.00039 ***
-    ## Diphtheria                              0.0000007056 ***
-    ## Income.composition.of.resources         0.0000000038 ***
+    ## under.five.deaths                      0.00000000017 ***
+    ## Polio                                        0.00043 ***
+    ## Diphtheria                             0.00000300570 ***
+    ## Income.composition.of.resources        0.00000003498 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                 0.0000000165 ***
+    ## log.GDP                                0.00000000995 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.62 on 2480 degrees of freedom
+    ## Residual standard error: 2.61 on 2480 degrees of freedom
     ## Multiple R-squared:  0.926,  Adjusted R-squared:  0.926 
-    ## F-statistic: 3.88e+03 on 8 and 2480 DF,  p-value: <0.0000000000000002
+    ## F-statistic: 3.89e+03 on 8 and 2480 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### re-run Visualize VIF
@@ -2296,7 +2381,7 @@ barplot(fit.fwd.lm2_VIF, main = 'Re-test of VIF Values (FWD selection)', horiz =
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-13.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-14.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##### Fit Linear Model based on Forward Selection regularization and removed multicollinearity and categorical variables####
@@ -2316,45 +2401,45 @@ summary(fit.fwd.lm3)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -12.532  -1.497  -0.249   1.110  10.073 
+    ## -12.525  -1.489  -0.231   1.108  10.082 
     ## 
     ## Coefficients:
     ##                                  Estimate Std. Error t value
-    ## (Intercept)                     68.714463   0.513675  133.77
-    ## StatusDeveloping                -0.659861   0.206801   -3.19
-    ## ContinentAmericas                2.889912   0.198793   14.54
-    ## ContinentAsia                    1.110255   0.172118    6.45
-    ## ContinentEurope                  2.248488   0.242507    9.27
-    ## ContinentOceania                 1.289408   0.260456    4.95
-    ## Adult.Mortality                 -0.055438   0.000724  -76.58
-    ## Alcohol                          0.057913   0.020809    2.78
-    ## under.five.deaths               -0.001786   0.000319   -5.59
-    ## Polio                            0.012628   0.002993    4.22
-    ## Diphtheria                       0.014414   0.003029    4.76
-    ## Income.composition.of.resources  2.658460   0.436928    6.08
-    ## Schooling                        0.407231   0.030031   13.56
-    ## log.GDP                          0.207836   0.037172    5.59
+    ## (Intercept)                     68.514380   0.510756  134.14
+    ## StatusDeveloping                -0.635025   0.203534   -3.12
+    ## ContinentAmericas                2.977236   0.197889   15.04
+    ## ContinentAsia                    1.127696   0.171787    6.56
+    ## ContinentEurope                  2.278490   0.240149    9.49
+    ## ContinentOceania                 1.326810   0.258619    5.13
+    ## Adult.Mortality                 -0.055088   0.000726  -75.90
+    ## Alcohol                          0.062233   0.020523    3.03
+    ## under.five.deaths               -0.001833   0.000333   -5.51
+    ## Polio                            0.012593   0.002974    4.23
+    ## Diphtheria                       0.013478   0.003027    4.45
+    ## Income.composition.of.resources  2.571985   0.450552    5.71
+    ## Schooling                        0.418113   0.030410   13.75
+    ## log.GDP                          0.215794   0.036798    5.86
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
-    ## StatusDeveloping                              0.0014 ** 
+    ## StatusDeveloping                              0.0018 ** 
     ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                          0.00000000013 ***
+    ## ContinentAsia                         0.000000000063 ***
     ## ContinentEurope                 < 0.0000000000000002 ***
-    ## ContinentOceania                       0.00000078972 ***
+    ## ContinentOceania                      0.000000311614 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                       0.0054 ** 
-    ## under.five.deaths                      0.00000002498 ***
-    ## Polio                                  0.00002544692 ***
-    ## Diphtheria                             0.00000205863 ***
-    ## Income.composition.of.resources        0.00000000135 ***
+    ## Alcohol                                       0.0025 ** 
+    ## under.five.deaths                     0.000000039235 ***
+    ## Polio                                 0.000023730933 ***
+    ## Diphtheria                            0.000008888029 ***
+    ## Income.composition.of.resources       0.000000012757 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                0.00000002502 ***
+    ## log.GDP                               0.000000005111 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.51 on 2475 degrees of freedom
-    ## Multiple R-squared:  0.932,  Adjusted R-squared:  0.932 
-    ## F-statistic: 2.61e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.49 on 2475 degrees of freedom
+    ## Multiple R-squared:  0.933,  Adjusted R-squared:  0.932 
+    ## F-statistic: 2.63e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
@@ -2376,45 +2461,51 @@ confint(fit.fwd.lm3)
 ```
 
     ##                                     2.5 %    97.5 %
-    ## (Intercept)                     67.707187 69.721740
-    ## StatusDeveloping                -1.065383 -0.254339
-    ## ContinentAmericas                2.500095  3.279730
-    ## ContinentAsia                    0.772745  1.447766
-    ## ContinentEurope                  1.772950  2.724025
-    ## ContinentOceania                 0.778674  1.800141
-    ## Adult.Mortality                 -0.056858 -0.054019
-    ## Alcohol                          0.017109  0.098717
-    ## under.five.deaths               -0.002412 -0.001159
-    ## Polio                            0.006759  0.018498
-    ## Diphtheria                       0.008475  0.020353
-    ## Income.composition.of.resources  1.801679  3.515242
-    ## Schooling                        0.348342  0.466119
-    ## log.GDP                          0.134945  0.280727
+    ## (Intercept)                     67.512826 69.515934
+    ## StatusDeveloping                -1.034140 -0.235910
+    ## ContinentAmericas                2.589191  3.365281
+    ## ContinentAsia                    0.790834  1.464558
+    ## ContinentEurope                  1.807576  2.749404
+    ## ContinentOceania                 0.819677  1.833942
+    ## Adult.Mortality                 -0.056511 -0.053664
+    ## Alcohol                          0.021989  0.102478
+    ## under.five.deaths               -0.002485 -0.001181
+    ## Polio                            0.006762  0.018424
+    ## Diphtheria                       0.007541  0.019415
+    ## Income.composition.of.resources  1.688488  3.455483
+    ## Schooling                        0.358481  0.477745
+    ## log.GDP                          0.143636  0.287952
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-14.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-15.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-15.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-16.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.fwd.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-16.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-17.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.fwd.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-17.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-18.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+plot(fit.fwd.lm3, which = 5)
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-19.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##### Visualize prediction vs actual
@@ -2427,14 +2518,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-18.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-20.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (FWD Selection fit)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-19.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-21.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -2474,7 +2565,7 @@ rss<-summary(mlr.bck)$rss
 lines(1:24,rss/dim(rtrain)[1],lty=3,col="blue")  
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-20.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-22.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 mlr.bck.final=regsubsets(Life.expectancy~.,data=LifeExp[,!colnames(train) %in% drop_for_reg],method="backward",nvmax=24)
@@ -2690,7 +2781,7 @@ postResample(pred = predictions, obs = ytest)
 ```
 
     ##     RMSE Rsquared      MAE 
-    ##    2.476    0.925    1.755
+    ##   2.5910   0.9208   1.8751
 
 ``` r
 ##different result now, will repeat steps from earlier model
@@ -2710,37 +2801,37 @@ summary(fit.bck.lm)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.763  -1.562  -0.302   1.250  10.321 
+    ## -13.761  -1.545  -0.286   1.233  10.262 
     ## 
     ## Coefficients:
     ##                                  Estimate Std. Error t value
-    ## (Intercept)                     69.544649   0.458119  151.80
-    ## Adult.Mortality                 -0.059220   0.000642  -92.30
-    ## infant.deaths                    0.035306   0.005666    6.23
-    ## Alcohol                          0.203073   0.016361   12.41
-    ## under.five.deaths               -0.028038   0.004177   -6.71
-    ## Polio                            0.010223   0.003091    3.31
-    ## Diphtheria                       0.013694   0.003126    4.38
-    ## Income.composition.of.resources  2.497496   0.447785    5.58
-    ## Schooling                        0.434116   0.030573   14.20
-    ## log.GDP                          0.224843   0.038249    5.88
+    ## (Intercept)                     69.488930   0.456752  152.14
+    ## Adult.Mortality                 -0.059052   0.000642  -92.01
+    ## infant.deaths                    0.034745   0.005592    6.21
+    ## Alcohol                          0.206105   0.016264   12.67
+    ## under.five.deaths               -0.027757   0.004128   -6.72
+    ## Polio                            0.010118   0.003078    3.29
+    ## Diphtheria                       0.012837   0.003134    4.10
+    ## Income.composition.of.resources  2.395097   0.463421    5.17
+    ## Schooling                        0.445759   0.031008   14.38
+    ## log.GDP                          0.226553   0.037984    5.96
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                         0.000000000541 ***
+    ## infant.deaths                         0.000000000605 ***
     ## Alcohol                         < 0.0000000000000002 ***
-    ## under.five.deaths                     0.000000000024 ***
-    ## Polio                                        0.00096 ***
-    ## Diphtheria                            0.000012300054 ***
-    ## Income.composition.of.resources       0.000000027054 ***
+    ## under.five.deaths                     0.000000000022 ***
+    ## Polio                                          0.001 ** 
+    ## Diphtheria                            0.000043379017 ***
+    ## Income.composition.of.resources       0.000000255070 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                               0.000000004701 ***
+    ## log.GDP                               0.000000002805 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.6 on 2479 degrees of freedom
+    ## Residual standard error: 2.59 on 2479 degrees of freedom
     ## Multiple R-squared:  0.927,  Adjusted R-squared:  0.927 
-    ## F-statistic: 3.5e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
+    ## F-statistic: 3.51e+03 on 9 and 2479 DF,  p-value: <0.0000000000000002
 
 ``` r
 ### Visualize VIF
@@ -2749,7 +2840,7 @@ barplot(fit.bck.lm_VIF, main = 'VIF Values (Backward elimination)', horiz = TRUE
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-21.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-23.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #two are correlated and giving a high VIF it's under.five and infant.deaths
@@ -2762,7 +2853,7 @@ barplot(fit.bck.lm2_VIF, main = 'VIF Values (Backward elimination)', horiz = TRU
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-22.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-24.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##fit model with categorical variables and removed colinearity
@@ -2783,45 +2874,45 @@ summary(fit.bck.lm3)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -12.532  -1.497  -0.249   1.110  10.073 
+    ## -12.525  -1.489  -0.231   1.108  10.082 
     ## 
     ## Coefficients:
     ##                                  Estimate Std. Error t value
-    ## (Intercept)                     68.714463   0.513675  133.77
-    ## StatusDeveloping                -0.659861   0.206801   -3.19
-    ## ContinentAmericas                2.889912   0.198793   14.54
-    ## ContinentAsia                    1.110255   0.172118    6.45
-    ## ContinentEurope                  2.248488   0.242507    9.27
-    ## ContinentOceania                 1.289408   0.260456    4.95
-    ## Adult.Mortality                 -0.055438   0.000724  -76.58
-    ## Alcohol                          0.057913   0.020809    2.78
-    ## under.five.deaths               -0.001786   0.000319   -5.59
-    ## Polio                            0.012628   0.002993    4.22
-    ## Diphtheria                       0.014414   0.003029    4.76
-    ## Income.composition.of.resources  2.658460   0.436928    6.08
-    ## Schooling                        0.407231   0.030031   13.56
-    ## log.GDP                          0.207836   0.037172    5.59
+    ## (Intercept)                     68.514380   0.510756  134.14
+    ## StatusDeveloping                -0.635025   0.203534   -3.12
+    ## ContinentAmericas                2.977236   0.197889   15.04
+    ## ContinentAsia                    1.127696   0.171787    6.56
+    ## ContinentEurope                  2.278490   0.240149    9.49
+    ## ContinentOceania                 1.326810   0.258619    5.13
+    ## Adult.Mortality                 -0.055088   0.000726  -75.90
+    ## Alcohol                          0.062233   0.020523    3.03
+    ## under.five.deaths               -0.001833   0.000333   -5.51
+    ## Polio                            0.012593   0.002974    4.23
+    ## Diphtheria                       0.013478   0.003027    4.45
+    ## Income.composition.of.resources  2.571985   0.450552    5.71
+    ## Schooling                        0.418113   0.030410   13.75
+    ## log.GDP                          0.215794   0.036798    5.86
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
-    ## StatusDeveloping                              0.0014 ** 
+    ## StatusDeveloping                              0.0018 ** 
     ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                          0.00000000013 ***
+    ## ContinentAsia                         0.000000000063 ***
     ## ContinentEurope                 < 0.0000000000000002 ***
-    ## ContinentOceania                       0.00000078972 ***
+    ## ContinentOceania                      0.000000311614 ***
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## Alcohol                                       0.0054 ** 
-    ## under.five.deaths                      0.00000002498 ***
-    ## Polio                                  0.00002544692 ***
-    ## Diphtheria                             0.00000205863 ***
-    ## Income.composition.of.resources        0.00000000135 ***
+    ## Alcohol                                       0.0025 ** 
+    ## under.five.deaths                     0.000000039235 ***
+    ## Polio                                 0.000023730933 ***
+    ## Diphtheria                            0.000008888029 ***
+    ## Income.composition.of.resources       0.000000012757 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.GDP                                0.00000002502 ***
+    ## log.GDP                               0.000000005111 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.51 on 2475 degrees of freedom
-    ## Multiple R-squared:  0.932,  Adjusted R-squared:  0.932 
-    ## F-statistic: 2.61e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.49 on 2475 degrees of freedom
+    ## Multiple R-squared:  0.933,  Adjusted R-squared:  0.932 
+    ## F-statistic: 2.63e+03 on 13 and 2475 DF,  p-value: <0.0000000000000002
 
 ``` r
 # Predicting
@@ -2840,45 +2931,51 @@ confint(fit.bck.lm3)
 ```
 
     ##                                     2.5 %    97.5 %
-    ## (Intercept)                     67.707187 69.721740
-    ## StatusDeveloping                -1.065383 -0.254339
-    ## ContinentAmericas                2.500095  3.279730
-    ## ContinentAsia                    0.772745  1.447766
-    ## ContinentEurope                  1.772950  2.724025
-    ## ContinentOceania                 0.778674  1.800141
-    ## Adult.Mortality                 -0.056858 -0.054019
-    ## Alcohol                          0.017109  0.098717
-    ## under.five.deaths               -0.002412 -0.001159
-    ## Polio                            0.006759  0.018498
-    ## Diphtheria                       0.008475  0.020353
-    ## Income.composition.of.resources  1.801679  3.515242
-    ## Schooling                        0.348342  0.466119
-    ## log.GDP                          0.134945  0.280727
+    ## (Intercept)                     67.512826 69.515934
+    ## StatusDeveloping                -1.034140 -0.235910
+    ## ContinentAmericas                2.589191  3.365281
+    ## ContinentAsia                    0.790834  1.464558
+    ## ContinentEurope                  1.807576  2.749404
+    ## ContinentOceania                 0.819677  1.833942
+    ## Adult.Mortality                 -0.056511 -0.053664
+    ## Alcohol                          0.021989  0.102478
+    ## under.five.deaths               -0.002485 -0.001181
+    ## Polio                            0.006762  0.018424
+    ## Diphtheria                       0.007541  0.019415
+    ## Income.composition.of.resources  1.688488  3.455483
+    ## Schooling                        0.358481  0.477745
+    ## log.GDP                          0.143636  0.287952
 
 ``` r
 hist(residuals, main = "Histogram of Residuals (Backward elimination)")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-23.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-25.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(residuals, main = "Residuals plot (Backward elimination)") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-24.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-26.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.fwd.lm3, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-25.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-27.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit.fwd.lm3, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-26.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-28.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+plot(fit.fwd.lm3, which = 5)
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-29.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##### Visualize prediction vs actual
@@ -2891,14 +2988,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-27.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-30.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Backward elimination)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-28.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-31.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -2915,9 +3012,6 @@ rsqd_trn = train_score[2]
 mse_trndf = mse_trn
 adjrsqd_trn = sm$adj.r.squared
 
-
-
-
 eval_test_df = rbind(eval_test_df, c('Backward Elim.', format(round(mse,4),nsmall=4), format(round(rsqd,4),nsmall=4), format(round(adjrsqd,4),nsmall=4), format(round(rmse,4),nsmall=4)))
 
 eval_train_df = rbind(eval_train_df, c('Backward Elim.', format(round(mse_trndf,4),nsmall=4), format(round(rsqd_trn,4),nsmall=4), format(round(adjrsqd_trn,4),nsmall=4), format(round(rmse_trn,4),nsmall=4)))
@@ -2933,7 +3027,7 @@ cv.out=cv.glmnet(x,y,alpha=0)
 plot(cv.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-29.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-32.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 bestlambda = cv.out$lambda.min  #Optimal penalty parameter.  You can make this call visually.
@@ -2944,7 +3038,7 @@ testMSE_RIDGE<-mean((ytest-ridge.pred)^2)
 testMSE_RIDGE
 ```
 
-    ## [1] 6.308
+    ## [1] 7.019
 
 ``` r
 coef(ridge.mod,s=bestlambda)
@@ -2952,37 +3046,36 @@ coef(ridge.mod,s=bestlambda)
 
     ## 25 x 1 sparse Matrix of class "dgCMatrix"
     ##                                              s1
-    ## (Intercept)                     -6.953245823684
-    ## Year                             0.035785530923
-    ## StatusDeveloping                -1.194643319721
-    ## Adult.Mortality                 -0.040190310300
-    ## infant.deaths                   -0.000797400323
-    ## Alcohol                          0.050596274481
-    ## Hepatitis.B                     -0.003481492104
-    ## Measles                         -0.000014728467
-    ## BMI                              0.012643399859
-    ## under.five.deaths               -0.001562761653
-    ## Polio                            0.015097198409
-    ## Total.expenditure                0.001651533509
-    ## Diphtheria                       0.016998064261
-    ## Population                       0.000000002233
-    ## thinness..1.19.years            -0.017902225075
-    ## thinness.5.9.years              -0.029773042974
-    ## Income.composition.of.resources  3.598357691516
-    ## Schooling                        0.365014675731
-    ## ContinentAmericas                2.494335192816
-    ## ContinentAsia                    0.901707468522
-    ## ContinentEurope                  1.542321625092
-    ## ContinentOceania                 0.431555807767
-    ## log.HIV.AIDS                    -0.719934927419
-    ## log.GDP                          0.182096178355
-    ## log.percentage.expenditure       0.112513092145
+    ## (Intercept)                     -9.720405670525
+    ## Year                             0.037107042524
+    ## StatusDeveloping                -1.166796463456
+    ## Adult.Mortality                 -0.039923240136
+    ## infant.deaths                   -0.000939624593
+    ## Alcohol                          0.056152046411
+    ## Hepatitis.B                     -0.005094813290
+    ## Measles                         -0.000014664374
+    ## BMI                              0.013426639626
+    ## under.five.deaths               -0.001683167640
+    ## Polio                            0.015200489569
+    ## Total.expenditure                0.002196875234
+    ## Diphtheria                       0.016874286048
+    ## Population                       0.000000002381
+    ## thinness..1.19.years            -0.017871069064
+    ## thinness.5.9.years              -0.028025844315
+    ## Income.composition.of.resources  3.606247627611
+    ## Schooling                        0.371211508487
+    ## ContinentAmericas                2.582571404724
+    ## ContinentAsia                    0.936449182745
+    ## ContinentEurope                  1.571120413542
+    ## ContinentOceania                 0.470300273633
+    ## log.HIV.AIDS                    -0.702556953309
+    ## log.GDP                          0.182784591244
+    ## log.percentage.expenditure       0.112649221409
 
 ``` r
 # Metrics RMSE; R-squared; MAE
 test_score = postResample(pred = ridge.pred, obs = ytest)
 train_score = postResample(pred = ridge.pred_trn, obs = rtrain$Life.expectancy)
-
 
 ##### Visualize prediction vs actual
 x_ridge = 1:dim(xtest)[1]
@@ -2994,14 +3087,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-30.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-33.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(ridge.pred ~ ytest, main = "Original vs Predicted scatter plot (Ridge regression)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-31.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-34.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -3029,21 +3122,11 @@ eval_train_df = rbind(eval_train_df, c('Ridge', format(round(mse_trndf,4),nsmall
 #####################################################################################
 
 library(glmnetUtils)
-```
-
-    ## 
-    ## Attaching package: 'glmnetUtils'
-
-    ## The following objects are masked from 'package:glmnet':
-    ## 
-    ##     cv.glmnet, glmnet
-
-``` r
 cva.out = cva.glmnet(x,y)
 plot(cva.out)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-32.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-35.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 alpha = cva.out$alpha
@@ -3055,7 +3138,7 @@ cva.min
 ```
 
     ##   alpha lambdaMin   mse
-    ## 1     1   0.01455 6.316
+    ## 1 0.064   0.03867 6.181
 
 ``` r
 elastic.mod = glmnet(x,y, alpha = cva.min$alpha, lambda = cva.min$lambdaMin)
@@ -3067,7 +3150,7 @@ testMSE_ELASTIC<-mean((ytest-elastic.pred)^2)
 testMSE_ELASTIC
 ```
 
-    ## [1] 6.109
+    ## [1] 6.699
 
 ``` r
 # Metrics RMSE; R-squared; MAE
@@ -3084,14 +3167,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-33.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-36.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(elastic.pred ~ ytest, main = "Original vs Predicted scatter plot (ElasticNet regression)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-34.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-37.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -3138,7 +3221,7 @@ barplot(MLR_VIF, main = 'VIF Values (Custom MLR - Tamas)', horiz = TRUE, col="bl
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-35.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-38.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ### Hypothesis testing
@@ -3150,42 +3233,42 @@ summary(MLRT$finalModel)
     ## lm(formula = .outcome ~ ., data = dat)
     ## 
     ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -11.955  -1.475  -0.267   1.135  10.815 
+    ##    Min     1Q Median     3Q    Max 
+    ## -11.91  -1.48  -0.28   1.12  10.90 
     ## 
     ## Coefficients:
     ##                                 Estimate Std. Error t value
-    ## (Intercept)                      69.1443     0.0515 1342.23
-    ## StatusDeveloping                 -0.3360     0.0765   -4.39
-    ## ContinentAmericas                 1.2624     0.0745   16.95
-    ## ContinentAsia                     0.5754     0.0782    7.36
-    ## ContinentEurope                   1.0985     0.0947   11.60
-    ## ContinentOceania                  0.2431     0.0597    4.07
-    ## Income.composition.of.resources   0.6185     0.0939    6.59
-    ## Schooling                         1.6051     0.0987   16.26
-    ## log.percentage.expenditure        0.2799     0.0574    4.87
-    ## Year                              0.1342     0.0558    2.41
-    ## Adult.Mortality                  -6.5059     0.0818  -79.54
-    ## infant.deaths                    -0.3459     0.0534   -6.48
+    ## (Intercept)                      69.1944     0.0511 1353.82
+    ## StatusDeveloping                 -0.3379     0.0757   -4.47
+    ## ContinentAmericas                 1.3056     0.0745   17.51
+    ## ContinentAsia                     0.5871     0.0781    7.52
+    ## ContinentEurope                   1.1256     0.0945   11.92
+    ## ContinentOceania                  0.2564     0.0595    4.31
+    ## Income.composition.of.resources   0.5974     0.0957    6.24
+    ## Schooling                         1.6397     0.0997   16.45
+    ## log.percentage.expenditure        0.2926     0.0572    5.12
+    ## Year                              0.1329     0.0553    2.40
+    ## Adult.Mortality                  -6.4296     0.0819  -78.52
+    ## infant.deaths                    -0.3364     0.0530   -6.34
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
-    ## StatusDeveloping                    0.00001167597011 ***
+    ## StatusDeveloping                   0.000008287171584 ***
     ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                       0.00000000000026 ***
+    ## ContinentAsia                      0.000000000000076 ***
     ## ContinentEurope                 < 0.0000000000000002 ***
-    ## ContinentOceania                    0.00004774710542 ***
-    ## Income.composition.of.resources     0.00000000005453 ***
+    ## ContinentOceania                   0.000016792364347 ***
+    ## Income.composition.of.resources    0.000000000512798 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.percentage.expenditure          0.00000116051310 ***
+    ## log.percentage.expenditure         0.000000331908506 ***
     ## Year                                           0.016 *  
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                       0.00000000011261 ***
+    ## infant.deaths                      0.000000000263899 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.57 on 2477 degrees of freedom
-    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.928 
-    ## F-statistic: 2.94e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.55 on 2477 degrees of freedom
+    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.929 
+    ## F-statistic: 2.97e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
 
 ``` r
 # Predicting
@@ -3201,42 +3284,42 @@ summary(MLRT$finalModel)
     ## lm(formula = .outcome ~ ., data = dat)
     ## 
     ## Residuals:
-    ##     Min      1Q  Median      3Q     Max 
-    ## -11.955  -1.475  -0.267   1.135  10.815 
+    ##    Min     1Q Median     3Q    Max 
+    ## -11.91  -1.48  -0.28   1.12  10.90 
     ## 
     ## Coefficients:
     ##                                 Estimate Std. Error t value
-    ## (Intercept)                      69.1443     0.0515 1342.23
-    ## StatusDeveloping                 -0.3360     0.0765   -4.39
-    ## ContinentAmericas                 1.2624     0.0745   16.95
-    ## ContinentAsia                     0.5754     0.0782    7.36
-    ## ContinentEurope                   1.0985     0.0947   11.60
-    ## ContinentOceania                  0.2431     0.0597    4.07
-    ## Income.composition.of.resources   0.6185     0.0939    6.59
-    ## Schooling                         1.6051     0.0987   16.26
-    ## log.percentage.expenditure        0.2799     0.0574    4.87
-    ## Year                              0.1342     0.0558    2.41
-    ## Adult.Mortality                  -6.5059     0.0818  -79.54
-    ## infant.deaths                    -0.3459     0.0534   -6.48
+    ## (Intercept)                      69.1944     0.0511 1353.82
+    ## StatusDeveloping                 -0.3379     0.0757   -4.47
+    ## ContinentAmericas                 1.3056     0.0745   17.51
+    ## ContinentAsia                     0.5871     0.0781    7.52
+    ## ContinentEurope                   1.1256     0.0945   11.92
+    ## ContinentOceania                  0.2564     0.0595    4.31
+    ## Income.composition.of.resources   0.5974     0.0957    6.24
+    ## Schooling                         1.6397     0.0997   16.45
+    ## log.percentage.expenditure        0.2926     0.0572    5.12
+    ## Year                              0.1329     0.0553    2.40
+    ## Adult.Mortality                  -6.4296     0.0819  -78.52
+    ## infant.deaths                    -0.3364     0.0530   -6.34
     ##                                             Pr(>|t|)    
     ## (Intercept)                     < 0.0000000000000002 ***
-    ## StatusDeveloping                    0.00001167597011 ***
+    ## StatusDeveloping                   0.000008287171584 ***
     ## ContinentAmericas               < 0.0000000000000002 ***
-    ## ContinentAsia                       0.00000000000026 ***
+    ## ContinentAsia                      0.000000000000076 ***
     ## ContinentEurope                 < 0.0000000000000002 ***
-    ## ContinentOceania                    0.00004774710542 ***
-    ## Income.composition.of.resources     0.00000000005453 ***
+    ## ContinentOceania                   0.000016792364347 ***
+    ## Income.composition.of.resources    0.000000000512798 ***
     ## Schooling                       < 0.0000000000000002 ***
-    ## log.percentage.expenditure          0.00000116051310 ***
+    ## log.percentage.expenditure         0.000000331908506 ***
     ## Year                                           0.016 *  
     ## Adult.Mortality                 < 0.0000000000000002 ***
-    ## infant.deaths                       0.00000000011261 ***
+    ## infant.deaths                      0.000000000263899 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.57 on 2477 degrees of freedom
-    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.928 
-    ## F-statistic: 2.94e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.55 on 2477 degrees of freedom
+    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.929 
+    ## F-statistic: 2.97e+03 on 11 and 2477 DF,  p-value: <0.0000000000000002
 
 ``` r
 sm=summary(MLRT$finalModel)
@@ -3250,44 +3333,50 @@ fit = lm(Life.expectancy ~ Status + Continent + Income.composition.of.resources 
 confint(fit)
 ```
 
-    ##                                      2.5 %   97.5 %
-    ## (Intercept)                     -34.972628 60.48978
-    ## StatusDeveloping                 -1.284245 -0.49151
-    ## ContinentAmericas                 2.900276  3.65908
-    ## ContinentAsia                     0.967813  1.67143
-    ## ContinentEurope                   2.233943  3.14275
-    ## ContinentOceania                  0.562456  1.60657
-    ## Income.composition.of.resources   2.076537  3.83686
-    ## Schooling                         0.421909  0.53760
-    ## log.percentage.expenditure        0.060767  0.14257
-    ## Year                              0.005408  0.05304
-    ## Adult.Mortality                  -0.057466 -0.05470
-    ## infant.deaths                    -0.003699 -0.00198
+    ##                                      2.5 %    97.5 %
+    ## (Intercept)                     -34.338511 60.408841
+    ## StatusDeveloping                 -1.277932 -0.498236
+    ## ContinentAmericas                 3.006963  3.765183
+    ## ContinentAsia                     0.994795  1.696674
+    ## ContinentEurope                   2.290216  3.192496
+    ## ContinentOceania                  0.621606  1.658399
+    ## Income.composition.of.resources   1.978023  3.790878
+    ## Schooling                         0.433811  0.551247
+    ## log.percentage.expenditure        0.065446  0.146737
+    ## Year                              0.005317  0.052587
+    ## Adult.Mortality                  -0.057011 -0.054233
+    ## infant.deaths                    -0.003785 -0.001998
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-36.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-39.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-37.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-40.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-38.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-41.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-39.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-42.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+plot(fit, which = 5)
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-43.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ##### Visualize prediction vs actual
@@ -3300,14 +3389,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-40.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-44.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Tamas)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model%20building-41.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Model building-45.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -3358,100 +3447,100 @@ summary(fit_interaction)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -11.921  -1.449  -0.264   1.123  10.858 
+    ## -11.874  -1.443  -0.284   1.133  10.945 
     ## 
     ## Coefficients:
     ##                                                          Estimate
-    ## (Intercept)                                      10.7033082346203
-    ## ContinentAmericas                                 3.2826482894549
-    ## ContinentAsia                                     1.3433954944256
-    ## ContinentEurope                                   2.8742205130719
-    ## ContinentOceania                                  1.2158854223812
-    ## StatusDeveloping                                  7.0484793649483
-    ## Schooling                                         0.1659690005870
-    ## log.percentage.expenditure                        0.1003444071425
-    ## Year                                              0.0262331580264
-    ## Adult.Mortality                                  -0.0557935517321
-    ## infant.deaths                                    -0.0028297012772
-    ## I(GDP^2)                                         -0.0000000000292
-    ## StatusDeveloped:Income.composition.of.resources  17.9984512984908
-    ## StatusDeveloping:Income.composition.of.resources  2.7437970019810
-    ## StatusDeveloping:Schooling                        0.3277235556393
+    ## (Intercept)                                      11.3653142046687
+    ## ContinentAmericas                                 3.3911992378426
+    ## ContinentAsia                                     1.3673080187136
+    ## ContinentEurope                                   2.9246966950438
+    ## ContinentOceania                                  1.2785446390456
+    ## StatusDeveloping                                  6.6391112121189
+    ## Schooling                                         0.1699537478581
+    ## log.percentage.expenditure                        0.1041169971460
+    ## Year                                              0.0259677262553
+    ## Adult.Mortality                                  -0.0553132351683
+    ## infant.deaths                                    -0.0028744826609
+    ## I(GDP^2)                                         -0.0000000000112
+    ## StatusDeveloped:Income.composition.of.resources  17.6148673203680
+    ## StatusDeveloping:Income.composition.of.resources  2.6395530535259
+    ## StatusDeveloping:Schooling                        0.3390982582799
     ##                                                        Std. Error t value
-    ## (Intercept)                                      24.3158065637234    0.44
-    ## ContinentAmericas                                 0.1937051489887   16.95
-    ## ContinentAsia                                     0.1799249993177    7.47
-    ## ContinentEurope                                   0.2361877077023   12.17
-    ## ContinentOceania                                  0.2684700565321    4.53
-    ## StatusDeveloping                                  2.2570156972723    3.12
-    ## Schooling                                         0.1026710494270    1.62
-    ## log.percentage.expenditure                        0.0215399783688    4.66
-    ## Year                                              0.0121336829563    2.16
-    ## Adult.Mortality                                   0.0007051036737  -79.13
-    ## infant.deaths                                     0.0004375361514   -6.47
-    ## I(GDP^2)                                          0.0000000000772   -0.38
-    ## StatusDeveloped:Income.composition.of.resources   3.4357348691848    5.24
-    ## StatusDeveloping:Income.composition.of.resources  0.4530203089306    6.06
-    ## StatusDeveloping:Schooling                        0.1063609578972    3.08
+    ## (Intercept)                                      24.1336243386802    0.47
+    ## ContinentAmericas                                 0.1935092926417   17.52
+    ## ContinentAsia                                     0.1795016990312    7.62
+    ## ContinentEurope                                   0.2345824880245   12.47
+    ## ContinentOceania                                  0.2664040090226    4.80
+    ## StatusDeveloping                                  2.2204928546854    2.99
+    ## Schooling                                         0.1007440790950    1.69
+    ## log.percentage.expenditure                        0.0214264001802    4.86
+    ## Year                                              0.0120422254531    2.16
+    ## Adult.Mortality                                   0.0007084660860  -78.07
+    ## infant.deaths                                     0.0004548249869   -6.32
+    ## I(GDP^2)                                          0.0000000000761   -0.15
+    ## StatusDeveloped:Income.composition.of.resources   3.3979285482048    5.18
+    ## StatusDeveloping:Income.composition.of.resources  0.4672929722246    5.65
+    ## StatusDeveloping:Schooling                        0.1045775270480    3.24
     ##                                                              Pr(>|t|)    
-    ## (Intercept)                                                    0.6598    
+    ## (Intercept)                                                    0.6377    
     ## ContinentAmericas                                < 0.0000000000000002 ***
-    ## ContinentAsia                                        0.00000000000011 ***
+    ## ContinentAsia                                       0.000000000000037 ***
     ## ContinentEurope                                  < 0.0000000000000002 ***
-    ## ContinentOceania                                     0.00000620910741 ***
-    ## StatusDeveloping                                               0.0018 ** 
-    ## Schooling                                                      0.1061    
-    ## log.percentage.expenditure                           0.00000335360281 ***
-    ## Year                                                           0.0307 *  
+    ## ContinentOceania                                    0.000001687273468 ***
+    ## StatusDeveloping                                               0.0028 ** 
+    ## Schooling                                                      0.0917 .  
+    ## log.percentage.expenditure                          0.000001251776824 ***
+    ## Year                                                           0.0311 *  
     ## Adult.Mortality                                  < 0.0000000000000002 ***
-    ## infant.deaths                                        0.00000000011978 ***
-    ## I(GDP^2)                                                       0.7057    
-    ## StatusDeveloped:Income.composition.of.resources      0.00000017544447 ***
-    ## StatusDeveloping:Income.composition.of.resources     0.00000000160155 ***
-    ## StatusDeveloping:Schooling                                     0.0021 ** 
+    ## infant.deaths                                       0.000000000309284 ***
+    ## I(GDP^2)                                                       0.8834    
+    ## StatusDeveloped:Income.composition.of.resources     0.000000234741042 ***
+    ## StatusDeveloping:Income.composition.of.resources    0.000000018026212 ***
+    ## StatusDeveloping:Schooling                                     0.0012 ** 
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.56 on 2474 degrees of freedom
-    ## Multiple R-squared:  0.929,  Adjusted R-squared:  0.929 
-    ## F-statistic: 2.33e+03 on 14 and 2474 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.54 on 2474 degrees of freedom
+    ## Multiple R-squared:  0.93,   Adjusted R-squared:  0.93 
+    ## F-statistic: 2.35e+03 on 14 and 2474 DF,  p-value: <0.0000000000000002
 
 ``` r
 confint(fit_interaction)
 ```
 
     ##                                                              2.5 %
-    ## (Intercept)                                      -36.9781240637955
-    ## ContinentAmericas                                  2.9028073443004
-    ## ContinentAsia                                      0.9905763662064
-    ## ContinentEurope                                    2.4110745275578
-    ## ContinentOceania                                   0.6894362260060
-    ## StatusDeveloping                                   2.6226446354310
-    ## Schooling                                         -0.0353610552116
-    ## log.percentage.expenditure                         0.0581061611025
-    ## Year                                               0.0024399360787
-    ## Adult.Mortality                                   -0.0571762059736
-    ## infant.deaths                                     -0.0036876761227
-    ## I(GDP^2)                                          -0.0000000001805
-    ## StatusDeveloped:Income.composition.of.resources   11.2612386491377
-    ## StatusDeveloping:Income.composition.of.resources   1.8554589107285
-    ## StatusDeveloping:Schooling                         0.1191578722481
+    ## (Intercept)                                      -35.9588727189491
+    ## ContinentAmericas                                  3.0117423519677
+    ## ContinentAsia                                      1.0153189499005
+    ## ContinentEurope                                    2.4646984222405
+    ## ContinentOceania                                   0.7561468034258
+    ## StatusDeveloping                                   2.2848949765878
+    ## Schooling                                         -0.0275976668666
+    ## log.percentage.expenditure                         0.0621014692254
+    ## Year                                               0.0023538454589
+    ## Adult.Mortality                                   -0.0567024828425
+    ## infant.deaths                                     -0.0037663595873
+    ## I(GDP^2)                                          -0.0000000001604
+    ## StatusDeveloped:Income.composition.of.resources   10.9517899677213
+    ## StatusDeveloping:Income.composition.of.resources   1.7232273638860
+    ## StatusDeveloping:Schooling                         0.1340297460426
     ##                                                            97.5 %
-    ## (Intercept)                                      58.3847405330361
-    ## ContinentAmericas                                 3.6624892346094
-    ## ContinentAsia                                     1.6962146226448
-    ## ContinentEurope                                   3.3373664985860
-    ## ContinentOceania                                  1.7423346187564
-    ## StatusDeveloping                                 11.4743140944657
-    ## Schooling                                         0.3672990563856
-    ## log.percentage.expenditure                        0.1425826531826
-    ## Year                                              0.0500263799741
-    ## Adult.Mortality                                  -0.0544108974906
-    ## infant.deaths                                    -0.0019717264317
-    ## I(GDP^2)                                          0.0000000001222
-    ## StatusDeveloped:Income.composition.of.resources  24.7356639478440
-    ## StatusDeveloping:Income.composition.of.resources  3.6321350932335
-    ## StatusDeveloping:Schooling                        0.5362892390305
+    ## (Intercept)                                      58.6895011282865
+    ## ContinentAmericas                                 3.7706561237176
+    ## ContinentAsia                                     1.7192970875267
+    ## ContinentEurope                                   3.3846949678472
+    ## ContinentOceania                                  1.8009424746653
+    ## StatusDeveloping                                 10.9933274476500
+    ## Schooling                                         0.3675051625828
+    ## log.percentage.expenditure                        0.1461325250666
+    ## Year                                              0.0495816070517
+    ## Adult.Mortality                                  -0.0539239874941
+    ## infant.deaths                                    -0.0019826057345
+    ## I(GDP^2)                                          0.0000000001381
+    ## StatusDeveloped:Income.composition.of.resources  24.2779446730147
+    ## StatusDeveloping:Income.composition.of.resources  3.5558787431657
+    ## StatusDeveloping:Schooling                        0.5441667705172
 
 ``` r
 residuals = resid(fit_interaction)
@@ -3480,6 +3569,12 @@ plot(fit_interaction, which = 4)
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-4.png)<!-- -->
 
 ``` r
+plot(fit_interaction, which = 5)
+```
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-5.png)<!-- -->
+
+``` r
 ##### Visualize prediction vs actual
 x_TMLR = 1:dim(xtest)[1]
 plot(x_TMLR, ytest, col = "red", type = "l", lwd=2,
@@ -3490,14 +3585,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-5.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-6.png)<!-- -->
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Interaction)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-6.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20interaction-7.png)<!-- -->
 
 ``` r
 #### Model test scores
@@ -3544,7 +3639,7 @@ barplot(MLR_VIF, main = 'VIF Values', horiz = TRUE, col="blue", xlim = c(0,12))
 abline(v=10, col="red")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 ### Hypothesis testing
@@ -3557,33 +3652,33 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.062  -1.771  -0.243   1.463  16.422 
+    ## -13.070  -1.765  -0.249   1.428  16.552 
     ## 
     ## Coefficients:
-    ##                                         Estimate Std. Error t value
-    ## (Intercept)                            72.485657  26.887099    2.70
-    ## Income.composition.of.resources         8.086783   0.410264   19.71
-    ## log.HIV.AIDS                           -0.193307   0.074332   -2.60
-    ## log.GDP                                 0.299205   0.046630    6.42
-    ## BMI                                     0.030037   0.003537    8.49
-    ## Year                                   -0.000564   0.013407   -0.04
-    ## Adult.Mortality                        -0.058634   0.001135  -51.65
-    ## `Schooling:log.percentage.expenditure`  0.012255   0.001843    6.65
+    ##                                        Estimate Std. Error t value
+    ## (Intercept)                            79.84731   26.81081    2.98
+    ## Income.composition.of.resources         8.38414    0.41813   20.05
+    ## log.HIV.AIDS                           -0.16722    0.07412   -2.26
+    ## log.GDP                                 0.30315    0.04636    6.54
+    ## BMI                                     0.03034    0.00353    8.58
+    ## Year                                   -0.00434    0.01337   -0.32
+    ## Adult.Mortality                        -0.05849    0.00114  -51.22
+    ## `Schooling:log.percentage.expenditure`  0.01181    0.00184    6.42
     ##                                                    Pr(>|t|)    
-    ## (Intercept)                                          0.0071 ** 
+    ## (Intercept)                                          0.0029 ** 
     ## Income.composition.of.resources        < 0.0000000000000002 ***
-    ## log.HIV.AIDS                                         0.0094 ** 
-    ## log.GDP                                      0.000000000166 ***
+    ## log.HIV.AIDS                                         0.0242 *  
+    ## log.GDP                                      0.000000000075 ***
     ## BMI                                    < 0.0000000000000002 ***
-    ## Year                                                 0.9664    
+    ## Year                                                 0.7457    
     ## Adult.Mortality                        < 0.0000000000000002 ***
-    ## `Schooling:log.percentage.expenditure`       0.000000000036 ***
+    ## `Schooling:log.percentage.expenditure`       0.000000000168 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.91 on 2481 degrees of freedom
-    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.908 
-    ## F-statistic: 3.52e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.9 on 2481 degrees of freedom
+    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.909 
+    ## F-statistic: 3.53e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
 
 ``` r
 # Predicting
@@ -3600,33 +3695,33 @@ summary(MLRT$finalModel)
     ## 
     ## Residuals:
     ##     Min      1Q  Median      3Q     Max 
-    ## -13.062  -1.771  -0.243   1.463  16.422 
+    ## -13.070  -1.765  -0.249   1.428  16.552 
     ## 
     ## Coefficients:
-    ##                                         Estimate Std. Error t value
-    ## (Intercept)                            72.485657  26.887099    2.70
-    ## Income.composition.of.resources         8.086783   0.410264   19.71
-    ## log.HIV.AIDS                           -0.193307   0.074332   -2.60
-    ## log.GDP                                 0.299205   0.046630    6.42
-    ## BMI                                     0.030037   0.003537    8.49
-    ## Year                                   -0.000564   0.013407   -0.04
-    ## Adult.Mortality                        -0.058634   0.001135  -51.65
-    ## `Schooling:log.percentage.expenditure`  0.012255   0.001843    6.65
+    ##                                        Estimate Std. Error t value
+    ## (Intercept)                            79.84731   26.81081    2.98
+    ## Income.composition.of.resources         8.38414    0.41813   20.05
+    ## log.HIV.AIDS                           -0.16722    0.07412   -2.26
+    ## log.GDP                                 0.30315    0.04636    6.54
+    ## BMI                                     0.03034    0.00353    8.58
+    ## Year                                   -0.00434    0.01337   -0.32
+    ## Adult.Mortality                        -0.05849    0.00114  -51.22
+    ## `Schooling:log.percentage.expenditure`  0.01181    0.00184    6.42
     ##                                                    Pr(>|t|)    
-    ## (Intercept)                                          0.0071 ** 
+    ## (Intercept)                                          0.0029 ** 
     ## Income.composition.of.resources        < 0.0000000000000002 ***
-    ## log.HIV.AIDS                                         0.0094 ** 
-    ## log.GDP                                      0.000000000166 ***
+    ## log.HIV.AIDS                                         0.0242 *  
+    ## log.GDP                                      0.000000000075 ***
     ## BMI                                    < 0.0000000000000002 ***
-    ## Year                                                 0.9664    
+    ## Year                                                 0.7457    
     ## Adult.Mortality                        < 0.0000000000000002 ***
-    ## `Schooling:log.percentage.expenditure`       0.000000000036 ***
+    ## `Schooling:log.percentage.expenditure`       0.000000000168 ***
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 2.91 on 2481 degrees of freedom
-    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.908 
-    ## F-statistic: 3.52e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
+    ## Residual standard error: 2.9 on 2481 degrees of freedom
+    ## Multiple R-squared:  0.909,  Adjusted R-squared:  0.909 
+    ## F-statistic: 3.53e+03 on 7 and 2481 DF,  p-value: <0.0000000000000002
 
 ``` r
 residuals = resid(MLRT$finalModel)
@@ -3639,39 +3734,45 @@ confint(fit)
 ```
 
     ##                                          2.5 %    97.5 %
-    ## (Intercept)                          19.762190 125.20912
-    ## Income.composition.of.resources       7.282289   8.89128
-    ## log.HIV.AIDS                         -0.339067  -0.04755
-    ## log.GDP                               0.207767   0.39064
-    ## BMI                                   0.023102   0.03697
-    ## Year                                 -0.026855   0.02573
-    ## Adult.Mortality                      -0.060861  -0.05641
-    ## Schooling:log.percentage.expenditure  0.008641   0.01587
+    ## (Intercept)                          27.273451 132.42118
+    ## Income.composition.of.resources       7.564223   9.20406
+    ## log.HIV.AIDS                         -0.312554  -0.02188
+    ## log.GDP                               0.212235   0.39407
+    ## BMI                                   0.023412   0.03727
+    ## Year                                 -0.030553   0.02188
+    ## Adult.Mortality                      -0.060730  -0.05625
+    ## Schooling:log.percentage.expenditure  0.008202   0.01542
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(residuals, main = "Residuals plot") 
 abline(h=0, col="blue")
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-3.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-3.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit, which = 2)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-4.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-4.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 plot(fit, which = 4)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-5.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-5.png" angle=90 style="display: block; margin: auto;" />
+
+``` r
+plot(fit, which = 5)
+```
+
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-6.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 anova(fit)
@@ -3681,22 +3782,22 @@ anova(fit)
     ## 
     ## Response: Life.expectancy
     ##                                        Df Sum Sq Mean Sq  F value
-    ## Income.composition.of.resources         1 122886  122886 14513.33
-    ## log.HIV.AIDS                            1  57001   57001  6732.05
-    ## log.GDP                                 1   3469    3469   409.66
-    ## BMI                                     1    774     774    91.37
-    ## Year                                    1     49      49     5.81
-    ## Adult.Mortality                         1  24126   24126  2849.36
-    ## Schooling:log.percentage.expenditure    1    374     374    44.21
-    ## Residuals                            2481  21007       8         
+    ## Income.composition.of.resources         1 124915  124915 14882.44
+    ## log.HIV.AIDS                            1  54559   54559  6500.18
+    ## log.GDP                                 1   3307    3307   394.03
+    ## BMI                                     1    846     846   100.80
+    ## Year                                    1     43      43     5.08
+    ## Adult.Mortality                         1  23486   23486  2798.09
+    ## Schooling:log.percentage.expenditure    1    345     345    41.16
+    ## Residuals                            2481  20824       8         
     ##                                                    Pr(>F)    
     ## Income.composition.of.resources      < 0.0000000000000002 ***
     ## log.HIV.AIDS                         < 0.0000000000000002 ***
     ## log.GDP                              < 0.0000000000000002 ***
     ## BMI                                  < 0.0000000000000002 ***
-    ## Year                                                0.016 *  
+    ## Year                                                0.024 *  
     ## Adult.Mortality                      < 0.0000000000000002 ***
-    ## Schooling:log.percentage.expenditure       0.000000000036 ***
+    ## Schooling:log.percentage.expenditure        0.00000000017 ***
     ## Residuals                                                    
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -3711,14 +3812,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-6.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-7.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Reuven)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-7.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/unnamed-chunk-15-8.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -3809,8 +3910,8 @@ forecast::accuracy(test_custom_pred,test_custom$Life.expectancy)
     ##   method            from
     ##   as.zoo.data.frame zoo
 
-    ##               ME  RMSE    MAE     MPE MAPE
-    ## Test set -0.1458 1.673 0.9427 -0.2657 1.38
+    ##                ME  RMSE    MAE      MPE  MAPE
+    ## Test set -0.02062 1.655 0.9072 -0.07508 1.334
 
 ``` r
 ##fits
@@ -3827,1673 +3928,1673 @@ summary(fit.custom)
     ## 
     ## Residuals:
     ##    Min     1Q Median     3Q    Max 
-    ## -5.331 -0.367 -0.025  0.181  6.856 
+    ## -4.776 -0.368 -0.028  0.180  7.354 
     ## 
-    ## Coefficients: (136 not defined because of singularities)
+    ## Coefficients: (137 not defined because of singularities)
     ##                                                                                                     Estimate
-    ## (Intercept)                                                                                     631.64584860
-    ## log.Adult.Mortality                                                                            -103.58440281
-    ## infant.deaths                                                                                    -5.35931093
-    ## log.GDP                                                                                           0.00053354
-    ## Measles                                                                                          -0.00000492
-    ## HIV_cat                                                                                          -0.46587226
-    ## CountryAlbania                                                                                 -521.44196763
-    ## CountryAlgeria                                                                                 -498.20801497
-    ## CountryAngola                                                                                  -286.43132858
-    ## CountryAntigua and Barbuda                                                                     -501.43802090
-    ## CountryArgentina                                                                               -474.64680260
-    ## CountryArmenia                                                                                 -499.13724563
-    ## CountryAustralia                                                                               -514.13948776
-    ## CountryAustria                                                                                 -464.26294260
-    ## CountryAzerbaijan                                                                              -550.94622673
-    ## CountryBahamas                                                                                 -507.50608451
-    ## CountryBahrain                                                                                 -538.98660256
-    ## CountryBangladesh                                                                              -720.86450288
-    ## CountryBarbados                                                                                -526.95404472
-    ## CountryBelarus                                                                                 -552.08434686
-    ## CountryBelgium                                                                                 -407.62406097
-    ## CountryBelize                                                                                  -474.68081292
-    ## CountryBenin                                                                                   -287.59980316
-    ## CountryBhutan                                                                                  -437.94098839
-    ## CountryBolivia                                                                                 -174.75686798
-    ## CountryBosnia and Herzegovina                                                                  -513.12381551
-    ## CountryBotswana                                                                                -429.69049504
-    ## CountryBrazil                                                                                  -276.96947773
-    ## CountryBrunei Darussalam                                                                       -495.00074767
-    ## CountryBulgaria                                                                                -471.14665494
-    ## CountryBurkina Faso                                                                           -1431.73834543
-    ## CountryBurundi                                                                                  479.49312878
-    ## CountryCabo Verde                                                                              -535.21362874
-    ## CountryCambodia                                                                                -555.59804010
-    ## CountryCameroon                                                                                -424.53308604
-    ## CountryCanada                                                                                  -452.83731961
-    ## CountryCentral African Republic                                                                 -77.79191146
-    ## CountryChad                                                                                   -1361.70760828
-    ## CountryChile                                                                                   -387.58269018
-    ## CountryChina                                                                                   -575.42845877
-    ## CountryColombia                                                                                -466.25544007
-    ## CountryComoros                                                                                 -421.70045617
-    ## CountryCongo                                                                                   -359.88682254
-    ## CountryCosta Rica                                                                              -473.19250825
-    ## CountryCroatia                                                                                 -508.20384356
-    ## CountryCuba                                                                                    -511.47008725
-    ## CountryCyprus                                                                                  -494.05213735
-    ## CountryCzechia                                                                                 -508.59616796
-    ## CountryDemocratic People's Republic of Korea                                                   -422.28774970
-    ## CountryDemocratic Republic of the Congo                                                         319.75988347
-    ## CountryDenmark                                                                                 -472.93145035
-    ## CountryDjibouti                                                                               -1220.92750923
-    ## CountryDominican Republic                                                                     -1629.00632165
-    ## CountryEcuador                                                                                 -578.84763092
-    ## CountryEgypt                                                                                   1671.23615169
-    ## CountryEl Salvador                                                                             -776.39294090
-    ## CountryEquatorial Guinea                                                                       -402.60010608
-    ## CountryEritrea                                                                                -1076.47603071
-    ## CountryEstonia                                                                                 -533.74815847
-    ## CountryEthiopia                                                                                -523.88772101
-    ## CountryFiji                                                                                    -498.24491146
-    ## CountryFinland                                                                                 -450.08853380
-    ## CountryFrance                                                                                  -493.17163233
-    ## CountryGabon                                                                                   -466.66579237
-    ## CountryGambia                                                                                  -173.01890835
-    ## CountryGeorgia                                                                                 -629.92724446
-    ## CountryGermany                                                                                  -12.38579989
-    ## CountryGhana                                                                                  -2856.08752486
-    ## CountryGreece                                                                                  -379.45241795
-    ## CountryGrenada                                                                                 -587.21493280
-    ## CountryGuatemala                                                                              -1364.97988460
-    ## CountryGuinea                                                                                  -596.34477128
-    ## CountryGuinea-Bissau                                                                           1491.69690687
-    ## CountryGuyana                                                                                  -552.33934117
-    ## CountryHaiti                                                                                   -844.76066545
-    ## CountryHonduras                                                                                -465.01372147
-    ## CountryHungary                                                                                 -514.77837533
-    ## CountryIceland                                                                                 -539.56560224
-    ## CountryIndia                                                                                   -454.68751821
-    ## CountryIndonesia                                                                               -769.69442367
-    ## CountryIran                                                                                    -448.78258380
-    ## CountryIraq                                                                                   -2381.08824896
-    ## CountryIreland                                                                                 -467.20953644
-    ## CountryIsrael                                                                                  -515.16131102
-    ## CountryItaly                                                                                   -534.62326626
-    ## CountryIvory Coast                                                                              639.92150105
-    ## CountryJamaica                                                                                 -497.14010112
-    ## CountryJapan                                                                                   -547.14113973
-    ## CountryJordan                                                                                  -472.69606063
-    ## CountryKazakhstan                                                                              -524.21536262
-    ## CountryKenya                                                                                   -603.47220305
-    ## CountryKiribati                                                                                -460.26423508
-    ## CountryKuwait                                                                                  -510.66829598
-    ## CountryKyrgyzstan                                                                              -939.27994638
-    ## CountryLao People's Democratic Republic                                                        -536.70798715
-    ## CountryLatvia                                                                                  -538.05162275
-    ## CountryLebanon                                                                                 -505.92823198
-    ## CountryLesotho                                                                                 -219.97947880
-    ## CountryLiberia                                                                                 -467.54467799
-    ## CountryLibya                                                                                   1083.68168977
-    ## CountryLithuania                                                                               -570.49374027
-    ## CountryLuxembourg                                                                              -507.40259907
-    ## CountryMadagascar                                                                             -1072.80951817
-    ## CountryMalawi                                                                                  -555.11666098
-    ## CountryMalaysia                                                                                -497.11541116
-    ## CountryMaldives                                                                                -533.43600573
-    ## CountryMali                                                                                     889.58841088
-    ## CountryMalta                                                                                   -470.40697176
-    ## CountryMauritania                                                                             10928.43698111
-    ## CountryMauritius                                                                               -460.89735909
-    ## CountryMexico                                                                                  -391.85288666
-    ## CountryMicronesia (Federated States of)                                                        -467.27816596
-    ## CountryMongolia                                                                                -580.41485197
-    ## CountryMontenegro                                                                              -509.69997477
-    ## CountryMorocco                                                                                 -543.00619316
-    ## CountryMozambique                                                                               508.66450482
-    ## CountryMyanmar                                                                                 -584.17362179
-    ## CountryNamibia                                                                                 -733.45402513
-    ## CountryNepal                                                                                   -542.38187881
-    ## CountryNetherlands                                                                             -481.20903174
-    ## CountryNew Zealand                                                                             -458.86459576
-    ## CountryNicaragua                                                                               -322.49134270
-    ## CountryNiger                                                                                   6900.37058488
-    ## CountryNigeria                                                                                -2382.51591205
-    ## CountryNorway                                                                                  -503.12230267
-    ## CountryOman                                                                                    -496.71171390
-    ## CountryPakistan                                                                               -1172.65834310
-    ## CountryPanama                                                                                 -1163.64664519
-    ## CountryPapua New Guinea                                                                        -805.50468083
-    ## CountryParaguay                                                                                -202.20526049
-    ## CountryPeru                                                                                    -579.11453950
-    ## CountryPhilippines                                                                             -596.16536632
-    ## CountryPoland                                                                                  -517.77253205
-    ## CountryPortugal                                                                                -423.64895612
-    ## CountryQatar                                                                                   -506.96912838
-    ## CountryRepublic of Korea                                                                       -491.47751579
-    ## CountryRepublic of Moldova                                                                     -413.23502339
-    ## CountryRomania                                                                                 -149.91189447
-    ## CountryRussian Federation                                                                      -220.33559048
-    ## CountryRwanda                                                                                  -515.17309016
-    ## CountrySaint Lucia                                                                             -491.77249645
-    ## CountrySaint Vincent and the Grenadines                                                        -702.81146488
-    ## CountrySamoa                                                                                   -575.81903189
-    ## CountrySao Tome and Principe                                                                   -433.66640473
-    ## CountrySaudi Arabia                                                                            -471.21759733
-    ## CountrySenegal                                                                                 -571.20075307
-    ## CountrySerbia                                                                                  -494.71168302
-    ## CountrySeychelles                                                                              -507.56998252
-    ## CountrySierra Leone                                                                             496.67821711
-    ## CountrySingapore                                                                               -504.70330468
-    ## CountrySlovakia                                                                                -508.99282084
-    ## CountrySlovenia                                                                                -467.19432979
-    ## CountrySolomon Islands                                                                         -526.29426312
-    ## CountrySomalia                                                                                -4007.22133073
-    ## CountrySouth Africa                                                                             -86.94189187
-    ## CountrySouth Sudan                                                                             1164.76822204
-    ## CountrySpain                                                                                   -566.33386476
-    ## CountrySri Lanka                                                                               -571.92339531
-    ## CountrySudan                                                                                  -1214.39190326
-    ## CountrySuriname                                                                                -427.17375310
-    ## CountrySwaziland                                                                               -541.15418279
-    ## CountrySweden                                                                                  -533.13433809
-    ## CountrySwitzerland                                                                             -535.67896940
-    ## CountrySyrian Arab Republic                                                                    -515.36919548
-    ## CountryTajikistan                                                                              -176.77108216
-    ## CountryThailand                                                                                -523.39282753
-    ## CountryThe former Yugoslav republic of Macedonia                                               -512.48796015
-    ## CountryTimor-Leste                                                                             -474.53607049
-    ## CountryTogo                                                                                    -245.72888372
-    ## CountryTonga                                                                                   -502.98137122
-    ## CountryTrinidad and Tobago                                                                     -400.61948127
-    ## CountryTunisia                                                                                 -692.06046855
-    ## CountryTurkey                                                                                  -269.09157178
-    ## CountryTurkmenistan                                                                            -561.88222021
-    ## CountryUganda                                                                                  -357.41545526
-    ## CountryUkraine                                                                                 -848.82732701
-    ## CountryUnited Arab Emirates                                                                    -515.91847959
-    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                    -663.41108984
-    ## CountryUnited Republic of Tanzania                                                             1070.88128092
-    ## CountryUnited States of America                                                               -1150.15825812
-    ## CountryUruguay                                                                                 -505.81589374
-    ## CountryUzbekistan                                                                              -552.95608989
-    ## CountryVanuatu                                                                                 -500.49033548
-    ## CountryVenezuela                                                                               -736.40956738
-    ## CountryViet Nam                                                                                -644.81261312
-    ## CountryYemen                                                                                   1222.59035221
-    ## CountryZambia                                                                                  -650.92008927
-    ## CountryZimbabwe                                                                                -216.66859144
-    ## infant.deaths:CountryAlbania                                                                     68.36848789
-    ## infant.deaths:CountryAlgeria                                                                      5.04843002
-    ## infant.deaths:CountryAngola                                                                       3.30175497
+    ## (Intercept)                                                                                     632.85215095
+    ## log.Adult.Mortality                                                                            -103.81796233
+    ## infant.deaths                                                                                    -5.36861402
+    ## log.GDP                                                                                           0.00354140
+    ## Measles                                                                                          -0.00000387
+    ## HIV_cat                                                                                          -0.47231807
+    ## CountryAlbania                                                                                 -522.65528722
+    ## CountryAlgeria                                                                                 -496.66353411
+    ## CountryAngola                                                                                  -286.65707398
+    ## CountryAntigua and Barbuda                                                                     -502.59352814
+    ## CountryArgentina                                                                               -476.39137524
+    ## CountryArmenia                                                                                 -500.38494302
+    ## CountryAustralia                                                                               -515.57947267
+    ## CountryAustria                                                                                 -465.49895297
+    ## CountryAzerbaijan                                                                              -552.09692685
+    ## CountryBahamas                                                                                 -508.72325107
+    ## CountryBahrain                                                                                 -540.21139113
+    ## CountryBangladesh                                                                              -720.72581597
+    ## CountryBarbados                                                                                -528.37295899
+    ## CountryBelarus                                                                                 -553.40195570
+    ## CountryBelgium                                                                                 -408.84644659
+    ## CountryBelize                                                                                  -475.86702914
+    ## CountryBenin                                                                                   -288.69983378
+    ## CountryBhutan                                                                                  -439.20704561
+    ## CountryBolivia                                                                                 -177.01181449
+    ## CountryBosnia and Herzegovina                                                                  -514.42330938
+    ## CountryBotswana                                                                                -430.88701197
+    ## CountryBrazil                                                                                  -277.79245522
+    ## CountryBrunei Darussalam                                                                       -496.47698534
+    ## CountryBulgaria                                                                                -472.79733640
+    ## CountryBurkina Faso                                                                           -1429.93209217
+    ## CountryBurundi                                                                                  474.19196508
+    ## CountryCabo Verde                                                                              -551.23783551
+    ## CountryCambodia                                                                                -553.13805312
+    ## CountryCameroon                                                                                -400.00577024
+    ## CountryCanada                                                                                  -505.24993590
+    ## CountryCentral African Republic                                                                -456.86438946
+    ## CountryChad                                                                                   -2530.04234188
+    ## CountryChile                                                                                   -386.48805675
+    ## CountryChina                                                                                   -569.93237044
+    ## CountryColombia                                                                                -471.92125706
+    ## CountryComoros                                                                                 -398.39147714
+    ## CountryCongo                                                                                   -280.74025195
+    ## CountryCosta Rica                                                                              -492.81983516
+    ## CountryCroatia                                                                                 -507.84140885
+    ## CountryCuba                                                                                    -511.51101951
+    ## CountryCyprus                                                                                  -500.93578520
+    ## CountryCzechia                                                                                 -508.49903015
+    ## CountryDemocratic People's Republic of Korea                                                   -424.21287967
+    ## CountryDemocratic Republic of the Congo                                                          10.94896267
+    ## CountryDenmark                                                                                 -473.98362990
+    ## CountryDjibouti                                                                                -783.06515125
+    ## CountryDominican Republic                                                                     -1699.34422140
+    ## CountryEcuador                                                                                 -505.17278711
+    ## CountryEgypt                                                                                   1377.57018248
+    ## CountryEl Salvador                                                                             -635.74952934
+    ## CountryEquatorial Guinea                                                                       -397.81784805
+    ## CountryEritrea                                                                                 -979.55234218
+    ## CountryEstonia                                                                                 -534.04535270
+    ## CountryEthiopia                                                                                -631.86838534
+    ## CountryFiji                                                                                    -498.90222031
+    ## CountryFinland                                                                                 -409.16472979
+    ## CountryFrance                                                                                  -514.85944459
+    ## CountryGabon                                                                                   -466.42616892
+    ## CountryGambia                                                                                  -179.81495216
+    ## CountryGeorgia                                                                                 -636.23215198
+    ## CountryGermany                                                                                   11.39171633
+    ## CountryGhana                                                                                  -2784.94799105
+    ## CountryGreece                                                                                  -376.82053367
+    ## CountryGrenada                                                                                 -581.78867662
+    ## CountryGuatemala                                                                              -1403.06690395
+    ## CountryGuinea                                                                                  -598.55880567
+    ## CountryGuinea-Bissau                                                                           1282.05711003
+    ## CountryGuyana                                                                                  -550.19122748
+    ## CountryHaiti                                                                                   -853.38788023
+    ## CountryHonduras                                                                                -465.08099858
+    ## CountryHungary                                                                                 -516.75040787
+    ## CountryIceland                                                                                 -540.17129124
+    ## CountryIndia                                                                                   -388.75332598
+    ## CountryIndonesia                                                                               -854.57918009
+    ## CountryIran                                                                                    -516.24549660
+    ## CountryIraq                                                                                   -1590.46003678
+    ## CountryIreland                                                                                 -482.03743255
+    ## CountryIsrael                                                                                  -517.18704871
+    ## CountryItaly                                                                                   -566.60648373
+    ## CountryIvory Coast                                                                              972.63110414
+    ## CountryJamaica                                                                                 -498.30371511
+    ## CountryJapan                                                                                   -549.06007775
+    ## CountryJordan                                                                                  -473.87352674
+    ## CountryKazakhstan                                                                              -524.86183843
+    ## CountryKenya                                                                                   -604.75145333
+    ## CountryKiribati                                                                                -461.76114994
+    ## CountryKuwait                                                                                  -512.06079495
+    ## CountryKyrgyzstan                                                                              -944.31207777
+    ## CountryLao People's Democratic Republic                                                        -538.59749851
+    ## CountryLatvia                                                                                  -539.29680497
+    ## CountryLebanon                                                                                 -507.05736242
+    ## CountryLesotho                                                                                 -221.20203243
+    ## CountryLiberia                                                                                 -468.97510111
+    ## CountryLibya                                                                                   1081.88454933
+    ## CountryLithuania                                                                               -571.78653289
+    ## CountryLuxembourg                                                                              -508.65974111
+    ## CountryMadagascar                                                                             -1068.21431556
+    ## CountryMalawi                                                                                  -554.01693144
+    ## CountryMalaysia                                                                                -496.33458303
+    ## CountryMaldives                                                                                -534.70627922
+    ## CountryMali                                                                                     889.66167809
+    ## CountryMalta                                                                                   -471.68506847
+    ## CountryMauritania                                                                             10954.39016871
+    ## CountryMauritius                                                                               -462.22066403
+    ## CountryMexico                                                                                  -391.41454756
+    ## CountryMicronesia (Federated States of)                                                        -468.50744962
+    ## CountryMongolia                                                                                -583.11415217
+    ## CountryMontenegro                                                                              -511.03977518
+    ## CountryMorocco                                                                                 -544.08516133
+    ## CountryMozambique                                                                               504.76866363
+    ## CountryMyanmar                                                                                 -585.57299978
+    ## CountryNamibia                                                                                 -735.07755866
+    ## CountryNepal                                                                                   -543.85763648
+    ## CountryNetherlands                                                                             -482.42678141
+    ## CountryNew Zealand                                                                             -460.07511465
+    ## CountryNicaragua                                                                               -323.81105866
+    ## CountryNiger                                                                                   6850.53054547
+    ## CountryNigeria                                                                                -2466.37639246
+    ## CountryNorway                                                                                  -504.29844208
+    ## CountryOman                                                                                    -498.02512657
+    ## CountryPakistan                                                                               -1163.14767489
+    ## CountryPanama                                                                                 -1180.62519083
+    ## CountryPapua New Guinea                                                                        -816.01113542
+    ## CountryParaguay                                                                                -204.26853970
+    ## CountryPeru                                                                                    -580.11376288
+    ## CountryPhilippines                                                                             -592.43967282
+    ## CountryPoland                                                                                  -519.52212174
+    ## CountryPortugal                                                                                -424.83895046
+    ## CountryQatar                                                                                   -508.28355815
+    ## CountryRepublic of Korea                                                                       -492.80570884
+    ## CountryRepublic of Moldova                                                                     -414.44625222
+    ## CountryRomania                                                                                 -151.11173782
+    ## CountryRussian Federation                                                                      -222.51072463
+    ## CountryRwanda                                                                                  -516.29942451
+    ## CountrySaint Lucia                                                                             -493.14436601
+    ## CountrySaint Vincent and the Grenadines                                                        -704.21500193
+    ## CountrySamoa                                                                                   -577.12521884
+    ## CountrySao Tome and Principe                                                                   -434.99105284
+    ## CountrySaudi Arabia                                                                            -472.74877283
+    ## CountrySenegal                                                                                 -575.91945406
+    ## CountrySerbia                                                                                  -495.89919558
+    ## CountrySeychelles                                                                              -508.77302744
+    ## CountrySierra Leone                                                                             495.78706493
+    ## CountrySingapore                                                                               -505.98010032
+    ## CountrySlovakia                                                                                -510.22445357
+    ## CountrySlovenia                                                                                -468.42774612
+    ## CountrySolomon Islands                                                                         -527.53102271
+    ## CountrySomalia                                                                                -4015.97249269
+    ## CountrySouth Africa                                                                             -88.09812098
+    ## CountrySouth Sudan                                                                             1160.56861064
+    ## CountrySpain                                                                                   -566.86981573
+    ## CountrySri Lanka                                                                               -574.36783574
+    ## CountrySudan                                                                                  -1217.44196332
+    ## CountrySuriname                                                                                -428.64303467
+    ## CountrySwaziland                                                                               -542.96667651
+    ## CountrySweden                                                                                  -534.32710139
+    ## CountrySwitzerland                                                                             -536.96282337
+    ## CountrySyrian Arab Republic                                                                    -516.59515260
+    ## CountryTajikistan                                                                              -178.37267341
+    ## CountryThailand                                                                                -524.39187461
+    ## CountryThe former Yugoslav republic of Macedonia                                               -513.72256823
+    ## CountryTimor-Leste                                                                             -475.65181857
+    ## CountryTogo                                                                                    -246.94880660
+    ## CountryTonga                                                                                   -504.29303475
+    ## CountryTrinidad and Tobago                                                                     -402.04639840
+    ## CountryTunisia                                                                                 -693.37481182
+    ## CountryTurkey                                                                                  -270.60042574
+    ## CountryTurkmenistan                                                                            -563.14878494
+    ## CountryUganda                                                                                  -361.36100544
+    ## CountryUkraine                                                                                 -848.70754972
+    ## CountryUnited Arab Emirates                                                                    -517.14414202
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                    -664.63259926
+    ## CountryUnited Republic of Tanzania                                                             1071.73696430
+    ## CountryUnited States of America                                                               -1151.15101561
+    ## CountryUruguay                                                                                 -507.44250227
+    ## CountryUzbekistan                                                                              -554.88632291
+    ## CountryVanuatu                                                                                 -501.74888643
+    ## CountryVenezuela                                                                               -743.41156595
+    ## CountryViet Nam                                                                                -656.85098470
+    ## CountryYemen                                                                                   1228.91477913
+    ## CountryZambia                                                                                  -649.84568828
+    ## CountryZimbabwe                                                                                -217.33601264
+    ## infant.deaths:CountryAlbania                                                                     68.39202038
+    ## infant.deaths:CountryAlgeria                                                                      4.92610096
+    ## infant.deaths:CountryAngola                                                                       3.30554624
     ## infant.deaths:CountryAntigua and Barbuda                                                                  NA
-    ## infant.deaths:CountryArgentina                                                                    2.50757961
+    ## infant.deaths:CountryArgentina                                                                    2.56770250
     ## infant.deaths:CountryArmenia                                                                              NA
     ## infant.deaths:CountryAustralia                                                                            NA
     ## infant.deaths:CountryAustria                                                                              NA
-    ## infant.deaths:CountryAzerbaijan                                                                  14.04165687
+    ## infant.deaths:CountryAzerbaijan                                                                  14.04537299
     ## infant.deaths:CountryBahamas                                                                              NA
     ## infant.deaths:CountryBahrain                                                                              NA
-    ## infant.deaths:CountryBangladesh                                                                   5.22045323
+    ## infant.deaths:CountryBangladesh                                                                   5.22287320
     ## infant.deaths:CountryBarbados                                                                             NA
-    ## infant.deaths:CountryBelarus                                                                    101.83234786
-    ## infant.deaths:CountryBelgium                                                                    -93.02253004
+    ## infant.deaths:CountryBelarus                                                                    101.76821064
+    ## infant.deaths:CountryBelgium                                                                    -93.29662562
     ## infant.deaths:CountryBelize                                                                               NA
     ## infant.deaths:CountryBenin                                                                                NA
-    ## infant.deaths:CountryBhutan                                                                       9.99131332
-    ## infant.deaths:CountryBolivia                                                                     14.92377138
+    ## infant.deaths:CountryBhutan                                                                      10.12433527
+    ## infant.deaths:CountryBolivia                                                                     15.02477114
     ## infant.deaths:CountryBosnia and Herzegovina                                                               NA
     ## infant.deaths:CountryBotswana                                                                             NA
-    ## infant.deaths:CountryBrazil                                                                       3.02277147
+    ## infant.deaths:CountryBrazil                                                                       3.04139611
     ## infant.deaths:CountryBrunei Darussalam                                                                    NA
-    ## infant.deaths:CountryBulgaria                                                                     5.26942395
-    ## infant.deaths:CountryBurkina Faso                                                                23.19866761
-    ## infant.deaths:CountryBurundi                                                                    -29.51960952
+    ## infant.deaths:CountryBulgaria                                                                     5.27117534
+    ## infant.deaths:CountryBurkina Faso                                                                23.14925855
+    ## infant.deaths:CountryBurundi                                                                    -29.34443679
     ## infant.deaths:CountryCabo Verde                                                                           NA
-    ## infant.deaths:CountryCambodia                                                                     7.00857720
-    ## infant.deaths:CountryCameroon                                                                     4.02573411
+    ## infant.deaths:CountryCambodia                                                                     6.94525719
+    ## infant.deaths:CountryCameroon                                                                     3.57108632
     ## infant.deaths:CountryCanada                                                                               NA
-    ## infant.deaths:CountryCentral African Republic                                                   -17.46813922
-    ## infant.deaths:CountryChad                                                                        26.44769983
+    ## infant.deaths:CountryCentral African Republic                                                     5.05067522
+    ## infant.deaths:CountryChad                                                                        51.69901682
     ## infant.deaths:CountryChile                                                                                NA
-    ## infant.deaths:CountryChina                                                                        5.39642086
-    ## infant.deaths:CountryColombia                                                                     1.97999835
-    ## infant.deaths:CountryComoros                                                                     -5.67816671
-    ## infant.deaths:CountryCongo                                                                      -17.76428014
+    ## infant.deaths:CountryChina                                                                        5.39669079
+    ## infant.deaths:CountryColombia                                                                     2.12813418
+    ## infant.deaths:CountryComoros                                                                    -30.06054729
+    ## infant.deaths:CountryCongo                                                                      -28.25184019
     ## infant.deaths:CountryCosta Rica                                                                           NA
     ## infant.deaths:CountryCroatia                                                                              NA
     ## infant.deaths:CountryCuba                                                                                 NA
     ## infant.deaths:CountryCyprus                                                                               NA
     ## infant.deaths:CountryCzechia                                                                              NA
-    ## infant.deaths:CountryDemocratic People's Republic of Korea                                       -0.15944716
-    ## infant.deaths:CountryDemocratic Republic of the Congo                                             2.19744272
+    ## infant.deaths:CountryDemocratic People's Republic of Korea                                       -0.12037051
+    ## infant.deaths:CountryDemocratic Republic of the Congo                                             3.53108916
     ## infant.deaths:CountryDenmark                                                                              NA
-    ## infant.deaths:CountryDjibouti                                                                   395.59875895
-    ## infant.deaths:CountryDominican Republic                                                         183.87322448
-    ## infant.deaths:CountryEcuador                                                                     13.44161268
-    ## infant.deaths:CountryEgypt                                                                      -25.51097872
-    ## infant.deaths:CountryEl Salvador                                                                161.91103446
+    ## infant.deaths:CountryDjibouti                                                                   176.17318575
+    ## infant.deaths:CountryDominican Republic                                                         194.96658081
+    ## infant.deaths:CountryEcuador                                                                      3.03658652
+    ## infant.deaths:CountryEgypt                                                                      -19.50242978
+    ## infant.deaths:CountryEl Salvador                                                                 78.27292297
     ## infant.deaths:CountryEquatorial Guinea                                                                    NA
-    ## infant.deaths:CountryEritrea                                                                     96.43527293
+    ## infant.deaths:CountryEritrea                                                                     82.59843213
     ## infant.deaths:CountryEstonia                                                                              NA
-    ## infant.deaths:CountryEthiopia                                                                     5.34104535
+    ## infant.deaths:CountryEthiopia                                                                     6.49532187
     ## infant.deaths:CountryFiji                                                                                 NA
     ## infant.deaths:CountryFinland                                                                              NA
-    ## infant.deaths:CountryFrance                                                                       8.24664241
+    ## infant.deaths:CountryFrance                                                                       7.07204197
     ## infant.deaths:CountryGabon                                                                                NA
     ## infant.deaths:CountryGambia                                                                               NA
-    ## infant.deaths:CountryGeorgia                                                                     51.88541133
-    ## infant.deaths:CountryGermany                                                                   -156.68175295
-    ## infant.deaths:CountryGhana                                                                       67.51635127
-    ## infant.deaths:CountryGreece                                                                     -85.11921779
+    ## infant.deaths:CountryGeorgia                                                                     59.60059299
+    ## infant.deaths:CountryGermany                                                                   -165.14907214
+    ## infant.deaths:CountryGhana                                                                       65.76999554
+    ## infant.deaths:CountryGreece                                                                       5.19293775
     ## infant.deaths:CountryGrenada                                                                              NA
-    ## infant.deaths:CountryGuatemala                                                                   94.22427450
-    ## infant.deaths:CountryGuinea                                                                       8.45071241
-    ## infant.deaths:CountryGuinea-Bissau                                                             -467.50147517
-    ## infant.deaths:CountryGuyana                                                                      28.36645257
-    ## infant.deaths:CountryHaiti                                                                       22.98509918
-    ## infant.deaths:CountryHonduras                                                                     7.52115788
-    ## infant.deaths:CountryHungary                                                                     43.76253151
+    ## infant.deaths:CountryGuatemala                                                                   84.51356897
+    ## infant.deaths:CountryGuinea                                                                       8.46028764
+    ## infant.deaths:CountryGuinea-Bissau                                                             -419.06079691
+    ## infant.deaths:CountryGuyana                                                                      24.31656447
+    ## infant.deaths:CountryHaiti                                                                       23.20489122
+    ## infant.deaths:CountryHonduras                                                                     7.08383673
+    ## infant.deaths:CountryHungary                                                                     44.27899494
     ## infant.deaths:CountryIceland                                                                              NA
-    ## infant.deaths:CountryIndia                                                                        5.39875665
-    ## infant.deaths:CountryIndonesia                                                                    6.89233418
-    ## infant.deaths:CountryIran                                                                         1.50686246
-    ## infant.deaths:CountryIraq                                                                        67.08321186
+    ## infant.deaths:CountryIndia                                                                        5.38751041
+    ## infant.deaths:CountryIndonesia                                                                    7.39505775
+    ## infant.deaths:CountryIran                                                                         4.80955933
+    ## infant.deaths:CountryIraq                                                                        41.70441356
     ## infant.deaths:CountryIreland                                                                              NA
-    ## infant.deaths:CountryIsrael                                                                       5.45821024
-    ## infant.deaths:CountryItaly                                                                        2.78016376
-    ## infant.deaths:CountryIvory Coast                                                                -12.79877680
+    ## infant.deaths:CountryIsrael                                                                       5.36022470
+    ## infant.deaths:CountryItaly                                                                       23.06692064
+    ## infant.deaths:CountryIvory Coast                                                                -18.25746176
     ## infant.deaths:CountryJamaica                                                                              NA
-    ## infant.deaths:CountryJapan                                                                       16.83171644
+    ## infant.deaths:CountryJapan                                                                       17.23681671
     ## infant.deaths:CountryJordan                                                                               NA
-    ## infant.deaths:CountryKazakhstan                                                                  10.88035563
-    ## infant.deaths:CountryKenya                                                                        7.12532127
+    ## infant.deaths:CountryKazakhstan                                                                  10.83381606
+    ## infant.deaths:CountryKenya                                                                        7.13271272
     ## infant.deaths:CountryKiribati                                                                             NA
-    ## infant.deaths:CountryKuwait                                                                      25.74108917
-    ## infant.deaths:CountryKyrgyzstan                                                                 122.74477681
-    ## infant.deaths:CountryLao People's Democratic Republic                                            14.33417320
+    ## infant.deaths:CountryKuwait                                                                      25.87283733
+    ## infant.deaths:CountryKyrgyzstan                                                                 123.73599630
+    ## infant.deaths:CountryLao People's Democratic Republic                                            14.39751575
     ## infant.deaths:CountryLatvia                                                                               NA
     ## infant.deaths:CountryLebanon                                                                              NA
-    ## infant.deaths:CountryLesotho                                                                    -43.68191132
-    ## infant.deaths:CountryLiberia                                                                      6.61888702
-    ## infant.deaths:CountryLibya                                                                     -813.35484872
+    ## infant.deaths:CountryLesotho                                                                    -43.68469217
+    ## infant.deaths:CountryLiberia                                                                      6.64591424
+    ## infant.deaths:CountryLibya                                                                     -813.08602567
     ## infant.deaths:CountryLithuania                                                                            NA
     ## infant.deaths:CountryLuxembourg                                                                           NA
-    ## infant.deaths:CountryMadagascar                                                                  24.92102113
-    ## infant.deaths:CountryMalawi                                                                       7.51170179
-    ## infant.deaths:CountryMalaysia                                                                    11.56131107
+    ## infant.deaths:CountryMadagascar                                                                  24.60241860
+    ## infant.deaths:CountryMalawi                                                                       7.42588120
+    ## infant.deaths:CountryMalaysia                                                                    11.04250162
     ## infant.deaths:CountryMaldives                                                                             NA
-    ## infant.deaths:CountryMali                                                                       -17.45373455
+    ## infant.deaths:CountryMali                                                                       -17.46423074
     ## infant.deaths:CountryMalta                                                                                NA
-    ## infant.deaths:CountryMauritania                                                               -1447.05838508
+    ## infant.deaths:CountryMauritania                                                               -1450.44955709
     ## infant.deaths:CountryMauritius                                                                            NA
-    ## infant.deaths:CountryMexico                                                                       2.26979452
+    ## infant.deaths:CountryMexico                                                                       2.24359588
     ## infant.deaths:CountryMicronesia (Federated States of)                                                     NA
-    ## infant.deaths:CountryMongolia                                                                   119.41592569
+    ## infant.deaths:CountryMongolia                                                                   120.17472339
     ## infant.deaths:CountryMontenegro                                                                           NA
-    ## infant.deaths:CountryMorocco                                                                      4.31010226
-    ## infant.deaths:CountryMozambique                                                                 -11.88850068
-    ## infant.deaths:CountryMyanmar                                                                      7.25509190
-    ## infant.deaths:CountryNamibia                                                                     97.94243743
-    ## infant.deaths:CountryNepal                                                                        6.67667560
+    ## infant.deaths:CountryMorocco                                                                      4.31962902
+    ## infant.deaths:CountryMozambique                                                                 -11.83802844
+    ## infant.deaths:CountryMyanmar                                                                      7.26801435
+    ## infant.deaths:CountryNamibia                                                                     98.09296794
+    ## infant.deaths:CountryNepal                                                                        6.70561327
     ## infant.deaths:CountryNetherlands                                                                          NA
     ## infant.deaths:CountryNew Zealand                                                                          NA
-    ## infant.deaths:CountryNicaragua                                                                  -53.10049535
-    ## infant.deaths:CountryNiger                                                                     -149.20121828
-    ## infant.deaths:CountryNigeria                                                                      9.51539565
+    ## infant.deaths:CountryNicaragua                                                                  -53.14443765
+    ## infant.deaths:CountryNiger                                                                     -148.18320680
+    ## infant.deaths:CountryNigeria                                                                      9.66076805
     ## infant.deaths:CountryNorway                                                                               NA
     ## infant.deaths:CountryOman                                                                                 NA
-    ## infant.deaths:CountryPakistan                                                                     7.31005059
-    ## infant.deaths:CountryPanama                                                                     691.93261440
-    ## infant.deaths:CountryPapua New Guinea                                                            42.28798059
-    ## infant.deaths:CountryParaguay                                                                   -98.51765085
-    ## infant.deaths:CountryPeru                                                                         0.42130870
-    ## infant.deaths:CountryPhilippines                                                                  6.37336404
-    ## infant.deaths:CountryPoland                                                                      12.28214187
-    ## infant.deaths:CountryPortugal                                                                   -34.32118985
+    ## infant.deaths:CountryPakistan                                                                     7.28979197
+    ## infant.deaths:CountryPanama                                                                     707.42947970
+    ## infant.deaths:CountryPapua New Guinea                                                            43.17361042
+    ## infant.deaths:CountryParaguay                                                                   -98.43167179
+    ## infant.deaths:CountryPeru                                                                         0.55859879
+    ## infant.deaths:CountryPhilippines                                                                  6.29568548
+    ## infant.deaths:CountryPoland                                                                      12.45163674
+    ## infant.deaths:CountryPortugal                                                                   -35.23399596
     ## infant.deaths:CountryQatar                                                                                NA
-    ## infant.deaths:CountryRepublic of Korea                                                           16.17235238
+    ## infant.deaths:CountryRepublic of Korea                                                           16.39531457
     ## infant.deaths:CountryRepublic of Moldova                                                                  NA
-    ## infant.deaths:CountryRomania                                                                   -174.95556667
-    ## infant.deaths:CountryRussian Federation                                                         -13.83230354
-    ## infant.deaths:CountryRwanda                                                                       9.12794287
+    ## infant.deaths:CountryRomania                                                                   -175.04532367
+    ## infant.deaths:CountryRussian Federation                                                         -13.76283113
+    ## infant.deaths:CountryRwanda                                                                       9.14026168
     ## infant.deaths:CountrySaint Lucia                                                                          NA
     ## infant.deaths:CountrySaint Vincent and the Grenadines                                                     NA
     ## infant.deaths:CountrySamoa                                                                                NA
     ## infant.deaths:CountrySao Tome and Principe                                                                NA
-    ## infant.deaths:CountrySaudi Arabia                                                                 0.44798872
-    ## infant.deaths:CountrySenegal                                                                      9.36713289
+    ## infant.deaths:CountrySaudi Arabia                                                                 0.50783776
+    ## infant.deaths:CountrySenegal                                                                      9.55798475
     ## infant.deaths:CountrySerbia                                                                               NA
     ## infant.deaths:CountrySeychelles                                                                           NA
-    ## infant.deaths:CountrySierra Leone                                                               -27.55668001
+    ## infant.deaths:CountrySierra Leone                                                               -27.55922792
     ## infant.deaths:CountrySingapore                                                                            NA
     ## infant.deaths:CountrySlovakia                                                                             NA
     ## infant.deaths:CountrySlovenia                                                                             NA
     ## infant.deaths:CountrySolomon Islands                                                                      NA
-    ## infant.deaths:CountrySomalia                                                                     76.41415632
-    ## infant.deaths:CountrySouth Africa                                                                -2.74877157
-    ## infant.deaths:CountrySouth Sudan                                                                -57.61787714
-    ## infant.deaths:CountrySpain                                                                       49.51001572
-    ## infant.deaths:CountrySri Lanka                                                                   21.72670673
-    ## infant.deaths:CountrySudan                                                                       15.89092251
+    ## infant.deaths:CountrySomalia                                                                     76.56612264
+    ## infant.deaths:CountrySouth Africa                                                                -2.73747218
+    ## infant.deaths:CountrySouth Sudan                                                                -57.49316896
+    ## infant.deaths:CountrySpain                                                                       49.13921464
+    ## infant.deaths:CountrySri Lanka                                                                   22.04710064
+    ## infant.deaths:CountrySudan                                                                       15.94093317
     ## infant.deaths:CountrySuriname                                                                             NA
-    ## infant.deaths:CountrySwaziland                                                                   57.99424640
+    ## infant.deaths:CountrySwaziland                                                                   58.21399028
     ## infant.deaths:CountrySweden                                                                               NA
     ## infant.deaths:CountrySwitzerland                                                                          NA
-    ## infant.deaths:CountrySyrian Arab Republic                                                         6.15586452
-    ## infant.deaths:CountryTajikistan                                                                 -23.13338581
-    ## infant.deaths:CountryThailand                                                                     8.59064778
+    ## infant.deaths:CountrySyrian Arab Republic                                                         6.16572182
+    ## infant.deaths:CountryTajikistan                                                                 -23.09229076
+    ## infant.deaths:CountryThailand                                                                     8.60061107
     ## infant.deaths:CountryThe former Yugoslav republic of Macedonia                                            NA
-    ## infant.deaths:CountryTimor-Leste                                                                  5.64169894
-    ## infant.deaths:CountryTogo                                                                        -8.70761324
+    ## infant.deaths:CountryTimor-Leste                                                                  5.57534949
+    ## infant.deaths:CountryTogo                                                                        -8.71406093
     ## infant.deaths:CountryTonga                                                                                NA
     ## infant.deaths:CountryTrinidad and Tobago                                                                  NA
-    ## infant.deaths:CountryTunisia                                                                     61.52944294
-    ## infant.deaths:CountryTurkey                                                                       2.33734840
-    ## infant.deaths:CountryTurkmenistan                                                                17.56155229
-    ## infant.deaths:CountryUganda                                                                       5.98052630
-    ## infant.deaths:CountryUkraine                                                                     89.36706715
+    ## infant.deaths:CountryTunisia                                                                     61.54396274
+    ## infant.deaths:CountryTurkey                                                                       2.39857960
+    ## infant.deaths:CountryTurkmenistan                                                                17.54743387
+    ## infant.deaths:CountryUganda                                                                       6.02181157
+    ## infant.deaths:CountryUkraine                                                                     89.10185441
     ## infant.deaths:CountryUnited Arab Emirates                                                                 NA
-    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                        52.85479190
-    ## infant.deaths:CountryUnited Republic of Tanzania                                                -12.62264810
-    ## infant.deaths:CountryUnited States of America                                                    29.55390973
-    ## infant.deaths:CountryUruguay                                                                      4.08606124
-    ## infant.deaths:CountryUzbekistan                                                                   5.32869228
+    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                        52.85129755
+    ## infant.deaths:CountryUnited Republic of Tanzania                                                -12.63931787
+    ## infant.deaths:CountryUnited States of America                                                    29.55347933
+    ## infant.deaths:CountryUruguay                                                                      4.57565720
+    ## infant.deaths:CountryUzbekistan                                                                   5.36818705
     ## infant.deaths:CountryVanuatu                                                                              NA
-    ## infant.deaths:CountryVenezuela                                                                   28.69357310
-    ## infant.deaths:CountryViet Nam                                                                    10.74579399
-    ## infant.deaths:CountryYemen                                                                      -38.14850173
-    ## infant.deaths:CountryZambia                                                                       9.91952369
-    ## infant.deaths:CountryZimbabwe                                                                    -3.11396743
-    ## log.Adult.Mortality:CountryAlbania                                                               96.42138806
-    ## log.Adult.Mortality:CountryAlgeria                                                               90.19203577
-    ## log.Adult.Mortality:CountryAngola                                                                50.55214276
-    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                   92.46060545
-    ## log.Adult.Mortality:CountryArgentina                                                             86.62872366
-    ## log.Adult.Mortality:CountryArmenia                                                               92.63845052
-    ## log.Adult.Mortality:CountryAustralia                                                             96.36147414
-    ## log.Adult.Mortality:CountryAustria                                                               83.89463246
-    ## log.Adult.Mortality:CountryAzerbaijan                                                           102.37598420
-    ## log.Adult.Mortality:CountryBahamas                                                               93.96925237
-    ## log.Adult.Mortality:CountryBahrain                                                               99.69413231
-    ## log.Adult.Mortality:CountryBangladesh                                                           138.60990609
-    ## log.Adult.Mortality:CountryBarbados                                                              97.19800103
-    ## log.Adult.Mortality:CountryBelarus                                                              102.12282763
-    ## log.Adult.Mortality:CountryBelgium                                                               71.23901935
-    ## log.Adult.Mortality:CountryBelize                                                                86.92358479
-    ## log.Adult.Mortality:CountryBenin                                                                 76.40725658
-    ## log.Adult.Mortality:CountryBhutan                                                                80.52732303
-    ## log.Adult.Mortality:CountryBolivia                                                               27.40894820
-    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                94.47722888
-    ## log.Adult.Mortality:CountryBotswana                                                              81.27058488
-    ## log.Adult.Mortality:CountryBrazil                                                                47.68552677
-    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     90.34018368
-    ## log.Adult.Mortality:CountryBulgaria                                                              86.08303124
-    ## log.Adult.Mortality:CountryBurkina Faso                                                         262.67710538
-    ## log.Adult.Mortality:CountryBurundi                                                              -82.28809261
-    ## log.Adult.Mortality:CountryCabo Verde                                                            98.83023535
-    ## log.Adult.Mortality:CountryCambodia                                                             102.87312276
-    ## log.Adult.Mortality:CountryCameroon                                                              79.88661976
-    ## log.Adult.Mortality:CountryCanada                                                                83.50600588
-    ## log.Adult.Mortality:CountryCentral African Republic                                              27.00214465
-    ## log.Adult.Mortality:CountryChad                                                                 229.79604171
-    ## log.Adult.Mortality:CountryChile                                                                 69.73221235
-    ## log.Adult.Mortality:CountryChina                                                                108.50877198
-    ## log.Adult.Mortality:CountryColombia                                                              85.70588775
-    ## log.Adult.Mortality:CountryComoros                                                               76.58295692
-    ## log.Adult.Mortality:CountryCongo                                                                 73.47701433
-    ## log.Adult.Mortality:CountryCosta Rica                                                            87.37283382
-    ## log.Adult.Mortality:CountryCroatia                                                               93.54544692
-    ## log.Adult.Mortality:CountryCuba                                                                  95.63536506
-    ## log.Adult.Mortality:CountryCyprus                                                                89.79553092
-    ## log.Adult.Mortality:CountryCzechia                                                               93.62027597
-    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 76.19442379
-    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                     -55.80045013
-    ## log.Adult.Mortality:CountryDenmark                                                               85.73199986
-    ## log.Adult.Mortality:CountryDjibouti                                                             220.82869376
-    ## log.Adult.Mortality:CountryDominican Republic                                                   305.44040479
-    ## log.Adult.Mortality:CountryEcuador                                                              108.16053723
-    ## log.Adult.Mortality:CountryEgypt                                                               -324.09055512
-    ## log.Adult.Mortality:CountryEl Salvador                                                          143.52404033
-    ## log.Adult.Mortality:CountryEquatorial Guinea                                                     76.66336776
-    ## log.Adult.Mortality:CountryEritrea                                                              194.79974322
-    ## log.Adult.Mortality:CountryEstonia                                                               99.10692179
-    ## log.Adult.Mortality:CountryEthiopia                                                              97.49372438
-    ## log.Adult.Mortality:CountryFiji                                                                  91.44451908
-    ## log.Adult.Mortality:CountryFinland                                                               81.15636665
-    ## log.Adult.Mortality:CountryFrance                                                                89.17151160
-    ## log.Adult.Mortality:CountryGabon                                                                 87.43244389
-    ## log.Adult.Mortality:CountryGambia                                                                35.84276491
-    ## log.Adult.Mortality:CountryGeorgia                                                              118.39568923
-    ## log.Adult.Mortality:CountryGermany                                                              -19.32134424
-    ## log.Adult.Mortality:CountryGhana                                                                506.10951542
-    ## log.Adult.Mortality:CountryGreece                                                                64.01189858
-    ## log.Adult.Mortality:CountryGrenada                                                              109.27060747
-    ## log.Adult.Mortality:CountryGuatemala                                                            251.50971260
-    ## log.Adult.Mortality:CountryGuinea                                                               109.34080242
-    ## log.Adult.Mortality:CountryGuinea-Bissau                                                       -256.67035120
-    ## log.Adult.Mortality:CountryGuyana                                                               101.27390253
-    ## log.Adult.Mortality:CountryHaiti                                                                154.53401578
-    ## log.Adult.Mortality:CountryHonduras                                                              85.17059381
-    ## log.Adult.Mortality:CountryHungary                                                               95.15993829
-    ## log.Adult.Mortality:CountryIceland                                                              101.25026186
-    ## log.Adult.Mortality:CountryIndia                                                                 82.36802584
-    ## log.Adult.Mortality:CountryIndonesia                                                            144.39533391
-    ## log.Adult.Mortality:CountryIran                                                                  80.42791459
-    ## log.Adult.Mortality:CountryIraq                                                                 459.89180136
-    ## log.Adult.Mortality:CountryIreland                                                               83.98274337
-    ## log.Adult.Mortality:CountryIsrael                                                                95.20132148
-    ## log.Adult.Mortality:CountryItaly                                                                101.29856909
-    ## log.Adult.Mortality:CountryIvory Coast                                                          -93.35923993
-    ## log.Adult.Mortality:CountryJamaica                                                               92.75002285
-    ## log.Adult.Mortality:CountryJapan                                                                103.10846919
-    ## log.Adult.Mortality:CountryJordan                                                                90.12161936
-    ## log.Adult.Mortality:CountryKazakhstan                                                            96.80067579
-    ## log.Adult.Mortality:CountryKenya                                                                109.56499901
-    ## log.Adult.Mortality:CountryKiribati                                                              83.71959067
-    ## log.Adult.Mortality:CountryKuwait                                                                93.02453886
-    ## log.Adult.Mortality:CountryKyrgyzstan                                                           177.90891653
-    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      97.32595970
-    ## log.Adult.Mortality:CountryLatvia                                                                99.72112446
-    ## log.Adult.Mortality:CountryLebanon                                                               93.62146351
-    ## log.Adult.Mortality:CountryLesotho                                                               46.47648151
-    ## log.Adult.Mortality:CountryLiberia                                                               86.41105762
-    ## log.Adult.Mortality:CountryLibya                                                               -226.21190029
-    ## log.Adult.Mortality:CountryLithuania                                                            105.82159830
-    ## log.Adult.Mortality:CountryLuxembourg                                                            93.34764505
-    ## log.Adult.Mortality:CountryMadagascar                                                           194.31648629
-    ## log.Adult.Mortality:CountryMalawi                                                               100.25206645
-    ## log.Adult.Mortality:CountryMalaysia                                                              91.17942082
-    ## log.Adult.Mortality:CountryMaldives                                                              98.53799742
-    ## log.Adult.Mortality:CountryMali                                                                -152.19872551
-    ## log.Adult.Mortality:CountryMalta                                                                 83.96348906
-    ## log.Adult.Mortality:CountryMauritania                                                         -2018.99530311
-    ## log.Adult.Mortality:CountryMauritius                                                             84.27119082
-    ## log.Adult.Mortality:CountryMexico                                                                70.48573099
-    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      84.98711249
-    ## log.Adult.Mortality:CountryMongolia                                                             106.12435492
-    ## log.Adult.Mortality:CountryMontenegro                                                            93.66800931
-    ## log.Adult.Mortality:CountryMorocco                                                              103.24499332
-    ## log.Adult.Mortality:CountryMozambique                                                           -72.57428196
-    ## log.Adult.Mortality:CountryMyanmar                                                              107.13190762
-    ## log.Adult.Mortality:CountryNamibia                                                              133.32664117
-    ## log.Adult.Mortality:CountryNepal                                                                 99.77410193
-    ## log.Adult.Mortality:CountryNetherlands                                                           88.53588920
-    ## log.Adult.Mortality:CountryNew Zealand                                                           82.37458976
-    ## log.Adult.Mortality:CountryNicaragua                                                             56.81147169
-    ## log.Adult.Mortality:CountryNiger                                                              -1200.50447213
-    ## log.Adult.Mortality:CountryNigeria                                                              402.87964314
-    ## log.Adult.Mortality:CountryNorway                                                                92.58091768
-    ## log.Adult.Mortality:CountryOman                                                                  92.02631589
-    ## log.Adult.Mortality:CountryPakistan                                                             223.03795587
-    ## log.Adult.Mortality:CountryPanama                                                               230.76495211
-    ## log.Adult.Mortality:CountryPapua New Guinea                                                     142.61923391
-    ## log.Adult.Mortality:CountryParaguay                                                              33.18107376
-    ## log.Adult.Mortality:CountryPeru                                                                 109.55380339
-    ## log.Adult.Mortality:CountryPhilippines                                                          110.34624607
-    ## log.Adult.Mortality:CountryPoland                                                                96.12688649
-    ## log.Adult.Mortality:CountryPortugal                                                              75.15106434
-    ## log.Adult.Mortality:CountryQatar                                                                 92.25290351
-    ## log.Adult.Mortality:CountryRepublic of Korea                                                     89.23337404
-    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   76.81201438
-    ## log.Adult.Mortality:CountryRomania                                                               23.79677970
-    ## log.Adult.Mortality:CountryRussian Federation                                                    43.99286988
-    ## log.Adult.Mortality:CountryRwanda                                                                93.33028788
-    ## log.Adult.Mortality:CountrySaint Lucia                                                           90.52719785
-    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                     131.54319193
-    ## log.Adult.Mortality:CountrySamoa                                                                107.19076069
-    ## log.Adult.Mortality:CountrySao Tome and Principe                                                 78.88441050
-    ## log.Adult.Mortality:CountrySaudi Arabia                                                          84.60003887
-    ## log.Adult.Mortality:CountrySenegal                                                              106.48262048
-    ## log.Adult.Mortality:CountrySerbia                                                                91.55465996
-    ## log.Adult.Mortality:CountrySeychelles                                                            93.63494988
-    ## log.Adult.Mortality:CountrySierra Leone                                                         -72.32214954
-    ## log.Adult.Mortality:CountrySingapore                                                             92.61597992
-    ## log.Adult.Mortality:CountrySlovakia                                                              93.73275033
-    ## log.Adult.Mortality:CountrySlovenia                                                              85.03828044
-    ## log.Adult.Mortality:CountrySolomon Islands                                                       96.37234194
-    ## log.Adult.Mortality:CountrySomalia                                                              695.99244706
-    ## log.Adult.Mortality:CountrySouth Africa                                                          25.07983497
-    ## log.Adult.Mortality:CountrySouth Sudan                                                         -185.59570743
-    ## log.Adult.Mortality:CountrySpain                                                                106.71587268
-    ## log.Adult.Mortality:CountrySri Lanka                                                            106.44438273
-    ## log.Adult.Mortality:CountrySudan                                                                223.42719363
-    ## log.Adult.Mortality:CountrySuriname                                                              78.36063477
-    ## log.Adult.Mortality:CountrySwaziland                                                             97.67714021
-    ## log.Adult.Mortality:CountrySweden                                                                99.63268489
-    ## log.Adult.Mortality:CountrySwitzerland                                                          100.24789509
-    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                  95.00845418
-    ## log.Adult.Mortality:CountryTajikistan                                                            27.00988978
-    ## log.Adult.Mortality:CountryThailand                                                              96.54418829
-    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             94.04771092
-    ## log.Adult.Mortality:CountryTimor-Leste                                                           85.24547470
-    ## log.Adult.Mortality:CountryTogo                                                                  45.76996732
-    ## log.Adult.Mortality:CountryTonga                                                                 92.32352761
-    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   73.12026351
-    ## log.Adult.Mortality:CountryTunisia                                                              132.69979477
-    ## log.Adult.Mortality:CountryTurkey                                                                41.32129398
-    ## log.Adult.Mortality:CountryTurkmenistan                                                         103.77684072
-    ## log.Adult.Mortality:CountryUganda                                                                64.92210985
-    ## log.Adult.Mortality:CountryUkraine                                                              157.31329284
-    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  95.83236531
-    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                 132.16788021
-    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                         -161.43319947
-    ## log.Adult.Mortality:CountryUnited States of America                                             232.30004188
-    ## log.Adult.Mortality:CountryUruguay                                                               93.26414866
-    ## log.Adult.Mortality:CountryUzbekistan                                                           101.97586789
-    ## log.Adult.Mortality:CountryVanuatu                                                               91.74941717
-    ## log.Adult.Mortality:CountryVenezuela                                                            138.88198028
-    ## log.Adult.Mortality:CountryViet Nam                                                             123.20840526
-    ## log.Adult.Mortality:CountryYemen                                                               -222.13112882
-    ## log.Adult.Mortality:CountryZambia                                                               118.66196602
-    ## log.Adult.Mortality:CountryZimbabwe                                                              46.57729827
-    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.96972794
-    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                -14.19192189
-    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  0.10316274
-    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.37344882
+    ## infant.deaths:CountryVenezuela                                                                   29.34436979
+    ## infant.deaths:CountryViet Nam                                                                    11.10622184
+    ## infant.deaths:CountryYemen                                                                      -38.33651393
+    ## infant.deaths:CountryZambia                                                                       9.83192403
+    ## infant.deaths:CountryZimbabwe                                                                    -3.12669812
+    ## log.Adult.Mortality:CountryAlbania                                                               96.65099226
+    ## log.Adult.Mortality:CountryAlgeria                                                               89.85286765
+    ## log.Adult.Mortality:CountryAngola                                                                50.58774784
+    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                   92.67879392
+    ## log.Adult.Mortality:CountryArgentina                                                             86.96585934
+    ## log.Adult.Mortality:CountryArmenia                                                               92.87773471
+    ## log.Adult.Mortality:CountryAustralia                                                             96.64602802
+    ## log.Adult.Mortality:CountryAustria                                                               84.12822237
+    ## log.Adult.Mortality:CountryAzerbaijan                                                           102.59141828
+    ## log.Adult.Mortality:CountryBahamas                                                               94.20029847
+    ## log.Adult.Mortality:CountryBahrain                                                               99.92597522
+    ## log.Adult.Mortality:CountryBangladesh                                                           138.56706144
+    ## log.Adult.Mortality:CountryBarbados                                                              97.47122330
+    ## log.Adult.Mortality:CountryBelarus                                                              102.37299794
+    ## log.Adult.Mortality:CountryBelgium                                                               71.46985707
+    ## log.Adult.Mortality:CountryBelize                                                                87.14968615
+    ## log.Adult.Mortality:CountryBenin                                                                 76.66109649
+    ## log.Adult.Mortality:CountryBhutan                                                                80.76906677
+    ## log.Adult.Mortality:CountryBolivia                                                               27.83523076
+    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                94.72590077
+    ## log.Adult.Mortality:CountryBotswana                                                              81.50271018
+    ## log.Adult.Mortality:CountryBrazil                                                                47.82752494
+    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     90.62718698
+    ## log.Adult.Mortality:CountryBulgaria                                                              86.40160109
+    ## log.Adult.Mortality:CountryBurkina Faso                                                         262.36116177
+    ## log.Adult.Mortality:CountryBurundi                                                              -81.33184678
+    ## log.Adult.Mortality:CountryCabo Verde                                                           102.10062928
+    ## log.Adult.Mortality:CountryCambodia                                                             102.33108018
+    ## log.Adult.Mortality:CountryCameroon                                                              75.84976135
+    ## log.Adult.Mortality:CountryCanada                                                                95.64326426
+    ## log.Adult.Mortality:CountryCentral African Republic                                              84.06886081
+    ## log.Adult.Mortality:CountryChad                                                                 425.47119654
+    ## log.Adult.Mortality:CountryChile                                                                 69.48681096
+    ## log.Adult.Mortality:CountryChina                                                                107.19010803
+    ## log.Adult.Mortality:CountryColombia                                                              86.84963065
+    ## log.Adult.Mortality:CountryComoros                                                               72.39550374
+    ## log.Adult.Mortality:CountryCongo                                                                 60.13184650
+    ## log.Adult.Mortality:CountryCosta Rica                                                            91.60179755
+    ## log.Adult.Mortality:CountryCroatia                                                               93.42728156
+    ## log.Adult.Mortality:CountryCuba                                                                  95.61976376
+    ## log.Adult.Mortality:CountryCyprus                                                                91.37102022
+    ## log.Adult.Mortality:CountryCzechia                                                               93.56966362
+    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 76.57073177
+    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                      -1.48466554
+    ## log.Adult.Mortality:CountryDenmark                                                               85.93531188
+    ## log.Adult.Mortality:CountryDjibouti                                                             142.30978207
+    ## log.Adult.Mortality:CountryDominican Republic                                                   318.54417112
+    ## log.Adult.Mortality:CountryEcuador                                                               92.95615202
+    ## log.Adult.Mortality:CountryEgypt                                                               -266.72353244
+    ## log.Adult.Mortality:CountryEl Salvador                                                          117.70001433
+    ## log.Adult.Mortality:CountryEquatorial Guinea                                                     75.88240570
+    ## log.Adult.Mortality:CountryEritrea                                                              177.40927265
+    ## log.Adult.Mortality:CountryEstonia                                                               99.15010033
+    ## log.Adult.Mortality:CountryEthiopia                                                             113.41379166
+    ## log.Adult.Mortality:CountryFiji                                                                  91.57148514
+    ## log.Adult.Mortality:CountryFinland                                                               72.13119489
+    ## log.Adult.Mortality:CountryFrance                                                                94.72192091
+    ## log.Adult.Mortality:CountryGabon                                                                 87.40505700
+    ## log.Adult.Mortality:CountryGambia                                                                37.07502038
+    ## log.Adult.Mortality:CountryGeorgia                                                              119.61677006
+    ## log.Adult.Mortality:CountryGermany                                                              -25.04683455
+    ## log.Adult.Mortality:CountryGhana                                                                493.20584642
+    ## log.Adult.Mortality:CountryGreece                                                                63.33768037
+    ## log.Adult.Mortality:CountryGrenada                                                              108.18281494
+    ## log.Adult.Mortality:CountryGuatemala                                                            262.52361356
+    ## log.Adult.Mortality:CountryGuinea                                                               109.79945334
+    ## log.Adult.Mortality:CountryGuinea-Bissau                                                       -219.64038972
+    ## log.Adult.Mortality:CountryGuyana                                                               100.89351177
+    ## log.Adult.Mortality:CountryHaiti                                                                156.22806907
+    ## log.Adult.Mortality:CountryHonduras                                                              85.17853626
+    ## log.Adult.Mortality:CountryHungary                                                               95.54072605
+    ## log.Adult.Mortality:CountryIceland                                                              101.30803840
+    ## log.Adult.Mortality:CountryIndia                                                                 69.57999985
+    ## log.Adult.Mortality:CountryIndonesia                                                            160.62625043
+    ## log.Adult.Mortality:CountryIran                                                                  94.55627326
+    ## log.Adult.Mortality:CountryIraq                                                                 300.22783259
+    ## log.Adult.Mortality:CountryIreland                                                               87.33088567
+    ## log.Adult.Mortality:CountryIsrael                                                                95.62918493
+    ## log.Adult.Mortality:CountryItaly                                                                107.96599717
+    ## log.Adult.Mortality:CountryIvory Coast                                                         -147.64114878
+    ## log.Adult.Mortality:CountryJamaica                                                               92.97376089
+    ## log.Adult.Mortality:CountryJapan                                                                103.50702430
+    ## log.Adult.Mortality:CountryJordan                                                                90.35245809
+    ## log.Adult.Mortality:CountryKazakhstan                                                            96.92388358
+    ## log.Adult.Mortality:CountryKenya                                                                109.82171668
+    ## log.Adult.Mortality:CountryKiribati                                                              84.00370467
+    ## log.Adult.Mortality:CountryKuwait                                                                93.29345097
+    ## log.Adult.Mortality:CountryKyrgyzstan                                                           178.86783273
+    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      97.68660742
+    ## log.Adult.Mortality:CountryLatvia                                                                99.95709028
+    ## log.Adult.Mortality:CountryLebanon                                                               93.83516587
+    ## log.Adult.Mortality:CountryLesotho                                                               46.70849799
+    ## log.Adult.Mortality:CountryLiberia                                                               86.68235662
+    ## log.Adult.Mortality:CountryLibya                                                               -225.86406435
+    ## log.Adult.Mortality:CountryLithuania                                                            106.06653511
+    ## log.Adult.Mortality:CountryLuxembourg                                                            93.58583225
+    ## log.Adult.Mortality:CountryMadagascar                                                           193.60608909
+    ## log.Adult.Mortality:CountryMalawi                                                               100.12872020
+    ## log.Adult.Mortality:CountryMalaysia                                                              91.00360624
+    ## log.Adult.Mortality:CountryMaldives                                                              98.78098976
+    ## log.Adult.Mortality:CountryMali                                                                -152.20077978
+    ## log.Adult.Mortality:CountryMalta                                                                 84.20813789
+    ## log.Adult.Mortality:CountryMauritania                                                         -2023.76332743
+    ## log.Adult.Mortality:CountryMauritius                                                             84.52305358
+    ## log.Adult.Mortality:CountryMexico                                                                70.37584366
+    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      85.22091741
+    ## log.Adult.Mortality:CountryMongolia                                                             106.62787305
+    ## log.Adult.Mortality:CountryMontenegro                                                            93.92441284
+    ## log.Adult.Mortality:CountryMorocco                                                              103.43353044
+    ## log.Adult.Mortality:CountryMozambique                                                           -71.89472823
+    ## log.Adult.Mortality:CountryMyanmar                                                              107.39669699
+    ## log.Adult.Mortality:CountryNamibia                                                              133.62848091
+    ## log.Adult.Mortality:CountryNepal                                                                100.05259943
+    ## log.Adult.Mortality:CountryNetherlands                                                           88.76719071
+    ## log.Adult.Mortality:CountryNew Zealand                                                           82.60282465
+    ## log.Adult.Mortality:CountryNicaragua                                                             57.06327414
+    ## log.Adult.Mortality:CountryNiger                                                              -1191.66885836
+    ## log.Adult.Mortality:CountryNigeria                                                              417.35685563
+    ## log.Adult.Mortality:CountryNorway                                                                92.80084538
+    ## log.Adult.Mortality:CountryOman                                                                  92.27930603
+    ## log.Adult.Mortality:CountryPakistan                                                             221.16612781
+    ## log.Adult.Mortality:CountryPanama                                                               234.28706498
+    ## log.Adult.Mortality:CountryPapua New Guinea                                                     144.55350672
+    ## log.Adult.Mortality:CountryParaguay                                                              33.58909836
+    ## log.Adult.Mortality:CountryPeru                                                                 109.72202761
+    ## log.Adult.Mortality:CountryPhilippines                                                          109.64701490
+    ## log.Adult.Mortality:CountryPoland                                                                96.46762711
+    ## log.Adult.Mortality:CountryPortugal                                                              75.37491980
+    ## log.Adult.Mortality:CountryQatar                                                                 92.50512519
+    ## log.Adult.Mortality:CountryRepublic of Korea                                                     89.48520191
+    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   77.04379188
+    ## log.Adult.Mortality:CountryRomania                                                               24.02594766
+    ## log.Adult.Mortality:CountryRussian Federation                                                    44.39035902
+    ## log.Adult.Mortality:CountryRwanda                                                                93.54450499
+    ## log.Adult.Mortality:CountrySaint Lucia                                                           90.78888373
+    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                     131.81071752
+    ## log.Adult.Mortality:CountrySamoa                                                                107.44015090
+    ## log.Adult.Mortality:CountrySao Tome and Principe                                                 79.13783600
+    ## log.Adult.Mortality:CountrySaudi Arabia                                                          84.89524417
+    ## log.Adult.Mortality:CountrySenegal                                                              107.35670716
+    ## log.Adult.Mortality:CountrySerbia                                                                91.78119047
+    ## log.Adult.Mortality:CountrySeychelles                                                            93.86310058
+    ## log.Adult.Mortality:CountrySierra Leone                                                         -72.13983490
+    ## log.Adult.Mortality:CountrySingapore                                                             92.85919573
+    ## log.Adult.Mortality:CountrySlovakia                                                              93.96630970
+    ## log.Adult.Mortality:CountrySlovenia                                                              85.27210658
+    ## log.Adult.Mortality:CountrySolomon Islands                                                       96.60821782
+    ## log.Adult.Mortality:CountrySomalia                                                              697.50027738
+    ## log.Adult.Mortality:CountrySouth Africa                                                          25.29547124
+    ## log.Adult.Mortality:CountrySouth Sudan                                                         -184.86165349
+    ## log.Adult.Mortality:CountrySpain                                                                106.77867860
+    ## log.Adult.Mortality:CountrySri Lanka                                                            106.92566317
+    ## log.Adult.Mortality:CountrySudan                                                                223.95967717
+    ## log.Adult.Mortality:CountrySuriname                                                              78.64044186
+    ## log.Adult.Mortality:CountrySwaziland                                                             98.00660576
+    ## log.Adult.Mortality:CountrySweden                                                                99.85579137
+    ## log.Adult.Mortality:CountrySwitzerland                                                          100.49224326
+    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                  95.24215650
+    ## log.Adult.Mortality:CountryTajikistan                                                            27.31895311
+    ## log.Adult.Mortality:CountryThailand                                                              96.72739484
+    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             94.28188283
+    ## log.Adult.Mortality:CountryTimor-Leste                                                           85.45985984
+    ## log.Adult.Mortality:CountryTogo                                                                  46.01639550
+    ## log.Adult.Mortality:CountryTonga                                                                 92.57411427
+    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   73.39254795
+    ## log.Adult.Mortality:CountryTunisia                                                              132.95260661
+    ## log.Adult.Mortality:CountryTurkey                                                                41.60217799
+    ## log.Adult.Mortality:CountryTurkmenistan                                                         104.02004338
+    ## log.Adult.Mortality:CountryUganda                                                                65.61336513
+    ## log.Adult.Mortality:CountryUkraine                                                              157.29996272
+    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  96.06604931
+    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                 132.39825191
+    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                         -161.52255586
+    ## log.Adult.Mortality:CountryUnited States of America                                             232.47997383
+    ## log.Adult.Mortality:CountryUruguay                                                               93.58018455
+    ## log.Adult.Mortality:CountryUzbekistan                                                           102.35035638
+    ## log.Adult.Mortality:CountryVanuatu                                                               91.98899742
+    ## log.Adult.Mortality:CountryVenezuela                                                            140.23581185
+    ## log.Adult.Mortality:CountryViet Nam                                                             125.66713786
+    ## log.Adult.Mortality:CountryYemen                                                               -223.27007918
+    ## log.Adult.Mortality:CountryZambia                                                               118.56660308
+    ## log.Adult.Mortality:CountryZimbabwe                                                              46.72472843
+    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.97157136
+    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                -14.19373937
+    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  0.13031571
+    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.37468124
     ## log.Adult.Mortality:infant.deaths:CountryAntigua and Barbuda                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                0.58850486
+    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                0.57826339
     ## log.Adult.Mortality:infant.deaths:CountryArmenia                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryAustralia                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryAustria                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                              -1.89949968
+    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                              -1.89798468
     ## log.Adult.Mortality:infant.deaths:CountryBahamas                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryBahrain                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.00528243
+    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.00667430
     ## log.Adult.Mortality:infant.deaths:CountryBarbados                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                -18.07006845
-    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 21.92402458
+    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                -18.05742960
+    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 21.98642754
     ## log.Adult.Mortality:infant.deaths:CountryBelize                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryBenin                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                  -0.93469607
-    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                 -1.44683237
+    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                  -0.95714148
+    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                 -1.46396018
     ## log.Adult.Mortality:infant.deaths:CountryBosnia and Herzegovina                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryBotswana                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.46532302
+    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.46365643
     ## log.Adult.Mortality:infant.deaths:CountryBrunei Darussalam                                                NA
     ## log.Adult.Mortality:infant.deaths:CountryBulgaria                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                            -3.32344726
-    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  6.18603999
+    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                            -3.31274394
+    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  6.15667456
     ## log.Adult.Mortality:infant.deaths:CountryCabo Verde                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                -0.38399152
-    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 0.18765709
+    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                -0.36411913
+    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 0.26455067
     ## log.Adult.Mortality:infant.deaths:CountryCanada                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                 3.38709726
-    ## log.Adult.Mortality:infant.deaths:CountryChad                                                    -3.42957567
+    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                         NA
+    ## log.Adult.Mortality:infant.deaths:CountryChad                                                    -7.65938630
     ## log.Adult.Mortality:infant.deaths:CountryChile                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryChina                                                   -0.01105365
-    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 0.63507837
-    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                  2.13241258
-    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    3.15672287
+    ## log.Adult.Mortality:infant.deaths:CountryChina                                                   -0.00892008
+    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 0.60590011
+    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                  6.52818315
+    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    4.92512351
     ## log.Adult.Mortality:infant.deaths:CountryCosta Rica                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryCroatia                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryCuba                                                             NA
     ## log.Adult.Mortality:infant.deaths:CountryCyprus                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryCzechia                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    1.05405253
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         0.56504233
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    1.04778221
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         0.33207390
     ## log.Adult.Mortality:infant.deaths:CountryDenmark                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                               -70.11514715
-    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                     -33.64830390
-    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                 -1.64761818
-    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    5.89511609
-    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                            -29.07670911
+    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                               -30.75727154
+    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                     -35.70918679
+    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                  0.49665519
+    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    4.72234025
+    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                            -13.62359042
     ## log.Adult.Mortality:infant.deaths:CountryEquatorial Guinea                                                NA
-    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                -16.30178671
+    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                -13.81287049
     ## log.Adult.Mortality:infant.deaths:CountryEstonia                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                -0.00958104
+    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                -0.19218830
     ## log.Adult.Mortality:infant.deaths:CountryFiji                                                             NA
     ## log.Adult.Mortality:infant.deaths:CountryFinland                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryFrance                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryGabon                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountryGambia                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                 -9.71201557
-    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 36.92697669
-    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                  -10.94553850
-    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                  20.65214677
+    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                -11.22594576
+    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 38.94085426
+    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                  -10.62676531
+    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryGrenada                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                              -16.45342127
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                  -0.60565722
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           82.39341942
-    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                  -4.20287121
-    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                   -3.25164632
-    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                -0.41470045
-    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                 -7.43611478
+    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                              -14.89642432
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                  -0.60741717
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           73.84546619
+    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                  -3.46571385
+    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                   -3.29805690
+    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                -0.32731054
+    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                 -7.53841799
     ## log.Adult.Mortality:infant.deaths:CountryIceland                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                   -0.00717479
-    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                               -0.30238444
-    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.81315487
-    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                   -12.07971442
+    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                   -0.00304111
+    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                               -0.39671522
+    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.12367513
+    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                    -6.95357519
     ## log.Adult.Mortality:infant.deaths:CountryIreland                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryIsrael                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              2.92282993
+    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                   -4.46368099
+    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              3.81529813
     ## log.Adult.Mortality:infant.deaths:CountryJamaica                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                   -2.75162330
+    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                   -2.84739133
     ## log.Adult.Mortality:infant.deaths:CountryJordan                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                              -1.07355015
-    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                   -0.31401298
+    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                              -1.06281839
+    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                   -0.31388732
     ## log.Adult.Mortality:infant.deaths:CountryKiribati                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                  -4.62216413
-    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                             -22.96595841
-    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                        -1.60827861
+    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                  -4.65044231
+    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                             -23.15288591
+    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                        -1.61863029
     ## log.Adult.Mortality:infant.deaths:CountryLatvia                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryLebanon                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  7.66257438
-    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                 -0.37389070
-    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                  164.35921713
+    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  7.66494813
+    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                 -0.37701257
+    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                  164.30690616
     ## log.Adult.Mortality:infant.deaths:CountryLithuania                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryLuxembourg                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                              -3.51512765
-    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                  -0.37994535
-    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                -1.25909138
+    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                              -3.45908379
+    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                  -0.36506150
+    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                -1.15175646
     ## log.Adult.Mortality:infant.deaths:CountryMaldives                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     3.97499067
+    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     3.97862221
     ## log.Adult.Mortality:infant.deaths:CountryMalta                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                             268.18610275
+    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                             268.81202942
     ## log.Adult.Mortality:infant.deaths:CountryMauritius                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   0.61987017
+    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   0.62717978
     ## log.Adult.Mortality:infant.deaths:CountryMicronesia (Federated States of)                                 NA
-    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                               -20.57697815
+    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                               -20.71446638
     ## log.Adult.Mortality:infant.deaths:CountryMontenegro                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.07243786
-    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               2.80235385
-    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                 -0.35517240
-    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                -16.37345896
-    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                   -0.26348015
+    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.07293496
+    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               2.79549907
+    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                 -0.35580196
+    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                -16.39744536
+    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                   -0.26708500
     ## log.Adult.Mortality:infant.deaths:CountryNetherlands                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountryNew Zealand                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                               11.64387398
-    ## log.Adult.Mortality:infant.deaths:CountryNiger                                                   26.99993614
-    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                 -0.69098379
+    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                               11.65455615
+    ## log.Adult.Mortality:infant.deaths:CountryNiger                                                   26.82142195
+    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                 -0.71452736
     ## log.Adult.Mortality:infant.deaths:CountryNorway                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryOman                                                             NA
-    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                -0.38344683
-    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                -143.53985084
-    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                        -6.34005269
-    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                20.50736285
-    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     0.86203501
-    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                             -0.20213250
-    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                  -1.55502672
-    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                 8.92552738
+    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                -0.37765220
+    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                -146.77353857
+    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                        -6.50049606
+    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                20.48951655
+    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     0.83783612
+    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                             -0.18576844
+    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                  -1.58827899
+    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                 9.12297398
     ## log.Adult.Mortality:infant.deaths:CountryQatar                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                       -2.10246175
+    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                       -2.14873746
     ## log.Adult.Mortality:infant.deaths:CountryRepublic of Moldova                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 35.18343805
-    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       3.31328995
-    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                  -0.63919176
+    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 35.20229043
+    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       3.30291946
+    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                  -0.63953692
     ## log.Adult.Mortality:infant.deaths:CountrySaint Lucia                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountrySaint Vincent and the Grenadines                                 NA
     ## log.Adult.Mortality:infant.deaths:CountrySamoa                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountrySao Tome and Principe                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             1.07752978
-    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                 -0.84966189
+    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             1.06692732
+    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                 -0.88285037
     ## log.Adult.Mortality:infant.deaths:CountrySerbia                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountrySeychelles                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             5.34226400
+    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             5.34412955
     ## log.Adult.Mortality:infant.deaths:CountrySingapore                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovakia                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovenia                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountrySolomon Islands                                                  NA
-    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                -12.27477438
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             1.29566684
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             10.45151891
-    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                   -9.73627241
-    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                               -3.29152376
-    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                   -1.95218560
+    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                -12.29890560
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             1.29546261
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             10.43212312
+    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                   -9.64377689
+    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                               -3.35467444
+    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                   -1.95905300
     ## log.Adult.Mortality:infant.deaths:CountrySuriname                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                               -8.43561261
+    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                               -8.46961231
     ## log.Adult.Mortality:infant.deaths:CountrySweden                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountrySwitzerland                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                    -0.20831632
-    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               5.58477796
-    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                -0.60054319
+    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                    -0.20848990
+    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               5.57860084
+    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                -0.60019443
     ## log.Adult.Mortality:infant.deaths:CountryThe former Yugoslav republic of Macedonia                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                              0.26802094
-    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     2.48857359
+    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                              0.28165698
+    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     2.49044645
     ## log.Adult.Mortality:infant.deaths:CountryTonga                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountryTrinidad and Tobago                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                -12.12442511
-    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   0.70762603
-    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                            -2.46099893
-    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                  -0.07613872
-    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                -15.54077232
+    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                -12.12584541
+    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   0.69726327
+    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                            -2.45695924
+    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                  -0.08149841
+    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                -15.49051872
     ## log.Adult.Mortality:infant.deaths:CountryUnited Arab Emirates                                             NA
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland   -11.63598001
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              2.89478474
-    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                -5.21405632
-    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                  0.17596747
-    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                              -0.01364923
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland   -11.63317741
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              2.89886402
+    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                -5.21193659
+    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                  0.07646687
+    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                              -0.01962012
     ## log.Adult.Mortality:infant.deaths:CountryVanuatu                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                               -4.61018368
-    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                -1.15537792
-    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    7.90984748
-    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                  -0.83135070
-    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 1.31460873
+    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                               -4.73469359
+    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                -1.22768500
+    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    7.94564777
+    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                  -0.81698317
+    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 1.31805414
     ##                                                                                                   Std. Error
-    ## (Intercept)                                                                                     491.32599535
-    ## log.Adult.Mortality                                                                              90.97122131
-    ## infant.deaths                                                                                     5.02418445
-    ## log.GDP                                                                                           0.02840994
-    ## Measles                                                                                           0.00000467
-    ## HIV_cat                                                                                           0.27809682
-    ## CountryAlbania                                                                                  502.80365189
-    ## CountryAlgeria                                                                                  772.75571244
-    ## CountryAngola                                                                                   663.96345350
-    ## CountryAntigua and Barbuda                                                                      491.81554289
-    ## CountryArgentina                                                                                573.77443936
-    ## CountryArmenia                                                                                  487.20325511
-    ## CountryAustralia                                                                                487.14002130
-    ## CountryAustria                                                                                  491.56113783
-    ## CountryAzerbaijan                                                                               509.92570672
-    ## CountryBahamas                                                                                  491.71392704
-    ## CountryBahrain                                                                                  491.39604589
-    ## CountryBangladesh                                                                               631.54357156
-    ## CountryBarbados                                                                                 491.81990049
-    ## CountryBelarus                                                                                  491.81309180
-    ## CountryBelgium                                                                                  491.92780430
-    ## CountryBelize                                                                                   493.65488703
-    ## CountryBenin                                                                                    369.41333994
-    ## CountryBhutan                                                                                   513.01787105
-    ## CountryBolivia                                                                                  509.35909343
-    ## CountryBosnia and Herzegovina                                                                   491.71690645
-    ## CountryBotswana                                                                                 481.44705384
-    ## CountryBrazil                                                                                   539.15907203
-    ## CountryBrunei Darussalam                                                                        492.98703064
-    ## CountryBulgaria                                                                                 492.64959059
-    ## CountryBurkina Faso                                                                             894.52441941
-    ## CountryBurundi                                                                                  838.13232860
-    ## CountryCabo Verde                                                                               491.75853048
-    ## CountryCambodia                                                                                 493.85795285
-    ## CountryCameroon                                                                                1247.42919413
-    ## CountryCanada                                                                                   483.03307268
-    ## CountryCentral African Republic                                                                 871.55188496
-    ## CountryChad                                                                                   25127.67253133
-    ## CountryChile                                                                                    482.61165461
-    ## CountryChina                                                                                    513.83082956
-    ## CountryColombia                                                                                 597.37061361
-    ## CountryComoros                                                                                  502.11397635
-    ## CountryCongo                                                                                    586.75350169
-    ## CountryCosta Rica                                                                               489.42008256
-    ## CountryCroatia                                                                                  491.67551639
-    ## CountryCuba                                                                                     486.75798652
-    ## CountryCyprus                                                                                   491.61885102
-    ## CountryCzechia                                                                                  491.50918920
-    ## CountryDemocratic People's Republic of Korea                                                    493.71234320
-    ## CountryDemocratic Republic of the Congo                                                        2716.81720074
-    ## CountryDenmark                                                                                  491.47151938
-    ## CountryDjibouti                                                                                 549.11557313
-    ## CountryDominican Republic                                                                      1298.34159812
-    ## CountryEcuador                                                                                  522.32101791
-    ## CountryEgypt                                                                                   1379.58846251
-    ## CountryEl Salvador                                                                              516.47358848
-    ## CountryEquatorial Guinea                                                                        477.81002486
-    ## CountryEritrea                                                                                  555.85263556
-    ## CountryEstonia                                                                                  491.39629768
-    ## CountryEthiopia                                                                                 496.61534847
-    ## CountryFiji                                                                                     492.66215779
-    ## CountryFinland                                                                                  491.52220029
-    ## CountryFrance                                                                                   491.66588884
-    ## CountryGabon                                                                                    481.70342525
-    ## CountryGambia                                                                                   478.90450276
-    ## CountryGeorgia                                                                                  503.95241250
-    ## CountryGermany                                                                                  516.00148336
-    ## CountryGhana                                                                                   1536.42146381
-    ## CountryGreece                                                                                   492.13106564
-    ## CountryGrenada                                                                                  491.79466087
-    ## CountryGuatemala                                                                                519.17375671
-    ## CountryGuinea                                                                                   623.56477729
-    ## CountryGuinea-Bissau                                                                            922.17940417
-    ## CountryGuyana                                                                                   532.99064307
-    ## CountryHaiti                                                                                    520.57118632
-    ## CountryHonduras                                                                                 534.17678574
-    ## CountryHungary                                                                                  493.70599512
-    ## CountryIceland                                                                                  491.49431269
-    ## CountryIndia                                                                                    587.90827269
-    ## CountryIndonesia                                                                                699.35483223
-    ## CountryIran                                                                                     495.63106876
-    ## CountryIraq                                                                                     915.84721339
-    ## CountryIreland                                                                                  491.49512138
-    ## CountryIsrael                                                                                   491.49595785
-    ## CountryItaly                                                                                    491.56191664
-    ## CountryIvory Coast                                                                             1583.25573212
-    ## CountryJamaica                                                                                  486.78094540
-    ## CountryJapan                                                                                    499.95390164
-    ## CountryJordan                                                                                   472.47810146
-    ## CountryKazakhstan                                                                               506.23306476
-    ## CountryKenya                                                                                    504.77514602
-    ## CountryKiribati                                                                                 496.35120404
-    ## CountryKuwait                                                                                   493.03161737
-    ## CountryKyrgyzstan                                                                               603.04035446
-    ## CountryLao People's Democratic Republic                                                         528.36637451
-    ## CountryLatvia                                                                                   491.51767334
-    ## CountryLebanon                                                                                  487.24515704
-    ## CountryLesotho                                                                                  565.77304733
-    ## CountryLiberia                                                                                  503.73682500
-    ## CountryLibya                                                                                    794.42714578
-    ## CountryLithuania                                                                                491.60687454
-    ## CountryLuxembourg                                                                               491.44034237
-    ## CountryMadagascar                                                                               614.10434975
-    ## CountryMalawi                                                                                   494.76281685
-    ## CountryMalaysia                                                                                 585.18143431
-    ## CountryMaldives                                                                                 491.35584975
-    ## CountryMali                                                                                    1886.46226432
-    ## CountryMalta                                                                                    491.73786177
-    ## CountryMauritania                                                                             10618.45687303
-    ## CountryMauritius                                                                                492.68015809
-    ## CountryMexico                                                                                   627.66567527
-    ## CountryMicronesia (Federated States of)                                                         493.04061203
-    ## CountryMongolia                                                                                 515.50664348
-    ## CountryMontenegro                                                                               491.61378726
-    ## CountryMorocco                                                                                  494.79580980
-    ## CountryMozambique                                                                               648.25016982
-    ## CountryMyanmar                                                                                  521.68221587
-    ## CountryNamibia                                                                                 1105.38671231
-    ## CountryNepal                                                                                    498.08496302
-    ## CountryNetherlands                                                                              486.55251826
-    ## CountryNew Zealand                                                                              491.78253573
-    ## CountryNicaragua                                                                                506.94629833
-    ## CountryNiger                                                                                   1947.36048230
-    ## CountryNigeria                                                                                 1200.10450493
-    ## CountryNorway                                                                                   491.53418138
-    ## CountryOman                                                                                     486.65636153
-    ## CountryPakistan                                                                                2416.58733312
-    ## CountryPanama                                                                                  2329.90824401
-    ## CountryPapua New Guinea                                                                        2337.75753908
-    ## CountryParaguay                                                                                 532.12020263
-    ## CountryPeru                                                                                     518.90996434
-    ## CountryPhilippines                                                                             1023.65052708
-    ## CountryPoland                                                                                   545.41658822
-    ## CountryPortugal                                                                                 491.65195717
-    ## CountryQatar                                                                                    492.45833871
-    ## CountryRepublic of Korea                                                                        493.10902144
-    ## CountryRepublic of Moldova                                                                      486.74916210
-    ## CountryRomania                                                                                  506.84658566
-    ## CountryRussian Federation                                                                       520.54708260
-    ## CountryRwanda                                                                                   492.88224653
-    ## CountrySaint Lucia                                                                              492.01352137
-    ## CountrySaint Vincent and the Grenadines                                                         492.28833655
-    ## CountrySamoa                                                                                    491.45427514
-    ## CountrySao Tome and Principe                                                                    492.27102483
-    ## CountrySaudi Arabia                                                                             554.17056295
-    ## CountrySenegal                                                                                  637.39723599
-    ## CountrySerbia                                                                                   486.99452273
-    ## CountrySeychelles                                                                               494.35666643
-    ## CountrySierra Leone                                                                             646.05921685
-    ## CountrySingapore                                                                                491.47577142
-    ## CountrySlovakia                                                                                 491.57610171
-    ## CountrySlovenia                                                                                 491.40319627
-    ## CountrySolomon Islands                                                                          491.51213926
-    ## CountrySomalia                                                                                 2564.51874413
-    ## CountrySouth Africa                                                                             535.74369120
-    ## CountrySouth Sudan                                                                             2044.45602817
-    ## CountrySpain                                                                                    520.56041087
-    ## CountrySri Lanka                                                                                517.61638342
-    ## CountrySudan                                                                                    726.48367253
-    ## CountrySuriname                                                                                 492.10232474
-    ## CountrySwaziland                                                                                517.55772904
-    ## CountrySweden                                                                                   491.58086136
-    ## CountrySwitzerland                                                                              491.47555429
-    ## CountrySyrian Arab Republic                                                                     494.98362300
-    ## CountryTajikistan                                                                               641.74587169
-    ## CountryThailand                                                                                 502.18319422
-    ## CountryThe former Yugoslav republic of Macedonia                                                491.69453728
-    ## CountryTimor-Leste                                                                              517.13428995
-    ## CountryTogo                                                                                     796.52083596
-    ## CountryTonga                                                                                    493.20293453
-    ## CountryTrinidad and Tobago                                                                      492.51824664
-    ## CountryTunisia                                                                                  826.56995704
-    ## CountryTurkey                                                                                   562.29408222
-    ## CountryTurkmenistan                                                                             632.57747807
-    ## CountryUganda                                                                                   502.16057059
-    ## CountryUkraine                                                                                  517.89361945
-    ## CountryUnited Arab Emirates                                                                     486.62744799
-    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                     611.01547058
-    ## CountryUnited Republic of Tanzania                                                              765.30173469
-    ## CountryUnited States of America                                                                1310.03306424
-    ## CountryUruguay                                                                                  522.20967547
-    ## CountryUzbekistan                                                                               503.44017176
-    ## CountryVanuatu                                                                                  491.64788830
-    ## CountryVenezuela                                                                               5991.21251871
-    ## CountryViet Nam                                                                                2425.98621882
-    ## CountryYemen                                                                                   1432.61131517
-    ## CountryZambia                                                                                   582.58607833
-    ## CountryZimbabwe                                                                                 505.20332498
-    ## infant.deaths:CountryAlbania                                                                    147.69292447
-    ## infant.deaths:CountryAlgeria                                                                     29.35036031
-    ## infant.deaths:CountryAngola                                                                       6.17919436
+    ## (Intercept)                                                                                     488.44908560
+    ## log.Adult.Mortality                                                                              90.43852273
+    ## infant.deaths                                                                                     4.99478071
+    ## log.GDP                                                                                           0.02820913
+    ## Measles                                                                                           0.00000441
+    ## HIV_cat                                                                                           0.27949196
+    ## CountryAlbania                                                                                  499.85967070
+    ## CountryAlgeria                                                                                  768.23294236
+    ## CountryAngola                                                                                   660.07510644
+    ## CountryAntigua and Barbuda                                                                      488.93634168
+    ## CountryArgentina                                                                                570.41572365
+    ## CountryArmenia                                                                                  484.35049664
+    ## CountryAustralia                                                                                484.28765276
+    ## CountryAustria                                                                                  488.68285135
+    ## CountryAzerbaijan                                                                               506.94107557
+    ## CountryBahamas                                                                                  488.83476629
+    ## CountryBahrain                                                                                  488.51873153
+    ## CountryBangladesh                                                                               627.84293814
+    ## CountryBarbados                                                                                 488.94107099
+    ## CountryBelarus                                                                                  488.93336174
+    ## CountryBelgium                                                                                  489.04737817
+    ## CountryBelize                                                                                   490.76442986
+    ## CountryBenin                                                                                    367.25019777
+    ## CountryBhutan                                                                                   510.01421203
+    ## CountryBolivia                                                                                  506.41820062
+    ## CountryBosnia and Herzegovina                                                                   488.83762003
+    ## CountryBotswana                                                                                 478.62797689
+    ## CountryBrazil                                                                                   536.00239445
+    ## CountryBrunei Darussalam                                                                        490.10047306
+    ## CountryBulgaria                                                                                 489.76419204
+    ## CountryBurkina Faso                                                                             889.29156497
+    ## CountryBurundi                                                                                  833.20122011
+    ## CountryCabo Verde                                                                               488.80019365
+    ## CountryCambodia                                                                                 492.09244333
+    ## CountryCameroon                                                                                1164.48201513
+    ## CountryCanada                                                                                   479.15710523
+    ## CountryCentral African Republic                                                                 490.18949536
+    ## CountryChad                                                                                   12454.29623808
+    ## CountryChile                                                                                    479.81947556
+    ## CountryChina                                                                                    511.92388952
+    ## CountryColombia                                                                                 592.51252780
+    ## CountryComoros                                                                                  499.79849608
+    ## CountryCongo                                                                                    561.85199577
+    ## CountryCosta Rica                                                                               485.81241001
+    ## CountryCroatia                                                                                  488.74407604
+    ## CountryCuba                                                                                     483.97967156
+    ## CountryCyprus                                                                                   488.66594875
+    ## CountryCzechia                                                                                  488.70536388
+    ## CountryDemocratic People's Republic of Korea                                                    490.96079060
+    ## CountryDemocratic Republic of the Congo                                                        2428.23298618
+    ## CountryDenmark                                                                                  488.59398350
+    ## CountryDjibouti                                                                                 523.16341391
+    ## CountryDominican Republic                                                                      1358.38567416
+    ## CountryEcuador                                                                                  561.01350305
+    ## CountryEgypt                                                                                   1505.80513663
+    ## CountryEl Salvador                                                                              546.04333373
+    ## CountryEquatorial Guinea                                                                        475.59767727
+    ## CountryEritrea                                                                                  533.78950636
+    ## CountryEstonia                                                                                  488.51806151
+    ## CountryEthiopia                                                                                 493.18335203
+    ## CountryFiji                                                                                     489.54275694
+    ## CountryFinland                                                                                  488.70486405
+    ## CountryFrance                                                                                   488.77163728
+    ## CountryGabon                                                                                    478.93778557
+    ## CountryGambia                                                                                   476.05891629
+    ## CountryGeorgia                                                                                  500.50498352
+    ## CountryGermany                                                                                  527.34343143
+    ## CountryGhana                                                                                    909.79765398
+    ## CountryGreece                                                                                   489.51296476
+    ## CountryGrenada                                                                                  488.85062858
+    ## CountryGuatemala                                                                                514.90707973
+    ## CountryGuinea                                                                                   612.07623652
+    ## CountryGuinea-Bissau                                                                            970.44417100
+    ## CountryGuyana                                                                                   506.16127404
+    ## CountryHaiti                                                                                    520.16806185
+    ## CountryHonduras                                                                                 532.38634462
+    ## CountryHungary                                                                                  489.99503929
+    ## CountryIceland                                                                                  488.60991313
+    ## CountryIndia                                                                                    589.57414856
+    ## CountryIndonesia                                                                                946.53098232
+    ## CountryIran                                                                                     495.21341029
+    ## CountryIraq                                                                                     657.98269280
+    ## CountryIreland                                                                                  488.62025091
+    ## CountryIsrael                                                                                   488.60974159
+    ## CountryItaly                                                                                    492.04930577
+    ## CountryIvory Coast                                                                             2017.99775281
+    ## CountryJamaica                                                                                  483.93063307
+    ## CountryJapan                                                                                    497.02192498
+    ## CountryJordan                                                                                   469.71150259
+    ## CountryKazakhstan                                                                               503.27039987
+    ## CountryKenya                                                                                    501.81956975
+    ## CountryKiribati                                                                                 493.44498618
+    ## CountryKuwait                                                                                   490.14477639
+    ## CountryKyrgyzstan                                                                               599.48302662
+    ## CountryLao People's Democratic Republic                                                         525.28606530
+    ## CountryLatvia                                                                                   488.63965290
+    ## CountryLebanon                                                                                  484.39210214
+    ## CountryLesotho                                                                                  562.46076226
+    ## CountryLiberia                                                                                  500.78719828
+    ## CountryLibya                                                                                    789.77900377
+    ## CountryLithuania                                                                                488.72834295
+    ## CountryLuxembourg                                                                               488.56277732
+    ## CountryMadagascar                                                                               610.48815376
+    ## CountryMalawi                                                                                   491.86622509
+    ## CountryMalaysia                                                                                 581.75478317
+    ## CountryMaldives                                                                                 488.47879215
+    ## CountryMali                                                                                    1875.41982024
+    ## CountryMalta                                                                                    488.85856329
+    ## CountryMauritania                                                                             10556.32246131
+    ## CountryMauritius                                                                                489.79538595
+    ## CountryMexico                                                                                   623.99107546
+    ## CountryMicronesia (Federated States of)                                                         490.15368216
+    ## CountryMongolia                                                                                 512.47999058
+    ## CountryMontenegro                                                                               488.73522716
+    ## CountryMorocco                                                                                  491.89910256
+    ## CountryMozambique                                                                               644.43562691
+    ## CountryMyanmar                                                                                  518.62807986
+    ## CountryNamibia                                                                                 1098.91920937
+    ## CountryNepal                                                                                    495.17466236
+    ## CountryNetherlands                                                                              483.70353110
+    ## CountryNew Zealand                                                                              488.90294617
+    ## CountryNicaragua                                                                                503.98604156
+    ## CountryNiger                                                                                   1934.83916685
+    ## CountryNigeria                                                                                 1187.69162033
+    ## CountryNorway                                                                                   488.65604663
+    ## CountryOman                                                                                     483.80680957
+    ## CountryPakistan                                                                                2402.44250277
+    ## CountryPanama                                                                                  2316.83584146
+    ## CountryPapua New Guinea                                                                        2324.06370228
+    ## CountryParaguay                                                                                 529.00750851
+    ## CountryPeru                                                                                     515.88338308
+    ## CountryPhilippines                                                                             1017.65550503
+    ## CountryPoland                                                                                   542.22360626
+    ## CountryPortugal                                                                                 488.77313810
+    ## CountryQatar                                                                                    489.57482495
+    ## CountryRepublic of Korea                                                                        490.22122037
+    ## CountryRepublic of Moldova                                                                      483.89908807
+    ## CountryRomania                                                                                  503.87849529
+    ## CountryRussian Federation                                                                       517.51557375
+    ## CountryRwanda                                                                                   489.99610754
+    ## CountrySaint Lucia                                                                              489.13340581
+    ## CountrySaint Vincent and the Grenadines                                                         489.40702125
+    ## CountrySamoa                                                                                    488.57664001
+    ## CountrySao Tome and Principe                                                                    489.38862182
+    ## CountrySaudi Arabia                                                                             550.92703884
+    ## CountrySenegal                                                                                  633.66078258
+    ## CountrySerbia                                                                                   484.14294749
+    ## CountrySeychelles                                                                               491.46204574
+    ## CountrySierra Leone                                                                             642.27850992
+    ## CountrySingapore                                                                                488.59801111
+    ## CountrySlovakia                                                                                 488.69773699
+    ## CountrySlovenia                                                                                 488.52584121
+    ## CountrySolomon Islands                                                                          488.63414962
+    ## CountrySomalia                                                                                 2549.48905682
+    ## CountrySouth Africa                                                                             532.60955126
+    ## CountrySouth Sudan                                                                             2032.49605963
+    ## CountrySpain                                                                                    517.51400507
+    ## CountrySri Lanka                                                                                514.57797221
+    ## CountrySudan                                                                                    722.26680562
+    ## CountrySuriname                                                                                 489.22097182
+    ## CountrySwaziland                                                                                514.52768129
+    ## CountrySweden                                                                                   488.70245766
+    ## CountrySwitzerland                                                                              488.59779304
+    ## CountrySyrian Arab Republic                                                                     492.08529401
+    ## CountryTajikistan                                                                               637.99100379
+    ## CountryThailand                                                                                 499.24745214
+    ## CountryThe former Yugoslav republic of Macedonia                                                488.81546634
+    ## CountryTimor-Leste                                                                              514.10656232
+    ## CountryTogo                                                                                     791.86085813
+    ## CountryTonga                                                                                    490.31508193
+    ## CountryTrinidad and Tobago                                                                      489.63441542
+    ## CountryTunisia                                                                                  821.73314301
+    ## CountryTurkey                                                                                   558.99425117
+    ## CountryTurkmenistan                                                                             628.87496008
+    ## CountryUganda                                                                                   499.19591548
+    ## CountryUkraine                                                                                  514.86334529
+    ## CountryUnited Arab Emirates                                                                     483.77803033
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                     607.43906091
+    ## CountryUnited Republic of Tanzania                                                              760.82413431
+    ## CountryUnited States of America                                                                1302.36862824
+    ## CountryUruguay                                                                                  519.15234901
+    ## CountryUzbekistan                                                                               500.50996614
+    ## CountryVanuatu                                                                                  488.76911455
+    ## CountryVenezuela                                                                               5956.15886217
+    ## CountryViet Nam                                                                                2411.75124144
+    ## CountryYemen                                                                                   1424.20412823
+    ## CountryZambia                                                                                   579.17705556
+    ## CountryZimbabwe                                                                                 502.24618196
+    ## infant.deaths:CountryAlbania                                                                    146.82898193
+    ## infant.deaths:CountryAlgeria                                                                     29.17823861
+    ## infant.deaths:CountryAngola                                                                       6.14300642
     ## infant.deaths:CountryAntigua and Barbuda                                                                  NA
-    ## infant.deaths:CountryArgentina                                                                   25.29432627
+    ## infant.deaths:CountryArgentina                                                                   25.14635380
     ## infant.deaths:CountryArmenia                                                                              NA
     ## infant.deaths:CountryAustralia                                                                            NA
     ## infant.deaths:CountryAustria                                                                              NA
-    ## infant.deaths:CountryAzerbaijan                                                                  27.07027281
+    ## infant.deaths:CountryAzerbaijan                                                                  26.91187088
     ## infant.deaths:CountryBahamas                                                                              NA
     ## infant.deaths:CountryBahrain                                                                              NA
-    ## infant.deaths:CountryBangladesh                                                                   5.05820405
+    ## infant.deaths:CountryBangladesh                                                                   5.02861099
     ## infant.deaths:CountryBarbados                                                                             NA
-    ## infant.deaths:CountryBelarus                                                                     60.64682751
-    ## infant.deaths:CountryBelgium                                                                     81.47290795
+    ## infant.deaths:CountryBelarus                                                                     60.29205926
+    ## infant.deaths:CountryBelgium                                                                     80.99621940
     ## infant.deaths:CountryBelize                                                                               NA
     ## infant.deaths:CountryBenin                                                                                NA
-    ## infant.deaths:CountryBhutan                                                                     149.85275416
-    ## infant.deaths:CountryBolivia                                                                     23.42245788
+    ## infant.deaths:CountryBhutan                                                                     148.97864138
+    ## infant.deaths:CountryBolivia                                                                     23.29261709
     ## infant.deaths:CountryBosnia and Herzegovina                                                               NA
     ## infant.deaths:CountryBotswana                                                                             NA
-    ## infant.deaths:CountryBrazil                                                                       5.25465576
+    ## infant.deaths:CountryBrazil                                                                       5.22390370
     ## infant.deaths:CountryBrunei Darussalam                                                                    NA
-    ## infant.deaths:CountryBulgaria                                                                     5.27597941
-    ## infant.deaths:CountryBurkina Faso                                                                15.50793182
-    ## infant.deaths:CountryBurundi                                                                     29.86363570
+    ## infant.deaths:CountryBulgaria                                                                     5.24511481
+    ## infant.deaths:CountryBurkina Faso                                                                15.41719505
+    ## infant.deaths:CountryBurundi                                                                     29.68806590
     ## infant.deaths:CountryCabo Verde                                                                           NA
-    ## infant.deaths:CountryCambodia                                                                     6.65978052
-    ## infant.deaths:CountryCameroon                                                                    19.13498924
+    ## infant.deaths:CountryCambodia                                                                     6.44539242
+    ## infant.deaths:CountryCameroon                                                                    17.97012693
     ## infant.deaths:CountryCanada                                                                               NA
-    ## infant.deaths:CountryCentral African Republic                                                    43.73310173
-    ## infant.deaths:CountryChad                                                                       546.76960577
+    ## infant.deaths:CountryCentral African Republic                                                     5.40185006
+    ## infant.deaths:CountryChad                                                                       270.95036727
     ## infant.deaths:CountryChile                                                                                NA
-    ## infant.deaths:CountryChina                                                                        5.02771479
-    ## infant.deaths:CountryColombia                                                                    19.49840134
-    ## infant.deaths:CountryComoros                                                                     74.00728387
-    ## infant.deaths:CountryCongo                                                                       47.16297362
+    ## infant.deaths:CountryChina                                                                        4.99865933
+    ## infant.deaths:CountryColombia                                                                    19.34603248
+    ## infant.deaths:CountryComoros                                                                     77.73643958
+    ## infant.deaths:CountryCongo                                                                       41.59681747
     ## infant.deaths:CountryCosta Rica                                                                           NA
     ## infant.deaths:CountryCroatia                                                                              NA
     ## infant.deaths:CountryCuba                                                                                 NA
     ## infant.deaths:CountryCyprus                                                                               NA
     ## infant.deaths:CountryCzechia                                                                              NA
-    ## infant.deaths:CountryDemocratic People's Republic of Korea                                        8.20002373
-    ## infant.deaths:CountryDemocratic Republic of the Congo                                            12.36957870
+    ## infant.deaths:CountryDemocratic People's Republic of Korea                                        8.24974041
+    ## infant.deaths:CountryDemocratic Republic of the Congo                                            11.22890292
     ## infant.deaths:CountryDenmark                                                                              NA
-    ## infant.deaths:CountryDjibouti                                                                   179.80151451
-    ## infant.deaths:CountryDominican Republic                                                         198.84816561
-    ## infant.deaths:CountryEcuador                                                                     25.98341820
-    ## infant.deaths:CountryEgypt                                                                       23.74754398
-    ## infant.deaths:CountryEl Salvador                                                                 74.11034365
+    ## infant.deaths:CountryDjibouti                                                                   160.86075576
+    ## infant.deaths:CountryDominican Republic                                                         206.20723590
+    ## infant.deaths:CountryEcuador                                                                     40.78391443
+    ## infant.deaths:CountryEgypt                                                                       25.96788549
+    ## infant.deaths:CountryEl Salvador                                                                124.49475936
     ## infant.deaths:CountryEquatorial Guinea                                                                    NA
-    ## infant.deaths:CountryEritrea                                                                     37.25338223
+    ## infant.deaths:CountryEritrea                                                                     31.07027898
     ## infant.deaths:CountryEstonia                                                                              NA
-    ## infant.deaths:CountryEthiopia                                                                     5.07375281
+    ## infant.deaths:CountryEthiopia                                                                     5.04191193
     ## infant.deaths:CountryFiji                                                                                 NA
     ## infant.deaths:CountryFinland                                                                              NA
-    ## infant.deaths:CountryFrance                                                                       5.30439288
+    ## infant.deaths:CountryFrance                                                                       5.25445340
     ## infant.deaths:CountryGabon                                                                                NA
     ## infant.deaths:CountryGambia                                                                               NA
-    ## infant.deaths:CountryGeorgia                                                                     68.79395950
-    ## infant.deaths:CountryGermany                                                                     62.81711136
-    ## infant.deaths:CountryGhana                                                                       35.03061988
-    ## infant.deaths:CountryGreece                                                                     208.98545255
+    ## infant.deaths:CountryGeorgia                                                                     69.39873915
+    ## infant.deaths:CountryGermany                                                                     74.10314086
+    ## infant.deaths:CountryGhana                                                                       18.93270955
+    ## infant.deaths:CountryGreece                                                                       5.23016047
     ## infant.deaths:CountryGrenada                                                                              NA
-    ## infant.deaths:CountryGuatemala                                                                   16.65412534
-    ## infant.deaths:CountryGuinea                                                                      13.75041197
-    ## infant.deaths:CountryGuinea-Bissau                                                              177.78426480
-    ## infant.deaths:CountryGuyana                                                                     219.64266786
-    ## infant.deaths:CountryHaiti                                                                        8.42682864
-    ## infant.deaths:CountryHonduras                                                                    35.56559160
-    ## infant.deaths:CountryHungary                                                                     75.66351361
+    ## infant.deaths:CountryGuatemala                                                                   15.20682810
+    ## infant.deaths:CountryGuinea                                                                      13.49030780
+    ## infant.deaths:CountryGuinea-Bissau                                                              188.76514962
+    ## infant.deaths:CountryGuyana                                                                     148.56377954
+    ## infant.deaths:CountryHaiti                                                                        8.61169234
+    ## infant.deaths:CountryHonduras                                                                    36.99305525
+    ## infant.deaths:CountryHungary                                                                     69.65744813
     ## infant.deaths:CountryIceland                                                                              NA
-    ## infant.deaths:CountryIndia                                                                        5.02747179
-    ## infant.deaths:CountryIndonesia                                                                    5.82080107
-    ## infant.deaths:CountryIran                                                                         6.06837010
-    ## infant.deaths:CountryIraq                                                                        25.34351218
+    ## infant.deaths:CountryIndia                                                                        4.99648198
+    ## infant.deaths:CountryIndonesia                                                                    6.88080538
+    ## infant.deaths:CountryIran                                                                         6.76258951
+    ## infant.deaths:CountryIraq                                                                        15.13766895
     ## infant.deaths:CountryIreland                                                                              NA
-    ## infant.deaths:CountryIsrael                                                                       5.24989978
-    ## infant.deaths:CountryItaly                                                                        5.28215790
-    ## infant.deaths:CountryIvory Coast                                                                 24.77379972
+    ## infant.deaths:CountryIsrael                                                                       5.21806402
+    ## infant.deaths:CountryItaly                                                                       28.24378608
+    ## infant.deaths:CountryIvory Coast                                                                 32.13508035
     ## infant.deaths:CountryJamaica                                                                              NA
-    ## infant.deaths:CountryJapan                                                                       41.60096195
+    ## infant.deaths:CountryJapan                                                                       41.35282083
     ## infant.deaths:CountryJordan                                                                               NA
-    ## infant.deaths:CountryKazakhstan                                                                  14.53255308
-    ## infant.deaths:CountryKenya                                                                        5.45678788
+    ## infant.deaths:CountryKazakhstan                                                                  14.44750822
+    ## infant.deaths:CountryKenya                                                                        5.42486455
     ## infant.deaths:CountryKiribati                                                                             NA
-    ## infant.deaths:CountryKuwait                                                                     121.46106541
-    ## infant.deaths:CountryKyrgyzstan                                                                  92.57307282
-    ## infant.deaths:CountryLao People's Democratic Republic                                            16.71821948
+    ## infant.deaths:CountryKuwait                                                                     120.75056045
+    ## infant.deaths:CountryKyrgyzstan                                                                  92.02713495
+    ## infant.deaths:CountryLao People's Democratic Republic                                            16.62394725
     ## infant.deaths:CountryLatvia                                                                               NA
     ## infant.deaths:CountryLebanon                                                                              NA
-    ## infant.deaths:CountryLesotho                                                                     61.66007824
-    ## infant.deaths:CountryLiberia                                                                     12.00098006
-    ## infant.deaths:CountryLibya                                                                      313.05083550
+    ## infant.deaths:CountryLesotho                                                                     61.29938829
+    ## infant.deaths:CountryLiberia                                                                     11.93076971
+    ## infant.deaths:CountryLibya                                                                      311.21953218
     ## infant.deaths:CountryLithuania                                                                            NA
     ## infant.deaths:CountryLuxembourg                                                                           NA
-    ## infant.deaths:CountryMadagascar                                                                  17.41131538
-    ## infant.deaths:CountryMalawi                                                                       5.43357536
-    ## infant.deaths:CountryMalaysia                                                                    86.42932086
+    ## infant.deaths:CountryMadagascar                                                                  17.30487520
+    ## infant.deaths:CountryMalawi                                                                       5.40050919
+    ## infant.deaths:CountryMalaysia                                                                    85.92330609
     ## infant.deaths:CountryMaldives                                                                             NA
-    ## infant.deaths:CountryMali                                                                        29.70136046
+    ## infant.deaths:CountryMali                                                                        29.52752669
     ## infant.deaths:CountryMalta                                                                                NA
-    ## infant.deaths:CountryMauritania                                                                1326.22841302
+    ## infant.deaths:CountryMauritania                                                                1318.46811506
     ## infant.deaths:CountryMauritius                                                                            NA
-    ## infant.deaths:CountryMexico                                                                      11.77775594
+    ## infant.deaths:CountryMexico                                                                      11.70884153
     ## infant.deaths:CountryMicronesia (Federated States of)                                                     NA
-    ## infant.deaths:CountryMongolia                                                                   103.55406846
+    ## infant.deaths:CountryMongolia                                                                   102.94274774
     ## infant.deaths:CountryMontenegro                                                                           NA
-    ## infant.deaths:CountryMorocco                                                                      5.78493361
-    ## infant.deaths:CountryMozambique                                                                   8.24346367
-    ## infant.deaths:CountryMyanmar                                                                      5.92469902
-    ## infant.deaths:CountryNamibia                                                                    330.24410978
-    ## infant.deaths:CountryNepal                                                                        5.65002977
+    ## infant.deaths:CountryMorocco                                                                      5.75108023
+    ## infant.deaths:CountryMozambique                                                                   8.19495459
+    ## infant.deaths:CountryMyanmar                                                                      5.89003221
+    ## infant.deaths:CountryNamibia                                                                    328.31232701
+    ## infant.deaths:CountryNepal                                                                        5.61797246
     ## infant.deaths:CountryNetherlands                                                                          NA
     ## infant.deaths:CountryNew Zealand                                                                          NA
-    ## infant.deaths:CountryNicaragua                                                                   33.79394970
-    ## infant.deaths:CountryNiger                                                                       41.35955201
-    ## infant.deaths:CountryNigeria                                                                      5.39019516
+    ## infant.deaths:CountryNicaragua                                                                   33.60199498
+    ## infant.deaths:CountryNiger                                                                       41.09607487
+    ## infant.deaths:CountryNigeria                                                                      5.35514990
     ## infant.deaths:CountryNorway                                                                               NA
     ## infant.deaths:CountryOman                                                                                 NA
-    ## infant.deaths:CountryPakistan                                                                     8.19497052
-    ## infant.deaths:CountryPanama                                                                    2273.45777990
-    ## infant.deaths:CountryPapua New Guinea                                                           208.99856049
-    ## infant.deaths:CountryParaguay                                                                    62.82780750
-    ## infant.deaths:CountryPeru                                                                        17.62993749
-    ## infant.deaths:CountryPhilippines                                                                 16.26945287
-    ## infant.deaths:CountryPoland                                                                     114.69928474
-    ## infant.deaths:CountryPortugal                                                                   320.73309945
+    ## infant.deaths:CountryPakistan                                                                     8.14702602
+    ## infant.deaths:CountryPanama                                                                    2260.71279657
+    ## infant.deaths:CountryPapua New Guinea                                                           207.77459682
+    ## infant.deaths:CountryParaguay                                                                    62.46088767
+    ## infant.deaths:CountryPeru                                                                        17.52978179
+    ## infant.deaths:CountryPhilippines                                                                 16.17424052
+    ## infant.deaths:CountryPoland                                                                     114.02832397
+    ## infant.deaths:CountryPortugal                                                                   318.85666441
     ## infant.deaths:CountryQatar                                                                                NA
-    ## infant.deaths:CountryRepublic of Korea                                                           14.79980938
+    ## infant.deaths:CountryRepublic of Korea                                                           14.71002014
     ## infant.deaths:CountryRepublic of Moldova                                                                  NA
-    ## infant.deaths:CountryRomania                                                                     52.77794056
-    ## infant.deaths:CountryRussian Federation                                                          14.05937618
-    ## infant.deaths:CountryRwanda                                                                       5.35233658
+    ## infant.deaths:CountryRomania                                                                     52.46919793
+    ## infant.deaths:CountryRussian Federation                                                          13.98022252
+    ## infant.deaths:CountryRwanda                                                                       5.32101347
     ## infant.deaths:CountrySaint Lucia                                                                          NA
     ## infant.deaths:CountrySaint Vincent and the Grenadines                                                     NA
     ## infant.deaths:CountrySamoa                                                                                NA
     ## infant.deaths:CountrySao Tome and Principe                                                                NA
-    ## infant.deaths:CountrySaudi Arabia                                                                29.27239004
-    ## infant.deaths:CountrySenegal                                                                     22.60735509
+    ## infant.deaths:CountrySaudi Arabia                                                                29.10113846
+    ## infant.deaths:CountrySenegal                                                                     22.47490810
     ## infant.deaths:CountrySerbia                                                                               NA
     ## infant.deaths:CountrySeychelles                                                                           NA
-    ## infant.deaths:CountrySierra Leone                                                                15.64675232
+    ## infant.deaths:CountrySierra Leone                                                                15.55522504
     ## infant.deaths:CountrySingapore                                                                            NA
     ## infant.deaths:CountrySlovakia                                                                             NA
     ## infant.deaths:CountrySlovenia                                                                             NA
     ## infant.deaths:CountrySolomon Islands                                                                      NA
-    ## infant.deaths:CountrySomalia                                                                     50.51682784
-    ## infant.deaths:CountrySouth Africa                                                                 6.78520830
-    ## infant.deaths:CountrySouth Sudan                                                                 75.63114217
-    ## infant.deaths:CountrySpain                                                                       90.93298815
-    ## infant.deaths:CountrySri Lanka                                                                   39.79430470
-    ## infant.deaths:CountrySudan                                                                        9.46559357
+    ## infant.deaths:CountrySomalia                                                                     50.22089541
+    ## infant.deaths:CountrySouth Africa                                                                 6.74549962
+    ## infant.deaths:CountrySouth Sudan                                                                 75.18871103
+    ## infant.deaths:CountrySpain                                                                       90.40072997
+    ## infant.deaths:CountrySri Lanka                                                                   39.55890020
+    ## infant.deaths:CountrySudan                                                                        9.41064390
     ## infant.deaths:CountrySuriname                                                                             NA
-    ## infant.deaths:CountrySwaziland                                                                   62.86487357
+    ## infant.deaths:CountrySwaziland                                                                   62.49706183
     ## infant.deaths:CountrySweden                                                                               NA
     ## infant.deaths:CountrySwitzerland                                                                          NA
-    ## infant.deaths:CountrySyrian Arab Republic                                                         9.96176326
-    ## infant.deaths:CountryTajikistan                                                                  41.68776007
-    ## infant.deaths:CountryThailand                                                                    10.57988481
+    ## infant.deaths:CountrySyrian Arab Republic                                                         9.90348098
+    ## infant.deaths:CountryTajikistan                                                                  41.44385903
+    ## infant.deaths:CountryThailand                                                                    10.52074404
     ## infant.deaths:CountryThe former Yugoslav republic of Macedonia                                            NA
-    ## infant.deaths:CountryTimor-Leste                                                                 66.91435384
-    ## infant.deaths:CountryTogo                                                                        45.96257772
+    ## infant.deaths:CountryTimor-Leste                                                                 66.52292609
+    ## infant.deaths:CountryTogo                                                                        45.69370820
     ## infant.deaths:CountryTonga                                                                                NA
     ## infant.deaths:CountryTrinidad and Tobago                                                                  NA
-    ## infant.deaths:CountryTunisia                                                                    215.99192208
-    ## infant.deaths:CountryTurkey                                                                      11.29005488
-    ## infant.deaths:CountryTurkmenistan                                                                61.25159637
-    ## infant.deaths:CountryUganda                                                                       5.33103107
-    ## infant.deaths:CountryUkraine                                                                     34.93424129
+    ## infant.deaths:CountryTunisia                                                                    214.72846814
+    ## infant.deaths:CountryTurkey                                                                      11.22397859
+    ## infant.deaths:CountryTurkmenistan                                                                60.89330018
+    ## infant.deaths:CountryUganda                                                                       5.29955448
+    ## infant.deaths:CountryUkraine                                                                     34.72956281
     ## infant.deaths:CountryUnited Arab Emirates                                                                 NA
-    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                        94.77767251
-    ## infant.deaths:CountryUnited Republic of Tanzania                                                  8.62405230
-    ## infant.deaths:CountryUnited States of America                                                    46.81335007
-    ## infant.deaths:CountryUruguay                                                                    187.14834553
-    ## infant.deaths:CountryUzbekistan                                                                   7.40406679
+    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                        94.22326680
+    ## infant.deaths:CountryUnited Republic of Tanzania                                                  8.57357237
+    ## infant.deaths:CountryUnited States of America                                                    46.53950894
+    ## infant.deaths:CountryUruguay                                                                    186.05348202
+    ## infant.deaths:CountryUzbekistan                                                                   7.36316964
     ## infant.deaths:CountryVanuatu                                                                              NA
-    ## infant.deaths:CountryVenezuela                                                                  660.00527894
-    ## infant.deaths:CountryViet Nam                                                                    84.36949134
-    ## infant.deaths:CountryYemen                                                                       37.79445864
-    ## infant.deaths:CountryZambia                                                                      12.47533349
-    ## infant.deaths:CountryZimbabwe                                                                     6.89556933
-    ## log.Adult.Mortality:CountryAlbania                                                               93.93055587
-    ## log.Adult.Mortality:CountryAlgeria                                                              154.63980647
-    ## log.Adult.Mortality:CountryAngola                                                               123.93151425
-    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                   91.07874765
-    ## log.Adult.Mortality:CountryArgentina                                                            110.49572687
-    ## log.Adult.Mortality:CountryArmenia                                                               91.15924154
-    ## log.Adult.Mortality:CountryAustralia                                                             91.20968096
-    ## log.Adult.Mortality:CountryAustria                                                               91.03821148
-    ## log.Adult.Mortality:CountryAzerbaijan                                                            94.92531125
-    ## log.Adult.Mortality:CountryBahamas                                                               91.04933238
-    ## log.Adult.Mortality:CountryBahrain                                                               90.99118576
-    ## log.Adult.Mortality:CountryBangladesh                                                           123.38400782
-    ## log.Adult.Mortality:CountryBarbados                                                              91.09101903
-    ## log.Adult.Mortality:CountryBelarus                                                               91.06539804
-    ## log.Adult.Mortality:CountryBelgium                                                               91.13875218
-    ## log.Adult.Mortality:CountryBelize                                                                91.42874872
-    ## log.Adult.Mortality:CountryBenin                                                                 91.20191880
-    ## log.Adult.Mortality:CountryBhutan                                                                95.00942116
-    ## log.Adult.Mortality:CountryBolivia                                                               94.43142140
-    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                91.06804655
-    ## log.Adult.Mortality:CountryBotswana                                                              90.97884985
-    ## log.Adult.Mortality:CountryBrazil                                                               101.79611122
-    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     91.40368151
-    ## log.Adult.Mortality:CountryBulgaria                                                              91.26657931
-    ## log.Adult.Mortality:CountryBurkina Faso                                                         162.94072031
-    ## log.Adult.Mortality:CountryBurundi                                                              148.40805869
-    ## log.Adult.Mortality:CountryCabo Verde                                                            91.06601944
-    ## log.Adult.Mortality:CountryCambodia                                                              91.44819810
-    ## log.Adult.Mortality:CountryCameroon                                                             215.90034170
-    ## log.Adult.Mortality:CountryCanada                                                                91.43782621
-    ## log.Adult.Mortality:CountryCentral African Republic                                             148.62498373
-    ## log.Adult.Mortality:CountryChad                                                                4173.25934505
-    ## log.Adult.Mortality:CountryChile                                                                 91.28362528
-    ## log.Adult.Mortality:CountryChina                                                                 97.45642426
-    ## log.Adult.Mortality:CountryColombia                                                             114.16454157
-    ## log.Adult.Mortality:CountryComoros                                                               92.88082989
-    ## log.Adult.Mortality:CountryCongo                                                                105.29232850
-    ## log.Adult.Mortality:CountryCosta Rica                                                            91.74384226
-    ## log.Adult.Mortality:CountryCroatia                                                               91.05563539
-    ## log.Adult.Mortality:CountryCuba                                                                  91.07008776
-    ## log.Adult.Mortality:CountryCyprus                                                                91.06073215
-    ## log.Adult.Mortality:CountryCzechia                                                               91.01722586
-    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 91.48293227
-    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                     469.86388031
-    ## log.Adult.Mortality:CountryDenmark                                                               91.01084314
-    ## log.Adult.Mortality:CountryDjibouti                                                             100.79814092
-    ## log.Adult.Mortality:CountryDominican Republic                                                   242.24046058
-    ## log.Adult.Mortality:CountryEcuador                                                               97.88612797
-    ## log.Adult.Mortality:CountryEgypt                                                                267.04119811
-    ## log.Adult.Mortality:CountryEl Salvador                                                           95.73102103
-    ## log.Adult.Mortality:CountryEquatorial Guinea                                                     91.18330662
-    ## log.Adult.Mortality:CountryEritrea                                                              102.16977171
-    ## log.Adult.Mortality:CountryEstonia                                                               90.98585932
-    ## log.Adult.Mortality:CountryEthiopia                                                              91.75500976
-    ## log.Adult.Mortality:CountryFiji                                                                  91.22470054
-    ## log.Adult.Mortality:CountryFinland                                                               91.02381926
-    ## log.Adult.Mortality:CountryFrance                                                                91.08557129
-    ## log.Adult.Mortality:CountryGabon                                                                 91.02209666
-    ## log.Adult.Mortality:CountryGambia                                                                91.37809358
-    ## log.Adult.Mortality:CountryGeorgia                                                               93.69980304
-    ## log.Adult.Mortality:CountryGermany                                                               97.87197532
-    ## log.Adult.Mortality:CountryGhana                                                                280.61498532
-    ## log.Adult.Mortality:CountryGreece                                                                91.20564911
-    ## log.Adult.Mortality:CountryGrenada                                                               91.06878671
-    ## log.Adult.Mortality:CountryGuatemala                                                             96.30136266
-    ## log.Adult.Mortality:CountryGuinea                                                               112.93416633
-    ## log.Adult.Mortality:CountryGuinea-Bissau                                                        164.63536308
-    ## log.Adult.Mortality:CountryGuyana                                                                98.22509199
-    ## log.Adult.Mortality:CountryHaiti                                                                 96.40813150
-    ## log.Adult.Mortality:CountryHonduras                                                             100.22617711
-    ## log.Adult.Mortality:CountryHungary                                                               91.48778599
-    ## log.Adult.Mortality:CountryIceland                                                               91.02559064
-    ## log.Adult.Mortality:CountryIndia                                                                111.01691447
-    ## log.Adult.Mortality:CountryIndonesia                                                            132.05964650
-    ## log.Adult.Mortality:CountryIran                                                                  91.89417215
-    ## log.Adult.Mortality:CountryIraq                                                                 178.69529067
-    ## log.Adult.Mortality:CountryIreland                                                               91.02051051
-    ## log.Adult.Mortality:CountryIsrael                                                                91.02635765
-    ## log.Adult.Mortality:CountryItaly                                                                 91.05840099
-    ## log.Adult.Mortality:CountryIvory Coast                                                          263.78542883
-    ## log.Adult.Mortality:CountryJamaica                                                               91.06146411
-    ## log.Adult.Mortality:CountryJapan                                                                 93.67746553
-    ## log.Adult.Mortality:CountryJordan                                                                91.19885618
-    ## log.Adult.Mortality:CountryKazakhstan                                                            93.90248215
-    ## log.Adult.Mortality:CountryKenya                                                                 92.87720197
-    ## log.Adult.Mortality:CountryKiribati                                                              91.92084481
-    ## log.Adult.Mortality:CountryKuwait                                                                91.42999035
-    ## log.Adult.Mortality:CountryKyrgyzstan                                                           112.97801357
-    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      98.24580810
-    ## log.Adult.Mortality:CountryLatvia                                                                91.00874595
-    ## log.Adult.Mortality:CountryLebanon                                                               91.19094131
-    ## log.Adult.Mortality:CountryLesotho                                                              101.41877243
-    ## log.Adult.Mortality:CountryLiberia                                                               93.05038967
-    ## log.Adult.Mortality:CountryLibya                                                                154.80452234
-    ## log.Adult.Mortality:CountryLithuania                                                             91.02510987
-    ## log.Adult.Mortality:CountryLuxembourg                                                            91.00475437
-    ## log.Adult.Mortality:CountryMadagascar                                                           110.92818696
-    ## log.Adult.Mortality:CountryMalawi                                                                91.45051744
-    ## log.Adult.Mortality:CountryMalaysia                                                             111.71657339
-    ## log.Adult.Mortality:CountryMaldives                                                              90.97951067
-    ## log.Adult.Mortality:CountryMali                                                                 338.05707654
-    ## log.Adult.Mortality:CountryMalta                                                                 91.10198904
-    ## log.Adult.Mortality:CountryMauritania                                                          1955.81036059
-    ## log.Adult.Mortality:CountryMauritius                                                             91.25400150
-    ## log.Adult.Mortality:CountryMexico                                                               120.96673791
-    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      91.31794407
-    ## log.Adult.Mortality:CountryMongolia                                                              95.37080237
-    ## log.Adult.Mortality:CountryMontenegro                                                            91.03919526
-    ## log.Adult.Mortality:CountryMorocco                                                               91.97224004
-    ## log.Adult.Mortality:CountryMozambique                                                           114.61196732
-    ## log.Adult.Mortality:CountryMyanmar                                                               96.63154655
-    ## log.Adult.Mortality:CountryNamibia                                                              196.82671735
-    ## log.Adult.Mortality:CountryNepal                                                                 92.43183131
-    ## log.Adult.Mortality:CountryNetherlands                                                           91.02893362
-    ## log.Adult.Mortality:CountryNew Zealand                                                           91.10356014
-    ## log.Adult.Mortality:CountryNicaragua                                                             94.31459264
-    ## log.Adult.Mortality:CountryNiger                                                                341.91623859
-    ## log.Adult.Mortality:CountryNigeria                                                              207.47314992
-    ## log.Adult.Mortality:CountryNorway                                                                91.03409067
-    ## log.Adult.Mortality:CountryOman                                                                  91.04245180
-    ## log.Adult.Mortality:CountryPakistan                                                             467.61755430
-    ## log.Adult.Mortality:CountryPanama                                                               484.47413149
-    ## log.Adult.Mortality:CountryPapua New Guinea                                                     429.20277549
-    ## log.Adult.Mortality:CountryParaguay                                                              99.56732638
-    ## log.Adult.Mortality:CountryPeru                                                                  97.69605161
-    ## log.Adult.Mortality:CountryPhilippines                                                          191.30995142
-    ## log.Adult.Mortality:CountryPoland                                                               102.69217857
-    ## log.Adult.Mortality:CountryPortugal                                                              91.05924074
-    ## log.Adult.Mortality:CountryQatar                                                                 91.31783079
-    ## log.Adult.Mortality:CountryRepublic of Korea                                                     91.54632652
-    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   91.04428905
-    ## log.Adult.Mortality:CountryRomania                                                               94.19790360
-    ## log.Adult.Mortality:CountryRussian Federation                                                    95.73730285
-    ## log.Adult.Mortality:CountryRwanda                                                                91.31205514
-    ## log.Adult.Mortality:CountrySaint Lucia                                                           91.11569243
-    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                      91.16484179
-    ## log.Adult.Mortality:CountrySamoa                                                                 90.99925399
-    ## log.Adult.Mortality:CountrySao Tome and Principe                                                 91.14916996
-    ## log.Adult.Mortality:CountrySaudi Arabia                                                         107.00804139
-    ## log.Adult.Mortality:CountrySenegal                                                              116.42913543
-    ## log.Adult.Mortality:CountrySerbia                                                                91.12042911
-    ## log.Adult.Mortality:CountrySeychelles                                                            91.57555994
-    ## log.Adult.Mortality:CountrySierra Leone                                                         114.25901968
-    ## log.Adult.Mortality:CountrySingapore                                                             91.01718921
-    ## log.Adult.Mortality:CountrySlovakia                                                              91.02831295
-    ## log.Adult.Mortality:CountrySlovenia                                                              90.99116849
-    ## log.Adult.Mortality:CountrySolomon Islands                                                       91.00818528
-    ## log.Adult.Mortality:CountrySomalia                                                              439.32449427
-    ## log.Adult.Mortality:CountrySouth Africa                                                          97.69679960
-    ## log.Adult.Mortality:CountrySouth Sudan                                                          346.32127901
-    ## log.Adult.Mortality:CountrySpain                                                                100.17998095
-    ## log.Adult.Mortality:CountrySri Lanka                                                             96.78875947
-    ## log.Adult.Mortality:CountrySudan                                                                134.43330718
-    ## log.Adult.Mortality:CountrySuriname                                                              91.11977194
-    ## log.Adult.Mortality:CountrySwaziland                                                             94.73232043
-    ## log.Adult.Mortality:CountrySweden                                                                91.05135600
-    ## log.Adult.Mortality:CountrySwitzerland                                                           91.01877869
-    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                  91.78261521
-    ## log.Adult.Mortality:CountryTajikistan                                                           121.59524923
-    ## log.Adult.Mortality:CountryThailand                                                              93.33911034
-    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             91.06131609
-    ## log.Adult.Mortality:CountryTimor-Leste                                                           95.96439899
-    ## log.Adult.Mortality:CountryTogo                                                                 142.02742313
-    ## log.Adult.Mortality:CountryTonga                                                                 91.37851933
-    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   91.20607060
-    ## log.Adult.Mortality:CountryTunisia                                                              168.61553170
-    ## log.Adult.Mortality:CountryTurkey                                                               110.74358552
-    ## log.Adult.Mortality:CountryTurkmenistan                                                         117.57075473
-    ## log.Adult.Mortality:CountryUganda                                                                92.63513888
-    ## log.Adult.Mortality:CountryUkraine                                                               95.78242590
-    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  91.04346077
-    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                 124.62492730
-    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                          131.10496457
-    ## log.Adult.Mortality:CountryUnited States of America                                             274.20712645
-    ## log.Adult.Mortality:CountryUruguay                                                               98.27238956
-    ## log.Adult.Mortality:CountryUzbekistan                                                            93.54485114
-    ## log.Adult.Mortality:CountryVanuatu                                                               91.03930669
-    ## log.Adult.Mortality:CountryVenezuela                                                           1162.27075190
-    ## log.Adult.Mortality:CountryViet Nam                                                             490.69456246
-    ## log.Adult.Mortality:CountryYemen                                                                260.04674324
-    ## log.Adult.Mortality:CountryZambia                                                               102.94475906
-    ## log.Adult.Mortality:CountryZimbabwe                                                              92.91224809
-    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.93337894
-    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                 32.10704189
-    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  6.06622659
-    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.69381649
+    ## infant.deaths:CountryVenezuela                                                                  656.14393672
+    ## infant.deaths:CountryViet Nam                                                                    83.87568357
+    ## infant.deaths:CountryYemen                                                                       37.57247260
+    ## infant.deaths:CountryZambia                                                                      12.40193460
+    ## infant.deaths:CountryZimbabwe                                                                     6.85523113
+    ## log.Adult.Mortality:CountryAlbania                                                               93.38056314
+    ## log.Adult.Mortality:CountryAlgeria                                                              153.73457428
+    ## log.Adult.Mortality:CountryAngola                                                               123.20576115
+    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                   90.54554159
+    ## log.Adult.Mortality:CountryArgentina                                                            109.84892901
+    ## log.Adult.Mortality:CountryArmenia                                                               90.62544680
+    ## log.Adult.Mortality:CountryAustralia                                                             90.67559607
+    ## log.Adult.Mortality:CountryAustria                                                               90.50511912
+    ## log.Adult.Mortality:CountryAzerbaijan                                                            94.36970001
+    ## log.Adult.Mortality:CountryBahamas                                                               90.51617896
+    ## log.Adult.Mortality:CountryBahrain                                                               90.45837006
+    ## log.Adult.Mortality:CountryBangladesh                                                           122.66093571
+    ## log.Adult.Mortality:CountryBarbados                                                              90.55785873
+    ## log.Adult.Mortality:CountryBelarus                                                               90.53215304
+    ## log.Adult.Mortality:CountryBelgium                                                               90.60507316
+    ## log.Adult.Mortality:CountryBelize                                                                90.89338444
+    ## log.Adult.Mortality:CountryBenin                                                                 90.66792878
+    ## log.Adult.Mortality:CountryBhutan                                                                94.45312661
+    ## log.Adult.Mortality:CountryBolivia                                                               93.88640336
+    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                90.53476102
+    ## log.Adult.Mortality:CountryBotswana                                                              90.44610897
+    ## log.Adult.Mortality:CountryBrazil                                                               101.20010111
+    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     90.86846714
+    ## log.Adult.Mortality:CountryBulgaria                                                              90.73199536
+    ## log.Adult.Mortality:CountryBurkina Faso                                                         161.98753869
+    ## log.Adult.Mortality:CountryBurundi                                                              147.53478683
+    ## log.Adult.Mortality:CountryCabo Verde                                                            90.51517411
+    ## log.Adult.Mortality:CountryCambodia                                                              91.17358075
+    ## log.Adult.Mortality:CountryCameroon                                                             201.70966921
+    ## log.Adult.Mortality:CountryCanada                                                                90.60675747
+    ## log.Adult.Mortality:CountryCentral African Republic                                              90.90589564
+    ## log.Adult.Mortality:CountryChad                                                                2069.55038392
+    ## log.Adult.Mortality:CountryChile                                                                 90.75756356
+    ## log.Adult.Mortality:CountryChina                                                                 97.19297550
+    ## log.Adult.Mortality:CountryColombia                                                             113.19682008
+    ## log.Adult.Mortality:CountryComoros                                                               92.44815926
+    ## log.Adult.Mortality:CountryCongo                                                                101.32932769
+    ## log.Adult.Mortality:CountryCosta Rica                                                            91.02179233
+    ## log.Adult.Mortality:CountryCroatia                                                               90.51054999
+    ## log.Adult.Mortality:CountryCuba                                                                  90.55430536
+    ## log.Adult.Mortality:CountryCyprus                                                                90.50479895
+    ## log.Adult.Mortality:CountryCzechia                                                               90.50255632
+    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 90.98262095
+    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                     420.33806421
+    ## log.Adult.Mortality:CountryDenmark                                                               90.47794925
+    ## log.Adult.Mortality:CountryDjibouti                                                              96.22465848
+    ## log.Adult.Mortality:CountryDominican Republic                                                   254.65825852
+    ## log.Adult.Mortality:CountryEcuador                                                              106.54471283
+    ## log.Adult.Mortality:CountryEgypt                                                                292.04388639
+    ## log.Adult.Mortality:CountryEl Salvador                                                          101.17249618
+    ## log.Adult.Mortality:CountryEquatorial Guinea                                                     90.73888933
+    ## log.Adult.Mortality:CountryEritrea                                                               98.27402766
+    ## log.Adult.Mortality:CountryEstonia                                                               90.45287006
+    ## log.Adult.Mortality:CountryEthiopia                                                              91.16155458
+    ## log.Adult.Mortality:CountryFiji                                                                  90.64640001
+    ## log.Adult.Mortality:CountryFinland                                                               90.50627434
+    ## log.Adult.Mortality:CountryFrance                                                                90.54499972
+    ## log.Adult.Mortality:CountryGabon                                                                 90.49803811
+    ## log.Adult.Mortality:CountryGambia                                                                90.83639686
+    ## log.Adult.Mortality:CountryGeorgia                                                               93.04074341
+    ## log.Adult.Mortality:CountryGermany                                                              101.43969310
+    ## log.Adult.Mortality:CountryGhana                                                                166.16224070
+    ## log.Adult.Mortality:CountryGreece                                                                90.75006981
+    ## log.Adult.Mortality:CountryGrenada                                                               90.52232636
+    ## log.Adult.Mortality:CountryGuatemala                                                             95.56646992
+    ## log.Adult.Mortality:CountryGuinea                                                               110.91323421
+    ## log.Adult.Mortality:CountryGuinea-Bissau                                                        173.09904055
+    ## log.Adult.Mortality:CountryGuyana                                                                93.52641977
+    ## log.Adult.Mortality:CountryHaiti                                                                 96.32830965
+    ## log.Adult.Mortality:CountryHonduras                                                              99.91760300
+    ## log.Adult.Mortality:CountryHungary                                                               90.77739717
+    ## log.Adult.Mortality:CountryIceland                                                               90.49035826
+    ## log.Adult.Mortality:CountryIndia                                                                111.93492207
+    ## log.Adult.Mortality:CountryIndonesia                                                            179.80558685
+    ## log.Adult.Mortality:CountryIran                                                                  91.82880014
+    ## log.Adult.Mortality:CountryIraq                                                                 125.26691022
+    ## log.Adult.Mortality:CountryIreland                                                               90.48878668
+    ## log.Adult.Mortality:CountryIsrael                                                                90.49059995
+    ## log.Adult.Mortality:CountryItaly                                                                 91.58268664
+    ## log.Adult.Mortality:CountryIvory Coast                                                          333.63050509
+    ## log.Adult.Mortality:CountryJamaica                                                               90.52823552
+    ## log.Adult.Mortality:CountryJapan                                                                 93.12776667
+    ## log.Adult.Mortality:CountryJordan                                                                90.66482720
+    ## log.Adult.Mortality:CountryKazakhstan                                                            93.35293404
+    ## log.Adult.Mortality:CountryKenya                                                                 92.33323268
+    ## log.Adult.Mortality:CountryKiribati                                                              91.38260718
+    ## log.Adult.Mortality:CountryKuwait                                                                90.89461740
+    ## log.Adult.Mortality:CountryKyrgyzstan                                                           112.31128429
+    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      97.67312874
+    ## log.Adult.Mortality:CountryLatvia                                                                90.47582861
+    ## log.Adult.Mortality:CountryLebanon                                                               90.65695038
+    ## log.Adult.Mortality:CountryLesotho                                                              100.82497048
+    ## log.Adult.Mortality:CountryLiberia                                                               92.50550168
+    ## log.Adult.Mortality:CountryLibya                                                                153.89878680
+    ## log.Adult.Mortality:CountryLithuania                                                             90.49209887
+    ## log.Adult.Mortality:CountryLuxembourg                                                            90.47186102
+    ## log.Adult.Mortality:CountryMadagascar                                                           110.27622390
+    ## log.Adult.Mortality:CountryMalawi                                                                90.91539265
+    ## log.Adult.Mortality:CountryMalaysia                                                             111.06237209
+    ## log.Adult.Mortality:CountryMaldives                                                              90.44676867
+    ## log.Adult.Mortality:CountryMali                                                                 336.07821722
+    ## log.Adult.Mortality:CountryMalta                                                                 90.56852912
+    ## log.Adult.Mortality:CountryMauritania                                                          1944.36581970
+    ## log.Adult.Mortality:CountryMauritius                                                             90.71965962
+    ## log.Adult.Mortality:CountryMexico                                                               120.25854836
+    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      90.78321825
+    ## log.Adult.Mortality:CountryMongolia                                                              94.81083031
+    ## log.Adult.Mortality:CountryMontenegro                                                            90.50610480
+    ## log.Adult.Mortality:CountryMorocco                                                               91.43383000
+    ## log.Adult.Mortality:CountryMozambique                                                           113.93766895
+    ## log.Adult.Mortality:CountryMyanmar                                                               96.06580268
+    ## log.Adult.Mortality:CountryNamibia                                                              195.67507119
+    ## log.Adult.Mortality:CountryNepal                                                                 91.89176619
+    ## log.Adult.Mortality:CountryNetherlands                                                           90.49589302
+    ## log.Adult.Mortality:CountryNew Zealand                                                           90.57008385
+    ## log.Adult.Mortality:CountryNicaragua                                                             93.76401980
+    ## log.Adult.Mortality:CountryNiger                                                                339.71301667
+    ## log.Adult.Mortality:CountryNigeria                                                              205.32648923
+    ## log.Adult.Mortality:CountryNorway                                                                90.50102089
+    ## log.Adult.Mortality:CountryOman                                                                  90.50934174
+    ## log.Adult.Mortality:CountryPakistan                                                             464.88048628
+    ## log.Adult.Mortality:CountryPanama                                                               481.75704398
+    ## log.Adult.Mortality:CountryPapua New Guinea                                                     426.68864496
+    ## log.Adult.Mortality:CountryParaguay                                                              98.98502339
+    ## log.Adult.Mortality:CountryPeru                                                                  97.12650638
+    ## log.Adult.Mortality:CountryPhilippines                                                          190.18943904
+    ## log.Adult.Mortality:CountryPoland                                                               102.09098942
+    ## log.Adult.Mortality:CountryPortugal                                                              90.52602517
+    ## log.Adult.Mortality:CountryQatar                                                                 90.78310824
+    ## log.Adult.Mortality:CountryRepublic of Korea                                                     91.01017554
+    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   90.51117213
+    ## log.Adult.Mortality:CountryRomania                                                               93.64625074
+    ## log.Adult.Mortality:CountryRussian Federation                                                    95.17942522
+    ## log.Adult.Mortality:CountryRwanda                                                                90.77733482
+    ## log.Adult.Mortality:CountrySaint Lucia                                                           90.58232418
+    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                      90.63126671
+    ## log.Adult.Mortality:CountrySamoa                                                                 90.46639543
+    ## log.Adult.Mortality:CountrySao Tome and Principe                                                 90.61543625
+    ## log.Adult.Mortality:CountrySaudi Arabia                                                         106.38175886
+    ## log.Adult.Mortality:CountrySenegal                                                              115.74655210
+    ## log.Adult.Mortality:CountrySerbia                                                                90.58685340
+    ## log.Adult.Mortality:CountrySeychelles                                                            91.03932857
+    ## log.Adult.Mortality:CountrySierra Leone                                                         113.59032793
+    ## log.Adult.Mortality:CountrySingapore                                                             90.48422629
+    ## log.Adult.Mortality:CountrySlovakia                                                              90.49528076
+    ## log.Adult.Mortality:CountrySlovenia                                                              90.45835315
+    ## log.Adult.Mortality:CountrySolomon Islands                                                       90.47527130
+    ## log.Adult.Mortality:CountrySomalia                                                              436.74973687
+    ## log.Adult.Mortality:CountrySouth Africa                                                          97.12525180
+    ## log.Adult.Mortality:CountrySouth Sudan                                                          344.29530078
+    ## log.Adult.Mortality:CountrySpain                                                                 99.59377456
+    ## log.Adult.Mortality:CountrySri Lanka                                                             96.22041965
+    ## log.Adult.Mortality:CountrySudan                                                                133.65337934
+    ## log.Adult.Mortality:CountrySuriname                                                              90.58622560
+    ## log.Adult.Mortality:CountrySwaziland                                                             94.17767394
+    ## log.Adult.Mortality:CountrySweden                                                                90.51818609
+    ## log.Adult.Mortality:CountrySwitzerland                                                           90.48580626
+    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                  91.24516414
+    ## log.Adult.Mortality:CountryTajikistan                                                           120.88379932
+    ## log.Adult.Mortality:CountryThailand                                                              92.79342486
+    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             90.52808807
+    ## log.Adult.Mortality:CountryTimor-Leste                                                           95.40252220
+    ## log.Adult.Mortality:CountryTogo                                                                 141.19647965
+    ## log.Adult.Mortality:CountryTonga                                                                 90.84344482
+    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   90.67200800
+    ## log.Adult.Mortality:CountryTunisia                                                              167.62889647
+    ## log.Adult.Mortality:CountryTurkey                                                               110.09342860
+    ## log.Adult.Mortality:CountryTurkmenistan                                                         116.88258807
+    ## log.Adult.Mortality:CountryUganda                                                                92.08877416
+    ## log.Adult.Mortality:CountryUkraine                                                               95.22196816
+    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  90.51033708
+    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                 123.89553230
+    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                          130.33799755
+    ## log.Adult.Mortality:CountryUnited States of America                                             272.60290362
+    ## log.Adult.Mortality:CountryUruguay                                                               97.69703646
+    ## log.Adult.Mortality:CountryUzbekistan                                                            93.00079542
+    ## log.Adult.Mortality:CountryVanuatu                                                               90.50621257
+    ## log.Adult.Mortality:CountryVenezuela                                                           1155.47049592
+    ## log.Adult.Mortality:CountryViet Nam                                                             487.81481329
+    ## log.Adult.Mortality:CountryYemen                                                                258.52075642
+    ## log.Adult.Mortality:CountryZambia                                                               102.34253644
+    ## log.Adult.Mortality:CountryZimbabwe                                                              92.36834612
+    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.92791605
+    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                 31.91922964
+    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  6.03063313
+    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.68975501
     ## log.Adult.Mortality:infant.deaths:CountryAntigua and Barbuda                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                5.22398459
+    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                5.19342452
     ## log.Adult.Mortality:infant.deaths:CountryArmenia                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryAustralia                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryAustria                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                               5.26872861
+    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                               5.23789348
     ## log.Adult.Mortality:infant.deaths:CountryBahamas                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryBahrain                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.11803489
+    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.11734068
     ## log.Adult.Mortality:infant.deaths:CountryBarbados                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                 11.02891224
-    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 17.88187002
+    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                 10.96439658
+    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 17.77724590
     ## log.Adult.Mortality:infant.deaths:CountryBelize                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryBenin                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                  27.78445300
-    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                  4.03490821
+    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                  27.62236810
+    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                  4.01275886
     ## log.Adult.Mortality:infant.deaths:CountryBosnia and Herzegovina                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryBotswana                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.28937245
+    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.28767877
     ## log.Adult.Mortality:infant.deaths:CountryBrunei Darussalam                                                NA
     ## log.Adult.Mortality:infant.deaths:CountryBulgaria                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                             2.65610591
-    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  5.05965533
+    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                             2.64055992
+    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  5.02991428
     ## log.Adult.Mortality:infant.deaths:CountryCabo Verde                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                 0.76037498
-    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 3.15278621
+    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                 0.71882728
+    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 2.94350879
     ## log.Adult.Mortality:infant.deaths:CountryCanada                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                 7.08505350
-    ## log.Adult.Mortality:infant.deaths:CountryChad                                                    90.80212381
+    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                         NA
+    ## log.Adult.Mortality:infant.deaths:CountryChad                                                    45.00886790
     ## log.Adult.Mortality:infant.deaths:CountryChile                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryChina                                                    0.04198259
-    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 3.82565104
-    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                 13.32496632
-    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    7.71798705
+    ## log.Adult.Mortality:infant.deaths:CountryChina                                                    0.04398872
+    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 3.79464672
+    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                 14.00810234
+    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    6.76670906
     ## log.Adult.Mortality:infant.deaths:CountryCosta Rica                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryCroatia                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryCuba                                                             NA
     ## log.Adult.Mortality:infant.deaths:CountryCyprus                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryCzechia                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    1.23337009
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         1.94994627
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    1.24624370
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         1.73563809
     ## log.Adult.Mortality:infant.deaths:CountryDenmark                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                                31.46377167
-    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                      37.11807953
-    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                  5.09879571
-    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    4.52071171
-    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                             13.73541827
+    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                                27.97958419
+    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                      38.65397465
+    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                  8.19094641
+    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    4.96836154
+    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                             23.04944960
     ## log.Adult.Mortality:infant.deaths:CountryEquatorial Guinea                                                NA
-    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                  6.60548142
+    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                  5.47679594
     ## log.Adult.Mortality:infant.deaths:CountryEstonia                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                 0.11076952
+    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                 0.10682968
     ## log.Adult.Mortality:infant.deaths:CountryFiji                                                             NA
     ## log.Adult.Mortality:infant.deaths:CountryFinland                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryFrance                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryGabon                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountryGambia                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                 13.82503561
-    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 14.23680131
-    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                    6.32197246
-    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                  47.59358054
+    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                 13.92917393
+    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 16.98122968
+    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                    3.30857990
+    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryGrenada                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                                2.92784224
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                   2.22014590
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           31.22424563
-    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                  39.35825780
-    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                    1.27589376
-    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                 6.97290669
-    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                 14.78277193
+    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                                2.66940356
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                   2.16850342
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           33.18459575
+    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                  26.63840540
+    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                    1.32324276
+    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                 7.25561509
+    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                 13.57116239
     ## log.Adult.Mortality:infant.deaths:CountryIceland                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                    0.03343861
-    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                                0.56519343
-    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.67052524
-    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                     4.94170356
+    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                    0.02310127
+    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                                0.90719607
+    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.89365568
+    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                     2.81009628
     ## log.Adult.Mortality:infant.deaths:CountryIreland                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryIsrael                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              3.98626355
+    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                    6.68844700
+    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              5.20254863
     ## log.Adult.Mortality:infant.deaths:CountryJamaica                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                    9.79634422
+    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                    9.73791871
     ## log.Adult.Mortality:infant.deaths:CountryJordan                                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                               2.56775778
-    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                    0.33710345
+    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                               2.55273345
+    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                    0.33513116
     ## log.Adult.Mortality:infant.deaths:CountryKiribati                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                  27.32101133
-    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                              17.65532792
-    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                         2.90281736
+    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                  27.16119259
+    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                              17.55118537
+    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                         2.88655529
     ## log.Adult.Mortality:infant.deaths:CountryLatvia                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryLebanon                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  9.79823162
-    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                  1.90354179
-    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                   62.80915433
+    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  9.74091600
+    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                  1.89240651
+    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                   62.44172825
     ## log.Adult.Mortality:infant.deaths:CountryLithuania                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryLuxembourg                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                               2.90483214
-    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                   0.32828803
-    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                17.59833376
+    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                               2.88699035
+    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                   0.32573462
+    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                17.49530352
     ## log.Adult.Mortality:infant.deaths:CountryMaldives                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     5.23435273
+    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     5.20372186
     ## log.Adult.Mortality:infant.deaths:CountryMalta                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                             244.27446496
+    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                             242.84511861
     ## log.Adult.Mortality:infant.deaths:CountryMauritius                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   2.17023696
+    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   2.15753943
     ## log.Adult.Mortality:infant.deaths:CountryMicronesia (Federated States of)                                 NA
-    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                                18.81219097
+    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                                18.70114907
     ## log.Adult.Mortality:infant.deaths:CountryMontenegro                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.57590125
-    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               1.07494031
-    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                  0.58100016
-    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                 58.20307429
-    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                    0.46605166
+    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.57253239
+    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               1.06861046
+    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                  0.57760141
+    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                 57.86261223
+    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                    0.46374646
     ## log.Adult.Mortality:infant.deaths:CountryNetherlands                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountryNew Zealand                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                                6.55142513
-    ## log.Adult.Mortality:infant.deaths:CountryNiger                                                    7.18192823
-    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                  0.32775059
+    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                                6.51422552
+    ## log.Adult.Mortality:infant.deaths:CountryNiger                                                    7.13608471
+    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                  0.32430041
     ## log.Adult.Mortality:infant.deaths:CountryNorway                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountryOman                                                             NA
-    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                 1.25496848
-    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                 474.99804763
-    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                        38.33723686
-    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                12.34007804
-    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     3.24587349
-    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                              2.89169688
-    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                  23.03064927
-    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                68.44154121
+    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                 1.24761999
+    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                 472.33517039
+    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                        38.11273261
+    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                12.26804309
+    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     3.22752464
+    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                              2.87477318
+    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                  22.89592567
+    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                68.04112712
     ## log.Adult.Mortality:infant.deaths:CountryQatar                                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                        2.92701271
+    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                        2.90918665
     ## log.Adult.Mortality:infant.deaths:CountryRepublic of Moldova                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 10.23427195
-    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       2.27355983
-    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                   0.27852130
+    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 10.17440311
+    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       2.26083994
+    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                   0.27689203
     ## log.Adult.Mortality:infant.deaths:CountrySaint Lucia                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountrySaint Vincent and the Grenadines                                 NA
     ## log.Adult.Mortality:infant.deaths:CountrySamoa                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountrySao Tome and Principe                                            NA
-    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             6.25488449
-    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                  3.94621678
+    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             6.21828967
+    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                  3.92310087
     ## log.Adult.Mortality:infant.deaths:CountrySerbia                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountrySeychelles                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             2.43716310
+    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             2.42290647
     ## log.Adult.Mortality:infant.deaths:CountrySingapore                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovakia                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovenia                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountrySolomon Islands                                                  NA
-    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                  8.58503963
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             0.75838315
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             12.70519080
-    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                   22.04239219
-    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                                7.95952533
-    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                    1.44326564
+    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                  8.53475652
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             0.75393352
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             12.63086679
+    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                   21.91336122
+    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                                7.91246067
+    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                    1.43493759
     ## log.Adult.Mortality:infant.deaths:CountrySuriname                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                               10.08524008
+    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                               10.02623224
     ## log.Adult.Mortality:infant.deaths:CountrySweden                                                           NA
     ## log.Adult.Mortality:infant.deaths:CountrySwitzerland                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                     1.75776427
-    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               8.08438453
-    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                 1.72506330
+    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                     1.74748208
+    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               8.03708212
+    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                 1.71554405
     ## log.Adult.Mortality:infant.deaths:CountryThe former Yugoslav republic of Macedonia                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                             12.42599499
-    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     7.93348150
+    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                             12.35330719
+    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     7.88707059
     ## log.Adult.Mortality:infant.deaths:CountryTonga                                                            NA
     ## log.Adult.Mortality:infant.deaths:CountryTrinidad and Tobago                                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                 46.07959538
-    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   1.85695698
-    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                            11.42269686
-    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                   0.26662013
-    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                  6.30959940
+    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                 45.81005102
+    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   1.84608640
+    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                            11.35587920
+    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                   0.26496048
+    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                  6.27262218
     ## log.Adult.Mortality:infant.deaths:CountryUnited Arab Emirates                                             NA
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland    22.13446509
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              1.13115761
-    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                 9.90454646
-    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                 39.24629535
-    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                               1.05782436
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland    22.00498836
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              1.12452670
+    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                 9.84660921
+    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                 39.01669526
+    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                               1.05228446
     ## log.Adult.Mortality:infant.deaths:CountryVanuatu                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                              128.06404883
-    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                17.09325813
-    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    6.77996244
-    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                   1.76722859
-    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 0.75670554
+    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                              127.31481686
+    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                16.99320778
+    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    6.74012082
+    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                   1.75680852
+    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 0.75227638
     ##                                                                                               t value
-    ## (Intercept)                                                                                      1.29
-    ## log.Adult.Mortality                                                                             -1.14
+    ## (Intercept)                                                                                      1.30
+    ## log.Adult.Mortality                                                                             -1.15
     ## infant.deaths                                                                                   -1.07
-    ## log.GDP                                                                                          0.02
-    ## Measles                                                                                         -1.05
-    ## HIV_cat                                                                                         -1.68
-    ## CountryAlbania                                                                                  -1.04
-    ## CountryAlgeria                                                                                  -0.64
+    ## log.GDP                                                                                          0.13
+    ## Measles                                                                                         -0.88
+    ## HIV_cat                                                                                         -1.69
+    ## CountryAlbania                                                                                  -1.05
+    ## CountryAlgeria                                                                                  -0.65
     ## CountryAngola                                                                                   -0.43
-    ## CountryAntigua and Barbuda                                                                      -1.02
-    ## CountryArgentina                                                                                -0.83
-    ## CountryArmenia                                                                                  -1.02
+    ## CountryAntigua and Barbuda                                                                      -1.03
+    ## CountryArgentina                                                                                -0.84
+    ## CountryArmenia                                                                                  -1.03
     ## CountryAustralia                                                                                -1.06
-    ## CountryAustria                                                                                  -0.94
-    ## CountryAzerbaijan                                                                               -1.08
-    ## CountryBahamas                                                                                  -1.03
-    ## CountryBahrain                                                                                  -1.10
-    ## CountryBangladesh                                                                               -1.14
-    ## CountryBarbados                                                                                 -1.07
-    ## CountryBelarus                                                                                  -1.12
-    ## CountryBelgium                                                                                  -0.83
-    ## CountryBelize                                                                                   -0.96
-    ## CountryBenin                                                                                    -0.78
-    ## CountryBhutan                                                                                   -0.85
-    ## CountryBolivia                                                                                  -0.34
-    ## CountryBosnia and Herzegovina                                                                   -1.04
-    ## CountryBotswana                                                                                 -0.89
-    ## CountryBrazil                                                                                   -0.51
-    ## CountryBrunei Darussalam                                                                        -1.00
-    ## CountryBulgaria                                                                                 -0.96
-    ## CountryBurkina Faso                                                                             -1.60
+    ## CountryAustria                                                                                  -0.95
+    ## CountryAzerbaijan                                                                               -1.09
+    ## CountryBahamas                                                                                  -1.04
+    ## CountryBahrain                                                                                  -1.11
+    ## CountryBangladesh                                                                               -1.15
+    ## CountryBarbados                                                                                 -1.08
+    ## CountryBelarus                                                                                  -1.13
+    ## CountryBelgium                                                                                  -0.84
+    ## CountryBelize                                                                                   -0.97
+    ## CountryBenin                                                                                    -0.79
+    ## CountryBhutan                                                                                   -0.86
+    ## CountryBolivia                                                                                  -0.35
+    ## CountryBosnia and Herzegovina                                                                   -1.05
+    ## CountryBotswana                                                                                 -0.90
+    ## CountryBrazil                                                                                   -0.52
+    ## CountryBrunei Darussalam                                                                        -1.01
+    ## CountryBulgaria                                                                                 -0.97
+    ## CountryBurkina Faso                                                                             -1.61
     ## CountryBurundi                                                                                   0.57
-    ## CountryCabo Verde                                                                               -1.09
-    ## CountryCambodia                                                                                 -1.13
+    ## CountryCabo Verde                                                                               -1.13
+    ## CountryCambodia                                                                                 -1.12
     ## CountryCameroon                                                                                 -0.34
-    ## CountryCanada                                                                                   -0.94
-    ## CountryCentral African Republic                                                                 -0.09
-    ## CountryChad                                                                                     -0.05
-    ## CountryChile                                                                                    -0.80
-    ## CountryChina                                                                                    -1.12
-    ## CountryColombia                                                                                 -0.78
-    ## CountryComoros                                                                                  -0.84
-    ## CountryCongo                                                                                    -0.61
-    ## CountryCosta Rica                                                                               -0.97
-    ## CountryCroatia                                                                                  -1.03
-    ## CountryCuba                                                                                     -1.05
-    ## CountryCyprus                                                                                   -1.00
-    ## CountryCzechia                                                                                  -1.03
+    ## CountryCanada                                                                                   -1.05
+    ## CountryCentral African Republic                                                                 -0.93
+    ## CountryChad                                                                                     -0.20
+    ## CountryChile                                                                                    -0.81
+    ## CountryChina                                                                                    -1.11
+    ## CountryColombia                                                                                 -0.80
+    ## CountryComoros                                                                                  -0.80
+    ## CountryCongo                                                                                    -0.50
+    ## CountryCosta Rica                                                                               -1.01
+    ## CountryCroatia                                                                                  -1.04
+    ## CountryCuba                                                                                     -1.06
+    ## CountryCyprus                                                                                   -1.03
+    ## CountryCzechia                                                                                  -1.04
     ## CountryDemocratic People's Republic of Korea                                                    -0.86
-    ## CountryDemocratic Republic of the Congo                                                          0.12
-    ## CountryDenmark                                                                                  -0.96
-    ## CountryDjibouti                                                                                 -2.22
+    ## CountryDemocratic Republic of the Congo                                                          0.00
+    ## CountryDenmark                                                                                  -0.97
+    ## CountryDjibouti                                                                                 -1.50
     ## CountryDominican Republic                                                                       -1.25
-    ## CountryEcuador                                                                                  -1.11
-    ## CountryEgypt                                                                                     1.21
-    ## CountryEl Salvador                                                                              -1.50
+    ## CountryEcuador                                                                                  -0.90
+    ## CountryEgypt                                                                                     0.91
+    ## CountryEl Salvador                                                                              -1.16
     ## CountryEquatorial Guinea                                                                        -0.84
-    ## CountryEritrea                                                                                  -1.94
+    ## CountryEritrea                                                                                  -1.84
     ## CountryEstonia                                                                                  -1.09
-    ## CountryEthiopia                                                                                 -1.05
-    ## CountryFiji                                                                                     -1.01
-    ## CountryFinland                                                                                  -0.92
-    ## CountryFrance                                                                                   -1.00
+    ## CountryEthiopia                                                                                 -1.28
+    ## CountryFiji                                                                                     -1.02
+    ## CountryFinland                                                                                  -0.84
+    ## CountryFrance                                                                                   -1.05
     ## CountryGabon                                                                                    -0.97
-    ## CountryGambia                                                                                   -0.36
-    ## CountryGeorgia                                                                                  -1.25
-    ## CountryGermany                                                                                  -0.02
-    ## CountryGhana                                                                                    -1.86
+    ## CountryGambia                                                                                   -0.38
+    ## CountryGeorgia                                                                                  -1.27
+    ## CountryGermany                                                                                   0.02
+    ## CountryGhana                                                                                    -3.06
     ## CountryGreece                                                                                   -0.77
     ## CountryGrenada                                                                                  -1.19
-    ## CountryGuatemala                                                                                -2.63
-    ## CountryGuinea                                                                                   -0.96
-    ## CountryGuinea-Bissau                                                                             1.62
-    ## CountryGuyana                                                                                   -1.04
-    ## CountryHaiti                                                                                    -1.62
+    ## CountryGuatemala                                                                                -2.72
+    ## CountryGuinea                                                                                   -0.98
+    ## CountryGuinea-Bissau                                                                             1.32
+    ## CountryGuyana                                                                                   -1.09
+    ## CountryHaiti                                                                                    -1.64
     ## CountryHonduras                                                                                 -0.87
-    ## CountryHungary                                                                                  -1.04
-    ## CountryIceland                                                                                  -1.10
-    ## CountryIndia                                                                                    -0.77
-    ## CountryIndonesia                                                                                -1.10
-    ## CountryIran                                                                                     -0.91
-    ## CountryIraq                                                                                     -2.60
-    ## CountryIreland                                                                                  -0.95
-    ## CountryIsrael                                                                                   -1.05
-    ## CountryItaly                                                                                    -1.09
-    ## CountryIvory Coast                                                                               0.40
-    ## CountryJamaica                                                                                  -1.02
-    ## CountryJapan                                                                                    -1.09
-    ## CountryJordan                                                                                   -1.00
+    ## CountryHungary                                                                                  -1.05
+    ## CountryIceland                                                                                  -1.11
+    ## CountryIndia                                                                                    -0.66
+    ## CountryIndonesia                                                                                -0.90
+    ## CountryIran                                                                                     -1.04
+    ## CountryIraq                                                                                     -2.42
+    ## CountryIreland                                                                                  -0.99
+    ## CountryIsrael                                                                                   -1.06
+    ## CountryItaly                                                                                    -1.15
+    ## CountryIvory Coast                                                                               0.48
+    ## CountryJamaica                                                                                  -1.03
+    ## CountryJapan                                                                                    -1.10
+    ## CountryJordan                                                                                   -1.01
     ## CountryKazakhstan                                                                               -1.04
-    ## CountryKenya                                                                                    -1.20
-    ## CountryKiribati                                                                                 -0.93
+    ## CountryKenya                                                                                    -1.21
+    ## CountryKiribati                                                                                 -0.94
     ## CountryKuwait                                                                                   -1.04
-    ## CountryKyrgyzstan                                                                               -1.56
-    ## CountryLao People's Democratic Republic                                                         -1.02
-    ## CountryLatvia                                                                                   -1.09
-    ## CountryLebanon                                                                                  -1.04
+    ## CountryKyrgyzstan                                                                               -1.58
+    ## CountryLao People's Democratic Republic                                                         -1.03
+    ## CountryLatvia                                                                                   -1.10
+    ## CountryLebanon                                                                                  -1.05
     ## CountryLesotho                                                                                  -0.39
-    ## CountryLiberia                                                                                  -0.93
-    ## CountryLibya                                                                                     1.36
-    ## CountryLithuania                                                                                -1.16
-    ## CountryLuxembourg                                                                               -1.03
+    ## CountryLiberia                                                                                  -0.94
+    ## CountryLibya                                                                                     1.37
+    ## CountryLithuania                                                                                -1.17
+    ## CountryLuxembourg                                                                               -1.04
     ## CountryMadagascar                                                                               -1.75
-    ## CountryMalawi                                                                                   -1.12
+    ## CountryMalawi                                                                                   -1.13
     ## CountryMalaysia                                                                                 -0.85
     ## CountryMaldives                                                                                 -1.09
     ## CountryMali                                                                                      0.47
     ## CountryMalta                                                                                    -0.96
-    ## CountryMauritania                                                                                1.03
+    ## CountryMauritania                                                                                1.04
     ## CountryMauritius                                                                                -0.94
-    ## CountryMexico                                                                                   -0.62
-    ## CountryMicronesia (Federated States of)                                                         -0.95
-    ## CountryMongolia                                                                                 -1.13
-    ## CountryMontenegro                                                                               -1.04
-    ## CountryMorocco                                                                                  -1.10
+    ## CountryMexico                                                                                   -0.63
+    ## CountryMicronesia (Federated States of)                                                         -0.96
+    ## CountryMongolia                                                                                 -1.14
+    ## CountryMontenegro                                                                               -1.05
+    ## CountryMorocco                                                                                  -1.11
     ## CountryMozambique                                                                                0.78
-    ## CountryMyanmar                                                                                  -1.12
-    ## CountryNamibia                                                                                  -0.66
-    ## CountryNepal                                                                                    -1.09
-    ## CountryNetherlands                                                                              -0.99
-    ## CountryNew Zealand                                                                              -0.93
+    ## CountryMyanmar                                                                                  -1.13
+    ## CountryNamibia                                                                                  -0.67
+    ## CountryNepal                                                                                    -1.10
+    ## CountryNetherlands                                                                              -1.00
+    ## CountryNew Zealand                                                                              -0.94
     ## CountryNicaragua                                                                                -0.64
     ## CountryNiger                                                                                     3.54
-    ## CountryNigeria                                                                                  -1.99
-    ## CountryNorway                                                                                   -1.02
-    ## CountryOman                                                                                     -1.02
-    ## CountryPakistan                                                                                 -0.49
-    ## CountryPanama                                                                                   -0.50
-    ## CountryPapua New Guinea                                                                         -0.34
-    ## CountryParaguay                                                                                 -0.38
+    ## CountryNigeria                                                                                  -2.08
+    ## CountryNorway                                                                                   -1.03
+    ## CountryOman                                                                                     -1.03
+    ## CountryPakistan                                                                                 -0.48
+    ## CountryPanama                                                                                   -0.51
+    ## CountryPapua New Guinea                                                                         -0.35
+    ## CountryParaguay                                                                                 -0.39
     ## CountryPeru                                                                                     -1.12
     ## CountryPhilippines                                                                              -0.58
-    ## CountryPoland                                                                                   -0.95
-    ## CountryPortugal                                                                                 -0.86
-    ## CountryQatar                                                                                    -1.03
-    ## CountryRepublic of Korea                                                                        -1.00
-    ## CountryRepublic of Moldova                                                                      -0.85
+    ## CountryPoland                                                                                   -0.96
+    ## CountryPortugal                                                                                 -0.87
+    ## CountryQatar                                                                                    -1.04
+    ## CountryRepublic of Korea                                                                        -1.01
+    ## CountryRepublic of Moldova                                                                      -0.86
     ## CountryRomania                                                                                  -0.30
-    ## CountryRussian Federation                                                                       -0.42
+    ## CountryRussian Federation                                                                       -0.43
     ## CountryRwanda                                                                                   -1.05
-    ## CountrySaint Lucia                                                                              -1.00
-    ## CountrySaint Vincent and the Grenadines                                                         -1.43
-    ## CountrySamoa                                                                                    -1.17
-    ## CountrySao Tome and Principe                                                                    -0.88
-    ## CountrySaudi Arabia                                                                             -0.85
-    ## CountrySenegal                                                                                  -0.90
+    ## CountrySaint Lucia                                                                              -1.01
+    ## CountrySaint Vincent and the Grenadines                                                         -1.44
+    ## CountrySamoa                                                                                    -1.18
+    ## CountrySao Tome and Principe                                                                    -0.89
+    ## CountrySaudi Arabia                                                                             -0.86
+    ## CountrySenegal                                                                                  -0.91
     ## CountrySerbia                                                                                   -1.02
-    ## CountrySeychelles                                                                               -1.03
+    ## CountrySeychelles                                                                               -1.04
     ## CountrySierra Leone                                                                              0.77
-    ## CountrySingapore                                                                                -1.03
+    ## CountrySingapore                                                                                -1.04
     ## CountrySlovakia                                                                                 -1.04
-    ## CountrySlovenia                                                                                 -0.95
-    ## CountrySolomon Islands                                                                          -1.07
-    ## CountrySomalia                                                                                  -1.56
-    ## CountrySouth Africa                                                                             -0.16
+    ## CountrySlovenia                                                                                 -0.96
+    ## CountrySolomon Islands                                                                          -1.08
+    ## CountrySomalia                                                                                  -1.58
+    ## CountrySouth Africa                                                                             -0.17
     ## CountrySouth Sudan                                                                               0.57
-    ## CountrySpain                                                                                    -1.09
-    ## CountrySri Lanka                                                                                -1.10
-    ## CountrySudan                                                                                    -1.67
-    ## CountrySuriname                                                                                 -0.87
-    ## CountrySwaziland                                                                                -1.05
-    ## CountrySweden                                                                                   -1.08
-    ## CountrySwitzerland                                                                              -1.09
-    ## CountrySyrian Arab Republic                                                                     -1.04
+    ## CountrySpain                                                                                    -1.10
+    ## CountrySri Lanka                                                                                -1.12
+    ## CountrySudan                                                                                    -1.69
+    ## CountrySuriname                                                                                 -0.88
+    ## CountrySwaziland                                                                                -1.06
+    ## CountrySweden                                                                                   -1.09
+    ## CountrySwitzerland                                                                              -1.10
+    ## CountrySyrian Arab Republic                                                                     -1.05
     ## CountryTajikistan                                                                               -0.28
-    ## CountryThailand                                                                                 -1.04
-    ## CountryThe former Yugoslav republic of Macedonia                                                -1.04
-    ## CountryTimor-Leste                                                                              -0.92
+    ## CountryThailand                                                                                 -1.05
+    ## CountryThe former Yugoslav republic of Macedonia                                                -1.05
+    ## CountryTimor-Leste                                                                              -0.93
     ## CountryTogo                                                                                     -0.31
-    ## CountryTonga                                                                                    -1.02
-    ## CountryTrinidad and Tobago                                                                      -0.81
+    ## CountryTonga                                                                                    -1.03
+    ## CountryTrinidad and Tobago                                                                      -0.82
     ## CountryTunisia                                                                                  -0.84
     ## CountryTurkey                                                                                   -0.48
-    ## CountryTurkmenistan                                                                             -0.89
-    ## CountryUganda                                                                                   -0.71
-    ## CountryUkraine                                                                                  -1.64
-    ## CountryUnited Arab Emirates                                                                     -1.06
+    ## CountryTurkmenistan                                                                             -0.90
+    ## CountryUganda                                                                                   -0.72
+    ## CountryUkraine                                                                                  -1.65
+    ## CountryUnited Arab Emirates                                                                     -1.07
     ## CountryUnited Kingdom of Great Britain and Northern Ireland                                     -1.09
-    ## CountryUnited Republic of Tanzania                                                               1.40
+    ## CountryUnited Republic of Tanzania                                                               1.41
     ## CountryUnited States of America                                                                 -0.88
-    ## CountryUruguay                                                                                  -0.97
-    ## CountryUzbekistan                                                                               -1.10
-    ## CountryVanuatu                                                                                  -1.02
+    ## CountryUruguay                                                                                  -0.98
+    ## CountryUzbekistan                                                                               -1.11
+    ## CountryVanuatu                                                                                  -1.03
     ## CountryVenezuela                                                                                -0.12
     ## CountryViet Nam                                                                                 -0.27
-    ## CountryYemen                                                                                     0.85
+    ## CountryYemen                                                                                     0.86
     ## CountryZambia                                                                                   -1.12
     ## CountryZimbabwe                                                                                 -0.43
-    ## infant.deaths:CountryAlbania                                                                     0.46
+    ## infant.deaths:CountryAlbania                                                                     0.47
     ## infant.deaths:CountryAlgeria                                                                     0.17
-    ## infant.deaths:CountryAngola                                                                      0.53
+    ## infant.deaths:CountryAngola                                                                      0.54
     ## infant.deaths:CountryAntigua and Barbuda                                                           NA
     ## infant.deaths:CountryArgentina                                                                   0.10
     ## infant.deaths:CountryArmenia                                                                       NA
@@ -5502,14 +5603,14 @@ summary(fit.custom)
     ## infant.deaths:CountryAzerbaijan                                                                  0.52
     ## infant.deaths:CountryBahamas                                                                       NA
     ## infant.deaths:CountryBahrain                                                                       NA
-    ## infant.deaths:CountryBangladesh                                                                  1.03
+    ## infant.deaths:CountryBangladesh                                                                  1.04
     ## infant.deaths:CountryBarbados                                                                      NA
-    ## infant.deaths:CountryBelarus                                                                     1.68
-    ## infant.deaths:CountryBelgium                                                                    -1.14
+    ## infant.deaths:CountryBelarus                                                                     1.69
+    ## infant.deaths:CountryBelgium                                                                    -1.15
     ## infant.deaths:CountryBelize                                                                        NA
     ## infant.deaths:CountryBenin                                                                         NA
     ## infant.deaths:CountryBhutan                                                                      0.07
-    ## infant.deaths:CountryBolivia                                                                     0.64
+    ## infant.deaths:CountryBolivia                                                                     0.65
     ## infant.deaths:CountryBosnia and Herzegovina                                                        NA
     ## infant.deaths:CountryBotswana                                                                      NA
     ## infant.deaths:CountryBrazil                                                                      0.58
@@ -5518,344 +5619,344 @@ summary(fit.custom)
     ## infant.deaths:CountryBurkina Faso                                                                1.50
     ## infant.deaths:CountryBurundi                                                                    -0.99
     ## infant.deaths:CountryCabo Verde                                                                    NA
-    ## infant.deaths:CountryCambodia                                                                    1.05
-    ## infant.deaths:CountryCameroon                                                                    0.21
+    ## infant.deaths:CountryCambodia                                                                    1.08
+    ## infant.deaths:CountryCameroon                                                                    0.20
     ## infant.deaths:CountryCanada                                                                        NA
-    ## infant.deaths:CountryCentral African Republic                                                   -0.40
-    ## infant.deaths:CountryChad                                                                        0.05
+    ## infant.deaths:CountryCentral African Republic                                                    0.93
+    ## infant.deaths:CountryChad                                                                        0.19
     ## infant.deaths:CountryChile                                                                         NA
-    ## infant.deaths:CountryChina                                                                       1.07
-    ## infant.deaths:CountryColombia                                                                    0.10
-    ## infant.deaths:CountryComoros                                                                    -0.08
-    ## infant.deaths:CountryCongo                                                                      -0.38
+    ## infant.deaths:CountryChina                                                                       1.08
+    ## infant.deaths:CountryColombia                                                                    0.11
+    ## infant.deaths:CountryComoros                                                                    -0.39
+    ## infant.deaths:CountryCongo                                                                      -0.68
     ## infant.deaths:CountryCosta Rica                                                                    NA
     ## infant.deaths:CountryCroatia                                                                       NA
     ## infant.deaths:CountryCuba                                                                          NA
     ## infant.deaths:CountryCyprus                                                                        NA
     ## infant.deaths:CountryCzechia                                                                       NA
-    ## infant.deaths:CountryDemocratic People's Republic of Korea                                      -0.02
-    ## infant.deaths:CountryDemocratic Republic of the Congo                                            0.18
+    ## infant.deaths:CountryDemocratic People's Republic of Korea                                      -0.01
+    ## infant.deaths:CountryDemocratic Republic of the Congo                                            0.31
     ## infant.deaths:CountryDenmark                                                                       NA
-    ## infant.deaths:CountryDjibouti                                                                    2.20
-    ## infant.deaths:CountryDominican Republic                                                          0.92
-    ## infant.deaths:CountryEcuador                                                                     0.52
-    ## infant.deaths:CountryEgypt                                                                      -1.07
-    ## infant.deaths:CountryEl Salvador                                                                 2.18
+    ## infant.deaths:CountryDjibouti                                                                    1.10
+    ## infant.deaths:CountryDominican Republic                                                          0.95
+    ## infant.deaths:CountryEcuador                                                                     0.07
+    ## infant.deaths:CountryEgypt                                                                      -0.75
+    ## infant.deaths:CountryEl Salvador                                                                 0.63
     ## infant.deaths:CountryEquatorial Guinea                                                             NA
-    ## infant.deaths:CountryEritrea                                                                     2.59
+    ## infant.deaths:CountryEritrea                                                                     2.66
     ## infant.deaths:CountryEstonia                                                                       NA
-    ## infant.deaths:CountryEthiopia                                                                    1.05
+    ## infant.deaths:CountryEthiopia                                                                    1.29
     ## infant.deaths:CountryFiji                                                                          NA
     ## infant.deaths:CountryFinland                                                                       NA
-    ## infant.deaths:CountryFrance                                                                      1.55
+    ## infant.deaths:CountryFrance                                                                      1.35
     ## infant.deaths:CountryGabon                                                                         NA
     ## infant.deaths:CountryGambia                                                                        NA
-    ## infant.deaths:CountryGeorgia                                                                     0.75
-    ## infant.deaths:CountryGermany                                                                    -2.49
-    ## infant.deaths:CountryGhana                                                                       1.93
-    ## infant.deaths:CountryGreece                                                                     -0.41
+    ## infant.deaths:CountryGeorgia                                                                     0.86
+    ## infant.deaths:CountryGermany                                                                    -2.23
+    ## infant.deaths:CountryGhana                                                                       3.47
+    ## infant.deaths:CountryGreece                                                                      0.99
     ## infant.deaths:CountryGrenada                                                                       NA
-    ## infant.deaths:CountryGuatemala                                                                   5.66
-    ## infant.deaths:CountryGuinea                                                                      0.61
-    ## infant.deaths:CountryGuinea-Bissau                                                              -2.63
-    ## infant.deaths:CountryGuyana                                                                      0.13
-    ## infant.deaths:CountryHaiti                                                                       2.73
-    ## infant.deaths:CountryHonduras                                                                    0.21
-    ## infant.deaths:CountryHungary                                                                     0.58
+    ## infant.deaths:CountryGuatemala                                                                   5.56
+    ## infant.deaths:CountryGuinea                                                                      0.63
+    ## infant.deaths:CountryGuinea-Bissau                                                              -2.22
+    ## infant.deaths:CountryGuyana                                                                      0.16
+    ## infant.deaths:CountryHaiti                                                                       2.69
+    ## infant.deaths:CountryHonduras                                                                    0.19
+    ## infant.deaths:CountryHungary                                                                     0.64
     ## infant.deaths:CountryIceland                                                                       NA
-    ## infant.deaths:CountryIndia                                                                       1.07
-    ## infant.deaths:CountryIndonesia                                                                   1.18
-    ## infant.deaths:CountryIran                                                                        0.25
-    ## infant.deaths:CountryIraq                                                                        2.65
+    ## infant.deaths:CountryIndia                                                                       1.08
+    ## infant.deaths:CountryIndonesia                                                                   1.07
+    ## infant.deaths:CountryIran                                                                        0.71
+    ## infant.deaths:CountryIraq                                                                        2.76
     ## infant.deaths:CountryIreland                                                                       NA
-    ## infant.deaths:CountryIsrael                                                                      1.04
-    ## infant.deaths:CountryItaly                                                                       0.53
-    ## infant.deaths:CountryIvory Coast                                                                -0.52
+    ## infant.deaths:CountryIsrael                                                                      1.03
+    ## infant.deaths:CountryItaly                                                                       0.82
+    ## infant.deaths:CountryIvory Coast                                                                -0.57
     ## infant.deaths:CountryJamaica                                                                       NA
-    ## infant.deaths:CountryJapan                                                                       0.40
+    ## infant.deaths:CountryJapan                                                                       0.42
     ## infant.deaths:CountryJordan                                                                        NA
     ## infant.deaths:CountryKazakhstan                                                                  0.75
     ## infant.deaths:CountryKenya                                                                       1.31
     ## infant.deaths:CountryKiribati                                                                      NA
     ## infant.deaths:CountryKuwait                                                                      0.21
-    ## infant.deaths:CountryKyrgyzstan                                                                  1.33
-    ## infant.deaths:CountryLao People's Democratic Republic                                            0.86
+    ## infant.deaths:CountryKyrgyzstan                                                                  1.34
+    ## infant.deaths:CountryLao People's Democratic Republic                                            0.87
     ## infant.deaths:CountryLatvia                                                                        NA
     ## infant.deaths:CountryLebanon                                                                       NA
     ## infant.deaths:CountryLesotho                                                                    -0.71
-    ## infant.deaths:CountryLiberia                                                                     0.55
-    ## infant.deaths:CountryLibya                                                                      -2.60
+    ## infant.deaths:CountryLiberia                                                                     0.56
+    ## infant.deaths:CountryLibya                                                                      -2.61
     ## infant.deaths:CountryLithuania                                                                     NA
     ## infant.deaths:CountryLuxembourg                                                                    NA
-    ## infant.deaths:CountryMadagascar                                                                  1.43
+    ## infant.deaths:CountryMadagascar                                                                  1.42
     ## infant.deaths:CountryMalawi                                                                      1.38
     ## infant.deaths:CountryMalaysia                                                                    0.13
     ## infant.deaths:CountryMaldives                                                                      NA
     ## infant.deaths:CountryMali                                                                       -0.59
     ## infant.deaths:CountryMalta                                                                         NA
-    ## infant.deaths:CountryMauritania                                                                 -1.09
+    ## infant.deaths:CountryMauritania                                                                 -1.10
     ## infant.deaths:CountryMauritius                                                                     NA
     ## infant.deaths:CountryMexico                                                                      0.19
     ## infant.deaths:CountryMicronesia (Federated States of)                                              NA
-    ## infant.deaths:CountryMongolia                                                                    1.15
+    ## infant.deaths:CountryMongolia                                                                    1.17
     ## infant.deaths:CountryMontenegro                                                                    NA
     ## infant.deaths:CountryMorocco                                                                     0.75
     ## infant.deaths:CountryMozambique                                                                 -1.44
-    ## infant.deaths:CountryMyanmar                                                                     1.22
+    ## infant.deaths:CountryMyanmar                                                                     1.23
     ## infant.deaths:CountryNamibia                                                                     0.30
-    ## infant.deaths:CountryNepal                                                                       1.18
+    ## infant.deaths:CountryNepal                                                                       1.19
     ## infant.deaths:CountryNetherlands                                                                   NA
     ## infant.deaths:CountryNew Zealand                                                                   NA
-    ## infant.deaths:CountryNicaragua                                                                  -1.57
+    ## infant.deaths:CountryNicaragua                                                                  -1.58
     ## infant.deaths:CountryNiger                                                                      -3.61
-    ## infant.deaths:CountryNigeria                                                                     1.77
+    ## infant.deaths:CountryNigeria                                                                     1.80
     ## infant.deaths:CountryNorway                                                                        NA
     ## infant.deaths:CountryOman                                                                          NA
     ## infant.deaths:CountryPakistan                                                                    0.89
-    ## infant.deaths:CountryPanama                                                                      0.30
-    ## infant.deaths:CountryPapua New Guinea                                                            0.20
-    ## infant.deaths:CountryParaguay                                                                   -1.57
-    ## infant.deaths:CountryPeru                                                                        0.02
+    ## infant.deaths:CountryPanama                                                                      0.31
+    ## infant.deaths:CountryPapua New Guinea                                                            0.21
+    ## infant.deaths:CountryParaguay                                                                   -1.58
+    ## infant.deaths:CountryPeru                                                                        0.03
     ## infant.deaths:CountryPhilippines                                                                 0.39
     ## infant.deaths:CountryPoland                                                                      0.11
     ## infant.deaths:CountryPortugal                                                                   -0.11
     ## infant.deaths:CountryQatar                                                                         NA
-    ## infant.deaths:CountryRepublic of Korea                                                           1.09
+    ## infant.deaths:CountryRepublic of Korea                                                           1.11
     ## infant.deaths:CountryRepublic of Moldova                                                           NA
-    ## infant.deaths:CountryRomania                                                                    -3.31
+    ## infant.deaths:CountryRomania                                                                    -3.34
     ## infant.deaths:CountryRussian Federation                                                         -0.98
-    ## infant.deaths:CountryRwanda                                                                      1.71
+    ## infant.deaths:CountryRwanda                                                                      1.72
     ## infant.deaths:CountrySaint Lucia                                                                   NA
     ## infant.deaths:CountrySaint Vincent and the Grenadines                                              NA
     ## infant.deaths:CountrySamoa                                                                         NA
     ## infant.deaths:CountrySao Tome and Principe                                                         NA
     ## infant.deaths:CountrySaudi Arabia                                                                0.02
-    ## infant.deaths:CountrySenegal                                                                     0.41
+    ## infant.deaths:CountrySenegal                                                                     0.43
     ## infant.deaths:CountrySerbia                                                                        NA
     ## infant.deaths:CountrySeychelles                                                                    NA
-    ## infant.deaths:CountrySierra Leone                                                               -1.76
+    ## infant.deaths:CountrySierra Leone                                                               -1.77
     ## infant.deaths:CountrySingapore                                                                     NA
     ## infant.deaths:CountrySlovakia                                                                      NA
     ## infant.deaths:CountrySlovenia                                                                      NA
     ## infant.deaths:CountrySolomon Islands                                                               NA
-    ## infant.deaths:CountrySomalia                                                                     1.51
+    ## infant.deaths:CountrySomalia                                                                     1.52
     ## infant.deaths:CountrySouth Africa                                                               -0.41
     ## infant.deaths:CountrySouth Sudan                                                                -0.76
     ## infant.deaths:CountrySpain                                                                       0.54
-    ## infant.deaths:CountrySri Lanka                                                                   0.55
-    ## infant.deaths:CountrySudan                                                                       1.68
+    ## infant.deaths:CountrySri Lanka                                                                   0.56
+    ## infant.deaths:CountrySudan                                                                       1.69
     ## infant.deaths:CountrySuriname                                                                      NA
-    ## infant.deaths:CountrySwaziland                                                                   0.92
+    ## infant.deaths:CountrySwaziland                                                                   0.93
     ## infant.deaths:CountrySweden                                                                        NA
     ## infant.deaths:CountrySwitzerland                                                                   NA
     ## infant.deaths:CountrySyrian Arab Republic                                                        0.62
-    ## infant.deaths:CountryTajikistan                                                                 -0.55
-    ## infant.deaths:CountryThailand                                                                    0.81
+    ## infant.deaths:CountryTajikistan                                                                 -0.56
+    ## infant.deaths:CountryThailand                                                                    0.82
     ## infant.deaths:CountryThe former Yugoslav republic of Macedonia                                     NA
     ## infant.deaths:CountryTimor-Leste                                                                 0.08
     ## infant.deaths:CountryTogo                                                                       -0.19
     ## infant.deaths:CountryTonga                                                                         NA
     ## infant.deaths:CountryTrinidad and Tobago                                                           NA
-    ## infant.deaths:CountryTunisia                                                                     0.28
+    ## infant.deaths:CountryTunisia                                                                     0.29
     ## infant.deaths:CountryTurkey                                                                      0.21
     ## infant.deaths:CountryTurkmenistan                                                                0.29
-    ## infant.deaths:CountryUganda                                                                      1.12
-    ## infant.deaths:CountryUkraine                                                                     2.56
+    ## infant.deaths:CountryUganda                                                                      1.14
+    ## infant.deaths:CountryUkraine                                                                     2.57
     ## infant.deaths:CountryUnited Arab Emirates                                                          NA
     ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                        0.56
-    ## infant.deaths:CountryUnited Republic of Tanzania                                                -1.46
-    ## infant.deaths:CountryUnited States of America                                                    0.63
+    ## infant.deaths:CountryUnited Republic of Tanzania                                                -1.47
+    ## infant.deaths:CountryUnited States of America                                                    0.64
     ## infant.deaths:CountryUruguay                                                                     0.02
-    ## infant.deaths:CountryUzbekistan                                                                  0.72
+    ## infant.deaths:CountryUzbekistan                                                                  0.73
     ## infant.deaths:CountryVanuatu                                                                       NA
     ## infant.deaths:CountryVenezuela                                                                   0.04
     ## infant.deaths:CountryViet Nam                                                                    0.13
-    ## infant.deaths:CountryYemen                                                                      -1.01
-    ## infant.deaths:CountryZambia                                                                      0.80
-    ## infant.deaths:CountryZimbabwe                                                                   -0.45
-    ## log.Adult.Mortality:CountryAlbania                                                               1.03
+    ## infant.deaths:CountryYemen                                                                      -1.02
+    ## infant.deaths:CountryZambia                                                                      0.79
+    ## infant.deaths:CountryZimbabwe                                                                   -0.46
+    ## log.Adult.Mortality:CountryAlbania                                                               1.04
     ## log.Adult.Mortality:CountryAlgeria                                                               0.58
     ## log.Adult.Mortality:CountryAngola                                                                0.41
     ## log.Adult.Mortality:CountryAntigua and Barbuda                                                   1.02
-    ## log.Adult.Mortality:CountryArgentina                                                             0.78
+    ## log.Adult.Mortality:CountryArgentina                                                             0.79
     ## log.Adult.Mortality:CountryArmenia                                                               1.02
-    ## log.Adult.Mortality:CountryAustralia                                                             1.06
-    ## log.Adult.Mortality:CountryAustria                                                               0.92
-    ## log.Adult.Mortality:CountryAzerbaijan                                                            1.08
-    ## log.Adult.Mortality:CountryBahamas                                                               1.03
+    ## log.Adult.Mortality:CountryAustralia                                                             1.07
+    ## log.Adult.Mortality:CountryAustria                                                               0.93
+    ## log.Adult.Mortality:CountryAzerbaijan                                                            1.09
+    ## log.Adult.Mortality:CountryBahamas                                                               1.04
     ## log.Adult.Mortality:CountryBahrain                                                               1.10
-    ## log.Adult.Mortality:CountryBangladesh                                                            1.12
-    ## log.Adult.Mortality:CountryBarbados                                                              1.07
-    ## log.Adult.Mortality:CountryBelarus                                                               1.12
-    ## log.Adult.Mortality:CountryBelgium                                                               0.78
-    ## log.Adult.Mortality:CountryBelize                                                                0.95
-    ## log.Adult.Mortality:CountryBenin                                                                 0.84
-    ## log.Adult.Mortality:CountryBhutan                                                                0.85
-    ## log.Adult.Mortality:CountryBolivia                                                               0.29
-    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                1.04
-    ## log.Adult.Mortality:CountryBotswana                                                              0.89
+    ## log.Adult.Mortality:CountryBangladesh                                                            1.13
+    ## log.Adult.Mortality:CountryBarbados                                                              1.08
+    ## log.Adult.Mortality:CountryBelarus                                                               1.13
+    ## log.Adult.Mortality:CountryBelgium                                                               0.79
+    ## log.Adult.Mortality:CountryBelize                                                                0.96
+    ## log.Adult.Mortality:CountryBenin                                                                 0.85
+    ## log.Adult.Mortality:CountryBhutan                                                                0.86
+    ## log.Adult.Mortality:CountryBolivia                                                               0.30
+    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                1.05
+    ## log.Adult.Mortality:CountryBotswana                                                              0.90
     ## log.Adult.Mortality:CountryBrazil                                                                0.47
-    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     0.99
-    ## log.Adult.Mortality:CountryBulgaria                                                              0.94
-    ## log.Adult.Mortality:CountryBurkina Faso                                                          1.61
+    ## log.Adult.Mortality:CountryBrunei Darussalam                                                     1.00
+    ## log.Adult.Mortality:CountryBulgaria                                                              0.95
+    ## log.Adult.Mortality:CountryBurkina Faso                                                          1.62
     ## log.Adult.Mortality:CountryBurundi                                                              -0.55
-    ## log.Adult.Mortality:CountryCabo Verde                                                            1.09
+    ## log.Adult.Mortality:CountryCabo Verde                                                            1.13
     ## log.Adult.Mortality:CountryCambodia                                                              1.12
-    ## log.Adult.Mortality:CountryCameroon                                                              0.37
-    ## log.Adult.Mortality:CountryCanada                                                                0.91
-    ## log.Adult.Mortality:CountryCentral African Republic                                              0.18
-    ## log.Adult.Mortality:CountryChad                                                                  0.06
-    ## log.Adult.Mortality:CountryChile                                                                 0.76
-    ## log.Adult.Mortality:CountryChina                                                                 1.11
-    ## log.Adult.Mortality:CountryColombia                                                              0.75
-    ## log.Adult.Mortality:CountryComoros                                                               0.82
-    ## log.Adult.Mortality:CountryCongo                                                                 0.70
-    ## log.Adult.Mortality:CountryCosta Rica                                                            0.95
+    ## log.Adult.Mortality:CountryCameroon                                                              0.38
+    ## log.Adult.Mortality:CountryCanada                                                                1.06
+    ## log.Adult.Mortality:CountryCentral African Republic                                              0.92
+    ## log.Adult.Mortality:CountryChad                                                                  0.21
+    ## log.Adult.Mortality:CountryChile                                                                 0.77
+    ## log.Adult.Mortality:CountryChina                                                                 1.10
+    ## log.Adult.Mortality:CountryColombia                                                              0.77
+    ## log.Adult.Mortality:CountryComoros                                                               0.78
+    ## log.Adult.Mortality:CountryCongo                                                                 0.59
+    ## log.Adult.Mortality:CountryCosta Rica                                                            1.01
     ## log.Adult.Mortality:CountryCroatia                                                               1.03
-    ## log.Adult.Mortality:CountryCuba                                                                  1.05
-    ## log.Adult.Mortality:CountryCyprus                                                                0.99
+    ## log.Adult.Mortality:CountryCuba                                                                  1.06
+    ## log.Adult.Mortality:CountryCyprus                                                                1.01
     ## log.Adult.Mortality:CountryCzechia                                                               1.03
-    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 0.83
-    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                     -0.12
-    ## log.Adult.Mortality:CountryDenmark                                                               0.94
-    ## log.Adult.Mortality:CountryDjibouti                                                              2.19
-    ## log.Adult.Mortality:CountryDominican Republic                                                    1.26
-    ## log.Adult.Mortality:CountryEcuador                                                               1.10
-    ## log.Adult.Mortality:CountryEgypt                                                                -1.21
-    ## log.Adult.Mortality:CountryEl Salvador                                                           1.50
+    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 0.84
+    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                      0.00
+    ## log.Adult.Mortality:CountryDenmark                                                               0.95
+    ## log.Adult.Mortality:CountryDjibouti                                                              1.48
+    ## log.Adult.Mortality:CountryDominican Republic                                                    1.25
+    ## log.Adult.Mortality:CountryEcuador                                                               0.87
+    ## log.Adult.Mortality:CountryEgypt                                                                -0.91
+    ## log.Adult.Mortality:CountryEl Salvador                                                           1.16
     ## log.Adult.Mortality:CountryEquatorial Guinea                                                     0.84
-    ## log.Adult.Mortality:CountryEritrea                                                               1.91
-    ## log.Adult.Mortality:CountryEstonia                                                               1.09
-    ## log.Adult.Mortality:CountryEthiopia                                                              1.06
-    ## log.Adult.Mortality:CountryFiji                                                                  1.00
-    ## log.Adult.Mortality:CountryFinland                                                               0.89
-    ## log.Adult.Mortality:CountryFrance                                                                0.98
-    ## log.Adult.Mortality:CountryGabon                                                                 0.96
-    ## log.Adult.Mortality:CountryGambia                                                                0.39
-    ## log.Adult.Mortality:CountryGeorgia                                                               1.26
-    ## log.Adult.Mortality:CountryGermany                                                              -0.20
-    ## log.Adult.Mortality:CountryGhana                                                                 1.80
+    ## log.Adult.Mortality:CountryEritrea                                                               1.81
+    ## log.Adult.Mortality:CountryEstonia                                                               1.10
+    ## log.Adult.Mortality:CountryEthiopia                                                              1.24
+    ## log.Adult.Mortality:CountryFiji                                                                  1.01
+    ## log.Adult.Mortality:CountryFinland                                                               0.80
+    ## log.Adult.Mortality:CountryFrance                                                                1.05
+    ## log.Adult.Mortality:CountryGabon                                                                 0.97
+    ## log.Adult.Mortality:CountryGambia                                                                0.41
+    ## log.Adult.Mortality:CountryGeorgia                                                               1.29
+    ## log.Adult.Mortality:CountryGermany                                                              -0.25
+    ## log.Adult.Mortality:CountryGhana                                                                 2.97
     ## log.Adult.Mortality:CountryGreece                                                                0.70
     ## log.Adult.Mortality:CountryGrenada                                                               1.20
-    ## log.Adult.Mortality:CountryGuatemala                                                             2.61
-    ## log.Adult.Mortality:CountryGuinea                                                                0.97
-    ## log.Adult.Mortality:CountryGuinea-Bissau                                                        -1.56
-    ## log.Adult.Mortality:CountryGuyana                                                                1.03
-    ## log.Adult.Mortality:CountryHaiti                                                                 1.60
+    ## log.Adult.Mortality:CountryGuatemala                                                             2.75
+    ## log.Adult.Mortality:CountryGuinea                                                                0.99
+    ## log.Adult.Mortality:CountryGuinea-Bissau                                                        -1.27
+    ## log.Adult.Mortality:CountryGuyana                                                                1.08
+    ## log.Adult.Mortality:CountryHaiti                                                                 1.62
     ## log.Adult.Mortality:CountryHonduras                                                              0.85
-    ## log.Adult.Mortality:CountryHungary                                                               1.04
-    ## log.Adult.Mortality:CountryIceland                                                               1.11
-    ## log.Adult.Mortality:CountryIndia                                                                 0.74
-    ## log.Adult.Mortality:CountryIndonesia                                                             1.09
-    ## log.Adult.Mortality:CountryIran                                                                  0.88
-    ## log.Adult.Mortality:CountryIraq                                                                  2.57
-    ## log.Adult.Mortality:CountryIreland                                                               0.92
-    ## log.Adult.Mortality:CountryIsrael                                                                1.05
-    ## log.Adult.Mortality:CountryItaly                                                                 1.11
-    ## log.Adult.Mortality:CountryIvory Coast                                                          -0.35
-    ## log.Adult.Mortality:CountryJamaica                                                               1.02
-    ## log.Adult.Mortality:CountryJapan                                                                 1.10
-    ## log.Adult.Mortality:CountryJordan                                                                0.99
-    ## log.Adult.Mortality:CountryKazakhstan                                                            1.03
-    ## log.Adult.Mortality:CountryKenya                                                                 1.18
-    ## log.Adult.Mortality:CountryKiribati                                                              0.91
-    ## log.Adult.Mortality:CountryKuwait                                                                1.02
-    ## log.Adult.Mortality:CountryKyrgyzstan                                                            1.57
-    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      0.99
+    ## log.Adult.Mortality:CountryHungary                                                               1.05
+    ## log.Adult.Mortality:CountryIceland                                                               1.12
+    ## log.Adult.Mortality:CountryIndia                                                                 0.62
+    ## log.Adult.Mortality:CountryIndonesia                                                             0.89
+    ## log.Adult.Mortality:CountryIran                                                                  1.03
+    ## log.Adult.Mortality:CountryIraq                                                                  2.40
+    ## log.Adult.Mortality:CountryIreland                                                               0.97
+    ## log.Adult.Mortality:CountryIsrael                                                                1.06
+    ## log.Adult.Mortality:CountryItaly                                                                 1.18
+    ## log.Adult.Mortality:CountryIvory Coast                                                          -0.44
+    ## log.Adult.Mortality:CountryJamaica                                                               1.03
+    ## log.Adult.Mortality:CountryJapan                                                                 1.11
+    ## log.Adult.Mortality:CountryJordan                                                                1.00
+    ## log.Adult.Mortality:CountryKazakhstan                                                            1.04
+    ## log.Adult.Mortality:CountryKenya                                                                 1.19
+    ## log.Adult.Mortality:CountryKiribati                                                              0.92
+    ## log.Adult.Mortality:CountryKuwait                                                                1.03
+    ## log.Adult.Mortality:CountryKyrgyzstan                                                            1.59
+    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                      1.00
     ## log.Adult.Mortality:CountryLatvia                                                                1.10
-    ## log.Adult.Mortality:CountryLebanon                                                               1.03
+    ## log.Adult.Mortality:CountryLebanon                                                               1.04
     ## log.Adult.Mortality:CountryLesotho                                                               0.46
-    ## log.Adult.Mortality:CountryLiberia                                                               0.93
-    ## log.Adult.Mortality:CountryLibya                                                                -1.46
-    ## log.Adult.Mortality:CountryLithuania                                                             1.16
+    ## log.Adult.Mortality:CountryLiberia                                                               0.94
+    ## log.Adult.Mortality:CountryLibya                                                                -1.47
+    ## log.Adult.Mortality:CountryLithuania                                                             1.17
     ## log.Adult.Mortality:CountryLuxembourg                                                            1.03
-    ## log.Adult.Mortality:CountryMadagascar                                                            1.75
+    ## log.Adult.Mortality:CountryMadagascar                                                            1.76
     ## log.Adult.Mortality:CountryMalawi                                                                1.10
     ## log.Adult.Mortality:CountryMalaysia                                                              0.82
-    ## log.Adult.Mortality:CountryMaldives                                                              1.08
+    ## log.Adult.Mortality:CountryMaldives                                                              1.09
     ## log.Adult.Mortality:CountryMali                                                                 -0.45
-    ## log.Adult.Mortality:CountryMalta                                                                 0.92
-    ## log.Adult.Mortality:CountryMauritania                                                           -1.03
-    ## log.Adult.Mortality:CountryMauritius                                                             0.92
-    ## log.Adult.Mortality:CountryMexico                                                                0.58
-    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      0.93
-    ## log.Adult.Mortality:CountryMongolia                                                              1.11
-    ## log.Adult.Mortality:CountryMontenegro                                                            1.03
-    ## log.Adult.Mortality:CountryMorocco                                                               1.12
+    ## log.Adult.Mortality:CountryMalta                                                                 0.93
+    ## log.Adult.Mortality:CountryMauritania                                                           -1.04
+    ## log.Adult.Mortality:CountryMauritius                                                             0.93
+    ## log.Adult.Mortality:CountryMexico                                                                0.59
+    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                      0.94
+    ## log.Adult.Mortality:CountryMongolia                                                              1.12
+    ## log.Adult.Mortality:CountryMontenegro                                                            1.04
+    ## log.Adult.Mortality:CountryMorocco                                                               1.13
     ## log.Adult.Mortality:CountryMozambique                                                           -0.63
-    ## log.Adult.Mortality:CountryMyanmar                                                               1.11
+    ## log.Adult.Mortality:CountryMyanmar                                                               1.12
     ## log.Adult.Mortality:CountryNamibia                                                               0.68
-    ## log.Adult.Mortality:CountryNepal                                                                 1.08
-    ## log.Adult.Mortality:CountryNetherlands                                                           0.97
-    ## log.Adult.Mortality:CountryNew Zealand                                                           0.90
-    ## log.Adult.Mortality:CountryNicaragua                                                             0.60
+    ## log.Adult.Mortality:CountryNepal                                                                 1.09
+    ## log.Adult.Mortality:CountryNetherlands                                                           0.98
+    ## log.Adult.Mortality:CountryNew Zealand                                                           0.91
+    ## log.Adult.Mortality:CountryNicaragua                                                             0.61
     ## log.Adult.Mortality:CountryNiger                                                                -3.51
-    ## log.Adult.Mortality:CountryNigeria                                                               1.94
-    ## log.Adult.Mortality:CountryNorway                                                                1.02
-    ## log.Adult.Mortality:CountryOman                                                                  1.01
+    ## log.Adult.Mortality:CountryNigeria                                                               2.03
+    ## log.Adult.Mortality:CountryNorway                                                                1.03
+    ## log.Adult.Mortality:CountryOman                                                                  1.02
     ## log.Adult.Mortality:CountryPakistan                                                              0.48
-    ## log.Adult.Mortality:CountryPanama                                                                0.48
-    ## log.Adult.Mortality:CountryPapua New Guinea                                                      0.33
-    ## log.Adult.Mortality:CountryParaguay                                                              0.33
-    ## log.Adult.Mortality:CountryPeru                                                                  1.12
+    ## log.Adult.Mortality:CountryPanama                                                                0.49
+    ## log.Adult.Mortality:CountryPapua New Guinea                                                      0.34
+    ## log.Adult.Mortality:CountryParaguay                                                              0.34
+    ## log.Adult.Mortality:CountryPeru                                                                  1.13
     ## log.Adult.Mortality:CountryPhilippines                                                           0.58
     ## log.Adult.Mortality:CountryPoland                                                                0.94
     ## log.Adult.Mortality:CountryPortugal                                                              0.83
-    ## log.Adult.Mortality:CountryQatar                                                                 1.01
-    ## log.Adult.Mortality:CountryRepublic of Korea                                                     0.97
-    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   0.84
-    ## log.Adult.Mortality:CountryRomania                                                               0.25
-    ## log.Adult.Mortality:CountryRussian Federation                                                    0.46
-    ## log.Adult.Mortality:CountryRwanda                                                                1.02
-    ## log.Adult.Mortality:CountrySaint Lucia                                                           0.99
-    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                      1.44
-    ## log.Adult.Mortality:CountrySamoa                                                                 1.18
+    ## log.Adult.Mortality:CountryQatar                                                                 1.02
+    ## log.Adult.Mortality:CountryRepublic of Korea                                                     0.98
+    ## log.Adult.Mortality:CountryRepublic of Moldova                                                   0.85
+    ## log.Adult.Mortality:CountryRomania                                                               0.26
+    ## log.Adult.Mortality:CountryRussian Federation                                                    0.47
+    ## log.Adult.Mortality:CountryRwanda                                                                1.03
+    ## log.Adult.Mortality:CountrySaint Lucia                                                           1.00
+    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                      1.45
+    ## log.Adult.Mortality:CountrySamoa                                                                 1.19
     ## log.Adult.Mortality:CountrySao Tome and Principe                                                 0.87
-    ## log.Adult.Mortality:CountrySaudi Arabia                                                          0.79
-    ## log.Adult.Mortality:CountrySenegal                                                               0.91
-    ## log.Adult.Mortality:CountrySerbia                                                                1.00
-    ## log.Adult.Mortality:CountrySeychelles                                                            1.02
-    ## log.Adult.Mortality:CountrySierra Leone                                                         -0.63
-    ## log.Adult.Mortality:CountrySingapore                                                             1.02
-    ## log.Adult.Mortality:CountrySlovakia                                                              1.03
-    ## log.Adult.Mortality:CountrySlovenia                                                              0.93
-    ## log.Adult.Mortality:CountrySolomon Islands                                                       1.06
-    ## log.Adult.Mortality:CountrySomalia                                                               1.58
+    ## log.Adult.Mortality:CountrySaudi Arabia                                                          0.80
+    ## log.Adult.Mortality:CountrySenegal                                                               0.93
+    ## log.Adult.Mortality:CountrySerbia                                                                1.01
+    ## log.Adult.Mortality:CountrySeychelles                                                            1.03
+    ## log.Adult.Mortality:CountrySierra Leone                                                         -0.64
+    ## log.Adult.Mortality:CountrySingapore                                                             1.03
+    ## log.Adult.Mortality:CountrySlovakia                                                              1.04
+    ## log.Adult.Mortality:CountrySlovenia                                                              0.94
+    ## log.Adult.Mortality:CountrySolomon Islands                                                       1.07
+    ## log.Adult.Mortality:CountrySomalia                                                               1.60
     ## log.Adult.Mortality:CountrySouth Africa                                                          0.26
     ## log.Adult.Mortality:CountrySouth Sudan                                                          -0.54
     ## log.Adult.Mortality:CountrySpain                                                                 1.07
-    ## log.Adult.Mortality:CountrySri Lanka                                                             1.10
-    ## log.Adult.Mortality:CountrySudan                                                                 1.66
-    ## log.Adult.Mortality:CountrySuriname                                                              0.86
-    ## log.Adult.Mortality:CountrySwaziland                                                             1.03
-    ## log.Adult.Mortality:CountrySweden                                                                1.09
-    ## log.Adult.Mortality:CountrySwitzerland                                                           1.10
+    ## log.Adult.Mortality:CountrySri Lanka                                                             1.11
+    ## log.Adult.Mortality:CountrySudan                                                                 1.68
+    ## log.Adult.Mortality:CountrySuriname                                                              0.87
+    ## log.Adult.Mortality:CountrySwaziland                                                             1.04
+    ## log.Adult.Mortality:CountrySweden                                                                1.10
+    ## log.Adult.Mortality:CountrySwitzerland                                                           1.11
     ## log.Adult.Mortality:CountrySyrian Arab Republic                                                  1.04
-    ## log.Adult.Mortality:CountryTajikistan                                                            0.22
-    ## log.Adult.Mortality:CountryThailand                                                              1.03
-    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             1.03
-    ## log.Adult.Mortality:CountryTimor-Leste                                                           0.89
-    ## log.Adult.Mortality:CountryTogo                                                                  0.32
-    ## log.Adult.Mortality:CountryTonga                                                                 1.01
-    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   0.80
+    ## log.Adult.Mortality:CountryTajikistan                                                            0.23
+    ## log.Adult.Mortality:CountryThailand                                                              1.04
+    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                             1.04
+    ## log.Adult.Mortality:CountryTimor-Leste                                                           0.90
+    ## log.Adult.Mortality:CountryTogo                                                                  0.33
+    ## log.Adult.Mortality:CountryTonga                                                                 1.02
+    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                   0.81
     ## log.Adult.Mortality:CountryTunisia                                                               0.79
-    ## log.Adult.Mortality:CountryTurkey                                                                0.37
-    ## log.Adult.Mortality:CountryTurkmenistan                                                          0.88
-    ## log.Adult.Mortality:CountryUganda                                                                0.70
-    ## log.Adult.Mortality:CountryUkraine                                                               1.64
-    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  1.05
-    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                  1.06
-    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                          -1.23
+    ## log.Adult.Mortality:CountryTurkey                                                                0.38
+    ## log.Adult.Mortality:CountryTurkmenistan                                                          0.89
+    ## log.Adult.Mortality:CountryUganda                                                                0.71
+    ## log.Adult.Mortality:CountryUkraine                                                               1.65
+    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  1.06
+    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                  1.07
+    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                          -1.24
     ## log.Adult.Mortality:CountryUnited States of America                                              0.85
-    ## log.Adult.Mortality:CountryUruguay                                                               0.95
-    ## log.Adult.Mortality:CountryUzbekistan                                                            1.09
-    ## log.Adult.Mortality:CountryVanuatu                                                               1.01
+    ## log.Adult.Mortality:CountryUruguay                                                               0.96
+    ## log.Adult.Mortality:CountryUzbekistan                                                            1.10
+    ## log.Adult.Mortality:CountryVanuatu                                                               1.02
     ## log.Adult.Mortality:CountryVenezuela                                                             0.12
-    ## log.Adult.Mortality:CountryViet Nam                                                              0.25
-    ## log.Adult.Mortality:CountryYemen                                                                -0.85
-    ## log.Adult.Mortality:CountryZambia                                                                1.15
-    ## log.Adult.Mortality:CountryZimbabwe                                                              0.50
-    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                             1.04
+    ## log.Adult.Mortality:CountryViet Nam                                                              0.26
+    ## log.Adult.Mortality:CountryYemen                                                                -0.86
+    ## log.Adult.Mortality:CountryZambia                                                                1.16
+    ## log.Adult.Mortality:CountryZimbabwe                                                              0.51
+    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                             1.05
     ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                -0.44
     ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                 0.02
     ## log.Adult.Mortality:infant.deaths:CountryAngola                                                  0.54
@@ -5867,10 +5968,10 @@ summary(fit.custom)
     ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                             -0.36
     ## log.Adult.Mortality:infant.deaths:CountryBahamas                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryBahrain                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                              0.04
+    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                              0.06
     ## log.Adult.Mortality:infant.deaths:CountryBarbados                                                  NA
-    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                -1.64
-    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 1.23
+    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                -1.65
+    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 1.24
     ## log.Adult.Mortality:infant.deaths:CountryBelize                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryBenin                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                 -0.03
@@ -5884,131 +5985,131 @@ summary(fit.custom)
     ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                 1.22
     ## log.Adult.Mortality:infant.deaths:CountryCabo Verde                                                NA
     ## log.Adult.Mortality:infant.deaths:CountryCambodia                                               -0.51
-    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                0.06
+    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                0.09
     ## log.Adult.Mortality:infant.deaths:CountryCanada                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                0.48
-    ## log.Adult.Mortality:infant.deaths:CountryChad                                                   -0.04
+    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                  NA
+    ## log.Adult.Mortality:infant.deaths:CountryChad                                                   -0.17
     ## log.Adult.Mortality:infant.deaths:CountryChile                                                     NA
-    ## log.Adult.Mortality:infant.deaths:CountryChina                                                  -0.26
-    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                0.17
-    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                 0.16
-    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                   0.41
+    ## log.Adult.Mortality:infant.deaths:CountryChina                                                  -0.20
+    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                0.16
+    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                 0.47
+    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                   0.73
     ## log.Adult.Mortality:infant.deaths:CountryCosta Rica                                                NA
     ## log.Adult.Mortality:infant.deaths:CountryCroatia                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryCuba                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountryCyprus                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryCzechia                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                   0.85
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                        0.29
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                   0.84
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                        0.19
     ## log.Adult.Mortality:infant.deaths:CountryDenmark                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                               -2.23
-    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                     -0.91
-    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                -0.32
-    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                   1.30
-    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                            -2.12
+    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                               -1.10
+    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                     -0.92
+    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                 0.06
+    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                   0.95
+    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                            -0.59
     ## log.Adult.Mortality:infant.deaths:CountryEquatorial Guinea                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                -2.47
+    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                -2.52
     ## log.Adult.Mortality:infant.deaths:CountryEstonia                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                               -0.09
+    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                               -1.80
     ## log.Adult.Mortality:infant.deaths:CountryFiji                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountryFinland                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryFrance                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryGabon                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountryGambia                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                -0.70
-    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 2.59
-    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                  -1.73
-    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                  0.43
+    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                -0.81
+    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                 2.29
+    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                  -3.21
+    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryGrenada                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                              -5.62
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                 -0.27
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           2.64
-    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                 -0.11
-    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                  -2.55
-    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                               -0.06
-    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                -0.50
+    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                              -5.58
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                 -0.28
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                           2.23
+    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                 -0.13
+    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                  -2.49
+    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                               -0.05
+    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                -0.56
     ## log.Adult.Mortality:infant.deaths:CountryIceland                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                  -0.21
-    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                              -0.54
-    ## log.Adult.Mortality:infant.deaths:CountryIran                                                    1.21
-    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                   -2.44
+    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                  -0.13
+    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                              -0.44
+    ## log.Adult.Mortality:infant.deaths:CountryIran                                                    0.14
+    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                   -2.47
     ## log.Adult.Mortality:infant.deaths:CountryIreland                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryIsrael                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                     NA
+    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                  -0.67
     ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                             0.73
     ## log.Adult.Mortality:infant.deaths:CountryJamaica                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                  -0.28
+    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                  -0.29
     ## log.Adult.Mortality:infant.deaths:CountryJordan                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                             -0.42
-    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                  -0.93
+    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                  -0.94
     ## log.Adult.Mortality:infant.deaths:CountryKiribati                                                  NA
     ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                 -0.17
-    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                             -1.30
-    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                       -0.55
+    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                             -1.32
+    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                       -0.56
     ## log.Adult.Mortality:infant.deaths:CountryLatvia                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryLebanon                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                 0.78
+    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                 0.79
     ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                -0.20
-    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                   2.62
+    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                   2.63
     ## log.Adult.Mortality:infant.deaths:CountryLithuania                                                 NA
     ## log.Adult.Mortality:infant.deaths:CountryLuxembourg                                                NA
-    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                             -1.21
-    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                 -1.16
+    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                             -1.20
+    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                 -1.12
     ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                               -0.07
     ## log.Adult.Mortality:infant.deaths:CountryMaldives                                                  NA
     ## log.Adult.Mortality:infant.deaths:CountryMali                                                    0.76
     ## log.Adult.Mortality:infant.deaths:CountryMalta                                                     NA
-    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                              1.10
+    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                              1.11
     ## log.Adult.Mortality:infant.deaths:CountryMauritius                                                 NA
     ## log.Adult.Mortality:infant.deaths:CountryMexico                                                  0.29
     ## log.Adult.Mortality:infant.deaths:CountryMicronesia (Federated States of)                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                               -1.09
+    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                               -1.11
     ## log.Adult.Mortality:infant.deaths:CountryMontenegro                                                NA
     ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                 0.13
-    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                              2.61
-    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                -0.61
+    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                              2.62
+    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                -0.62
     ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                -0.28
-    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                  -0.57
+    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                  -0.58
     ## log.Adult.Mortality:infant.deaths:CountryNetherlands                                               NA
     ## log.Adult.Mortality:infant.deaths:CountryNew Zealand                                               NA
-    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                               1.78
+    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                               1.79
     ## log.Adult.Mortality:infant.deaths:CountryNiger                                                   3.76
-    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                -2.11
+    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                -2.20
     ## log.Adult.Mortality:infant.deaths:CountryNorway                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryOman                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                               -0.31
-    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                 -0.30
+    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                               -0.30
+    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                 -0.31
     ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                       -0.17
-    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                1.66
-    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                    0.27
-    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                            -0.07
+    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                1.67
+    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                    0.26
+    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                            -0.06
     ## log.Adult.Mortality:infant.deaths:CountryPoland                                                 -0.07
     ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                0.13
     ## log.Adult.Mortality:infant.deaths:CountryQatar                                                     NA
-    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                      -0.72
+    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                      -0.74
     ## log.Adult.Mortality:infant.deaths:CountryRepublic of Moldova                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 3.44
+    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                 3.46
     ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                      1.46
-    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                 -2.29
+    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                 -2.31
     ## log.Adult.Mortality:infant.deaths:CountrySaint Lucia                                               NA
     ## log.Adult.Mortality:infant.deaths:CountrySaint Vincent and the Grenadines                          NA
     ## log.Adult.Mortality:infant.deaths:CountrySamoa                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountrySao Tome and Principe                                     NA
     ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                            0.17
-    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                -0.22
+    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                -0.23
     ## log.Adult.Mortality:infant.deaths:CountrySerbia                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountrySeychelles                                                NA
-    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                            2.19
+    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                            2.21
     ## log.Adult.Mortality:infant.deaths:CountrySingapore                                                 NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovakia                                                  NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovenia                                                  NA
     ## log.Adult.Mortality:infant.deaths:CountrySolomon Islands                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                -1.43
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                            1.71
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             0.82
+    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                -1.44
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                            1.72
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                             0.83
     ## log.Adult.Mortality:infant.deaths:CountrySpain                                                  -0.44
-    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                              -0.41
-    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                  -1.35
+    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                              -0.42
+    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                  -1.37
     ## log.Adult.Mortality:infant.deaths:CountrySuriname                                                  NA
     ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                              -0.84
     ## log.Adult.Mortality:infant.deaths:CountrySweden                                                    NA
@@ -6018,762 +6119,762 @@ summary(fit.custom)
     ## log.Adult.Mortality:infant.deaths:CountryThailand                                               -0.35
     ## log.Adult.Mortality:infant.deaths:CountryThe former Yugoslav republic of Macedonia                 NA
     ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                             0.02
-    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                    0.31
+    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                    0.32
     ## log.Adult.Mortality:infant.deaths:CountryTonga                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountryTrinidad and Tobago                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                -0.26
     ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                  0.38
     ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                           -0.22
-    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                 -0.29
-    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                -2.46
+    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                 -0.31
+    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                -2.47
     ## log.Adult.Mortality:infant.deaths:CountryUnited Arab Emirates                                      NA
     ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland   -0.53
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                             2.56
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                             2.58
     ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                               -0.53
     ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                 0.00
-    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                             -0.01
+    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                             -0.02
     ## log.Adult.Mortality:infant.deaths:CountryVanuatu                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                              -0.04
     ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                               -0.07
-    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                   1.17
+    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                   1.18
     ## log.Adult.Mortality:infant.deaths:CountryZambia                                                 -0.47
-    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                1.74
+    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                1.75
     ##                                                                                                  Pr(>|t|)
-    ## (Intercept)                                                                                       0.19874
-    ## log.Adult.Mortality                                                                               0.25499
-    ## infant.deaths                                                                                     0.28624
-    ## log.GDP                                                                                           0.98502
-    ## Measles                                                                                           0.29195
-    ## HIV_cat                                                                                           0.09406
-    ## CountryAlbania                                                                                    0.29984
-    ## CountryAlgeria                                                                                    0.51919
-    ## CountryAngola                                                                                     0.66623
-    ## CountryAntigua and Barbuda                                                                        0.30807
-    ## CountryArgentina                                                                                  0.40821
-    ## CountryArmenia                                                                                    0.30573
-    ## CountryAustralia                                                                                  0.29137
-    ## CountryAustria                                                                                    0.34505
-    ## CountryAzerbaijan                                                                                 0.28008
-    ## CountryBahamas                                                                                    0.30215
-    ## CountryBahrain                                                                                    0.27285
-    ## CountryBangladesh                                                                                 0.25383
-    ## CountryBarbados                                                                                   0.28411
-    ## CountryBelarus                                                                                    0.26177
-    ## CountryBelgium                                                                                    0.40742
-    ## CountryBelize                                                                                     0.33639
-    ## CountryBenin                                                                                      0.43635
-    ## CountryBhutan                                                                                     0.39340
-    ## CountryBolivia                                                                                    0.73157
-    ## CountryBosnia and Herzegovina                                                                     0.29683
-    ## CountryBotswana                                                                                   0.37224
-    ## CountryBrazil                                                                                     0.60752
-    ## CountryBrunei Darussalam                                                                          0.31547
-    ## CountryBulgaria                                                                                   0.33902
-    ## CountryBurkina Faso                                                                               0.10964
-    ## CountryBurundi                                                                                    0.56732
-    ## CountryCabo Verde                                                                                 0.27657
-    ## CountryCambodia                                                                                   0.26073
-    ## CountryCameroon                                                                                   0.73365
-    ## CountryCanada                                                                                     0.34863
-    ## CountryCentral African Republic                                                                   0.92889
-    ## CountryChad                                                                                       0.95679
-    ## CountryChile                                                                                      0.42202
-    ## CountryChina                                                                                      0.26291
-    ## CountryColombia                                                                                   0.43519
-    ## CountryComoros                                                                                    0.40110
-    ## CountryCongo                                                                                      0.53972
-    ## CountryCosta Rica                                                                                 0.33375
-    ## CountryCroatia                                                                                    0.30145
-    ## CountryCuba                                                                                       0.29350
-    ## CountryCyprus                                                                                     0.31505
-    ## CountryCzechia                                                                                    0.30091
-    ## CountryDemocratic People's Republic of Korea                                                      0.39248
-    ## CountryDemocratic Republic of the Congo                                                           0.90632
-    ## CountryDenmark                                                                                    0.33603
-    ## CountryDjibouti                                                                                   0.02630
-    ## CountryDominican Republic                                                                         0.20975
-    ## CountryEcuador                                                                                    0.26791
-    ## CountryEgypt                                                                                      0.22589
-    ## CountryEl Salvador                                                                                0.13294
-    ## CountryEquatorial Guinea                                                                          0.39956
-    ## CountryEritrea                                                                                    0.05294
-    ## CountryEstonia                                                                                    0.27753
-    ## CountryEthiopia                                                                                   0.29160
-    ## CountryFiji                                                                                       0.31199
-    ## CountryFinland                                                                                    0.35994
-    ## CountryFrance                                                                                     0.31596
-    ## CountryGabon                                                                                      0.33278
-    ## CountryGambia                                                                                     0.71793
-    ## CountryGeorgia                                                                                    0.21146
-    ## CountryGermany                                                                                    0.98085
-    ## CountryGhana                                                                                      0.06319
-    ## CountryGreece                                                                                     0.44078
-    ## CountryGrenada                                                                                    0.23262
-    ## CountryGuatemala                                                                                  0.00863
-    ## CountryGuinea                                                                                     0.33902
-    ## CountryGuinea-Bissau                                                                              0.10592
-    ## CountryGuyana                                                                                     0.30019
-    ## CountryHaiti                                                                                      0.10481
-    ## CountryHonduras                                                                                   0.38412
-    ## CountryHungary                                                                                    0.29723
-    ## CountryIceland                                                                                    0.27243
-    ## CountryIndia                                                                                      0.43938
-    ## CountryIndonesia                                                                                  0.27122
-    ## CountryIran                                                                                       0.36533
-    ## CountryIraq                                                                                       0.00940
-    ## CountryIreland                                                                                    0.34193
-    ## CountryIsrael                                                                                     0.29470
-    ## CountryItaly                                                                                      0.27691
-    ## CountryIvory Coast                                                                                0.68613
-    ## CountryJamaica                                                                                    0.30725
-    ## CountryJapan                                                                                      0.27393
-    ## CountryJordan                                                                                     0.31722
-    ## CountryKazakhstan                                                                                 0.30056
-    ## CountryKenya                                                                                      0.23203
-    ## CountryKiribati                                                                                   0.35389
-    ## CountryKuwait                                                                                     0.30044
-    ## CountryKyrgyzstan                                                                                 0.11950
-    ## CountryLao People's Democratic Republic                                                           0.30986
-    ## CountryLatvia                                                                                     0.27380
-    ## CountryLebanon                                                                                    0.29924
-    ## CountryLesotho                                                                                    0.69746
-    ## CountryLiberia                                                                                    0.35345
-    ## CountryLibya                                                                                      0.17270
-    ## CountryLithuania                                                                                  0.24601
-    ## CountryLuxembourg                                                                                 0.30198
-    ## CountryMadagascar                                                                                 0.08081
-    ## CountryMalawi                                                                                     0.26201
-    ## CountryMalaysia                                                                                   0.39571
-    ## CountryMaldives                                                                                   0.27778
-    ## CountryMali                                                                                       0.63729
-    ## CountryMalta                                                                                      0.33888
-    ## CountryMauritania                                                                                 0.30352
-    ## CountryMauritius                                                                                  0.34966
-    ## CountryMexico                                                                                     0.53250
-    ## CountryMicronesia (Federated States of)                                                           0.34338
-    ## CountryMongolia                                                                                   0.26035
-    ## CountryMontenegro                                                                                 0.29997
-    ## CountryMorocco                                                                                    0.27259
-    ## CountryMozambique                                                                                 0.43274
-    ## CountryMyanmar                                                                                    0.26295
-    ## CountryNamibia                                                                                    0.50707
-    ## CountryNepal                                                                                      0.27632
-    ## CountryNetherlands                                                                                0.32278
-    ## CountryNew Zealand                                                                                0.35091
-    ## CountryNicaragua                                                                                  0.52476
-    ## CountryNiger                                                                                      0.00040
-    ## CountryNigeria                                                                                    0.04726
-    ## CountryNorway                                                                                     0.30617
-    ## CountryOman                                                                                       0.30755
-    ## CountryPakistan                                                                                   0.62755
-    ## CountryPanama                                                                                     0.61753
-    ## CountryPapua New Guinea                                                                           0.73046
-    ## CountryParaguay                                                                                   0.70399
-    ## CountryPeru                                                                                       0.26455
-    ## CountryPhilippines                                                                                0.56037
-    ## CountryPoland                                                                                     0.34258
-    ## CountryPortugal                                                                                   0.38897
-    ## CountryQatar                                                                                      0.30339
-    ## CountryRepublic of Korea                                                                          0.31904
-    ## CountryRepublic of Moldova                                                                        0.39601
-    ## CountryRomania                                                                                    0.76744
-    ## CountryRussian Federation                                                                         0.67214
-    ## CountryRwanda                                                                                     0.29605
-    ## CountrySaint Lucia                                                                                0.31768
-    ## CountrySaint Vincent and the Grenadines                                                           0.15356
-    ## CountrySamoa                                                                                      0.24148
-    ## CountrySao Tome and Principe                                                                      0.37846
-    ## CountrySaudi Arabia                                                                               0.39526
-    ## CountrySenegal                                                                                    0.37029
-    ## CountrySerbia                                                                                     0.30983
-    ## CountrySeychelles                                                                                 0.30468
-    ## CountrySierra Leone                                                                               0.44212
-    ## CountrySingapore                                                                                  0.30459
-    ## CountrySlovakia                                                                                   0.30060
-    ## CountrySlovenia                                                                                   0.34186
-    ## CountrySolomon Islands                                                                            0.28441
-    ## CountrySomalia                                                                                    0.11832
-    ## CountrySouth Africa                                                                               0.87110
-    ## CountrySouth Sudan                                                                                0.56894
-    ## CountrySpain                                                                                      0.27676
-    ## CountrySri Lanka                                                                                  0.26934
-    ## CountrySudan                                                                                      0.09477
-    ## CountrySuriname                                                                                   0.38547
-    ## CountrySwaziland                                                                                  0.29588
-    ## CountrySweden                                                                                     0.27827
-    ## CountrySwitzerland                                                                                0.27588
-    ## CountrySyrian Arab Republic                                                                       0.29792
-    ## CountryTajikistan                                                                                 0.78300
-    ## CountryThailand                                                                                   0.29744
-    ## CountryThe former Yugoslav republic of Macedonia                                                  0.29741
-    ## CountryTimor-Leste                                                                                0.35893
-    ## CountryTogo                                                                                       0.75773
-    ## CountryTonga                                                                                      0.30794
-    ## CountryTrinidad and Tobago                                                                        0.41609
-    ## CountryTunisia                                                                                    0.40255
-    ## CountryTurkey                                                                                     0.63231
-    ## CountryTurkmenistan                                                                               0.37452
-    ## CountryUganda                                                                                     0.47670
-    ## CountryUkraine                                                                                    0.10138
-    ## CountryUnited Arab Emirates                                                                       0.28919
-    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                       0.27773
-    ## CountryUnited Republic of Tanzania                                                                0.16189
-    ## CountryUnited States of America                                                                   0.38008
-    ## CountryUruguay                                                                                    0.33287
-    ## CountryUzbekistan                                                                                 0.27219
-    ## CountryVanuatu                                                                                    0.30882
-    ## CountryVenezuela                                                                                  0.90219
-    ## CountryViet Nam                                                                                   0.79043
-    ## CountryYemen                                                                                      0.39355
-    ## CountryZambia                                                                                     0.26401
-    ## CountryZimbabwe                                                                                   0.66806
-    ## infant.deaths:CountryAlbania                                                                      0.64348
-    ## infant.deaths:CountryAlgeria                                                                      0.86345
-    ## infant.deaths:CountryAngola                                                                       0.59317
+    ## (Intercept)                                                                                       0.19526
+    ## log.Adult.Mortality                                                                               0.25114
+    ## infant.deaths                                                                                     0.28258
+    ## log.GDP                                                                                           0.90011
+    ## Measles                                                                                           0.38002
+    ## HIV_cat                                                                                           0.09121
+    ## CountryAlbania                                                                                    0.29588
+    ## CountryAlgeria                                                                                    0.51803
+    ## CountryAngola                                                                                     0.66414
+    ## CountryAntigua and Barbuda                                                                        0.30411
+    ## CountryArgentina                                                                                  0.40373
+    ## CountryArmenia                                                                                    0.30169
+    ## CountryAustralia                                                                                  0.28719
+    ## CountryAustria                                                                                    0.34094
+    ## CountryAzerbaijan                                                                                 0.27626
+    ## CountryBahamas                                                                                    0.29815
+    ## CountryBahrain                                                                                    0.26895
+    ## CountryBangladesh                                                                                 0.25114
+    ## CountryBarbados                                                                                   0.27999
+    ## CountryBelarus                                                                                    0.25784
+    ## CountryBelgium                                                                                    0.40326
+    ## CountryBelize                                                                                     0.33235
+    ## CountryBenin                                                                                      0.43190
+    ## CountryBhutan                                                                                     0.38926
+    ## CountryBolivia                                                                                    0.72673
+    ## CountryBosnia and Herzegovina                                                                     0.29278
+    ## CountryBotswana                                                                                   0.36810
+    ## CountryBrazil                                                                                     0.60433
+    ## CountryBrunei Darussalam                                                                          0.31118
+    ## CountryBulgaria                                                                                   0.33449
+    ## CountryBurkina Faso                                                                               0.10801
+    ## CountryBurundi                                                                                    0.56934
+    ## CountryCabo Verde                                                                                 0.25957
+    ## CountryCambodia                                                                                   0.26113
+    ## CountryCameroon                                                                                   0.73126
+    ## CountryCanada                                                                                     0.29181
+    ## CountryCentral African Republic                                                                   0.35145
+    ## CountryChad                                                                                       0.83904
+    ## CountryChile                                                                                      0.42064
+    ## CountryChina                                                                                      0.26571
+    ## CountryColombia                                                                                   0.42586
+    ## CountryComoros                                                                                    0.42549
+    ## CountryCongo                                                                                      0.61737
+    ## CountryCosta Rica                                                                                 0.31051
+    ## CountryCroatia                                                                                    0.29890
+    ## CountryCuba                                                                                       0.29070
+    ## CountryCyprus                                                                                     0.30544
+    ## CountryCzechia                                                                                    0.29824
+    ## CountryDemocratic People's Republic of Korea                                                      0.38767
+    ## CountryDemocratic Republic of the Congo                                                           0.99640
+    ## CountryDenmark                                                                                    0.33212
+    ## CountryDjibouti                                                                                   0.13462
+    ## CountryDominican Republic                                                                         0.21109
+    ## CountryEcuador                                                                                    0.36799
+    ## CountryEgypt                                                                                      0.36039
+    ## CountryEl Salvador                                                                                0.24446
+    ## CountryEquatorial Guinea                                                                          0.40300
+    ## CountryEritrea                                                                                    0.06665
+    ## CountryEstonia                                                                                    0.27445
+    ## CountryEthiopia                                                                                   0.20028
+    ## CountryFiji                                                                                       0.30828
+    ## CountryFinland                                                                                    0.40256
+    ## CountryFrance                                                                                     0.29230
+    ## CountryGabon                                                                                      0.33024
+    ## CountryGambia                                                                                     0.70568
+    ## CountryGeorgia                                                                                    0.20382
+    ## CountryGermany                                                                                    0.98277
+    ## CountryGhana                                                                                      0.00224
+    ## CountryGreece                                                                                     0.44152
+    ## CountryGrenada                                                                                    0.23415
+    ## CountryGuatemala                                                                                  0.00649
+    ## CountryGuinea                                                                                     0.32824
+    ## CountryGuinea-Bissau                                                                              0.18663
+    ## CountryGuyana                                                                                     0.27718
+    ## CountryHaiti                                                                                      0.10105
+    ## CountryHonduras                                                                                   0.38246
+    ## CountryHungary                                                                                    0.29174
+    ## CountryIceland                                                                                    0.26907
+    ## CountryIndia                                                                                      0.50973
+    ## CountryIndonesia                                                                                  0.36672
+    ## CountryIran                                                                                       0.29733
+    ## CountryIraq                                                                                       0.01574
+    ## CountryIreland                                                                                    0.32400
+    ## CountryIsrael                                                                                     0.28997
+    ## CountryItaly                                                                                      0.24966
+    ## CountryIvory Coast                                                                                0.62988
+    ## CountryJamaica                                                                                    0.30328
+    ## CountryJapan                                                                                      0.26943
+    ## CountryJordan                                                                                     0.31317
+    ## CountryKazakhstan                                                                                 0.29713
+    ## CountryKenya                                                                                      0.22831
+    ## CountryKiribati                                                                                   0.34950
+    ## CountryKuwait                                                                                     0.29629
+    ## CountryKyrgyzstan                                                                                 0.11538
+    ## CountryLao People's Democratic Republic                                                           0.30533
+    ## CountryLatvia                                                                                     0.26988
+    ## CountryLebanon                                                                                    0.29533
+    ## CountryLesotho                                                                                    0.69416
+    ## CountryLiberia                                                                                    0.34915
+    ## CountryLibya                                                                                      0.17089
+    ## CountryLithuania                                                                                  0.24217
+    ## CountryLuxembourg                                                                                 0.29795
+    ## CountryMadagascar                                                                                 0.08032
+    ## CountryMalawi                                                                                     0.26016
+    ## CountryMalaysia                                                                                   0.39367
+    ## CountryMaldives                                                                                   0.27382
+    ## CountryMali                                                                                       0.63528
+    ## CountryMalta                                                                                      0.33473
+    ## CountryMauritania                                                                                 0.29954
+    ## CountryMauritius                                                                                  0.34544
+    ## CountryMexico                                                                                     0.53055
+    ## CountryMicronesia (Federated States of)                                                           0.33928
+    ## CountryMongolia                                                                                   0.25534
+    ## CountryMontenegro                                                                                 0.29586
+    ## CountryMorocco                                                                                    0.26883
+    ## CountryMozambique                                                                                 0.43357
+    ## CountryMyanmar                                                                                    0.25901
+    ## CountryNamibia                                                                                    0.50363
+    ## CountryNepal                                                                                      0.27221
+    ## CountryNetherlands                                                                                0.31872
+    ## CountryNew Zealand                                                                                0.34681
+    ## CountryNicaragua                                                                                  0.52063
+    ## CountryNiger                                                                                      0.00041
+    ## CountryNigeria                                                                                    0.03797
+    ## CountryNorway                                                                                     0.30220
+    ## CountryOman                                                                                       0.30343
+    ## CountryPakistan                                                                                   0.62833
+    ## CountryPanama                                                                                     0.61040
+    ## CountryPapua New Guinea                                                                           0.72554
+    ## CountryParaguay                                                                                   0.69944
+    ## CountryPeru                                                                                       0.26094
+    ## CountryPhilippines                                                                                0.56053
+    ## CountryPoland                                                                                     0.33812
+    ## CountryPortugal                                                                                   0.38485
+    ## CountryQatar                                                                                      0.29930
+    ## CountryRepublic of Korea                                                                          0.31489
+    ## CountryRepublic of Moldova                                                                        0.39185
+    ## CountryRomania                                                                                    0.76429
+    ## CountryRussian Federation                                                                         0.66727
+    ## CountryRwanda                                                                                     0.29216
+    ## CountrySaint Lucia                                                                                0.31349
+    ## CountrySaint Vincent and the Grenadines                                                           0.15034
+    ## CountrySamoa                                                                                      0.23766
+    ## CountrySao Tome and Principe                                                                      0.37420
+    ## CountrySaudi Arabia                                                                               0.39095
+    ## CountrySenegal                                                                                    0.36353
+    ## CountrySerbia                                                                                     0.30583
+    ## CountrySeychelles                                                                                 0.30070
+    ## CountrySierra Leone                                                                               0.44026
+    ## CountrySingapore                                                                                  0.30053
+    ## CountrySlovakia                                                                                   0.29660
+    ## CountrySlovenia                                                                                   0.33775
+    ## CountrySolomon Islands                                                                            0.28046
+    ## CountrySomalia                                                                                    0.11538
+    ## CountrySouth Africa                                                                               0.86864
+    ## CountrySouth Sudan                                                                                0.56806
+    ## CountrySpain                                                                                      0.27349
+    ## CountrySri Lanka                                                                                  0.26448
+    ## CountrySudan                                                                                      0.09204
+    ## CountrySuriname                                                                                   0.38105
+    ## CountrySwaziland                                                                                  0.29144
+    ## CountrySweden                                                                                     0.27438
+    ## CountrySwitzerland                                                                                0.27191
+    ## CountrySyrian Arab Republic                                                                       0.29394
+    ## CountryTajikistan                                                                                 0.77983
+    ## CountryThailand                                                                                   0.29368
+    ## CountryThe former Yugoslav republic of Macedonia                                                  0.29341
+    ## CountryTimor-Leste                                                                                0.35498
+    ## CountryTogo                                                                                       0.75518
+    ## CountryTonga                                                                                      0.30384
+    ## CountryTrinidad and Tobago                                                                        0.41168
+    ## CountryTunisia                                                                                    0.39889
+    ## CountryTurkey                                                                                     0.62838
+    ## CountryTurkmenistan                                                                               0.37064
+    ## CountryUganda                                                                                     0.46923
+    ## CountryUkraine                                                                                    0.09943
+    ## CountryUnited Arab Emirates                                                                       0.28522
+    ## CountryUnited Kingdom of Great Britain and Northern Ireland                                       0.27403
+    ## CountryUnited Republic of Tanzania                                                                0.15910
+    ## CountryUnited States of America                                                                   0.37687
+    ## CountryUruguay                                                                                    0.32847
+    ## CountryUzbekistan                                                                                 0.26773
+    ## CountryVanuatu                                                                                    0.30476
+    ## CountryVenezuela                                                                                  0.90068
+    ## CountryViet Nam                                                                                   0.78538
+    ## CountryYemen                                                                                      0.38831
+    ## CountryZambia                                                                                     0.26200
+    ## CountryZimbabwe                                                                                   0.66526
+    ## infant.deaths:CountryAlbania                                                                      0.64142
+    ## infant.deaths:CountryAlgeria                                                                      0.86595
+    ## infant.deaths:CountryAngola                                                                       0.59057
     ## infant.deaths:CountryAntigua and Barbuda                                                               NA
-    ## infant.deaths:CountryArgentina                                                                    0.92104
+    ## infant.deaths:CountryArgentina                                                                    0.91868
     ## infant.deaths:CountryArmenia                                                                           NA
     ## infant.deaths:CountryAustralia                                                                         NA
     ## infant.deaths:CountryAustria                                                                           NA
-    ## infant.deaths:CountryAzerbaijan                                                                   0.60402
+    ## infant.deaths:CountryAzerbaijan                                                                   0.60180
     ## infant.deaths:CountryBahamas                                                                           NA
     ## infant.deaths:CountryBahrain                                                                           NA
-    ## infant.deaths:CountryBangladesh                                                                   0.30217
+    ## infant.deaths:CountryBangladesh                                                                   0.29911
     ## infant.deaths:CountryBarbados                                                                          NA
-    ## infant.deaths:CountryBelarus                                                                      0.09330
-    ## infant.deaths:CountryBelgium                                                                      0.25370
+    ## infant.deaths:CountryBelarus                                                                      0.09159
+    ## infant.deaths:CountryBelgium                                                                      0.24952
     ## infant.deaths:CountryBelize                                                                            NA
     ## infant.deaths:CountryBenin                                                                             NA
-    ## infant.deaths:CountryBhutan                                                                       0.94685
-    ## infant.deaths:CountryBolivia                                                                      0.52410
+    ## infant.deaths:CountryBhutan                                                                       0.94583
+    ## infant.deaths:CountryBolivia                                                                      0.51898
     ## infant.deaths:CountryBosnia and Herzegovina                                                            NA
     ## infant.deaths:CountryBotswana                                                                          NA
-    ## infant.deaths:CountryBrazil                                                                       0.56519
+    ## infant.deaths:CountryBrazil                                                                       0.56050
     ## infant.deaths:CountryBrunei Darussalam                                                                 NA
-    ## infant.deaths:CountryBulgaria                                                                     0.31804
-    ## infant.deaths:CountryBurkina Faso                                                                 0.13484
-    ## infant.deaths:CountryBurundi                                                                      0.32304
+    ## infant.deaths:CountryBulgaria                                                                     0.31504
+    ## infant.deaths:CountryBurkina Faso                                                                 0.13339
+    ## infant.deaths:CountryBurundi                                                                      0.32307
     ## infant.deaths:CountryCabo Verde                                                                        NA
-    ## infant.deaths:CountryCambodia                                                                     0.29276
-    ## infant.deaths:CountryCameroon                                                                     0.83339
+    ## infant.deaths:CountryCambodia                                                                     0.28137
+    ## infant.deaths:CountryCameroon                                                                     0.84250
     ## infant.deaths:CountryCanada                                                                            NA
-    ## infant.deaths:CountryCentral African Republic                                                     0.68962
-    ## infant.deaths:CountryChad                                                                         0.96143
+    ## infant.deaths:CountryCentral African Republic                                                     0.34991
+    ## infant.deaths:CountryChad                                                                         0.84870
     ## infant.deaths:CountryChile                                                                             NA
-    ## infant.deaths:CountryChina                                                                        0.28326
-    ## infant.deaths:CountryColombia                                                                     0.91913
-    ## infant.deaths:CountryComoros                                                                      0.93885
-    ## infant.deaths:CountryCongo                                                                        0.70647
+    ## infant.deaths:CountryChina                                                                        0.28045
+    ## infant.deaths:CountryColombia                                                                     0.91242
+    ## infant.deaths:CountryComoros                                                                      0.69902
+    ## infant.deaths:CountryCongo                                                                        0.49711
     ## infant.deaths:CountryCosta Rica                                                                        NA
     ## infant.deaths:CountryCroatia                                                                           NA
     ## infant.deaths:CountryCuba                                                                              NA
     ## infant.deaths:CountryCyprus                                                                            NA
     ## infant.deaths:CountryCzechia                                                                           NA
-    ## infant.deaths:CountryDemocratic People's Republic of Korea                                        0.98449
-    ## infant.deaths:CountryDemocratic Republic of the Congo                                             0.85902
+    ## infant.deaths:CountryDemocratic People's Republic of Korea                                        0.98836
+    ## infant.deaths:CountryDemocratic Republic of the Congo                                             0.75320
     ## infant.deaths:CountryDenmark                                                                           NA
-    ## infant.deaths:CountryDjibouti                                                                     0.02791
-    ## infant.deaths:CountryDominican Republic                                                           0.35524
-    ## infant.deaths:CountryEcuador                                                                      0.60500
-    ## infant.deaths:CountryEgypt                                                                        0.28284
-    ## infant.deaths:CountryEl Salvador                                                                  0.02903
+    ## infant.deaths:CountryDjibouti                                                                     0.27357
+    ## infant.deaths:CountryDominican Republic                                                           0.34453
+    ## infant.deaths:CountryEcuador                                                                      0.94066
+    ## infant.deaths:CountryEgypt                                                                        0.45273
+    ## infant.deaths:CountryEl Salvador                                                                  0.52961
     ## infant.deaths:CountryEquatorial Guinea                                                                 NA
-    ## infant.deaths:CountryEritrea                                                                      0.00971
+    ## infant.deaths:CountryEritrea                                                                      0.00792
     ## infant.deaths:CountryEstonia                                                                           NA
-    ## infant.deaths:CountryEthiopia                                                                     0.29262
+    ## infant.deaths:CountryEthiopia                                                                     0.19781
     ## infant.deaths:CountryFiji                                                                              NA
     ## infant.deaths:CountryFinland                                                                           NA
-    ## infant.deaths:CountryFrance                                                                       0.12019
+    ## infant.deaths:CountryFrance                                                                       0.17849
     ## infant.deaths:CountryGabon                                                                             NA
     ## infant.deaths:CountryGambia                                                                            NA
-    ## infant.deaths:CountryGeorgia                                                                      0.45081
-    ## infant.deaths:CountryGermany                                                                      0.01271
-    ## infant.deaths:CountryGhana                                                                        0.05409
-    ## infant.deaths:CountryGreece                                                                       0.68384
+    ## infant.deaths:CountryGeorgia                                                                      0.39055
+    ## infant.deaths:CountryGermany                                                                      0.02596
+    ## infant.deaths:CountryGhana                                                                        0.00052
+    ## infant.deaths:CountryGreece                                                                       0.32089
     ## infant.deaths:CountryGrenada                                                                           NA
-    ## infant.deaths:CountryGuatemala                                                                0.000000018
-    ## infant.deaths:CountryGuinea                                                                       0.53891
-    ## infant.deaths:CountryGuinea-Bissau                                                                0.00862
-    ## infant.deaths:CountryGuyana                                                                       0.89725
-    ## infant.deaths:CountryHaiti                                                                        0.00644
-    ## infant.deaths:CountryHonduras                                                                     0.83254
-    ## infant.deaths:CountryHungary                                                                      0.56307
+    ## infant.deaths:CountryGuatemala                                                                0.000000031
+    ## infant.deaths:CountryGuinea                                                                       0.53064
+    ## infant.deaths:CountryGuinea-Bissau                                                                0.02654
+    ## infant.deaths:CountryGuyana                                                                       0.87000
+    ## infant.deaths:CountryHaiti                                                                        0.00711
+    ## infant.deaths:CountryHonduras                                                                     0.84816
+    ## infant.deaths:CountryHungary                                                                      0.52507
     ## infant.deaths:CountryIceland                                                                           NA
-    ## infant.deaths:CountryIndia                                                                        0.28303
-    ## infant.deaths:CountryIndonesia                                                                    0.23653
-    ## infant.deaths:CountryIran                                                                         0.80392
-    ## infant.deaths:CountryIraq                                                                         0.00819
+    ## infant.deaths:CountryIndia                                                                        0.28105
+    ## infant.deaths:CountryIndonesia                                                                    0.28263
+    ## infant.deaths:CountryIran                                                                         0.47705
+    ## infant.deaths:CountryIraq                                                                         0.00593
     ## infant.deaths:CountryIreland                                                                           NA
-    ## infant.deaths:CountryIsrael                                                                       0.29862
-    ## infant.deaths:CountryItaly                                                                        0.59872
-    ## infant.deaths:CountryIvory Coast                                                                  0.60548
+    ## infant.deaths:CountryIsrael                                                                       0.30444
+    ## infant.deaths:CountryItaly                                                                        0.41420
+    ## infant.deaths:CountryIvory Coast                                                                  0.57000
     ## infant.deaths:CountryJamaica                                                                           NA
-    ## infant.deaths:CountryJapan                                                                        0.68582
+    ## infant.deaths:CountryJapan                                                                        0.67686
     ## infant.deaths:CountryJordan                                                                            NA
-    ## infant.deaths:CountryKazakhstan                                                                   0.45414
-    ## infant.deaths:CountryKenya                                                                        0.19179
+    ## infant.deaths:CountryKazakhstan                                                                   0.45342
+    ## infant.deaths:CountryKenya                                                                        0.18873
     ## infant.deaths:CountryKiribati                                                                          NA
-    ## infant.deaths:CountryKuwait                                                                       0.83219
-    ## infant.deaths:CountryKyrgyzstan                                                                   0.18503
-    ## infant.deaths:CountryLao People's Democratic Republic                                             0.39133
+    ## infant.deaths:CountryKuwait                                                                       0.83036
+    ## infant.deaths:CountryKyrgyzstan                                                                   0.17893
+    ## infant.deaths:CountryLao People's Democratic Republic                                             0.38656
     ## infant.deaths:CountryLatvia                                                                            NA
     ## infant.deaths:CountryLebanon                                                                           NA
-    ## infant.deaths:CountryLesotho                                                                      0.47877
-    ## infant.deaths:CountryLiberia                                                                      0.58134
-    ## infant.deaths:CountryLibya                                                                        0.00945
+    ## infant.deaths:CountryLesotho                                                                      0.47615
+    ## infant.deaths:CountryLiberia                                                                      0.57757
+    ## infant.deaths:CountryLibya                                                                        0.00906
     ## infant.deaths:CountryLithuania                                                                         NA
     ## infant.deaths:CountryLuxembourg                                                                        NA
-    ## infant.deaths:CountryMadagascar                                                                   0.15251
-    ## infant.deaths:CountryMalawi                                                                       0.16699
-    ## infant.deaths:CountryMalaysia                                                                     0.89360
+    ## infant.deaths:CountryMadagascar                                                                   0.15528
+    ## infant.deaths:CountryMalawi                                                                       0.16928
+    ## infant.deaths:CountryMalaysia                                                                     0.89775
     ## infant.deaths:CountryMaldives                                                                          NA
-    ## infant.deaths:CountryMali                                                                         0.55684
+    ## infant.deaths:CountryMali                                                                         0.55429
     ## infant.deaths:CountryMalta                                                                             NA
-    ## infant.deaths:CountryMauritania                                                                   0.27536
+    ## infant.deaths:CountryMauritania                                                                   0.27143
     ## infant.deaths:CountryMauritius                                                                         NA
-    ## infant.deaths:CountryMexico                                                                       0.84720
+    ## infant.deaths:CountryMexico                                                                       0.84806
     ## infant.deaths:CountryMicronesia (Federated States of)                                                  NA
-    ## infant.deaths:CountryMongolia                                                                     0.24898
+    ## infant.deaths:CountryMongolia                                                                     0.24320
     ## infant.deaths:CountryMontenegro                                                                        NA
-    ## infant.deaths:CountryMorocco                                                                      0.45633
-    ## infant.deaths:CountryMozambique                                                                   0.14942
-    ## infant.deaths:CountryMyanmar                                                                      0.22090
-    ## infant.deaths:CountryNamibia                                                                      0.76682
-    ## infant.deaths:CountryNepal                                                                        0.23747
+    ## infant.deaths:CountryMorocco                                                                      0.45269
+    ## infant.deaths:CountryMozambique                                                                   0.14875
+    ## infant.deaths:CountryMyanmar                                                                      0.21737
+    ## infant.deaths:CountryNamibia                                                                      0.76514
+    ## infant.deaths:CountryNepal                                                                        0.23278
     ## infant.deaths:CountryNetherlands                                                                       NA
     ## infant.deaths:CountryNew Zealand                                                                       NA
-    ## infant.deaths:CountryNicaragua                                                                    0.11628
+    ## infant.deaths:CountryNicaragua                                                                    0.11391
     ## infant.deaths:CountryNiger                                                                        0.00032
-    ## infant.deaths:CountryNigeria                                                                      0.07767
+    ## infant.deaths:CountryNigeria                                                                      0.07139
     ## infant.deaths:CountryNorway                                                                            NA
     ## infant.deaths:CountryOman                                                                              NA
-    ## infant.deaths:CountryPakistan                                                                     0.37250
-    ## infant.deaths:CountryPanama                                                                       0.76089
-    ## infant.deaths:CountryPapua New Guinea                                                             0.83968
-    ## infant.deaths:CountryParaguay                                                                     0.11703
-    ## infant.deaths:CountryPeru                                                                         0.98094
-    ## infant.deaths:CountryPhilippines                                                                  0.69530
-    ## infant.deaths:CountryPoland                                                                       0.91474
-    ## infant.deaths:CountryPortugal                                                                     0.91479
+    ## infant.deaths:CountryPakistan                                                                     0.37102
+    ## infant.deaths:CountryPanama                                                                       0.75437
+    ## infant.deaths:CountryPapua New Guinea                                                             0.83541
+    ## infant.deaths:CountryParaguay                                                                     0.11522
+    ## infant.deaths:CountryPeru                                                                         0.97458
+    ## infant.deaths:CountryPhilippines                                                                  0.69714
+    ## infant.deaths:CountryPoland                                                                       0.91306
+    ## infant.deaths:CountryPortugal                                                                     0.91202
     ## infant.deaths:CountryQatar                                                                             NA
-    ## infant.deaths:CountryRepublic of Korea                                                            0.27465
+    ## infant.deaths:CountryRepublic of Korea                                                            0.26518
     ## infant.deaths:CountryRepublic of Moldova                                                               NA
-    ## infant.deaths:CountryRomania                                                                      0.00093
-    ## infant.deaths:CountryRussian Federation                                                           0.32532
-    ## infant.deaths:CountryRwanda                                                                       0.08828
+    ## infant.deaths:CountryRomania                                                                      0.00087
+    ## infant.deaths:CountryRussian Federation                                                           0.32502
+    ## infant.deaths:CountryRwanda                                                                       0.08600
     ## infant.deaths:CountrySaint Lucia                                                                       NA
     ## infant.deaths:CountrySaint Vincent and the Grenadines                                                  NA
     ## infant.deaths:CountrySamoa                                                                             NA
     ## infant.deaths:CountrySao Tome and Principe                                                             NA
-    ## infant.deaths:CountrySaudi Arabia                                                                 0.98779
-    ## infant.deaths:CountrySenegal                                                                      0.67867
+    ## infant.deaths:CountrySaudi Arabia                                                                 0.98608
+    ## infant.deaths:CountrySenegal                                                                      0.67069
     ## infant.deaths:CountrySerbia                                                                            NA
     ## infant.deaths:CountrySeychelles                                                                        NA
-    ## infant.deaths:CountrySierra Leone                                                                 0.07837
+    ## infant.deaths:CountrySierra Leone                                                                 0.07661
     ## infant.deaths:CountrySingapore                                                                         NA
     ## infant.deaths:CountrySlovakia                                                                          NA
     ## infant.deaths:CountrySlovenia                                                                          NA
     ## infant.deaths:CountrySolomon Islands                                                                   NA
-    ## infant.deaths:CountrySomalia                                                                      0.13054
-    ## infant.deaths:CountrySouth Africa                                                                 0.68544
-    ## infant.deaths:CountrySouth Sudan                                                                  0.44626
-    ## infant.deaths:CountrySpain                                                                        0.58618
-    ## infant.deaths:CountrySri Lanka                                                                    0.58515
-    ## infant.deaths:CountrySudan                                                                        0.09335
+    ## infant.deaths:CountrySomalia                                                                      0.12753
+    ## infant.deaths:CountrySouth Africa                                                                 0.68492
+    ## infant.deaths:CountrySouth Sudan                                                                  0.44457
+    ## infant.deaths:CountrySpain                                                                        0.58680
+    ## infant.deaths:CountrySri Lanka                                                                    0.57737
+    ## infant.deaths:CountrySudan                                                                        0.09044
     ## infant.deaths:CountrySuriname                                                                          NA
-    ## infant.deaths:CountrySwaziland                                                                    0.35637
+    ## infant.deaths:CountrySwaziland                                                                    0.35173
     ## infant.deaths:CountrySweden                                                                            NA
     ## infant.deaths:CountrySwitzerland                                                                       NA
-    ## infant.deaths:CountrySyrian Arab Republic                                                         0.53668
-    ## infant.deaths:CountryTajikistan                                                                   0.57901
-    ## infant.deaths:CountryThailand                                                                     0.41691
+    ## infant.deaths:CountrySyrian Arab Republic                                                         0.53363
+    ## infant.deaths:CountryTajikistan                                                                   0.57746
+    ## infant.deaths:CountryThailand                                                                     0.41375
     ## infant.deaths:CountryThe former Yugoslav republic of Macedonia                                         NA
-    ## infant.deaths:CountryTimor-Leste                                                                  0.93282
-    ## infant.deaths:CountryTogo                                                                         0.84976
+    ## infant.deaths:CountryTimor-Leste                                                                  0.93322
+    ## infant.deaths:CountryTogo                                                                         0.84878
     ## infant.deaths:CountryTonga                                                                             NA
     ## infant.deaths:CountryTrinidad and Tobago                                                               NA
-    ## infant.deaths:CountryTunisia                                                                      0.77578
-    ## infant.deaths:CountryTurkey                                                                       0.83601
-    ## infant.deaths:CountryTurkmenistan                                                                 0.77436
-    ## infant.deaths:CountryUganda                                                                       0.26208
-    ## infant.deaths:CountryUkraine                                                                      0.01060
+    ## infant.deaths:CountryTunisia                                                                      0.77444
+    ## infant.deaths:CountryTurkey                                                                       0.83080
+    ## infant.deaths:CountryTurkmenistan                                                                 0.77325
+    ## infant.deaths:CountryUganda                                                                       0.25598
+    ## infant.deaths:CountryUkraine                                                                      0.01038
     ## infant.deaths:CountryUnited Arab Emirates                                                              NA
-    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                         0.57713
-    ## infant.deaths:CountryUnited Republic of Tanzania                                                  0.14345
-    ## infant.deaths:CountryUnited States of America                                                     0.52791
-    ## infant.deaths:CountryUruguay                                                                      0.98258
-    ## infant.deaths:CountryUzbekistan                                                                   0.47180
+    ## infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland                         0.57492
+    ## infant.deaths:CountryUnited Republic of Tanzania                                                  0.14059
+    ## infant.deaths:CountryUnited States of America                                                     0.52549
+    ## infant.deaths:CountryUruguay                                                                      0.98038
+    ## infant.deaths:CountryUzbekistan                                                                   0.46606
     ## infant.deaths:CountryVanuatu                                                                           NA
-    ## infant.deaths:CountryVenezuela                                                                    0.96533
-    ## infant.deaths:CountryViet Nam                                                                     0.89866
-    ## infant.deaths:CountryYemen                                                                        0.31293
-    ## infant.deaths:CountryZambia                                                                       0.42664
-    ## infant.deaths:CountryZimbabwe                                                                     0.65162
-    ## log.Adult.Mortality:CountryAlbania                                                                0.30478
-    ## log.Adult.Mortality:CountryAlgeria                                                                0.55980
-    ## log.Adult.Mortality:CountryAngola                                                                 0.68339
-    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                    0.31015
-    ## log.Adult.Mortality:CountryArgentina                                                              0.43314
-    ## log.Adult.Mortality:CountryArmenia                                                                0.30965
-    ## log.Adult.Mortality:CountryAustralia                                                              0.29088
-    ## log.Adult.Mortality:CountryAustria                                                                0.35689
-    ## log.Adult.Mortality:CountryAzerbaijan                                                             0.28095
-    ## log.Adult.Mortality:CountryBahamas                                                                0.30217
-    ## log.Adult.Mortality:CountryBahrain                                                                0.27337
-    ## log.Adult.Mortality:CountryBangladesh                                                             0.26141
-    ## log.Adult.Mortality:CountryBarbados                                                               0.28609
-    ## log.Adult.Mortality:CountryBelarus                                                                0.26225
-    ## log.Adult.Mortality:CountryBelgium                                                                0.43452
-    ## log.Adult.Mortality:CountryBelize                                                                 0.34187
-    ## log.Adult.Mortality:CountryBenin                                                                  0.40226
-    ## log.Adult.Mortality:CountryBhutan                                                                 0.39678
-    ## log.Adult.Mortality:CountryBolivia                                                                0.77165
-    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                 0.29967
-    ## log.Adult.Mortality:CountryBotswana                                                               0.37182
-    ## log.Adult.Mortality:CountryBrazil                                                                 0.63952
-    ## log.Adult.Mortality:CountryBrunei Darussalam                                                      0.32310
-    ## log.Adult.Mortality:CountryBulgaria                                                               0.34570
-    ## log.Adult.Mortality:CountryBurkina Faso                                                           0.10711
-    ## log.Adult.Mortality:CountryBurundi                                                                0.57932
-    ## log.Adult.Mortality:CountryCabo Verde                                                             0.27795
-    ## log.Adult.Mortality:CountryCambodia                                                               0.26076
-    ## log.Adult.Mortality:CountryCameroon                                                               0.71141
-    ## log.Adult.Mortality:CountryCanada                                                                 0.36123
-    ## log.Adult.Mortality:CountryCentral African Republic                                               0.85585
-    ## log.Adult.Mortality:CountryChad                                                                   0.95609
-    ## log.Adult.Mortality:CountryChile                                                                  0.44502
-    ## log.Adult.Mortality:CountryChina                                                                  0.26567
-    ## log.Adult.Mortality:CountryColombia                                                               0.45291
-    ## log.Adult.Mortality:CountryComoros                                                                0.40974
-    ## log.Adult.Mortality:CountryCongo                                                                  0.48536
-    ## log.Adult.Mortality:CountryCosta Rica                                                             0.34104
-    ## log.Adult.Mortality:CountryCroatia                                                                0.30439
-    ## log.Adult.Mortality:CountryCuba                                                                   0.29379
-    ## log.Adult.Mortality:CountryCyprus                                                                 0.32421
-    ## log.Adult.Mortality:CountryCzechia                                                                0.30380
-    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                  0.40502
-    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                       0.90548
-    ## log.Adult.Mortality:CountryDenmark                                                                0.34631
-    ## log.Adult.Mortality:CountryDjibouti                                                               0.02859
-    ## log.Adult.Mortality:CountryDominican Republic                                                     0.20750
-    ## log.Adult.Mortality:CountryEcuador                                                                0.26932
-    ## log.Adult.Mortality:CountryEgypt                                                                  0.22504
-    ## log.Adult.Mortality:CountryEl Salvador                                                            0.13398
-    ## log.Adult.Mortality:CountryEquatorial Guinea                                                      0.40059
-    ## log.Adult.Mortality:CountryEritrea                                                                0.05672
-    ## log.Adult.Mortality:CountryEstonia                                                                0.27618
-    ## log.Adult.Mortality:CountryEthiopia                                                               0.28812
-    ## log.Adult.Mortality:CountryFiji                                                                   0.31627
-    ## log.Adult.Mortality:CountryFinland                                                                0.37272
-    ## log.Adult.Mortality:CountryFrance                                                                 0.32771
-    ## log.Adult.Mortality:CountryGabon                                                                  0.33689
-    ## log.Adult.Mortality:CountryGambia                                                                 0.69492
-    ## log.Adult.Mortality:CountryGeorgia                                                                0.20654
-    ## log.Adult.Mortality:CountryGermany                                                                0.84352
-    ## log.Adult.Mortality:CountryGhana                                                                  0.07146
-    ## log.Adult.Mortality:CountryGreece                                                                 0.48286
-    ## log.Adult.Mortality:CountryGrenada                                                                0.23034
-    ## log.Adult.Mortality:CountryGuatemala                                                              0.00908
-    ## log.Adult.Mortality:CountryGuinea                                                                 0.33308
-    ## log.Adult.Mortality:CountryGuinea-Bissau                                                          0.11916
-    ## log.Adult.Mortality:CountryGuyana                                                                 0.30265
-    ## log.Adult.Mortality:CountryHaiti                                                                  0.10912
-    ## log.Adult.Mortality:CountryHonduras                                                               0.39555
-    ## log.Adult.Mortality:CountryHungary                                                                0.29841
-    ## log.Adult.Mortality:CountryIceland                                                                0.26614
-    ## log.Adult.Mortality:CountryIndia                                                                  0.45822
-    ## log.Adult.Mortality:CountryIndonesia                                                              0.27435
-    ## log.Adult.Mortality:CountryIran                                                                   0.38156
-    ## log.Adult.Mortality:CountryIraq                                                                   0.01014
-    ## log.Adult.Mortality:CountryIreland                                                                0.35629
-    ## log.Adult.Mortality:CountryIsrael                                                                 0.29576
-    ## log.Adult.Mortality:CountryItaly                                                                  0.26608
-    ## log.Adult.Mortality:CountryIvory Coast                                                            0.72344
-    ## log.Adult.Mortality:CountryJamaica                                                                0.30855
-    ## log.Adult.Mortality:CountryJapan                                                                  0.27118
-    ## log.Adult.Mortality:CountryJordan                                                                 0.32319
-    ## log.Adult.Mortality:CountryKazakhstan                                                             0.30274
-    ## log.Adult.Mortality:CountryKenya                                                                  0.23828
-    ## log.Adult.Mortality:CountryKiribati                                                               0.36253
-    ## log.Adult.Mortality:CountryKuwait                                                                 0.30907
-    ## log.Adult.Mortality:CountryKyrgyzstan                                                             0.11549
-    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                       0.32199
-    ## log.Adult.Mortality:CountryLatvia                                                                 0.27334
-    ## log.Adult.Mortality:CountryLebanon                                                                0.30472
-    ## log.Adult.Mortality:CountryLesotho                                                                0.64682
-    ## log.Adult.Mortality:CountryLiberia                                                                0.35319
-    ## log.Adult.Mortality:CountryLibya                                                                  0.14411
-    ## log.Adult.Mortality:CountryLithuania                                                              0.24516
-    ## log.Adult.Mortality:CountryLuxembourg                                                             0.30514
-    ## log.Adult.Mortality:CountryMadagascar                                                             0.07998
-    ## log.Adult.Mortality:CountryMalawi                                                                 0.27311
-    ## log.Adult.Mortality:CountryMalaysia                                                               0.41451
-    ## log.Adult.Mortality:CountryMaldives                                                               0.27891
-    ## log.Adult.Mortality:CountryMali                                                                   0.65261
-    ## log.Adult.Mortality:CountryMalta                                                                  0.35683
-    ## log.Adult.Mortality:CountryMauritania                                                             0.30206
-    ## log.Adult.Mortality:CountryMauritius                                                              0.35588
-    ## log.Adult.Mortality:CountryMexico                                                                 0.56017
-    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                       0.35214
-    ## log.Adult.Mortality:CountryMongolia                                                               0.26596
-    ## log.Adult.Mortality:CountryMontenegro                                                             0.30367
-    ## log.Adult.Mortality:CountryMorocco                                                                0.26176
-    ## log.Adult.Mortality:CountryMozambique                                                             0.52667
-    ## log.Adult.Mortality:CountryMyanmar                                                                0.26772
-    ## log.Adult.Mortality:CountryNamibia                                                                0.49825
-    ## log.Adult.Mortality:CountryNepal                                                                  0.28053
-    ## log.Adult.Mortality:CountryNetherlands                                                            0.33087
-    ## log.Adult.Mortality:CountryNew Zealand                                                            0.36601
-    ## log.Adult.Mortality:CountryNicaragua                                                              0.54701
+    ## infant.deaths:CountryVenezuela                                                                    0.96433
+    ## infant.deaths:CountryViet Nam                                                                     0.89467
+    ## infant.deaths:CountryYemen                                                                        0.30770
+    ## infant.deaths:CountryZambia                                                                       0.42801
+    ## infant.deaths:CountryZimbabwe                                                                     0.64837
+    ## log.Adult.Mortality:CountryAlbania                                                                0.30079
+    ## log.Adult.Mortality:CountryAlgeria                                                                0.55898
+    ## log.Adult.Mortality:CountryAngola                                                                 0.68142
+    ## log.Adult.Mortality:CountryAntigua and Barbuda                                                    0.30617
+    ## log.Adult.Mortality:CountryArgentina                                                              0.42864
+    ## log.Adult.Mortality:CountryArmenia                                                                0.30556
+    ## log.Adult.Mortality:CountryAustralia                                                              0.28663
+    ## log.Adult.Mortality:CountryAustria                                                                0.35273
+    ## log.Adult.Mortality:CountryAzerbaijan                                                             0.27712
+    ## log.Adult.Mortality:CountryBahamas                                                                0.29815
+    ## log.Adult.Mortality:CountryBahrain                                                                0.26945
+    ## log.Adult.Mortality:CountryBangladesh                                                             0.25876
+    ## log.Adult.Mortality:CountryBarbados                                                               0.28191
+    ## log.Adult.Mortality:CountryBelarus                                                                0.25829
+    ## log.Adult.Mortality:CountryBelgium                                                                0.43032
+    ## log.Adult.Mortality:CountryBelize                                                                 0.33778
+    ## log.Adult.Mortality:CountryBenin                                                                  0.39793
+    ## log.Adult.Mortality:CountryBhutan                                                                 0.39259
+    ## log.Adult.Mortality:CountryBolivia                                                                0.76690
+    ## log.Adult.Mortality:CountryBosnia and Herzegovina                                                 0.29556
+    ## log.Adult.Mortality:CountryBotswana                                                               0.36764
+    ## log.Adult.Mortality:CountryBrazil                                                                 0.63655
+    ## log.Adult.Mortality:CountryBrunei Darussalam                                                      0.31872
+    ## log.Adult.Mortality:CountryBulgaria                                                               0.34108
+    ## log.Adult.Mortality:CountryBurkina Faso                                                           0.10548
+    ## log.Adult.Mortality:CountryBurundi                                                                0.58151
+    ## log.Adult.Mortality:CountryCabo Verde                                                             0.25947
+    ## log.Adult.Mortality:CountryCambodia                                                               0.26184
+    ## log.Adult.Mortality:CountryCameroon                                                               0.70693
+    ## log.Adult.Mortality:CountryCanada                                                                 0.29129
+    ## log.Adult.Mortality:CountryCentral African Republic                                               0.35519
+    ## log.Adult.Mortality:CountryChad                                                                   0.83714
+    ## log.Adult.Mortality:CountryChile                                                                  0.44399
+    ## log.Adult.Mortality:CountryChina                                                                  0.27023
+    ## log.Adult.Mortality:CountryColombia                                                               0.44303
+    ## log.Adult.Mortality:CountryComoros                                                                0.43367
+    ## log.Adult.Mortality:CountryCongo                                                                  0.55296
+    ## log.Adult.Mortality:CountryCosta Rica                                                             0.31437
+    ## log.Adult.Mortality:CountryCroatia                                                                0.30210
+    ## log.Adult.Mortality:CountryCuba                                                                   0.29113
+    ## log.Adult.Mortality:CountryCyprus                                                                 0.31283
+    ## log.Adult.Mortality:CountryCzechia                                                                0.30132
+    ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                  0.40012
+    ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                       0.99718
+    ## log.Adult.Mortality:CountryDenmark                                                                0.34234
+    ## log.Adult.Mortality:CountryDjibouti                                                               0.13932
+    ## log.Adult.Mortality:CountryDominican Republic                                                     0.21114
+    ## log.Adult.Mortality:CountryEcuador                                                                0.38307
+    ## log.Adult.Mortality:CountryEgypt                                                                  0.36120
+    ## log.Adult.Mortality:CountryEl Salvador                                                            0.24483
+    ## log.Adult.Mortality:CountryEquatorial Guinea                                                      0.40311
+    ## log.Adult.Mortality:CountryEritrea                                                                0.07119
+    ## log.Adult.Mortality:CountryEstonia                                                                0.27315
+    ## log.Adult.Mortality:CountryEthiopia                                                               0.21362
+    ## log.Adult.Mortality:CountryFiji                                                                   0.31253
+    ## log.Adult.Mortality:CountryFinland                                                                0.42557
+    ## log.Adult.Mortality:CountryFrance                                                                 0.29563
+    ## log.Adult.Mortality:CountryGabon                                                                  0.33426
+    ## log.Adult.Mortality:CountryGambia                                                                 0.68321
+    ## log.Adult.Mortality:CountryGeorgia                                                                0.19873
+    ## log.Adult.Mortality:CountryGermany                                                                0.80500
+    ## log.Adult.Mortality:CountryGhana                                                                  0.00303
+    ## log.Adult.Mortality:CountryGreece                                                                 0.48530
+    ## log.Adult.Mortality:CountryGrenada                                                                0.23220
+    ## log.Adult.Mortality:CountryGuatemala                                                              0.00607
+    ## log.Adult.Mortality:CountryGuinea                                                                 0.32232
+    ## log.Adult.Mortality:CountryGuinea-Bissau                                                          0.20464
+    ## log.Adult.Mortality:CountryGuyana                                                                 0.28083
+    ## log.Adult.Mortality:CountryHaiti                                                                  0.10501
+    ## log.Adult.Mortality:CountryHonduras                                                               0.39405
+    ## log.Adult.Mortality:CountryHungary                                                                0.29272
+    ## log.Adult.Mortality:CountryIceland                                                                0.26305
+    ## log.Adult.Mortality:CountryIndia                                                                  0.53427
+    ## log.Adult.Mortality:CountryIndonesia                                                              0.37179
+    ## log.Adult.Mortality:CountryIran                                                                   0.30328
+    ## log.Adult.Mortality:CountryIraq                                                                   0.01664
+    ## log.Adult.Mortality:CountryIreland                                                                0.33462
+    ## log.Adult.Mortality:CountryIsrael                                                                 0.29074
+    ## log.Adult.Mortality:CountryItaly                                                                  0.23859
+    ## log.Adult.Mortality:CountryIvory Coast                                                            0.65816
+    ## log.Adult.Mortality:CountryJamaica                                                                0.30455
+    ## log.Adult.Mortality:CountryJapan                                                                  0.26652
+    ## log.Adult.Mortality:CountryJordan                                                                 0.31911
+    ## log.Adult.Mortality:CountryKazakhstan                                                             0.29929
+    ## log.Adult.Mortality:CountryKenya                                                                  0.23443
+    ## log.Adult.Mortality:CountryKiribati                                                               0.35808
+    ## log.Adult.Mortality:CountryKuwait                                                                 0.30484
+    ## log.Adult.Mortality:CountryKyrgyzstan                                                             0.11142
+    ## log.Adult.Mortality:CountryLao People's Democratic Republic                                       0.31737
+    ## log.Adult.Mortality:CountryLatvia                                                                 0.26939
+    ## log.Adult.Mortality:CountryLebanon                                                                0.30077
+    ## log.Adult.Mortality:CountryLesotho                                                                0.64323
+    ## log.Adult.Mortality:CountryLiberia                                                                0.34885
+    ## log.Adult.Mortality:CountryLibya                                                                  0.14238
+    ## log.Adult.Mortality:CountryLithuania                                                              0.24130
+    ## log.Adult.Mortality:CountryLuxembourg                                                             0.30107
+    ## log.Adult.Mortality:CountryMadagascar                                                             0.07931
+    ## log.Adult.Mortality:CountryMalawi                                                                 0.27089
+    ## log.Adult.Mortality:CountryMalaysia                                                               0.41267
+    ## log.Adult.Mortality:CountryMaldives                                                               0.27491
+    ## log.Adult.Mortality:CountryMali                                                                   0.65069
+    ## log.Adult.Mortality:CountryMalta                                                                  0.35261
+    ## log.Adult.Mortality:CountryMauritania                                                             0.29809
+    ## log.Adult.Mortality:CountryMauritius                                                              0.35161
+    ## log.Adult.Mortality:CountryMexico                                                                 0.55848
+    ## log.Adult.Mortality:CountryMicronesia (Federated States of)                                       0.34799
+    ## log.Adult.Mortality:CountryMongolia                                                               0.26089
+    ## log.Adult.Mortality:CountryMontenegro                                                             0.29951
+    ## log.Adult.Mortality:CountryMorocco                                                                0.25810
+    ## log.Adult.Mortality:CountryMozambique                                                             0.52812
+    ## log.Adult.Mortality:CountryMyanmar                                                                0.26373
+    ## log.Adult.Mortality:CountryNamibia                                                                0.49475
+    ## log.Adult.Mortality:CountryNepal                                                                  0.27638
+    ## log.Adult.Mortality:CountryNetherlands                                                            0.32677
+    ## log.Adult.Mortality:CountryNew Zealand                                                            0.36187
+    ## log.Adult.Mortality:CountryNicaragua                                                              0.54287
     ## log.Adult.Mortality:CountryNiger                                                                  0.00046
-    ## log.Adult.Mortality:CountryNigeria                                                                0.05230
-    ## log.Adult.Mortality:CountryNorway                                                                 0.30929
-    ## log.Adult.Mortality:CountryOman                                                                   0.31224
-    ## log.Adult.Mortality:CountryPakistan                                                               0.63344
-    ## log.Adult.Mortality:CountryPanama                                                                 0.63390
-    ## log.Adult.Mortality:CountryPapua New Guinea                                                       0.73971
-    ## log.Adult.Mortality:CountryParaguay                                                               0.73898
-    ## log.Adult.Mortality:CountryPeru                                                                   0.26227
-    ## log.Adult.Mortality:CountryPhilippines                                                            0.56415
-    ## log.Adult.Mortality:CountryPoland                                                                 0.34936
-    ## log.Adult.Mortality:CountryPortugal                                                               0.40931
-    ## log.Adult.Mortality:CountryQatar                                                                  0.31251
-    ## log.Adult.Mortality:CountryRepublic of Korea                                                      0.32982
-    ## log.Adult.Mortality:CountryRepublic of Moldova                                                    0.39896
-    ## log.Adult.Mortality:CountryRomania                                                                0.80059
-    ## log.Adult.Mortality:CountryRussian Federation                                                     0.64592
-    ## log.Adult.Mortality:CountryRwanda                                                                 0.30686
-    ## log.Adult.Mortality:CountrySaint Lucia                                                            0.32057
-    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                       0.14921
-    ## log.Adult.Mortality:CountrySamoa                                                                  0.23897
-    ## log.Adult.Mortality:CountrySao Tome and Principe                                                  0.38691
-    ## log.Adult.Mortality:CountrySaudi Arabia                                                           0.42928
-    ## log.Adult.Mortality:CountrySenegal                                                                0.36053
-    ## log.Adult.Mortality:CountrySerbia                                                                 0.31514
-    ## log.Adult.Mortality:CountrySeychelles                                                             0.30668
-    ## log.Adult.Mortality:CountrySierra Leone                                                           0.52683
-    ## log.Adult.Mortality:CountrySingapore                                                              0.30901
-    ## log.Adult.Mortality:CountrySlovakia                                                               0.30328
-    ## log.Adult.Mortality:CountrySlovenia                                                               0.35013
-    ## log.Adult.Mortality:CountrySolomon Islands                                                        0.28976
-    ## log.Adult.Mortality:CountrySomalia                                                                0.11331
-    ## log.Adult.Mortality:CountrySouth Africa                                                           0.79743
-    ## log.Adult.Mortality:CountrySouth Sudan                                                            0.59209
-    ## log.Adult.Mortality:CountrySpain                                                                  0.28690
-    ## log.Adult.Mortality:CountrySri Lanka                                                              0.27158
-    ## log.Adult.Mortality:CountrySudan                                                                  0.09668
-    ## log.Adult.Mortality:CountrySuriname                                                               0.38991
-    ## log.Adult.Mortality:CountrySwaziland                                                              0.30263
-    ## log.Adult.Mortality:CountrySweden                                                                 0.27399
-    ## log.Adult.Mortality:CountrySwitzerland                                                            0.27086
-    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                   0.30073
-    ## log.Adult.Mortality:CountryTajikistan                                                             0.82424
-    ## log.Adult.Mortality:CountryThailand                                                               0.30111
-    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                              0.30183
-    ## log.Adult.Mortality:CountryTimor-Leste                                                            0.37449
-    ## log.Adult.Mortality:CountryTogo                                                                   0.74729
-    ## log.Adult.Mortality:CountryTonga                                                                  0.31246
-    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                    0.42283
-    ## log.Adult.Mortality:CountryTunisia                                                                0.43138
-    ## log.Adult.Mortality:CountryTurkey                                                                 0.70910
-    ## log.Adult.Mortality:CountryTurkmenistan                                                           0.37752
-    ## log.Adult.Mortality:CountryUganda                                                                 0.48349
-    ## log.Adult.Mortality:CountryUkraine                                                                0.10067
-    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                   0.29266
-    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                   0.28904
-    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                            0.21835
-    ## log.Adult.Mortality:CountryUnited States of America                                               0.39701
-    ## log.Adult.Mortality:CountryUruguay                                                                0.34272
-    ## log.Adult.Mortality:CountryUzbekistan                                                             0.27580
-    ## log.Adult.Mortality:CountryVanuatu                                                                0.31368
-    ## log.Adult.Mortality:CountryVenezuela                                                              0.90490
-    ## log.Adult.Mortality:CountryViet Nam                                                               0.80177
-    ## log.Adult.Mortality:CountryYemen                                                                  0.39310
-    ## log.Adult.Mortality:CountryZambia                                                                 0.24919
-    ## log.Adult.Mortality:CountryZimbabwe                                                               0.61622
-    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.29896
-    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                  0.65853
-    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  0.98643
-    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.59047
+    ## log.Adult.Mortality:CountryNigeria                                                                0.04223
+    ## log.Adult.Mortality:CountryNorway                                                                 0.30530
+    ## log.Adult.Mortality:CountryOman                                                                   0.30807
+    ## log.Adult.Mortality:CountryPakistan                                                               0.63431
+    ## log.Adult.Mortality:CountryPanama                                                                 0.62680
+    ## log.Adult.Mortality:CountryPapua New Guinea                                                       0.73481
+    ## log.Adult.Mortality:CountryParaguay                                                               0.73439
+    ## log.Adult.Mortality:CountryPeru                                                                   0.25875
+    ## log.Adult.Mortality:CountryPhilippines                                                            0.56434
+    ## log.Adult.Mortality:CountryPoland                                                                 0.34482
+    ## log.Adult.Mortality:CountryPortugal                                                               0.40516
+    ## log.Adult.Mortality:CountryQatar                                                                  0.30835
+    ## log.Adult.Mortality:CountryRepublic of Korea                                                      0.32561
+    ## log.Adult.Mortality:CountryRepublic of Moldova                                                    0.39476
+    ## log.Adult.Mortality:CountryRomania                                                                0.79755
+    ## log.Adult.Mortality:CountryRussian Federation                                                     0.64099
+    ## log.Adult.Mortality:CountryRwanda                                                                 0.30292
+    ## log.Adult.Mortality:CountrySaint Lucia                                                            0.31634
+    ## log.Adult.Mortality:CountrySaint Vincent and the Grenadines                                       0.14601
+    ## log.Adult.Mortality:CountrySamoa                                                                  0.23513
+    ## log.Adult.Mortality:CountrySao Tome and Principe                                                  0.38259
+    ## log.Adult.Mortality:CountrySaudi Arabia                                                           0.42496
+    ## log.Adult.Mortality:CountrySenegal                                                                0.35378
+    ## log.Adult.Mortality:CountrySerbia                                                                 0.31110
+    ## log.Adult.Mortality:CountrySeychelles                                                             0.30266
+    ## log.Adult.Mortality:CountrySierra Leone                                                           0.52545
+    ## log.Adult.Mortality:CountrySingapore                                                              0.30491
+    ## log.Adult.Mortality:CountrySlovakia                                                               0.29924
+    ## log.Adult.Mortality:CountrySlovenia                                                               0.34597
+    ## log.Adult.Mortality:CountrySolomon Islands                                                        0.28575
+    ## log.Adult.Mortality:CountrySomalia                                                                0.11043
+    ## log.Adult.Mortality:CountrySouth Africa                                                           0.79455
+    ## log.Adult.Mortality:CountrySouth Sudan                                                            0.59138
+    ## log.Adult.Mortality:CountrySpain                                                                  0.28379
+    ## log.Adult.Mortality:CountrySri Lanka                                                              0.26660
+    ## log.Adult.Mortality:CountrySudan                                                                  0.09397
+    ## log.Adult.Mortality:CountrySuriname                                                               0.38543
+    ## log.Adult.Mortality:CountrySwaziland                                                              0.29817
+    ## log.Adult.Mortality:CountrySweden                                                                 0.27010
+    ## log.Adult.Mortality:CountrySwitzerland                                                            0.26689
+    ## log.Adult.Mortality:CountrySyrian Arab Republic                                                   0.29671
+    ## log.Adult.Mortality:CountryTajikistan                                                             0.82123
+    ## log.Adult.Mortality:CountryThailand                                                               0.29736
+    ## log.Adult.Mortality:CountryThe former Yugoslav republic of Macedonia                              0.29779
+    ## log.Adult.Mortality:CountryTimor-Leste                                                            0.37048
+    ## log.Adult.Mortality:CountryTogo                                                                   0.74453
+    ## log.Adult.Mortality:CountryTonga                                                                  0.30831
+    ## log.Adult.Mortality:CountryTrinidad and Tobago                                                    0.41837
+    ## log.Adult.Mortality:CountryTunisia                                                                0.42780
+    ## log.Adult.Mortality:CountryTurkey                                                                 0.70556
+    ## log.Adult.Mortality:CountryTurkmenistan                                                           0.37360
+    ## log.Adult.Mortality:CountryUganda                                                                 0.47624
+    ## log.Adult.Mortality:CountryUkraine                                                                0.09871
+    ## log.Adult.Mortality:CountryUnited Arab Emirates                                                   0.28865
+    ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                   0.28537
+    ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                            0.21540
+    ## log.Adult.Mortality:CountryUnited States of America                                               0.39387
+    ## log.Adult.Mortality:CountryUruguay                                                                0.33826
+    ## log.Adult.Mortality:CountryUzbekistan                                                             0.27124
+    ## log.Adult.Mortality:CountryVanuatu                                                                0.30958
+    ## log.Adult.Mortality:CountryVenezuela                                                              0.90341
+    ## log.Adult.Mortality:CountryViet Nam                                                               0.79673
+    ## log.Adult.Mortality:CountryYemen                                                                  0.38789
+    ## log.Adult.Mortality:CountryZambia                                                                 0.24680
+    ## log.Adult.Mortality:CountryZimbabwe                                                               0.61302
+    ## log.Adult.Mortality:infant.deaths:CountryAfghanistan                                              0.29521
+    ## log.Adult.Mortality:infant.deaths:CountryAlbania                                                  0.65660
+    ## log.Adult.Mortality:infant.deaths:CountryAlgeria                                                  0.98276
+    ## log.Adult.Mortality:infant.deaths:CountryAngola                                                   0.58705
     ## log.Adult.Mortality:infant.deaths:CountryAntigua and Barbuda                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                0.91032
+    ## log.Adult.Mortality:infant.deaths:CountryArgentina                                                0.91135
     ## log.Adult.Mortality:infant.deaths:CountryArmenia                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryAustralia                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountryAustria                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                               0.71850
+    ## log.Adult.Mortality:infant.deaths:CountryAzerbaijan                                               0.71713
     ## log.Adult.Mortality:infant.deaths:CountryBahamas                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryBahrain                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.96431
+    ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                               0.95465
     ## log.Adult.Mortality:infant.deaths:CountryBarbados                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                  0.10150
-    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                  0.22033
+    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                  0.09974
+    ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                  0.21632
     ## log.Adult.Mortality:infant.deaths:CountryBelize                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryBenin                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                   0.97317
-    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                  0.71995
+    ## log.Adult.Mortality:infant.deaths:CountryBhutan                                                   0.97236
+    ## log.Adult.Mortality:infant.deaths:CountryBolivia                                                  0.71528
     ## log.Adult.Mortality:infant.deaths:CountryBosnia and Herzegovina                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryBotswana                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.10799
+    ## log.Adult.Mortality:infant.deaths:CountryBrazil                                                   0.10719
     ## log.Adult.Mortality:infant.deaths:CountryBrunei Darussalam                                             NA
     ## log.Adult.Mortality:infant.deaths:CountryBulgaria                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                             0.21100
-    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  0.22163
+    ## log.Adult.Mortality:infant.deaths:CountryBurkina Faso                                             0.20979
+    ## log.Adult.Mortality:infant.deaths:CountryBurundi                                                  0.22110
     ## log.Adult.Mortality:infant.deaths:CountryCabo Verde                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                 0.61362
-    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 0.95254
+    ## log.Adult.Mortality:infant.deaths:CountryCambodia                                                 0.61253
+    ## log.Adult.Mortality:infant.deaths:CountryCameroon                                                 0.92840
     ## log.Adult.Mortality:infant.deaths:CountryCanada                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                 0.63266
-    ## log.Adult.Mortality:infant.deaths:CountryChad                                                     0.96988
+    ## log.Adult.Mortality:infant.deaths:CountryCentral African Republic                                      NA
+    ## log.Adult.Mortality:infant.deaths:CountryChad                                                     0.86489
     ## log.Adult.Mortality:infant.deaths:CountryChile                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryChina                                                    0.79235
-    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 0.86817
-    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                  0.87287
-    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    0.68258
+    ## log.Adult.Mortality:infant.deaths:CountryChina                                                    0.83933
+    ## log.Adult.Mortality:infant.deaths:CountryColombia                                                 0.87316
+    ## log.Adult.Mortality:infant.deaths:CountryComoros                                                  0.64125
+    ## log.Adult.Mortality:infant.deaths:CountryCongo                                                    0.46680
     ## log.Adult.Mortality:infant.deaths:CountryCosta Rica                                                    NA
     ## log.Adult.Mortality:infant.deaths:CountryCroatia                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryCuba                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryCyprus                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryCzechia                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    0.39287
-    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         0.77202
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                    0.40059
+    ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                         0.84829
     ## log.Adult.Mortality:infant.deaths:CountryDenmark                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                                 0.02597
-    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                       0.36478
-    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                  0.74663
-    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    0.19238
-    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                              0.03440
+    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                                 0.27179
+    ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                       0.35570
+    ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                  0.95166
+    ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                    0.34199
+    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                              0.55455
     ## log.Adult.Mortality:infant.deaths:CountryEquatorial Guinea                                             NA
-    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                  0.01368
+    ## log.Adult.Mortality:infant.deaths:CountryEritrea                                                  0.01175
     ## log.Adult.Mortality:infant.deaths:CountryEstonia                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                 0.93108
+    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                 0.07218
     ## log.Adult.Mortality:infant.deaths:CountryFiji                                                          NA
     ## log.Adult.Mortality:infant.deaths:CountryFinland                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryFrance                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryGabon                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountryGambia                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                  0.48246
-    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                  0.00957
-    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                    0.08355
-    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                   0.66439
+    ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                  0.42038
+    ## log.Adult.Mortality:infant.deaths:CountryGermany                                                  0.02195
+    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                    0.00134
+    ## log.Adult.Mortality:infant.deaths:CountryGreece                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryGrenada                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                            0.000000022
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                   0.78504
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                            0.00839
-    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                   0.91497
-    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                    0.01090
-    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                 0.95258
-    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                  0.61500
+    ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                            0.000000027
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                   0.77942
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                            0.02618
+    ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                   0.89650
+    ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                    0.01277
+    ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                 0.96402
+    ## log.Adult.Mortality:infant.deaths:CountryHungary                                                  0.57864
     ## log.Adult.Mortality:infant.deaths:CountryIceland                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                    0.83013
-    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                                0.59271
-    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.22539
-    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                     0.01460
+    ## log.Adult.Mortality:infant.deaths:CountryIndia                                                    0.89528
+    ## log.Adult.Mortality:infant.deaths:CountryIndonesia                                                0.66195
+    ## log.Adult.Mortality:infant.deaths:CountryIran                                                     0.88995
+    ## log.Adult.Mortality:infant.deaths:CountryIraq                                                     0.01343
     ## log.Adult.Mortality:infant.deaths:CountryIreland                                                       NA
     ## log.Adult.Mortality:infant.deaths:CountryIsrael                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              0.46351
+    ## log.Adult.Mortality:infant.deaths:CountryItaly                                                    0.50462
+    ## log.Adult.Mortality:infant.deaths:CountryIvory Coast                                              0.46343
     ## log.Adult.Mortality:infant.deaths:CountryJamaica                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                    0.77883
+    ## log.Adult.Mortality:infant.deaths:CountryJapan                                                    0.77001
     ## log.Adult.Mortality:infant.deaths:CountryJordan                                                        NA
-    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                               0.67593
-    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                    0.35171
+    ## log.Adult.Mortality:infant.deaths:CountryKazakhstan                                               0.67720
+    ## log.Adult.Mortality:infant.deaths:CountryKenya                                                    0.34908
     ## log.Adult.Mortality:infant.deaths:CountryKiribati                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                   0.86567
-    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                               0.19349
-    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                         0.57962
+    ## log.Adult.Mortality:infant.deaths:CountryKuwait                                                   0.86407
+    ## log.Adult.Mortality:infant.deaths:CountryKyrgyzstan                                               0.18727
+    ## log.Adult.Mortality:infant.deaths:CountryLao People's Democratic Republic                         0.57504
     ## log.Adult.Mortality:infant.deaths:CountryLatvia                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryLebanon                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  0.43429
-    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                  0.84430
-    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                    0.00895
+    ## log.Adult.Mortality:infant.deaths:CountryLesotho                                                  0.43145
+    ## log.Adult.Mortality:infant.deaths:CountryLiberia                                                  0.84211
+    ## log.Adult.Mortality:infant.deaths:CountryLibya                                                    0.00857
     ## log.Adult.Mortality:infant.deaths:CountryLithuania                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountryLuxembourg                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                               0.22639
-    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                   0.24727
-    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                 0.94297
+    ## log.Adult.Mortality:infant.deaths:CountryMadagascar                                               0.23100
+    ## log.Adult.Mortality:infant.deaths:CountryMalawi                                                   0.26254
+    ## log.Adult.Mortality:infant.deaths:CountryMalaysia                                                 0.94752
     ## log.Adult.Mortality:infant.deaths:CountryMaldives                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     0.44771
+    ## log.Adult.Mortality:infant.deaths:CountryMali                                                     0.44462
     ## log.Adult.Mortality:infant.deaths:CountryMalta                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                               0.27239
+    ## log.Adult.Mortality:infant.deaths:CountryMauritania                                               0.26847
     ## log.Adult.Mortality:infant.deaths:CountryMauritius                                                     NA
-    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   0.77520
+    ## log.Adult.Mortality:infant.deaths:CountryMexico                                                   0.77132
     ## log.Adult.Mortality:infant.deaths:CountryMicronesia (Federated States of)                              NA
-    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                                 0.27418
+    ## log.Adult.Mortality:infant.deaths:CountryMongolia                                                 0.26815
     ## log.Adult.Mortality:infant.deaths:CountryMontenegro                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.89992
-    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               0.00921
-    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                  0.54107
-    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                  0.77850
-    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                    0.57191
+    ## log.Adult.Mortality:infant.deaths:CountryMorocco                                                  0.89865
+    ## log.Adult.Mortality:infant.deaths:CountryMozambique                                               0.00897
+    ## log.Adult.Mortality:infant.deaths:CountryMyanmar                                                  0.53797
+    ## log.Adult.Mortality:infant.deaths:CountryNamibia                                                  0.77691
+    ## log.Adult.Mortality:infant.deaths:CountryNepal                                                    0.56473
     ## log.Adult.Mortality:infant.deaths:CountryNetherlands                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountryNew Zealand                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                                0.07568
+    ## log.Adult.Mortality:infant.deaths:CountryNicaragua                                                0.07376
     ## log.Adult.Mortality:infant.deaths:CountryNiger                                                    0.00018
-    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                  0.03514
+    ## log.Adult.Mortality:infant.deaths:CountryNigeria                                                  0.02769
     ## log.Adult.Mortality:infant.deaths:CountryNorway                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountryOman                                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                 0.75999
-    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                   0.76254
-    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                         0.86867
-    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                 0.09671
-    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     0.79059
-    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                              0.94428
-    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                   0.94617
-    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                 0.89626
+    ## log.Adult.Mortality:infant.deaths:CountryPakistan                                                 0.76215
+    ## log.Adult.Mortality:infant.deaths:CountryPanama                                                   0.75603
+    ## log.Adult.Mortality:infant.deaths:CountryPapua New Guinea                                         0.86459
+    ## log.Adult.Mortality:infant.deaths:CountryParaguay                                                 0.09505
+    ## log.Adult.Mortality:infant.deaths:CountryPeru                                                     0.79521
+    ## log.Adult.Mortality:infant.deaths:CountryPhilippines                                              0.94848
+    ## log.Adult.Mortality:infant.deaths:CountryPoland                                                   0.94470
+    ## log.Adult.Mortality:infant.deaths:CountryPortugal                                                 0.89335
     ## log.Adult.Mortality:infant.deaths:CountryQatar                                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                        0.47266
+    ## log.Adult.Mortality:infant.deaths:CountryRepublic of Korea                                        0.46024
     ## log.Adult.Mortality:infant.deaths:CountryRepublic of Moldova                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                  0.00060
-    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       0.14520
-    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                   0.02185
+    ## log.Adult.Mortality:infant.deaths:CountryRomania                                                  0.00055
+    ## log.Adult.Mortality:infant.deaths:CountryRussian Federation                                       0.14420
+    ## log.Adult.Mortality:infant.deaths:CountryRwanda                                                   0.02101
     ## log.Adult.Mortality:infant.deaths:CountrySaint Lucia                                                   NA
     ## log.Adult.Mortality:infant.deaths:CountrySaint Vincent and the Grenadines                              NA
     ## log.Adult.Mortality:infant.deaths:CountrySamoa                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountrySao Tome and Principe                                         NA
-    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             0.86324
-    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                  0.82955
+    ## log.Adult.Mortality:infant.deaths:CountrySaudi Arabia                                             0.86379
+    ## log.Adult.Mortality:infant.deaths:CountrySenegal                                                  0.82197
     ## log.Adult.Mortality:infant.deaths:CountrySerbia                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountrySeychelles                                                    NA
-    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             0.02850
+    ## log.Adult.Mortality:infant.deaths:CountrySierra Leone                                             0.02753
     ## log.Adult.Mortality:infant.deaths:CountrySingapore                                                     NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovakia                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountrySlovenia                                                      NA
     ## log.Adult.Mortality:infant.deaths:CountrySolomon Islands                                               NA
-    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                  0.15294
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             0.08772
-    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                              0.41083
-    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                    0.65875
-    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                                0.67926
-    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                    0.17634
+    ## log.Adult.Mortality:infant.deaths:CountrySomalia                                                  0.14974
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Africa                                             0.08591
+    ## log.Adult.Mortality:infant.deaths:CountrySouth Sudan                                              0.40895
+    ## log.Adult.Mortality:infant.deaths:CountrySpain                                                    0.65992
+    ## log.Adult.Mortality:infant.deaths:CountrySri Lanka                                                0.67163
+    ## log.Adult.Mortality:infant.deaths:CountrySudan                                                    0.17234
     ## log.Adult.Mortality:infant.deaths:CountrySuriname                                                      NA
-    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                                0.40302
+    ## log.Adult.Mortality:infant.deaths:CountrySwaziland                                                0.39836
     ## log.Adult.Mortality:infant.deaths:CountrySweden                                                        NA
     ## log.Adult.Mortality:infant.deaths:CountrySwitzerland                                                   NA
-    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                     0.90567
-    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               0.48977
-    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                 0.72778
+    ## log.Adult.Mortality:infant.deaths:CountrySyrian Arab Republic                                     0.90504
+    ## log.Adult.Mortality:infant.deaths:CountryTajikistan                                               0.48770
+    ## log.Adult.Mortality:infant.deaths:CountryThailand                                                 0.72649
     ## log.Adult.Mortality:infant.deaths:CountryThe former Yugoslav republic of Macedonia                     NA
-    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                              0.98279
-    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     0.75380
+    ## log.Adult.Mortality:infant.deaths:CountryTimor-Leste                                              0.98181
+    ## log.Adult.Mortality:infant.deaths:CountryTogo                                                     0.75222
     ## log.Adult.Mortality:infant.deaths:CountryTonga                                                         NA
     ## log.Adult.Mortality:infant.deaths:CountryTrinidad and Tobago                                           NA
-    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                  0.79249
-    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   0.70320
-    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                             0.82944
-    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                   0.77524
-    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                  0.01387
+    ## log.Adult.Mortality:infant.deaths:CountryTunisia                                                  0.79127
+    ## log.Adult.Mortality:infant.deaths:CountryTurkey                                                   0.70570
+    ## log.Adult.Mortality:infant.deaths:CountryTurkmenistan                                             0.82873
+    ## log.Adult.Mortality:infant.deaths:CountryUganda                                                   0.75843
+    ## log.Adult.Mortality:infant.deaths:CountryUkraine                                                  0.01362
     ## log.Adult.Mortality:infant.deaths:CountryUnited Arab Emirates                                          NA
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland     0.59916
-    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              0.01057
-    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                 0.59865
-    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                  0.99642
-    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                               0.98971
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Kingdom of Great Britain and Northern Ireland     0.59710
+    ## log.Adult.Mortality:infant.deaths:CountryUnited Republic of Tanzania                              0.01002
+    ## log.Adult.Mortality:infant.deaths:CountryUnited States of America                                 0.59665
+    ## log.Adult.Mortality:infant.deaths:CountryUruguay                                                  0.99844
+    ## log.Adult.Mortality:infant.deaths:CountryUzbekistan                                               0.98513
     ## log.Adult.Mortality:infant.deaths:CountryVanuatu                                                       NA
-    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                                0.97129
-    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                 0.94612
-    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    0.24350
-    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                   0.63810
-    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 0.08250
+    ## log.Adult.Mortality:infant.deaths:CountryVenezuela                                                0.97034
+    ## log.Adult.Mortality:infant.deaths:CountryViet Nam                                                 0.94241
+    ## log.Adult.Mortality:infant.deaths:CountryYemen                                                    0.23860
+    ## log.Adult.Mortality:infant.deaths:CountryZambia                                                   0.64196
+    ## log.Adult.Mortality:infant.deaths:CountryZimbabwe                                                 0.07992
     ##                                                                                                  
     ## (Intercept)                                                                                      
     ## log.Adult.Mortality                                                                              
@@ -6826,7 +6927,7 @@ summary(fit.custom)
     ## CountryDemocratic People's Republic of Korea                                                     
     ## CountryDemocratic Republic of the Congo                                                          
     ## CountryDenmark                                                                                   
-    ## CountryDjibouti                                                                               *  
+    ## CountryDjibouti                                                                                  
     ## CountryDominican Republic                                                                        
     ## CountryEcuador                                                                                   
     ## CountryEgypt                                                                                     
@@ -6842,7 +6943,7 @@ summary(fit.custom)
     ## CountryGambia                                                                                    
     ## CountryGeorgia                                                                                   
     ## CountryGermany                                                                                   
-    ## CountryGhana                                                                                  .  
+    ## CountryGhana                                                                                  ** 
     ## CountryGreece                                                                                    
     ## CountryGrenada                                                                                   
     ## CountryGuatemala                                                                              ** 
@@ -6856,7 +6957,7 @@ summary(fit.custom)
     ## CountryIndia                                                                                     
     ## CountryIndonesia                                                                                 
     ## CountryIran                                                                                      
-    ## CountryIraq                                                                                   ** 
+    ## CountryIraq                                                                                   *  
     ## CountryIreland                                                                                   
     ## CountryIsrael                                                                                    
     ## CountryItaly                                                                                     
@@ -6950,7 +7051,7 @@ summary(fit.custom)
     ## CountryTurkey                                                                                    
     ## CountryTurkmenistan                                                                              
     ## CountryUganda                                                                                    
-    ## CountryUkraine                                                                                   
+    ## CountryUkraine                                                                                .  
     ## CountryUnited Arab Emirates                                                                      
     ## CountryUnited Kingdom of Great Britain and Northern Ireland                                      
     ## CountryUnited Republic of Tanzania                                                               
@@ -7008,11 +7109,11 @@ summary(fit.custom)
     ## infant.deaths:CountryDemocratic People's Republic of Korea                                       
     ## infant.deaths:CountryDemocratic Republic of the Congo                                            
     ## infant.deaths:CountryDenmark                                                                     
-    ## infant.deaths:CountryDjibouti                                                                 *  
+    ## infant.deaths:CountryDjibouti                                                                    
     ## infant.deaths:CountryDominican Republic                                                          
     ## infant.deaths:CountryEcuador                                                                     
     ## infant.deaths:CountryEgypt                                                                       
-    ## infant.deaths:CountryEl Salvador                                                              *  
+    ## infant.deaths:CountryEl Salvador                                                                 
     ## infant.deaths:CountryEquatorial Guinea                                                           
     ## infant.deaths:CountryEritrea                                                                  ** 
     ## infant.deaths:CountryEstonia                                                                     
@@ -7024,12 +7125,12 @@ summary(fit.custom)
     ## infant.deaths:CountryGambia                                                                      
     ## infant.deaths:CountryGeorgia                                                                     
     ## infant.deaths:CountryGermany                                                                  *  
-    ## infant.deaths:CountryGhana                                                                    .  
+    ## infant.deaths:CountryGhana                                                                    ***
     ## infant.deaths:CountryGreece                                                                      
     ## infant.deaths:CountryGrenada                                                                     
     ## infant.deaths:CountryGuatemala                                                                ***
     ## infant.deaths:CountryGuinea                                                                      
-    ## infant.deaths:CountryGuinea-Bissau                                                            ** 
+    ## infant.deaths:CountryGuinea-Bissau                                                            *  
     ## infant.deaths:CountryGuyana                                                                      
     ## infant.deaths:CountryHaiti                                                                    ** 
     ## infant.deaths:CountryHonduras                                                                    
@@ -7190,7 +7291,7 @@ summary(fit.custom)
     ## log.Adult.Mortality:CountryDemocratic People's Republic of Korea                                 
     ## log.Adult.Mortality:CountryDemocratic Republic of the Congo                                      
     ## log.Adult.Mortality:CountryDenmark                                                               
-    ## log.Adult.Mortality:CountryDjibouti                                                           *  
+    ## log.Adult.Mortality:CountryDjibouti                                                              
     ## log.Adult.Mortality:CountryDominican Republic                                                    
     ## log.Adult.Mortality:CountryEcuador                                                               
     ## log.Adult.Mortality:CountryEgypt                                                                 
@@ -7206,7 +7307,7 @@ summary(fit.custom)
     ## log.Adult.Mortality:CountryGambia                                                                
     ## log.Adult.Mortality:CountryGeorgia                                                               
     ## log.Adult.Mortality:CountryGermany                                                               
-    ## log.Adult.Mortality:CountryGhana                                                              .  
+    ## log.Adult.Mortality:CountryGhana                                                              ** 
     ## log.Adult.Mortality:CountryGreece                                                                
     ## log.Adult.Mortality:CountryGrenada                                                               
     ## log.Adult.Mortality:CountryGuatemala                                                          ** 
@@ -7262,7 +7363,7 @@ summary(fit.custom)
     ## log.Adult.Mortality:CountryNew Zealand                                                           
     ## log.Adult.Mortality:CountryNicaragua                                                             
     ## log.Adult.Mortality:CountryNiger                                                              ***
-    ## log.Adult.Mortality:CountryNigeria                                                            .  
+    ## log.Adult.Mortality:CountryNigeria                                                            *  
     ## log.Adult.Mortality:CountryNorway                                                                
     ## log.Adult.Mortality:CountryOman                                                                  
     ## log.Adult.Mortality:CountryPakistan                                                              
@@ -7314,7 +7415,7 @@ summary(fit.custom)
     ## log.Adult.Mortality:CountryTurkey                                                                
     ## log.Adult.Mortality:CountryTurkmenistan                                                          
     ## log.Adult.Mortality:CountryUganda                                                                
-    ## log.Adult.Mortality:CountryUkraine                                                               
+    ## log.Adult.Mortality:CountryUkraine                                                            .  
     ## log.Adult.Mortality:CountryUnited Arab Emirates                                                  
     ## log.Adult.Mortality:CountryUnited Kingdom of Great Britain and Northern Ireland                  
     ## log.Adult.Mortality:CountryUnited Republic of Tanzania                                           
@@ -7341,7 +7442,7 @@ summary(fit.custom)
     ## log.Adult.Mortality:infant.deaths:CountryBahrain                                                 
     ## log.Adult.Mortality:infant.deaths:CountryBangladesh                                              
     ## log.Adult.Mortality:infant.deaths:CountryBarbados                                                
-    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                                 
+    ## log.Adult.Mortality:infant.deaths:CountryBelarus                                              .  
     ## log.Adult.Mortality:infant.deaths:CountryBelgium                                                 
     ## log.Adult.Mortality:infant.deaths:CountryBelize                                                  
     ## log.Adult.Mortality:infant.deaths:CountryBenin                                                   
@@ -7373,28 +7474,28 @@ summary(fit.custom)
     ## log.Adult.Mortality:infant.deaths:CountryDemocratic People's Republic of Korea                   
     ## log.Adult.Mortality:infant.deaths:CountryDemocratic Republic of the Congo                        
     ## log.Adult.Mortality:infant.deaths:CountryDenmark                                                 
-    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                             *  
+    ## log.Adult.Mortality:infant.deaths:CountryDjibouti                                                
     ## log.Adult.Mortality:infant.deaths:CountryDominican Republic                                      
     ## log.Adult.Mortality:infant.deaths:CountryEcuador                                                 
     ## log.Adult.Mortality:infant.deaths:CountryEgypt                                                   
-    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                          *  
+    ## log.Adult.Mortality:infant.deaths:CountryEl Salvador                                             
     ## log.Adult.Mortality:infant.deaths:CountryEquatorial Guinea                                       
     ## log.Adult.Mortality:infant.deaths:CountryEritrea                                              *  
     ## log.Adult.Mortality:infant.deaths:CountryEstonia                                                 
-    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                                
+    ## log.Adult.Mortality:infant.deaths:CountryEthiopia                                             .  
     ## log.Adult.Mortality:infant.deaths:CountryFiji                                                    
     ## log.Adult.Mortality:infant.deaths:CountryFinland                                                 
     ## log.Adult.Mortality:infant.deaths:CountryFrance                                                  
     ## log.Adult.Mortality:infant.deaths:CountryGabon                                                   
     ## log.Adult.Mortality:infant.deaths:CountryGambia                                                  
     ## log.Adult.Mortality:infant.deaths:CountryGeorgia                                                 
-    ## log.Adult.Mortality:infant.deaths:CountryGermany                                              ** 
-    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                .  
+    ## log.Adult.Mortality:infant.deaths:CountryGermany                                              *  
+    ## log.Adult.Mortality:infant.deaths:CountryGhana                                                ** 
     ## log.Adult.Mortality:infant.deaths:CountryGreece                                                  
     ## log.Adult.Mortality:infant.deaths:CountryGrenada                                                 
     ## log.Adult.Mortality:infant.deaths:CountryGuatemala                                            ***
     ## log.Adult.Mortality:infant.deaths:CountryGuinea                                                  
-    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                        ** 
+    ## log.Adult.Mortality:infant.deaths:CountryGuinea-Bissau                                        *  
     ## log.Adult.Mortality:infant.deaths:CountryGuyana                                                  
     ## log.Adult.Mortality:infant.deaths:CountryHaiti                                                *  
     ## log.Adult.Mortality:infant.deaths:CountryHonduras                                                
@@ -7513,9 +7614,9 @@ summary(fit.custom)
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
-    ## Residual standard error: 1.39 on 1890 degrees of freedom
+    ## Residual standard error: 1.38 on 1891 degrees of freedom
     ## Multiple R-squared:  0.984,  Adjusted R-squared:  0.979 
-    ## F-statistic:  192 on 598 and 1890 DF,  p-value: <0.0000000000000002
+    ## F-statistic:  194 on 597 and 1891 DF,  p-value: <0.0000000000000002
 
 ``` r
 hist(residuals, main ="Histogram of Residuals")
@@ -7535,7 +7636,7 @@ plot(fit.custom,which=2)
 ```
 
     ## Warning: not plotting observations with leverage one:
-    ##   106, 363, 421, 461, 712, 898, 1300, 1398, 1979, 2072, 2319
+    ##   106, 363, 421, 712, 785, 911, 919, 1019, 1236, 1244, 1300, 1398, 1979, 1996, 2072
 
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-3.png)<!-- -->
 
@@ -7546,11 +7647,24 @@ plot(fit.custom, which =4)
 ![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-4.png)<!-- -->
 
 ``` r
+plot(fit.custom, which =5)
+```
+
+    ## Warning: not plotting observations with leverage one:
+    ##   106, 363, 421, 712, 785, 911, 919, 1019, 1236, 1244, 1300, 1398, 1979, 1996, 2072
+
+    ## Warning in sqrt(crit * p * (1 - hh)/hh): NaNs produced
+
+    ## Warning in sqrt(crit * p * (1 - hh)/hh): NaNs produced
+
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-5.png)<!-- -->
+
+``` r
 #### Scatter plot
 plot(test_pred ~ ytest, main = "Original vs Predicted scatter plot (Custom MLR Miguel)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-5.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/run%20custom%20model-6.png)<!-- -->
 
 ``` r
 #### Model test scores
@@ -7619,7 +7733,7 @@ test_score = postResample(pred = prediction_test, obs = ktest$Life.expectancy)
 plot(KNNRegressor)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-1.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective 2 KNN-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 varImp(KNNRegressor)
@@ -7629,27 +7743,27 @@ varImp(KNNRegressor)
     ## 
     ##   only 20 most important variables shown (out of 21)
     ## 
-    ##                                 Overall
-    ## Country                          100.00
-    ## Adult.Mortality                   96.93
-    ## Income.composition.of.resources   82.52
-    ## HIV.AIDS                          73.87
-    ## Schooling                         72.90
-    ## under.five.deaths                 55.99
-    ## thinness.5.9.years                55.05
-    ## thinness..1.19.years              53.39
-    ## infant.deaths                     50.06
-    ## Polio                             47.66
-    ## Diphtheria                        47.51
-    ## BMI                               44.25
-    ## GDP                               41.70
-    ## Hepatitis.B                       37.62
-    ## percentage.expenditure            27.81
-    ## Status                            25.22
-    ## Alcohol                           20.33
-    ## Total.expenditure                 11.41
-    ## Measles                            4.80
-    ## Year                               3.63
+    ##                                  Overall
+    ## Adult.Mortality                 100.0000
+    ## Income.composition.of.resources  85.6586
+    ## Schooling                        64.5583
+    ## BMI                              46.2276
+    ## GDP                              43.4106
+    ## HIV.AIDS                         34.4627
+    ## percentage.expenditure           29.2876
+    ## Diphtheria                       27.1122
+    ## Status                           26.2316
+    ## thinness..1.19.years             25.7893
+    ## thinness.5.9.years               25.0253
+    ## Polio                            24.7984
+    ## Alcohol                          21.5448
+    ## Total.expenditure                12.6037
+    ## Hepatitis.B                       9.5862
+    ## under.five.deaths                 5.7798
+    ## infant.deaths                     4.5111
+    ## Measles                           3.6363
+    ## Year                              3.6149
+    ## Country                           0.0933
 
 ``` r
 x_knn = 1:length(ktest$Life.expectancy)
@@ -7661,14 +7775,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-2.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective 2 KNN-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Scatter plot
 plot(prediction_test ~ ytest, main = "Original vs Predicted scatter plot (KNN)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective%202%20KNN-3.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/Objective 2 KNN-3.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 #### Model test scores
@@ -7743,7 +7857,7 @@ for(i in 1:30)
 plot(knn_eval$k,knn_eval$RMSE, type = "l", xlab = "k", main = "Optimal k value for the lowest RMSE" )
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-1.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN without cross validation-1.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 index = min(knn_eval[2:30,]$RMSE)
@@ -7759,21 +7873,21 @@ test_score = postResample(pred = pred_y, obs = ytest_knn)
 print(paste("Training score: ", train_score))
 ```
 
-    ## [1] "Training score:  0.131413831767923"  "Training score:  0.982959804439541" 
-    ## [3] "Training score:  0.0726769381461389"
+    ## [1] "Training score:  0.129758638977709"  "Training score:  0.983440598831773" 
+    ## [3] "Training score:  0.0725166337782753"
 
 ``` r
 print(paste("Test score: ", test_score))
 ```
 
-    ## [1] "Test score:  0.233137358400609" "Test score:  0.941347902140814"
-    ## [3] "Test score:  0.134047589623642"
+    ## [1] "Test score:  0.221299022859664" "Test score:  0.945857337805419"
+    ## [3] "Test score:  0.120785141868033"
 
 ``` r
 plot(pred_y ~ ytest_knn, main = "Original vs Predicted scatter plot (KNN)", xlab = 'Original observations', ylab='Predicted values')
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-2.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN without cross validation-2.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 x_knn_plot = 1:length(ktest$Life.expectancy)
@@ -7785,14 +7899,14 @@ legend("topright",  legend = c("original observation", "predicted life expectanc
 grid()
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN%20without%20cross%20validation-3.png)<!-- -->
+<img src="Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/KNN without cross validation-3.png" angle=90 style="display: block; margin: auto;" />
 
 ``` r
 mse = mean((ytest_knn - pred_y)^2)
 print(paste("Test MSE: ", mse))
 ```
 
-    ## [1] "Test MSE:  0.0543530278820138"
+    ## [1] "Test MSE:  0.0489732575186423"
 
 ``` r
 #### Model test scores
@@ -7879,16 +7993,16 @@ Rsquared
 LASSO
 </td>
 <td style="text-align:left;">
-6.1668
+6.0670
 </td>
 <td style="text-align:left;">
-0.9332
+0.9339
 </td>
 <td style="text-align:left;">
-0.9326
+0.9333
 </td>
 <td style="text-align:left;">
-2.4833
+2.4631
 </td>
 </tr>
 <tr>
@@ -7899,16 +8013,16 @@ LASSO
 FWD Selection
 </td>
 <td style="text-align:left;">
-6.2796
+6.1872
 </td>
 <td style="text-align:left;">
-0.9320
+0.9326
 </td>
 <td style="text-align:left;">
-0.9316
+0.9322
 </td>
 <td style="text-align:left;">
-2.5059
+2.4874
 </td>
 </tr>
 <tr>
@@ -7919,16 +8033,16 @@ FWD Selection
 Backward Elim.
 </td>
 <td style="text-align:left;">
-6.2796
+6.1872
 </td>
 <td style="text-align:left;">
-0.9320
+0.9326
 </td>
 <td style="text-align:left;">
-0.9316
+0.9322
 </td>
 <td style="text-align:left;">
-2.5059
+2.4874
 </td>
 </tr>
 <tr>
@@ -7939,16 +8053,16 @@ Backward Elim.
 Ridge
 </td>
 <td style="text-align:left;">
-6.8023
+6.7017
 </td>
 <td style="text-align:left;">
-0.9272
+0.9278
 </td>
 <td style="text-align:left;">
-0.9265
+0.9271
 </td>
 <td style="text-align:left;">
-2.6081
+2.5888
 </td>
 </tr>
 <tr>
@@ -7959,16 +8073,16 @@ Ridge
 ElasticNet
 </td>
 <td style="text-align:left;">
-6.1723
+6.0677
 </td>
 <td style="text-align:left;">
-0.9331
+0.9339
 </td>
 <td style="text-align:left;">
-0.9325
+0.9332
 </td>
 <td style="text-align:left;">
-2.4844
+2.4633
 </td>
 </tr>
 <tr>
@@ -7979,16 +8093,16 @@ ElasticNet
 MLR - Tamas
 </td>
 <td style="text-align:left;">
-6.5733
+6.4706
 </td>
 <td style="text-align:left;">
-0.9288
+0.9295
 </td>
 <td style="text-align:left;">
-0.9285
+0.9291
 </td>
 <td style="text-align:left;">
-2.5639
+2.5437
 </td>
 </tr>
 <tr>
@@ -7999,16 +8113,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.5135
+6.4099
 </td>
 <td style="text-align:left;">
-0.9294
+0.9301
 </td>
 <td style="text-align:left;">
-0.9290
+0.9297
 </td>
 <td style="text-align:left;">
-2.5522
+2.5318
 </td>
 </tr>
 <tr>
@@ -8019,16 +8133,16 @@ MLR Interact - Tamas
 MLR Interact - Reuven
 </td>
 <td style="text-align:left;">
-8.4399
+8.3664
+</td>
+<td style="text-align:left;">
+0.9088
 </td>
 <td style="text-align:left;">
 0.9085
 </td>
 <td style="text-align:left;">
-0.9083
-</td>
-<td style="text-align:left;">
-2.9052
+2.8925
 </td>
 </tr>
 <tr>
@@ -8039,16 +8153,16 @@ MLR Interact - Reuven
 MLR Interact - Miguel
 </td>
 <td style="text-align:left;">
-1.4579
+1.4417
 </td>
 <td style="text-align:left;">
-0.9838
+0.9839
 </td>
 <td style="text-align:left;">
-0.9787
+0.9789
 </td>
 <td style="text-align:left;">
-1.2074
+1.2007
 </td>
 </tr>
 <tr>
@@ -8059,16 +8173,16 @@ MLR Interact - Miguel
 KNN
 </td>
 <td style="text-align:left;">
-3.7857
+4.9071
 </td>
 <td style="text-align:left;">
-0.9829
+0.9840
 </td>
 <td style="text-align:left;">
-0.9814
+0.9825
 </td>
 <td style="text-align:left;">
-1.2574
+1.2146
 </td>
 </tr>
 <tr>
@@ -8079,16 +8193,16 @@ KNN
 KNN w/o CV
 </td>
 <td style="text-align:left;">
-0.0544
+0.0490
 </td>
 <td style="text-align:left;">
-0.9830
+0.9834
 </td>
 <td style="text-align:left;">
-0.9815
+0.9820
 </td>
 <td style="text-align:left;">
-0.1314
+0.1298
 </td>
 </tr>
 </tbody>
@@ -8131,16 +8245,16 @@ RMSE
 LASSO
 </td>
 <td style="text-align:left;">
-6.1035
+6.7042
 </td>
 <td style="text-align:left;">
-0.9253
+0.9209
 </td>
 <td style="text-align:left;">
-0.9216
+0.9169
 </td>
 <td style="text-align:left;">
-2.4705
+2.5892
 </td>
 </tr>
 <tr>
@@ -8151,16 +8265,16 @@ LASSO
 FWD Selection
 </td>
 <td style="text-align:left;">
-6.0930
-</td>
-<td style="text-align:left;">
-0.9255
+6.6404
 </td>
 <td style="text-align:left;">
 0.9217
 </td>
 <td style="text-align:left;">
-2.4684
+0.9178
+</td>
+<td style="text-align:left;">
+2.5769
 </td>
 </tr>
 <tr>
@@ -8171,16 +8285,16 @@ FWD Selection
 Backward Elim.
 </td>
 <td style="text-align:left;">
-6.0930
+6.6404
 </td>
 <td style="text-align:left;">
-0.9255
+0.9217
 </td>
 <td style="text-align:left;">
-0.9232
+0.9193
 </td>
 <td style="text-align:left;">
-2.4684
+2.5769
 </td>
 </tr>
 <tr>
@@ -8191,16 +8305,16 @@ Backward Elim.
 Ridge
 </td>
 <td style="text-align:left;">
-6.3077
+7.0194
 </td>
 <td style="text-align:left;">
-0.9225
+0.9174
 </td>
 <td style="text-align:left;">
-0.9180
+0.9126
 </td>
 <td style="text-align:left;">
-2.5115
+2.6494
 </td>
 </tr>
 <tr>
@@ -8211,16 +8325,16 @@ Ridge
 ElasticNet
 </td>
 <td style="text-align:left;">
-6.1092
-</td>
-<td style="text-align:left;">
-0.9252
+6.6989
 </td>
 <td style="text-align:left;">
 0.9209
 </td>
 <td style="text-align:left;">
-2.4717
+0.9164
+</td>
+<td style="text-align:left;">
+2.5882
 </td>
 </tr>
 <tr>
@@ -8231,16 +8345,16 @@ ElasticNet
 MLR - Tamas
 </td>
 <td style="text-align:left;">
-6.4192
+7.0187
 </td>
 <td style="text-align:left;">
-0.9214
+0.9173
 </td>
 <td style="text-align:left;">
-0.9193
+0.9152
 </td>
 <td style="text-align:left;">
-2.5336
+2.6493
 </td>
 </tr>
 <tr>
@@ -8251,16 +8365,16 @@ MLR - Tamas
 MLR Interact - Tamas
 </td>
 <td style="text-align:left;">
-6.3827
+6.9850
 </td>
 <td style="text-align:left;">
-0.9218
+0.9177
 </td>
 <td style="text-align:left;">
-0.9192
+0.9150
 </td>
 <td style="text-align:left;">
-2.5264
+2.6429
 </td>
 </tr>
 <tr>
@@ -8271,16 +8385,16 @@ MLR Interact - Tamas
 MLR Interact - Reuven
 </td>
 <td style="text-align:left;">
-8.3690
+8.8189
 </td>
 <td style="text-align:left;">
-0.8989
+0.8969
 </td>
 <td style="text-align:left;">
-0.8973
+0.8953
 </td>
 <td style="text-align:left;">
-2.8929
+2.9697
 </td>
 </tr>
 <tr>
@@ -8291,16 +8405,16 @@ MLR Interact - Reuven
 MLR Interact - Miguel
 </td>
 <td style="text-align:left;">
-2.7993
+2.7378
 </td>
 <td style="text-align:left;">
-0.9705
+0.9716
 </td>
 <td style="text-align:left;">
-1.0436
+1.0421
 </td>
 <td style="text-align:left;">
-1.6731
+1.6546
 </td>
 </tr>
 <tr>
@@ -8311,16 +8425,16 @@ MLR Interact - Miguel
 KNN
 </td>
 <td style="text-align:left;">
-3.7857
+4.9071
 </td>
 <td style="text-align:left;">
-0.9553
+0.9433
 </td>
 <td style="text-align:left;">
-0.9171
+0.8947
 </td>
 <td style="text-align:left;">
-1.9457
+2.2152
 </td>
 </tr>
 <tr>
@@ -8331,17 +8445,57 @@ KNN
 KNN w/o CV
 </td>
 <td style="text-align:left;">
-0.0544
+0.0490
 </td>
 <td style="text-align:left;">
-0.9413
+0.9459
 </td>
 <td style="text-align:left;">
-0.8916
+0.8999
 </td>
 <td style="text-align:left;">
-0.2331
+0.2213
 </td>
 </tr>
 </tbody>
 </table>
+
+## Summary
+
+-   There is an increasing trend in average life expectancy over time.
+
+-   Mortality rates are significant for predicting life expectancy.
+    Adult Mortality and Infant Mortality are two of the variables which
+    if they increase the life expectancy decrease since there is
+    negative correlation with the response variable.
+
+-   We have observed that Europe as a continent has the highest life
+    expectancy which is in-line with the observation that developed
+    countries have higher life expectancies than developing ones.
+
+-   Year, Percentage Expenditure, Schooling, GDPGDP, and the
+    immunizations (Diphtheria & Polio) variables have positive
+    coefficients therefore if this increase life expectancy will also
+    increase.
+
+-   Adding complexity to the models increases the prediction accuracy
+    but reduces explainability. In this scenario explainability would be
+    important so a more parsimonious model is more useful.
+
+-   This is an observational study without random selection or random
+    assignments to groups therefore no casual inferencing can be made.
+    Inferencing from this study conclusion can be applied to similar
+    scenarios and the countries included intoin this research. The
+    models would perform poorly with data that requires extrapolation.
+
+-   We observed extreme values in the data setset, however we have not
+    removed them without subject matter expert opinion as those values
+    could be meaningful for the overall study.
+
+-   Overall, we found the missing data points to be the primary source
+    of concern with the dataset provided, adding in the supplemental
+    material and resources that we did made performing our analysis
+    easier rather than if we had only relied on the data provided. Given
+    more time on this, we would have explored more interactions on
+    relationships between the variables themselves, but not necessarily
+    collect any additional data points.
