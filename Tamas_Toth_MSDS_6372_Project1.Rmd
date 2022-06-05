@@ -64,7 +64,7 @@ options(scipen = 100, digits = 4)
 ```{r,fig.align='center',out.extra='angle=90', message = FALSE}
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -248,7 +248,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -260,7 +260,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -275,7 +275,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -290,7 +290,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -307,7 +307,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -508,9 +508,6 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 ### Make country as factor
 LifeExp$Country = as.factor(LifeExp$Country)
 
-#drop = c('HIV.AIDS', 'percentage.expenditure', 'GDP')#keeping country in
-#LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
-
 ```
 
 ```{r train test set}
@@ -545,7 +542,7 @@ ktest = test[,!colnames(train) %in% drop_for_knn]
 #                             EDA on Train sets                                    #
 #####################################################################################
 
-describe(train)
+describe(rtrain)
 ```
 
 ## Observations
@@ -557,7 +554,7 @@ describe(train)
 
 
 ```{r normality}
-normality(train) 
+normality(rtrain) 
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
 
 #Find Features that are not normally distributed 
@@ -568,7 +565,7 @@ train %>%
   arrange(abs(p_value))
 
 # Verify non normality and transformation options of the variability 
-plot_normality(train)
+plot_normality(rtrain)
 
 ```
 
@@ -603,11 +600,12 @@ predict.regsubsets =function (object , newdata ,id ,...){
 
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
-eval_train_df = data.frame()
-eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
+eval_train_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
+#eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
 
-eval_test_df = data.frame()
-eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
+eval_test_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
+#eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
+
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -656,7 +654,7 @@ fit.lasso.lm3 = lm(Life.expectancy ~ Status + Continent + Year + Adult.Mortality
 #### Hypothesis testing ####
 summary(fit.lasso.lm3)
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# Hepatitis.B, thinness.5.9.years, log.GDP, log.percentage.expenditure
+# Year, Thinness aged 5 to 9 years old, Thinness aged 10 to 19 years old
 
 # Predicting
 train_pred = predict(fit.lasso.lm3, rtrain)
@@ -1224,7 +1222,7 @@ train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
+fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling:log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
 confint(fit)
 hist(residuals, main = "Histogram of Residuals")
 plot(residuals, main = "Residuals plot") 
@@ -1493,10 +1491,10 @@ eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),n
 
 ```
 
-
-
 ## KNN regression Observations:
-KNN is a non-parametric regression or classification algorithm. In our case we used the regression version. The algorithm uses similaroty 
+KNN is a non-parametric regression or classification algorithm. In our case we used the regression version of KNN with the objective of predicting Life Expectancy. In KNN regression there is no regression function (Least Squares). If we want to predict the 'life expectancy' then we take the 'k' number of closest life expectancy values to our new data point and average them. The average of those 'k' number of neighbor values will be our predicted value. 
+The accuracy of the prediction depends on the number of neighbors (k). The optimal k value is the number of neighbors we should use to calculate the average to predict any new observation. The optimal 'k' value is found where the prediction error is the smallest. The distance for the closest neighbors is calculated by different distance measures (e.g  Euclidean distance).
+Since KNN regression is non-parametric regression therefore it does not assume any functional form like linearity in case of a Linear regression therefore it can be a more flexible algorithm. The downside is that it can easily overfit if a small 'k' value is selected like in our example. The KNN regression model's lowest error is at k=2 which means that the model is taking the average of the two closest neighbors and provides it as a prediction. This introduces low bias but high variance since changing one data point has a high effect on the predicted value. The model which overfits almost perfectly predicts the data points and will have low mean square error as we can observe in our KNN model (3.7857 vs 6.093 MLR).
 
 # Training set scores
 ```{r}

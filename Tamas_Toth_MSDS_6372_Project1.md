@@ -44,7 +44,7 @@ options(scipen = 100, digits = 4)
 ``` r
 #Read the data
 #setwd('/Users/ttoth76/Downloads/SMU/Semester_2/DS 6372 Applied Statistics_Inference & Modeling/FLS/Project1_Summer2022/GitContent/LifeExpectancy')
-LifeExp = read.csv(file = 'Life_Expectancy_Data.csv',header = TRUE, sep = ",")
+LifeExp = read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Life_Expectancy_Data.csv', header = TRUE, sep = ",")
 # take a sample of 15 from the dataframe
 LifeExp_sample = sample_n(LifeExp, 5)
 knitr::kable(LifeExp_sample, "html")
@@ -124,70 +124,70 @@ Schooling
 <tbody>
 <tr>
 <td style="text-align:left;">
-Burkina Faso
+Slovenia
 </td>
 <td style="text-align:right;">
-2015
+2013
 </td>
 <td style="text-align:left;">
-Developing
+Developed
 </td>
 <td style="text-align:right;">
-59.9
+85.0
 </td>
 <td style="text-align:right;">
-26
+78
 </td>
 <td style="text-align:right;">
-38
+0
 </td>
 <td style="text-align:right;">
-NA
+9.53
 </td>
 <td style="text-align:right;">
-0.0
-</td>
-<td style="text-align:right;">
-91
-</td>
-<td style="text-align:right;">
-99
-</td>
-<td style="text-align:right;">
-19.4
-</td>
-<td style="text-align:right;">
-61
-</td>
-<td style="text-align:right;">
-91
+259.78
 </td>
 <td style="text-align:right;">
 NA
 </td>
 <td style="text-align:right;">
-91
+1
 </td>
 <td style="text-align:right;">
-0.6
+58.9
 </td>
 <td style="text-align:right;">
-615.6
+0
 </td>
 <td style="text-align:right;">
-1811624
+95
 </td>
 <td style="text-align:right;">
-8.0
+9.29
 </td>
 <td style="text-align:right;">
-7.5
+95
 </td>
 <td style="text-align:right;">
-0.399
+0.1
 </td>
 <td style="text-align:right;">
-7.7
+2315
+</td>
+<td style="text-align:right;">
+259953
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+0.878
+</td>
+<td style="text-align:right;">
+16.8
 </td>
 </tr>
 <tr>
@@ -195,46 +195,46 @@ NA
 Lao People’s Democratic Republic
 </td>
 <td style="text-align:right;">
-2005
+2014
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-61.0
+65.3
 </td>
 <td style="text-align:right;">
-246
+199
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:right;">
+0.01
+</td>
+<td style="text-align:right;">
+0.00
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+339
+</td>
+<td style="text-align:right;">
+2.9
 </td>
 <td style="text-align:right;">
 11
 </td>
 <td style="text-align:right;">
-3.68
+88
 </td>
 <td style="text-align:right;">
-0.0
+1.87
 </td>
 <td style="text-align:right;">
-49
-</td>
-<td style="text-align:right;">
-295
-</td>
-<td style="text-align:right;">
-14.9
-</td>
-<td style="text-align:right;">
-16
-</td>
-<td style="text-align:right;">
-5
-</td>
-<td style="text-align:right;">
-4.32
-</td>
-<td style="text-align:right;">
-49
+88
 </td>
 <td style="text-align:right;">
 0.2
@@ -246,81 +246,81 @@ NA
 NA
 </td>
 <td style="text-align:right;">
-1.0
+8.9
 </td>
 <td style="text-align:right;">
-1.1
+9.0
 </td>
 <td style="text-align:right;">
-0.494
+0.573
 </td>
 <td style="text-align:right;">
-8.7
+10.6
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-Indonesia
+Armenia
 </td>
 <td style="text-align:right;">
-2009
+2007
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-67.9
+73.5
 </td>
 <td style="text-align:right;">
-189
+132
 </td>
 <td style="text-align:right;">
-143
+1
 </td>
 <td style="text-align:right;">
-0.08
+3.99
 </td>
 <td style="text-align:right;">
-125.8
-</td>
-<td style="text-align:right;">
-82
-</td>
-<td style="text-align:right;">
-20818
-</td>
-<td style="text-align:right;">
-22.1
-</td>
-<td style="text-align:right;">
-174
+44.57
 </td>
 <td style="text-align:right;">
 85
 </td>
 <td style="text-align:right;">
-2.83
+1
 </td>
 <td style="text-align:right;">
-78
+49.7
 </td>
 <td style="text-align:right;">
-0.3
+1
 </td>
 <td style="text-align:right;">
-2254.4
+9
 </td>
 <td style="text-align:right;">
-23934478
+4.31
 </td>
 <td style="text-align:right;">
-1.7
+88
 </td>
 <td style="text-align:right;">
-1.6
+0.1
 </td>
 <td style="text-align:right;">
-0.645
+3139
+</td>
+<td style="text-align:right;">
+293356
+</td>
+<td style="text-align:right;">
+2.0
+</td>
+<td style="text-align:right;">
+2.1
+</td>
+<td style="text-align:right;">
+0.707
 </td>
 <td style="text-align:right;">
 11.7
@@ -328,114 +328,46 @@ Developing
 </tr>
 <tr>
 <td style="text-align:left;">
-Malta
+United Arab Emirates
 </td>
 <td style="text-align:right;">
-2009
-</td>
-<td style="text-align:left;">
-Developed
-</td>
-<td style="text-align:right;">
-82.0
-</td>
-<td style="text-align:right;">
-63
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-7.38
-</td>
-<td style="text-align:right;">
-335.5
-</td>
-<td style="text-align:right;">
-86
-</td>
-<td style="text-align:right;">
-1
-</td>
-<td style="text-align:right;">
-67.1
-</td>
-<td style="text-align:right;">
-0
-</td>
-<td style="text-align:right;">
-73
-</td>
-<td style="text-align:right;">
-8.33
-</td>
-<td style="text-align:right;">
-73
-</td>
-<td style="text-align:right;">
-0.1
-</td>
-<td style="text-align:right;">
-2675.6
-</td>
-<td style="text-align:right;">
-412477
-</td>
-<td style="text-align:right;">
-0.8
-</td>
-<td style="text-align:right;">
-0.7
-</td>
-<td style="text-align:right;">
-0.815
-</td>
-<td style="text-align:right;">
-14.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Greece
-</td>
-<td style="text-align:right;">
-2013
+2015
 </td>
 <td style="text-align:left;">
 Developing
 </td>
 <td style="text-align:right;">
-86.0
+77.1
 </td>
 <td style="text-align:right;">
-74
+75
 </td>
 <td style="text-align:right;">
-0
+1
 </td>
 <td style="text-align:right;">
-7.46
+NA
 </td>
 <td style="text-align:right;">
-2183.1
-</td>
-<td style="text-align:right;">
-98
-</td>
-<td style="text-align:right;">
-3
-</td>
-<td style="text-align:right;">
-65.4
-</td>
-<td style="text-align:right;">
-0
+0.00
 </td>
 <td style="text-align:right;">
 99
 </td>
 <td style="text-align:right;">
-9.26
+347
+</td>
+<td style="text-align:right;">
+64.2
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:right;">
+99
+</td>
+<td style="text-align:right;">
+NA
 </td>
 <td style="text-align:right;">
 99
@@ -444,22 +376,90 @@ Developing
 0.1
 </td>
 <td style="text-align:right;">
-21874.8
+3912
 </td>
 <td style="text-align:right;">
-1965211
+NA
 </td>
 <td style="text-align:right;">
-0.8
+5.3
 </td>
 <td style="text-align:right;">
-0.7
+5.1
 </td>
 <td style="text-align:right;">
-0.860
+0.836
 </td>
 <td style="text-align:right;">
-17.1
+13.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Canada
+</td>
+<td style="text-align:right;">
+2002
+</td>
+<td style="text-align:left;">
+Developing
+</td>
+<td style="text-align:right;">
+79.5
+</td>
+<td style="text-align:right;">
+79
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+7.70
+</td>
+<td style="text-align:right;">
+3895.86
+</td>
+<td style="text-align:right;">
+NA
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:right;">
+59.3
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+9.37
+</td>
+<td style="text-align:right;">
+88
+</td>
+<td style="text-align:right;">
+0.1
+</td>
+<td style="text-align:right;">
+24168
+</td>
+<td style="text-align:right;">
+31362
+</td>
+<td style="text-align:right;">
+0.5
+</td>
+<td style="text-align:right;">
+0.4
+</td>
+<td style="text-align:right;">
+0.872
+</td>
+<td style="text-align:right;">
+15.8
 </td>
 </tr>
 </tbody>
@@ -1244,7 +1244,7 @@ LifeExp = as.data.frame(LifeExp)
 
 #impute USA values
 #USA GDP
-US_GDP <- read.csv('API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
+US_GDP <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/API_NY.GDP.PCAP.CD_DS2_en_csv_v2_4150786.csv',header = FALSE)
 colnames(US_GDP) <- US_GDP[3,]
 US_GDP <- rename(US_GDP,c("Country Name"="Country"))
 US_GDP <- US_GDP[US_GDP$Country == "United States",c(1,45:60)]
@@ -1256,7 +1256,7 @@ LifeExp <- left_join(LifeExp,US_GDP, by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(GDP = ifelse(LifeExp$Country == "United States of America", LifeExp$GDP2, LifeExp$GDP))
 
 #US Schooling
-US_Scho <- read.csv("Expected years of schooling (years).csv",skip = 6,header = FALSE)
+US_Scho <- read.csv(file = "https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Expected%20years%20of%20schooling%20(years).csv",skip = 6,header = FALSE)
 colnames(US_Scho) <- US_Scho[1,]
 US_Scho$Country <- trimws(US_Scho$Country, which = "both")
 US_Scho <- US_Scho[US_Scho$Country == "United States", colSums(is.na(US_Scho)) !=nrow(US_Scho)]
@@ -1271,7 +1271,7 @@ LifeExp <- left_join(LifeExp,US_Scho,by=c("Country","Year"))
 LifeExp <- LifeExp %>% dplyr::mutate(Schooling =ifelse(LifeExp$Country == "United States of America",LifeExp$Schooling2,LifeExp$Schooling))
 
 #US income composition
-US_Inc <- read.csv('Income index.csv',skip = 5, header = FALSE)
+US_Inc <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Income%20index.csv',skip = 5, header = FALSE)
 colnames(US_Inc) <- US_Inc[1,]
 US_Inc$Country <- trimws(US_Inc$Country,which = "both")
 US_Inc <- US_Inc[US_Inc$Country == "United States",colSums(is.na(US_Inc)) !=nrow(US_Inc)]
@@ -1286,7 +1286,7 @@ LifeExp <- LifeExp %>% dplyr::mutate("Income.composition.of.resources" = ifelse(
 
 #Add population from external source
 #data from UN in thousands 
-pop_all <- read.csv('WPP2019_TotalPopulationBySex.csv')
+pop_all <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/WPP2019_TotalPopulationBySex.csv')
 pop_all <- pop_all %>% dplyr::select(Country = Location, Year = Time, Population2 = PopTotal) %>% mutate(Population2 = Population2*1000) %>% filter(Year %in% c(2000:2015))
 
 #clean country names to match before merge
@@ -1303,7 +1303,7 @@ LifeExp<- left_join(LifeExp,pop_all,by=c("Country","Year")) %>% mutate(Populatio
 
 #replace adult.mortality since there are clear mistakes with the data that could
 #not be resolved with transformation of the variable
-adlt_mort <- read.csv('Adult_mort.csv',header = TRUE)
+adlt_mort <- read.csv(file = 'https://raw.githubusercontent.com/ttoth76/LifeExpectancy/main/Adult_mort.csv',header = TRUE)
 adlt_mort <- adlt_mort %>% dplyr::select("Country" = Location,"Year" = Period,"Adult.Mort2" = Value)
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Côte d’Ivoire","Ivory Coast")
 adlt_mort$Country <- replace(adlt_mort$Country,adlt_mort$Country == "Bolivia (Plurinational State of)","Bolivia")
@@ -1531,9 +1531,6 @@ LifeExp = mutate(LifeExp, log.percentage.expenditure = ifelse(percentage.expendi
 
 ### Make country as factor
 LifeExp$Country = as.factor(LifeExp$Country)
-
-#drop = c('HIV.AIDS', 'percentage.expenditure', 'GDP')#keeping country in
-#LifeExp = LifeExp[, !(colnames(LifeExp) %in% drop)]
 ```
 
 ``` r
@@ -1566,23 +1563,33 @@ ktest = test[,!colnames(train) %in% drop_for_knn]
 #                             EDA on Train sets                                    #
 #####################################################################################
 
-describe(train)
+describe(rtrain)
 ```
 
-    ## # A tibble: 23 × 26
-    ##    described_variabl…     n    na   mean     sd se_mean    IQR skewness kurtosis
-    ##    <chr>              <int> <int>  <dbl>  <dbl>   <dbl>  <dbl>    <dbl>    <dbl>
-    ##  1 Year                2489     0 2.01e3 4.59e0 9.20e-2   7    -0.00819   -1.20 
-    ##  2 Life.expectancy     2489     0 6.91e1 9.61e0 1.93e-1  12.7  -0.629     -0.253
-    ##  3 Adult.Mortality     2489     0 1.96e2 1.16e2 2.33e+0 146.    1.33       1.85 
-    ##  4 infant.deaths       2489     0 3.18e1 1.22e2 2.44e+0  23     9.33     105.   
-    ##  5 Alcohol             2489     0 4.56e0 4.04e0 8.09e-2   6.71  0.621     -0.748
-    ##  6 percentage.expend…  2489     0 7.16e2 1.96e3 3.92e+1 419.    4.80      28.7  
-    ##  7 Hepatitis.B         2489     0 8.02e1 2.45e1 4.91e-1  21    -1.82       2.44 
-    ##  8 Measles             2489     0 2.54e3 1.18e4 2.37e+2 410     9.27     111.   
-    ##  9 BMI                 2489     0 3.80e1 2.00e1 4.01e-1  36.7  -0.227     -1.32 
-    ## 10 under.five.deaths   2489     0 4.41e1 1.66e2 3.33e+0  30     9.09     101.   
-    ## # … with 13 more rows, and 17 more variables: p00 <dbl>, p01 <dbl>, p05 <dbl>,
+    ## # A tibble: 20 × 26
+    ##    described_variables         n    na     mean      sd se_mean     IQR skewness
+    ##    <chr>                   <int> <int>    <dbl>   <dbl>   <dbl>   <dbl>    <dbl>
+    ##  1 Year                     2489     0  2.01e+3 4.59e+0 9.20e-2 7   e+0 -0.00819
+    ##  2 Life.expectancy          2489     0  6.91e+1 9.61e+0 1.93e-1 1.27e+1 -0.629  
+    ##  3 Adult.Mortality          2489     0  1.96e+2 1.16e+2 2.33e+0 1.46e+2  1.33   
+    ##  4 infant.deaths            2489     0  3.18e+1 1.22e+2 2.44e+0 2.3 e+1  9.33   
+    ##  5 Alcohol                  2489     0  4.56e+0 4.04e+0 8.09e-2 6.71e+0  0.621  
+    ##  6 Hepatitis.B              2489     0  8.02e+1 2.45e+1 4.91e-1 2.1 e+1 -1.82   
+    ##  7 Measles                  2489     0  2.54e+3 1.18e+4 2.37e+2 4.1 e+2  9.27   
+    ##  8 BMI                      2489     0  3.80e+1 2.00e+1 4.01e-1 3.67e+1 -0.227  
+    ##  9 under.five.deaths        2489     0  4.41e+1 1.66e+2 3.33e+0 3   e+1  9.09   
+    ## 10 Polio                    2489     0  8.23e+1 2.35e+1 4.71e-1 2   e+1 -2.06   
+    ## 11 Total.expenditure        2489     0  5.91e+0 2.46e+0 4.93e-2 3.18e+0  0.595  
+    ## 12 Diphtheria               2489     0  8.22e+1 2.36e+1 4.74e-1 1.9 e+1 -2.06   
+    ## 13 Population               2489     0  3.83e+7 1.43e+8 2.87e+6 2.30e+7  7.98   
+    ## 14 thinness..1.19.years     2489     0  4.92e+0 4.45e+0 8.92e-2 5.6 e+0  1.70   
+    ## 15 thinness.5.9.years       2489     0  4.93e+0 4.53e+0 9.08e-2 5.6 e+0  1.78   
+    ## 16 Income.composition.of.…  2489     0  6.28e-1 2.09e-1 4.19e-3 2.88e-1 -1.08   
+    ## 17 Schooling                2489     0  1.20e+1 3.35e+0 6.71e-2 4.3 e+0 -0.570  
+    ## 18 log.HIV.AIDS             2489     0 -1.21e+0 1.62e+0 3.26e-2 2.08e+0  1.27   
+    ## 19 log.GDP                  2489     0  7.47e+0 1.79e+0 3.60e-2 2.29e+0 -0.196  
+    ## 20 log.percentage.expendi…  2489     0  3.92e+0 2.75e+0 5.52e-2 4.59e+0 -0.0746 
+    ## # … with 18 more variables: kurtosis <dbl>, p00 <dbl>, p01 <dbl>, p05 <dbl>,
     ## #   p10 <dbl>, p20 <dbl>, p25 <dbl>, p30 <dbl>, p40 <dbl>, p50 <dbl>,
     ## #   p60 <dbl>, p70 <dbl>, p75 <dbl>, p80 <dbl>, p90 <dbl>, p95 <dbl>,
     ## #   p99 <dbl>, p100 <dbl>
@@ -1595,23 +1602,32 @@ of skewness can be identified in under.five.deaths \*\* A High degree of
 skewness can be identified in Population
 
 ``` r
-normality(train) 
+normality(rtrain) 
 ```
 
-    ## # A tibble: 23 × 4
-    ##    vars                   statistic  p_value sample
-    ##    <chr>                      <dbl>    <dbl>  <dbl>
-    ##  1 Year                       0.948 7.20e-29   2489
-    ##  2 Life.expectancy            0.956 9.84e-27   2489
-    ##  3 Adult.Mortality            0.890 7.28e-39   2489
-    ##  4 infant.deaths              0.239 2.12e-72   2489
-    ##  5 Alcohol                    0.908 2.33e-36   2489
-    ##  6 percentage.expenditure     0.399 9.65e-68   2489
-    ##  7 Hepatitis.B                0.723 1.44e-53   2489
-    ##  8 Measles                    0.212 4.17e-73   2489
-    ##  9 BMI                        0.926 2.73e-33   2489
-    ## 10 under.five.deaths          0.247 3.40e-72   2489
-    ## # … with 13 more rows
+    ## # A tibble: 20 × 4
+    ##    vars                            statistic  p_value sample
+    ##    <chr>                               <dbl>    <dbl>  <dbl>
+    ##  1 Year                                0.948 7.20e-29   2489
+    ##  2 Life.expectancy                     0.956 9.84e-27   2489
+    ##  3 Adult.Mortality                     0.890 7.28e-39   2489
+    ##  4 infant.deaths                       0.239 2.12e-72   2489
+    ##  5 Alcohol                             0.908 2.33e-36   2489
+    ##  6 Hepatitis.B                         0.723 1.44e-53   2489
+    ##  7 Measles                             0.212 4.17e-73   2489
+    ##  8 BMI                                 0.926 2.73e-33   2489
+    ##  9 under.five.deaths                   0.247 3.40e-72   2489
+    ## 10 Polio                               0.692 2.12e-55   2489
+    ## 11 Total.expenditure                   0.978 3.71e-19   2489
+    ## 12 Diphtheria                          0.690 1.58e-55   2489
+    ## 13 Population                          0.226 9.42e-73   2489
+    ## 14 thinness..1.19.years                0.841 1.64e-44   2489
+    ## 15 thinness.5.9.years                  0.836 5.27e-45   2489
+    ## 16 Income.composition.of.resources     0.916 4.14e-35   2489
+    ## 17 Schooling                           0.980 5.30e-18   2489
+    ## 18 log.HIV.AIDS                        0.712 3.11e-54   2489
+    ## 19 log.GDP                             0.992 1.21e-10   2489
+    ## 20 log.percentage.expenditure          0.940 1.09e-30   2489
 
 ``` r
 #Runs a Shapario-Wilk Tests, if the p-value is >= .05 then the data is normally distrusted, if <0.05 the data is not normally distrusted.
@@ -1641,10 +1657,10 @@ train %>%
 
 ``` r
 # Verify non normality and transformation options of the variability 
-plot_normality(train)
+plot_normality(rtrain)
 ```
 
-![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-21.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-22.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-23.png)<!-- -->
+![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-1.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-2.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-3.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-4.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-5.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-6.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-7.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-8.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-9.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-10.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-11.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-12.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-13.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-14.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-15.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-16.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-17.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-18.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-19.png)<!-- -->![](Tamas_Toth_MSDS_6372_Project1_files/figure-gfm/normality-20.png)<!-- -->
 
 ## Observations
 
@@ -1690,11 +1706,12 @@ predict.regsubsets =function (object , newdata ,id ,...){
 
 ### Evaluation Data Frame
 ### test_ASE, R-squared/Adjusted R-squared
-eval_train_df = data.frame()
-eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
+eval_train_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
+#eval_train_df = eval_train_df %>% dplyr::mutate(ID = row_number())
 
-eval_test_df = data.frame()
-eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
+eval_test_df = data.frame(model_name = character(11), MSE=numeric(11), R_Squared = numeric(11), AdjR_Squared = numeric(11), RMSE = numeric(11))
+#eval_test_df = eval_test_df %>% dplyr::mutate(ID = row_number())
+
 
 #####################################################################################
 #                                       Lasso                                       #
@@ -1926,7 +1943,7 @@ summary(fit.lasso.lm3)
 
 ``` r
 # At alpha = 0.05 the following variables are not significant therefore don't contribute to the model performance:
-# Hepatitis.B, thinness.5.9.years, log.GDP, log.percentage.expenditure
+# Year, Thinness aged 5 to 9 years old, Thinness aged 10 to 19 years old
 
 # Predicting
 train_pred = predict(fit.lasso.lm3, rtrain)
@@ -3730,21 +3747,19 @@ train_score = postResample(pred = train_pred, obs = rtrain$Life.expectancy)
 test_score = postResample(pred = test_pred, obs = rtest$Life.expectancy)
 
 ### Checking Multiple Liner Regression model assumptions
-fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling*log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
+fit = lm(Life.expectancy ~ Income.composition.of.resources + Schooling:log.percentage.expenditure  +  log.HIV.AIDS + log.GDP + BMI + Year + Adult.Mortality, rtrain)
 confint(fit)
 ```
 
-    ##                                         2.5 %      97.5 %
-    ## (Intercept)                          63.07271 162.3592821
-    ## Income.composition.of.resources       2.07581   3.9317423
-    ## Schooling                             0.55737   0.7112318
-    ## log.percentage.expenditure            0.03813   0.3815934
-    ## log.HIV.AIDS                         -0.19564   0.0793929
-    ## log.GDP                               0.14836   0.3215254
-    ## BMI                                   0.01522   0.0283421
-    ## Year                                 -0.04691   0.0026159
-    ## Adult.Mortality                      -0.06038  -0.0562056
-    ## Schooling:log.percentage.expenditure -0.02486   0.0001915
+    ##                                          2.5 %    97.5 %
+    ## (Intercept)                          19.762190 125.20912
+    ## Income.composition.of.resources       7.282289   8.89128
+    ## log.HIV.AIDS                         -0.339067  -0.04755
+    ## log.GDP                               0.207767   0.39064
+    ## BMI                                   0.023102   0.03697
+    ## Year                                 -0.026855   0.02573
+    ## Adult.Mortality                      -0.060861  -0.05641
+    ## Schooling:log.percentage.expenditure  0.008641   0.01587
 
 ``` r
 hist(residuals, main = "Histogram of Residuals")
@@ -3779,26 +3794,22 @@ anova(fit)
     ## 
     ## Response: Life.expectancy
     ##                                        Df Sum Sq Mean Sq  F value
-    ## Income.composition.of.resources         1 122886  122886 16500.47
-    ## Schooling                               1  18332   18332  2461.47
-    ## log.percentage.expenditure              1   1105    1105   148.39
-    ## log.HIV.AIDS                            1  45526   45526  6112.92
-    ## log.GDP                                 1    596     596    80.05
-    ## BMI                                     1    361     361    48.48
-    ## Year                                    1    106     106    14.27
-    ## Adult.Mortality                         1  22284   22284  2992.18
-    ## Schooling:log.percentage.expenditure    1     28      28     3.73
-    ## Residuals                            2479  18462       7         
+    ## Income.composition.of.resources         1 122886  122886 14513.33
+    ## log.HIV.AIDS                            1  57001   57001  6732.05
+    ## log.GDP                                 1   3469    3469   409.66
+    ## BMI                                     1    774     774    91.37
+    ## Year                                    1     49      49     5.81
+    ## Adult.Mortality                         1  24126   24126  2849.36
+    ## Schooling:log.percentage.expenditure    1    374     374    44.21
+    ## Residuals                            2481  21007       8         
     ##                                                    Pr(>F)    
     ## Income.composition.of.resources      < 0.0000000000000002 ***
-    ## Schooling                            < 0.0000000000000002 ***
-    ## log.percentage.expenditure           < 0.0000000000000002 ***
     ## log.HIV.AIDS                         < 0.0000000000000002 ***
     ## log.GDP                              < 0.0000000000000002 ***
-    ## BMI                                       0.0000000000043 ***
-    ## Year                                              0.00016 ***
+    ## BMI                                  < 0.0000000000000002 ***
+    ## Year                                                0.016 *  
     ## Adult.Mortality                      < 0.0000000000000002 ***
-    ## Schooling:log.percentage.expenditure              0.05360 .  
+    ## Schooling:log.percentage.expenditure       0.000000000036 ***
     ## Residuals                                                    
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
@@ -4188,7 +4199,28 @@ eval_train_df = rbind(eval_train_df, c('KNN w/o CV', format(round(mse_trndf,4),n
 ## KNN regression Observations:
 
 KNN is a non-parametric regression or classification algorithm. In our
-case we used the regression version. The algorithm uses similaroty
+case we used the regression version of KNN with the objective of
+predicting Life Expectancy. In KNN regression there is no regression
+function (Least Squares). If we want to predict the ‘life expectancy’
+then we take the ‘k’ number of closest life expectancy values to our new
+data point and average them. The average of those ‘k’ number of neighbor
+values will be our predicted value. The accuracy of the prediction
+depends on the number of neighbors (k). The optimal k value is the
+number of neighbors we should use to calculate the average to predict
+any new observation. The optimal ‘k’ value is found where the prediction
+error is the smallest. The distance for the closest neighbors is
+calculated by different distance measures (e.g Euclidean distance).
+Since KNN regression is non-parametric regression therefore it does not
+assume any functional form like linearity in case of a Linear regression
+therefore it can be a more flexible algorithm. The downside is that it
+can easily overfit if a small ‘k’ value is selected like in our example.
+The KNN regression model’s lowest error is at k=2 which means that the
+model is taking the average of the two closest neighbors and provides it
+as a prediction. This introduces low bias but high variance since
+changing one data point has a high effect on the predicted value. The
+model which overfits almost perfectly predicts the data points and will
+have low mean square error as we can observe in our KNN model (3.7857 vs
+6.093 MLR).
 
 # Training set scores
 
@@ -4625,7 +4657,7 @@ MLR Interact - Reuven
 0.9110
 </td>
 <td style="text-align:left;">
-0.9092
+0.9096
 </td>
 <td style="text-align:left;">
 2.7013
