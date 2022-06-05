@@ -1341,7 +1341,7 @@ eval_train_df = rbind(eval_train_df, c('MLR Interact - Miguel', format(round(mse
 ```
 
 
-```{r Objective 2 KNN, eval=FALSE, include=FALSE}
+```{r Objective 2 KNN}
 #####################################################################################
 #                                      Objective 2                                  #
 #                                     KNN - regression                              #
@@ -1412,7 +1412,7 @@ eval_train_df = rbind(eval_train_df, c('KNN', format(round(mse_trndf,4),nsmall=4
 ```
 
 ### Visualize 'k' and the most important features
-```{r eval=FALSE, fig.align='center', 'angle=90', include=FALSE, out.extra='angle=90'}
+```{r fig.align='center', 'angle=90', out.extra='angle=90'}
 # Visualize 'k' and the most important features
 ggplot(KNNRegressor) + ggtitle("Optimal k value for the lowest RMSE") +
   theme(plot.title = element_text(hjust = 0.5))
@@ -1421,7 +1421,7 @@ plot(KNNvarImp, top = 5, main='Top 5 Variable predicting life expectancy (KNN)')
 ```
 
 ## KNN without cross validation
-```{r KNN without cross validation, eval=FALSE, include=FALSE}
+```{r KNN without cross validation}
 #####################################################################################
 #                              KNN without cross validation                         #
 #####################################################################################
